@@ -1,6 +1,9 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 
 const ExampleSimulation = () => {
+  // stateless component with an example simulation
+  // needs to be further styled for responsive screen size
+  
   return (
     <Container className="simulation-container">
       <Row className="mt-4 pt-3">
