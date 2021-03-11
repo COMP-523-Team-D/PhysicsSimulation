@@ -2,7 +2,9 @@ import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import "../App.css";
 
-const Header = (props) => {
+//stateless component for the navbar
+
+const Header = () => {
   return (
     <header>
       <Navbar
