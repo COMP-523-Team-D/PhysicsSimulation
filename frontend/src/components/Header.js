@@ -1,4 +1,3 @@
-//import { useDispatch, useSelector } from "react-redux";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import "../App.css";
@@ -6,10 +5,18 @@ import "../App.css";
 const Header = (props) => {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar
+        bg="dark"
+        variant="dark"
+        expand="lg"
+        collapseOnSelect
+        className="py-4 navBarContainer"
+      >
         <Container>
-          <LinkContainer to="/" className=" font-lg">
-            <Navbar.Brand className="navBrand">Physics</Navbar.Brand>
+          <LinkContainer to="/">
+            <Navbar.Brand className="navBrand">
+              UNC Physics Simulator
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="">
