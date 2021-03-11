@@ -5,13 +5,26 @@ import Header from "./components/Header";
 import HomeScreen from "./screens/HomeScreen";
 import ExampleSimulation from "./components/exampleSimulation";
 
+const dummyUserInfo = {
+  id: 1,
+  typeEnum: "STUDENT",
+  firstName: "John",
+  lastName: "Doe",
+  courses: ["Physics 100", "Another Class"],
+};
+
+const simulationData = {};
 const App = () => {
   return (
     <Router>
       <Header />
       <Container className="routes py-2 d-flex justify-content-center">
         <Route path="/simulation" component={ExampleSimulation} />
-        <Route exact path="/" component={HomeScreen} />
+        <Route
+          exact
+          path="/"
+          component={() => <HomeScreen data={dummyUserInfo} />}
+        />
       </Container>
     </Router>
   );
