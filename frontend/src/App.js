@@ -5,6 +5,10 @@ import Header from "./components/Header";
 import HomeScreen from "./screens/HomeScreen";
 import ExampleSimulation from "./components/exampleSimulation";
 
+// main container component
+
+// example dummy data
+// added so we could see how things could be rendered based on user details
 const dummyUserInfo = {
   id: 1,
   typeEnum: "STUDENT",
