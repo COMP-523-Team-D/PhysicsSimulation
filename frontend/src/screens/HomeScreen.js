@@ -4,7 +4,6 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 const HomeScreen = ({ data }) => {
   const { id, typeEnum, firstName, lastName, courses } = data;
   return (
-    <Container>
       <Container className="my-3">
         <Row>
           <Col>
@@ -54,7 +53,6 @@ const HomeScreen = ({ data }) => {
           </Col>
         </Row>
       </Container>
-    </Container>
   );
 };
 
