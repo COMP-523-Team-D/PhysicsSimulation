@@ -10,6 +10,27 @@ Body {
 .routes {
     height: 100%;
     width: 100%;
+    background: rgba(75, 156, 211,.2);
+}
+.navBarContainer {
+    font-size: 1.2rem;
+}
+
+.navBrand {
+    font-size: 1.6rem;
+}
+
+.landingPageCard {
+    height: 40vh;
+    border: 2px solid black;
+}
+
+.landingPageCardTitle {
+    font-size: 1.5rem;
+}
+
+.courseList {
+    font-size: 1.5rem;
 }
 .navBarContainer {
     font-size: 1.2rem;

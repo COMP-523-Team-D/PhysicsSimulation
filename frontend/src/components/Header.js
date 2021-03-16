@@ -12,7 +12,7 @@ const Header = ({ data }) => {
         variant="dark"
         expand="lg"
         collapseOnSelect
-        className="py-4 mb-3navBarContainer"
+        className="py-4 mb-3 navBarContainer"
       >
         <Container>
           <LinkContainer to="/">
