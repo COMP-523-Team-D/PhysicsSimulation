@@ -4,7 +4,7 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 const HomeScreen = ({ data }) => {
   const { id, typeEnum, firstName, lastName, courses } = data;
   return (
-      <Container className="my-3">
+      <Container>
         <Row>
           <Col>
             <Card className="landingPageCard">
