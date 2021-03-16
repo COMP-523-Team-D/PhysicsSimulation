@@ -1,5 +1,79 @@
 Body {
     height: 100%;
-    width: 100%;
+    width: 100vw;
+    background: rgba(75, 156, 211,.2);
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 7rem;
 }
 
+.routes {
+    height: 100%;
+    width: 100%;
+}
+.navBarContainer {
+    font-size: 1.2rem;
+    width: 100vw;
+}
+
+.navBrand {
+    font-size: 1.6rem;
+}
+
+.landingPageCard {
+    height: 40vh;
+    border: 2px solid black;
+}
+
+.landingPageCardTitle {
+    font-size: 1.5rem;
+}
+
+.courseList {
+    font-size: 1.5rem;
+}
+
+.courseList li  {
+    transition: all .2s ease-in-out;
+}
+
+.courseList li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.scroll-btn{
+    transition: all .2s ease-in-out;
+}
+
+.scroll-btn.not-disabled:hover{
+    transform: scale(1.1);
+    background: rgba(75, 156, 211,.2);
+}
+
+.phet-sim {
+    width: 85%;
+    height: 60vh;
+}
+
+.graph {
+    width: 100%;
+    height: 30vh;
+}
+
+.questions-card-body, .graph-card {
+    background: rgba(210,180,140, .3);
+}
+
+.questions-card-body {
+    height: 75vh;
+    overflow-y: auto;
+}
+
+.question-header {
+    font-size: 1.5rem;
+}
+
+.question-sub-header{
+    font-size: 1rem;
+}
