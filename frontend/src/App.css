@@ -10,7 +10,6 @@ Body {
 .routes {
     height: 100%;
     width: 100%;
-    background: rgba(75, 156, 211,.2);
 }
 .navBarContainer {
     font-size: 1.2rem;
