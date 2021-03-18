@@ -4,13 +4,19 @@ Body {
     background: rgba(75, 156, 211,.2);
     overflow-x: hidden;
     overflow-y: auto;
-    margin-bottom: 7rem;
 }
 
+/*exampleHomeScreen{ */
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    overflow-x: hidden;*/
+/*    overflow-y: hidden !important;*/
+/*    margin-bottom: 0rem !important;*/
+/*}*/
+
 .routes {
-    height: 100%;
+    height: 85%;
     width: 100%;
-    background: rgba(75, 156, 211,.2);
 }
 .navBarContainer {
     font-size: 1.2rem;
@@ -36,6 +42,11 @@ Body {
     font-size: 1.2rem;
     width: 100vw;
 }
+
+/*.pickUpButton {*/
+/*    width: 25vw;*/
+/*    height: 15vh;*/
+/*}*/
 
 .navBrand {
     font-size: 1.6rem;
@@ -68,8 +79,12 @@ Body {
 }
 
 .scroll-btn.not-disabled:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
     background: rgba(75, 156, 211,.2);
+}
+
+.simulation-container {
+    margin-bottom: 7rem;
 }
 
 .phet-sim {
@@ -82,19 +97,28 @@ Body {
     height: 30vh;
 }
 
-.questions-card-body, .graph-card {
+.questions-card-body, .graph-card, .build-card-body{
     background: rgba(210,180,140, .3);
 }
 
-.questions-card-body {
-    height: 75vh;
+.questions-card-body, .build-card-body {
+    height: 80vh;
     overflow-y: auto;
 }
 
-.question-header {
+.build-card{
+    width: 45vw;
+    height: 90vh;
+}
+
+.card-title {
     font-size: 1.5rem;
 }
 
 .question-sub-header{
     font-size: 1rem;
+}
+
+.frqTextArea{
+    min-height: 100px;
 }

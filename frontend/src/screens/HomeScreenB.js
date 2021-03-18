@@ -1,12 +1,11 @@
 import "../App.css";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 
-const HomeScreen = ({ data }) => {
+const HomeScreenB = ({ data }) => {
   const { id, typeEnum, firstName, lastName, courses } = data;
   return (
     <Container>
-      <Row className="m-4"> </Row>
-      <Row className="mt-5">
+      <Row>
         <Col md={4}>
           <Card className="landingPageCard">
             <Card.Header className="bg-secondary">
@@ -53,9 +52,8 @@ const HomeScreen = ({ data }) => {
           </Card>
         </Col>
       </Row>
-      <Row className="m-4"></Row>
     </Container>
   );
 };
 
-export default HomeScreen;
+export default HomeScreenB;

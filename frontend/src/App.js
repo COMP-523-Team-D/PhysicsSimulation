@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Header from "./components/Header";
 import HomeScreen from "./screens/HomeScreen";
-import ExampleSimulation from "./components/exampleSimulation";
-import ExampleBuild from "./components/exampleBuild";
+import ExampleSimulationScreen from "./screens/exampleSimulationScreen";
+import ExampleBuildScreen from "./screens/exampleBuildScreen";
+import HomeScreenB from "./screens/HomeScreenB";
 
 // main container component
 
@@ -30,24 +31,30 @@ const App = () => {
   return (
     <Router>
       <Header data={dummyUserInfo} />
-      <Container className="routes py-2 d-flex justify-content-center mb-5">
+      <Container className="routes py-2 d-flex justify-content-center">
         <Route
           path="/simulation"
           component={() => (
-            <ExampleSimulation
+            <ExampleSimulationScreen
               data={dummyUserInfo}
               assignment={dummyAssignment}
             />
           )}
         />
         <Route
+          path="/b"
+          component={() => <HomeScreenB data={dummyUserInfo} />}
+        />
+        <Route
           path="/build"
-          component={() => <ExampleBuild data={dummyUserInfo} />}
+          component={() => <ExampleBuildScreen data={dummyUserInfo} />}
         />
         <Route
           exact
           path="/"
-          component={() => <HomeScreen data={dummyUserInfo} />}
+          component={() => (
+            <HomeScreen data={dummyUserInfo} className="exampleHomeScreen" />
+          )}
         />
       </Container>
     </Router>

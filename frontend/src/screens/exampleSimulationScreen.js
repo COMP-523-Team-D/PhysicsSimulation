@@ -1,17 +1,18 @@
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import { useState } from "react";
+import QAndA from "../components/qAndA";
 
-const ExampleSimulation = ({ data, assignment }) => {
+const ExampleSimulationScreen = ({ data, assignment }) => {
   const { typeEnum, firstName, lastName, courses } = data;
   const { name, questions } = assignment;
   const [qIndex, setqIndex] = useState(1);
 
   return (
-    <Container>
+    <Container className="simulation-container">
       <Row>
         <Col
           sm={8}
-          className="simulation-container d-flex align-content-center justify-content-center"
+          className="d-flex align-content-center justify-content-center"
         >
           <Container>
             <Row className="mt-4 pt-3">
@@ -68,7 +69,7 @@ const ExampleSimulation = ({ data, assignment }) => {
         >
           <Card className="d-flex align-self-center questions-card">
             <Card.Header>
-              <Container className="d-flex">
+              <Container className="d-flex align-content-center">
                 <span className="mr-auto">
                   <button
                     type="button"
@@ -77,7 +78,7 @@ const ExampleSimulation = ({ data, assignment }) => {
                       (qIndex == 1 ? " disabled" : " not-disabled")
                     }
                     onClick={() => {
-                      qIndex - 1 > 0 && setqIndex(qIndex - 1);
+                      qIndex - 1 > 0 && setqIndex((prev) => prev - 1);
                     }}
                   >
                     <i className="fas fa-angle-left"></i>
@@ -97,7 +98,7 @@ const ExampleSimulation = ({ data, assignment }) => {
                     }
                     onClick={() => {
                       qIndex + 1 < questions.length + 1 &&
-                        setqIndex(qIndex + 1);
+                        setqIndex((prev) => prev + 1);
                     }}
                   >
                     <i className="fas fa-angle-right"></i>
@@ -106,19 +107,11 @@ const ExampleSimulation = ({ data, assignment }) => {
               </Container>
             </Card.Header>
             <Card.Body className="questions-card-body">
-              <Card.Title className="question-header my-4">
+              <Card.Title className="card-title my-4">
                 Answer These Questions
               </Card.Title>
-              <Row className="d-flex justify-content-center">
-                <h2 className="question-sub-header">
-                  These could be questions
-                </h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci commodi delectus deleniti dolor dolorem est facilis
-                  hic impedit, in laboriosam magnam nisi nulla possimus, quaerat
-                  quibusdam rem saepe tenetur velit?
-                </p>
+              <Row className="d-flex justify-content-center p-2 my-4">
+                <QAndA />
               </Row>
               <Row className="d-flex justify-content-center">
                 <h2 className="question-sub-header">PUT TEXT HERE</h2>
@@ -146,4 +139,4 @@ const ExampleSimulation = ({ data, assignment }) => {
   );
 };
 
-export default ExampleSimulation;
+export default ExampleSimulationScreen;
