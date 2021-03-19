@@ -6,7 +6,7 @@ import {
   Container,
 } from "react-bootstrap";
 
-const QAndA = (props) => {
+const QandA = (props) => {
   return (
     <>
       <FormLabel className="question-sub-header">
@@ -20,4 +20,4 @@ const QAndA = (props) => {
   );
 };
 
-export default QAndA;
+export default QandA;

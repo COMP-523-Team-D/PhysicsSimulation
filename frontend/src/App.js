@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Header from "./components/Header";
 import HomeScreen from "./screens/HomeScreen";
-import ExampleSimulationScreen from "./screens/exampleSimulationScreen";
-import ExampleBuildScreen from "./screens/exampleBuildScreen";
+import ExampleSimulationScreen from "./screens/ExampleSimulationScreen";
+import ExampleBuildScreen from "./screens/ExampleBuildScreen";
 import HomeScreenB from "./screens/HomeScreenB";
 
 // main container component
@@ -26,7 +26,35 @@ const dummyAssignment = {
   questions: ["q1", "q2", "q3"],
 };
 
-const simulationData = {};
+const supportedSimulations = [
+  {
+    Name: "Projectile Motion",
+    Source:
+      "https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html",
+    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
+  },
+  {
+    Name: "Forces and Motion",
+    Source:
+      "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html",
+    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
+  },
+
+  {
+    Name: "Friction",
+    Source:
+      "https://phet.colorado.edu/sims/html/friction/latest/friction_en.html",
+    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
+  },
+
+  {
+    Name: "Hooke's Law",
+    Source:
+      "https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_en.html",
+    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
+  },
+];
+
 const App = () => {
   return (
     <Router>
@@ -47,7 +75,12 @@ const App = () => {
         />
         <Route
           path="/build"
-          component={() => <ExampleBuildScreen data={dummyUserInfo} />}
+          component={() => (
+            <ExampleBuildScreen
+              data={dummyUserInfo}
+              supportedSimulations={supportedSimulations}
+            />
+          )}
         />
         <Route
           exact

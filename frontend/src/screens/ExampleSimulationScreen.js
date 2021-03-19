@@ -1,6 +1,6 @@
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import { useState } from "react";
-import QAndA from "../components/qAndA";
+import QandA from "../components/QandA";
 
 const ExampleSimulationScreen = ({ data, assignment }) => {
   const { typeEnum, firstName, lastName, courses } = data;
@@ -111,7 +111,7 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
                 Answer These Questions
               </Card.Title>
               <Row className="d-flex justify-content-center p-2 my-4">
-                <QAndA />
+                <QandA />
               </Row>
               <Row className="d-flex justify-content-center">
                 <h2 className="question-sub-header">PUT TEXT HERE</h2>
