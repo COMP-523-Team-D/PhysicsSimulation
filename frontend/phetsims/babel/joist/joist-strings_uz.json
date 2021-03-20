@@ -1,0 +1,1084 @@
+{
+  "menuItem.about": {
+    "value": "Simulyatsiya haqida…",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Dastur haqida…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Dastur haqida…",
+        "newValue": "\r\n  Dastur haqida…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  Dastur haqida…",
+        "newValue": "\r\n\n  Dastur haqida…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Dastur haqida…",
+        "newValue": " Dastur haqida…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614936680161,
+        "oldValue": " Dastur haqida…",
+        "newValue": "Simulyatsiya haqida…"
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "Yangilanishlarni tekshiring…",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Yangilanishlarni tekshirish…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Yangilanishlarni tekshirish…",
+        "newValue": "\r\n  Yangilanishlarni\r\n  tekshiring…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  Yangilanishlarni\r\n  tekshiring…",
+        "newValue": "\r\n\n  Yangilanishlarni\r\n\n  tekshiring…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Yangilanishlarni\r\n\n  tekshiring…",
+        "newValue": "Yangilanishlarni tekshiring…"
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "Yangilanishlarga tekshirilmoqda…",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Yangilanishlarni tekshirish…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Yangilanishlarni tekshirish…",
+        "newValue": "\r\n  Yangilanishlarni\r\n  tekshirish…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  Yangilanishlarni\r\n  tekshirish…",
+        "newValue": "\r\n\n  Yangilanishlarni\r\n\n  tekshirish…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Yangilanishlarni\r\n\n  tekshirish…",
+        "newValue": "Yangilanishlarga tekshirilmoqda…"
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Hissadorlar: {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Hissadorlar: {0}"
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "Dastur qatnashchilari",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Dastur qatnashchilari"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Dastur qatnashchilari",
+        "newValue": "\r\n  Dastur\r\n  qatnashchilari"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  Dastur\r\n  qatnashchilari",
+        "newValue": "\r\n\n  Dastur\r\n\n  qatnashchilari"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Dastur\r\n\n  qatnashchilari",
+        "newValue": "Dastur qatnashchilari"
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "Kuchaytirilgan ovoz",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "",
+        "newValue": "Kuchaytirilgan ovoz"
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "To'liq ekran",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "To’liq oyna"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "To’liq oyna",
+        "newValue": "\r\n  To’liq oyna"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  To’liq oyna",
+        "newValue": "\r\n\n  To’liq oyna"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  To’liq oyna",
+        "newValue": "To’liq oyna"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614936680161,
+        "oldValue": "To’liq oyna",
+        "newValue": "To'liq ekran"
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "Yangilanishlarni olish…",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Yangilanishlarni olish…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Yangilanishlarni olish…",
+        "newValue": "\r\n  Yangilanishlarni\r\n  olish…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  Yangilanishlarni\r\n  olish…",
+        "newValue": "\r\n\n  Yangilanishlarni\r\n\n  olish…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Yangilanishlarni\r\n\n  olish…",
+        "newValue": "Yangilanishlarni olish…"
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "Grafik muharrirlar: {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Grafik muharrirlar: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Grafik muharrirlar: {0}",
+        "newValue": "\r\n  Grafik muharrirlar:\r\n  {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  Grafik muharrirlar:\r\n  {0}",
+        "newValue": "\r\n\n  Grafik muharrirlar:\r\n\n  {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Grafik muharrirlar:\r\n\n  {0}",
+        "newValue": "Grafik muharrirlar: {0}"
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Tezkor tugmalar",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Tezkor tugmalar"
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": " Loyiha yetakchisi: {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Loyiha yetakchisi: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Loyiha yetakchisi: {0}",
+        "newValue": "\r\n  Loyiha yetakchisi:\r\n  {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  Loyiha yetakchisi:\r\n  {0}",
+        "newValue": "\r\n\n  Loyiha yetakchisi:\r\n\n  {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Loyiha yetakchisi:\r\n\n  {0}",
+        "newValue": " Loyiha yetakchisi: {0}"
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "Yangi versiyasi mavjud",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Yangi versiyasi mavjud"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Yangi versiyasi mavjud",
+        "newValue": "\r\n  Yangi versiyasi\r\n  mavjud"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  Yangi versiyasi\r\n  mavjud",
+        "newValue": "\r\n\n  Yangi versiyasi\r\n\n  mavjud"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Yangi versiyasi\r\n\n  mavjud",
+        "newValue": "Yangi versiyasi mavjud"
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "Yo'q Rahmat",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Yo'q Rahmat"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Yo'q Rahmat",
+        "newValue": "\r\n  Yo'q Rahmat"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Yo'q Rahmat",
+        "newValue": "\r\n\n  Yo'q Rahmat"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Yo'q Rahmat",
+        "newValue": "Yo'q Rahmat"
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Tanlovlar",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Tanlovlar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Tanlovlar",
+        "newValue": "\r\n  Tanlovlar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Tanlovlar",
+        "newValue": "\r\n\n  Tanlovlar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Tanlovlar",
+        "newValue": "Tanlovlar"
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Tanlovlar…",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Tanlovlar…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Tanlovlar…",
+        "newValue": "\r\n  Tanlovlar…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Tanlovlar…",
+        "newValue": "\r\n\n  Tanlovlar…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Tanlovlar…",
+        "newValue": "Tanlovlar…"
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Ok",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615525730629,
+        "oldValue": "",
+        "newValue": "Ok"
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "PhET vebsayti",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "PhET Web sahifa…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "PhET Web sahifa…",
+        "newValue": "\r\n  PhET Web sahifa…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  PhET Web sahifa…",
+        "newValue": "\r\n\n  PhET Web sahifa…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  PhET Web sahifa…",
+        "newValue": "PhET Web sahifa…"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614854112624,
+        "oldValue": "PhET Web sahifa…",
+        "newValue": "PhET vebsayti"
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "Sifat nazoratchilari: {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Sifat nazoratchilari: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Sifat nazoratchilari: {0}",
+        "newValue": "\r\n  Sifat\r\n  nazoratchilari: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Sifat\r\n  nazoratchilari: {0}",
+        "newValue": "\r\n\n  Sifat\r\n\n  nazoratchilari: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Sifat\r\n\n  nazoratchilari: {0}",
+        "newValue": "Sifat nazoratchilari: {0}"
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "Muammo haqida xabar berish",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Muammo haqida xabar berish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Muammo haqida xabar berish",
+        "newValue": "\r\n  Muammo haqida xabar\r\n  berish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Muammo haqida xabar\r\n  berish",
+        "newValue": "\r\n\n  Muammo haqida xabar\r\n\n  berish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Muammo haqida xabar\r\n\n  berish",
+        "newValue": "Muammo haqida xabar berish"
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "Ekranni rasmga olish",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Ekranni rasmga olish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Ekranni rasmga olish",
+        "newValue": "\r\n  Ekranni rasmga\r\n  olish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Ekranni rasmga\r\n  olish",
+        "newValue": "\r\n\n  Ekranni rasmga\r\n\n  olish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Ekranni rasmga\r\n\n  olish",
+        "newValue": "Ekranni rasmga olish"
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "Dasturiy ta’minot ishlab chiqaruvchilar: {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Dasturiy ta’minot ishlab chiqaruvchilar: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Dasturiy ta’minot ishlab chiqaruvchilar: {0}",
+        "newValue": "\r\n  Dasturiy ta’minot\r\n  ishlab chiqaruvchilar: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Dasturiy ta’minot\r\n  ishlab chiqaruvchilar: {0}",
+        "newValue": "\r\n\n  Dasturiy ta’minot\r\n\n  ishlab chiqaruvchilar: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Dasturiy ta’minot\r\n\n  ishlab chiqaruvchilar: {0}",
+        "newValue": "\r\n\n\n  Dasturiy ta’minot\r\n\n\n  ishlab chiqaruvchilar: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614854112625,
+        "oldValue": "\r\n\n\n  Dasturiy ta’minot\r\n\n\n  ishlab chiqaruvchilar: {0}",
+        "newValue": "Dasturiy ta’minot ishlab chiqaruvchilar: {0}"
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Ovoz dizayni: {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "",
+        "newValue": "Ovoz dizayni: {0}"
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Qisqa tutashuv!",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "",
+        "newValue": "Qisqa tutashuv!"
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "Jamoa: {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Jamoa: {0}"
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Shartlar, maxfiylik va litsenziyalash",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Foydalanish Shartlari"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Foydalanish Shartlari",
+        "newValue": "\r\n  Foydalanish\r\n  Shartlari"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Foydalanish\r\n  Shartlari",
+        "newValue": "\r\n\n  Foydalanish\r\n\n  Shartlari"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Foydalanish\r\n\n  Shartlari",
+        "newValue": "Shartlar, maxfiylik va litsenziyalash"
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "Minnatdorchilik bildiramiz",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Minnatdorchilik bildiramiz"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Minnatdorchilik bildiramiz",
+        "newValue": "\r\n  Minnatdorchilik\r\n  bildiramiz"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Minnatdorchilik\r\n  bildiramiz",
+        "newValue": "\r\n\n  Minnatdorchilik\r\n\n  bildiramiz"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Minnatdorchilik\r\n\n  bildiramiz",
+        "newValue": "Minnatdorchilik bildiramiz"
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": " Yangi versiyasi mavjud: {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Yangi versiyasi mavjud: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Yangi versiyasi mavjud: {0}",
+        "newValue": "\r\n  Yangi versiyasi\r\n  mavjud: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Yangi versiyasi\r\n  mavjud: {0}",
+        "newValue": "\r\n\n  Yangi versiyasi\r\n\n  mavjud: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Yangi versiyasi\r\n\n  mavjud: {0}",
+        "newValue": " Yangi versiyasi mavjud: {0}"
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "Uchinchi tomon qatnashchilar",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Uchinchi tomon qatnashchilar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Uchinchi tomon qatnashchilar",
+        "newValue": "\r\n  Uchinchi tomon\r\n  qatnashchilar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Uchinchi tomon\r\n  qatnashchilar",
+        "newValue": "\r\n\n  Uchinchi tomon\r\n\n  qatnashchilar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Uchinchi tomon\r\n\n  qatnashchilar",
+        "newValue": "Uchinchi tomon qatnashchilar"
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "Ushbu simulyatsiya dolzarbdir.",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Ushbu simulyatsiya dolzarbdir."
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Ushbu simulyatsiya dolzarbdir.",
+        "newValue": "\r\n  Ushbu simulyatsiya\r\n  dolzarbdir."
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Ushbu simulyatsiya\r\n  dolzarbdir.",
+        "newValue": "\r\n\n  Ushbu simulyatsiya\r\n\n  dolzarbdir."
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Ushbu simulyatsiya\r\n\n  dolzarbdir.",
+        "newValue": "Ushbu simulyatsiya dolzarbdir."
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "boshlash",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "",
+        "newValue": "boshlash"
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Tarjima",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Tarjima"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Tarjima",
+        "newValue": "\r\n  Tarjima"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Tarjima",
+        "newValue": "\r\n\n  Tarjima"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Tarjima",
+        "newValue": "Tarjima"
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "Tarjima uchun minnatdorchilik",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Tarjimonlar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Tarjimonlar",
+        "newValue": "\r\n  Tarjimonlar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Tarjimonlar",
+        "newValue": "\r\n\n  Tarjimonlar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Tarjimonlar",
+        "newValue": "Tarjima uchun minnatdorchilik"
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "Yangilanishlarni tekshirib bo’lmadi",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Yangilanishlarni tekshirib bo’lmadi"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Yangilanishlarni tekshirib bo’lmadi",
+        "newValue": "\r\n  Yangilanishlarni\r\n  tekshirib bo’lmadi"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Yangilanishlarni\r\n  tekshirib bo’lmadi",
+        "newValue": "\r\n\n  Yangilanishlarni\r\n\n  tekshirib bo’lmadi"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Yangilanishlarni\r\n\n  tekshirib bo’lmadi",
+        "newValue": "Yangilanishlarni tekshirib bo’lmadi"
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "versiya {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "versiya {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "versiya {0}",
+        "newValue": "\r\n  versiya {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  versiya {0}",
+        "newValue": "\r\n\n  versiya {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  versiya {0}",
+        "newValue": "versiya {0}"
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "Sizdagi hozirgi versiya: {0}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "Sizdagi hozirgi versiya: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "Sizdagi hozirgi versiya: {0}",
+        "newValue": "\r\n  Sizdagi hozirgi\r\n  versiya: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Sizdagi hozirgi\r\n  versiya: {0}",
+        "newValue": "\r\n\n  Sizdagi hozirgi\r\n\n  versiya: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Sizdagi hozirgi\r\n\n  versiya: {0}",
+        "newValue": "Sizdagi hozirgi versiya: {0}"
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1613544520514,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}"
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Internet Explorer qo'llab-quvvatlamaydi.",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615370048822,
+        "oldValue": "",
+        "newValue": "Internet Explorer qo'llab-quvvatlamaydi."
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "Yaroqsiz so'rov parametrlari",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "",
+        "newValue": "Yaroqsiz so'rov parametrlari"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "Bir yoki ko'proq ushbu so'rov paramentrlarida<br>yaroqsiz qiymat mavjud:",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "",
+        "newValue": "Bir yoki ko'proq ushbu so'rov paramentrlarida<br>yaroqsiz qiymat mavjud:"
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "Platforma xatosi",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "",
+        "newValue": "Platforma xatosi"
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Iltimos, ushbu simulyatsiyani ishlatish uchun boshqa brauzerdan foydalaning",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "",
+        "newValue": "Iltimos, ushbu simulyatsiyani ishlatish uchun boshqa brauzerdan foydalaning"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "Simulyatsiya ushbu<br>so'rov parametrlari uchun avvaldan belgilangan qiymatlar bilan boshlanadi.",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "",
+        "newValue": "Simulyatsiya ushbu<br>so'rov parametrlari uchun avvaldan belgilangan qiymatlar bilan boshlanadi."
+      }
+    ]
+  },
+  "done": {
+    "value": " Bajarildi",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "",
+        "newValue": "\r\n  Bajarildi"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469336,
+        "oldValue": "\r\n  Bajarildi",
+        "newValue": "\r\n\n  Bajarildi"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Bajarildi",
+        "newValue": " Bajarildi"
+      }
+    ]
+  },
+  "title.settings": {
+    "value": " Sozlamalar",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "",
+        "newValue": "\r\n  Sozlamalar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Sozlamalar",
+        "newValue": "\r\n\n  Sozlamalar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Sozlamalar",
+        "newValue": " Sozlamalar"
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Kursorni ko’rsatish",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1614752416087,
+        "oldValue": "",
+        "newValue": "\r\n  Kursorni ko’rsatish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Kursorni ko’rsatish",
+        "newValue": "\r\n\n  Kursorni ko’rsatish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614848935647,
+        "oldValue": "\r\n\n  Kursorni ko’rsatish",
+        "newValue": "\r\n\n\n  Kursorni ko’rsatish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614854112625,
+        "oldValue": "\r\n\n\n  Kursorni ko’rsatish",
+        "newValue": "\n\n\n\n  Kursorni ko’rsatish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "\n\n\n\n  Kursorni ko’rsatish",
+        "newValue": "\r\n\r\n\r\n\r\n  Kursorni ko’rsatish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1615275342405,
+        "oldValue": "\r\n\r\n\r\n\r\n  Kursorni ko’rsatish",
+        "newValue": "\r\n\n\r\n\n\r\n\n\r\n\n  Kursorni ko’rsatish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1615275348264,
+        "oldValue": "\r\n\n\r\n\n\r\n\n\r\n\n  Kursorni ko’rsatish",
+        "newValue": "\r\n\r\n\r\n\r\n  Kursorni ko’rsatish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1615279965913,
+        "oldValue": "\r\n\r\n\r\n\r\n  Kursorni ko’rsatish",
+        "newValue": "Kursorni ko’rsatish"
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Proyektor rejimi",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615196851273,
+        "oldValue": "",
+        "newValue": "Proyektor rejimi"
+      }
+    ]
+  }
+}

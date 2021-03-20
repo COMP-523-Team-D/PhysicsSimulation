@@ -1,0 +1,62 @@
+{
+  "RgbBulbsModule.title": {
+    "value": "Červená, zelená a modrá žiarovka (RGB)",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456774024464,
+        "oldValue": "",
+        "newValue": "Červená, zelená a modrá žiarovka (RGB)",
+        "explanation": null
+      }
+    ]
+  },
+  "SingleBulbModule.title": {
+    "value": "Jedna žiarovka",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456774024464,
+        "oldValue": "",
+        "newValue": "Jedna žiarovka",
+        "explanation": null
+      }
+    ]
+  },
+  "bulbSlider.label": {
+    "value": "Farba žiarovky",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456774024464,
+        "oldValue": "",
+        "newValue": "Farba žiarovky",
+        "explanation": null
+      }
+    ]
+  },
+  "color-vision.title": {
+    "value": "Farebné videnie",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456774024464,
+        "oldValue": "",
+        "newValue": "Farebné videnie",
+        "explanation": null
+      }
+    ]
+  },
+  "filterSlider.label": {
+    "value": "Farebný filter",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456774024464,
+        "oldValue": "",
+        "newValue": "Farebný filter",
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "absorbance": {
+    "value": "Absorbancja",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451116096441,
+        "oldValue": "",
+        "newValue": "Absorbancja",
+        "explanation": null
+      }
+    ]
+  },
+  "beers-law-lab.title": {
+    "value": "Prawo Beera",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451116096442,
+        "oldValue": "",
+        "newValue": "Prawo Beera",
+        "explanation": null
+      }
+    ]
+  },
+  "cobaltChloride": {
+    "value": "Chlorek kobaltu ",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Chlorek kobaltu ",
+        "explanation": null
+      }
+    ]
+  },
+  "cobaltIINitrate": {
+    "value": "Azotan kobaltu ",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Azotan kobaltu ",
+        "explanation": null
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Stężenie molowe",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Stężenie molowe",
+        "explanation": null
+      }
+    ]
+  },
+  "copperSulfate": {
+    "value": "Siarczan miedzi ",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Siarczan miedzi ",
+        "explanation": null
+      }
+    ]
+  },
+  "drinkMix": {
+    "value": "Napój",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Napój",
+        "explanation": null
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Parowanie",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Parowanie",
+        "explanation": null
+      }
+    ]
+  },
+  "preset": {
+    "value": "zadana",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451116096442,
+        "oldValue": "",
+        "newValue": "zadana",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "duże",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "duże",
+        "explanation": null
+      }
+    ]
+  },
+  "nickelIIChloride": {
+    "value": "Chlorek niklu ",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Chlorek niklu ",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "brak",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "brak",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumChromate": {
+    "value": "Chromian potasu",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Chromian potasu",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumDichromate": {
+    "value": "Dwuchromian potasu",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Dwuchromian potasu",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumPermanganate": {
+    "value": "Nadmanganian potasu",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Nadmanganian potasu",
+        "explanation": null
+      }
+    ]
+  },
+  "removeSolute": {
+    "value": "usuń substancję rozpuszczoną",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "usuń substancję rozpuszczoną",
+        "explanation": null
+      }
+    ]
+  },
+  "saturated": {
+    "value": "Nasycony!",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Nasycony!",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Prawo Beera",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451116096442,
+        "oldValue": "",
+        "newValue": "Prawo Beera",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.concentration": {
+    "value": "Stężenie molowe",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Stężenie molowe",
+        "explanation": null
+      }
+    ]
+  },
+  "solid": {
+    "value": "Ciało stałe",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Ciało stałe",
+        "explanation": null
+      }
+    ]
+  },
+  "solute": {
+    "value": "Substancja rozpuszczana",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Substancja rozpuszczana",
+        "explanation": null
+      }
+    ]
+  },
+  "solution": {
+    "value": "Roztwór",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Roztwór",
+        "explanation": null
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Przepuszczalność",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451116096441,
+        "oldValue": "",
+        "newValue": "Przepuszczalność",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "l",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "l",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/l",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "mol/l",
+        "explanation": null
+      }
+    ]
+  },
+  "variable": {
+    "value": "zmienna",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451116096442,
+        "oldValue": "",
+        "newValue": "zmienna",
+        "explanation": null
+      }
+    ]
+  },
+  "water": {
+    "value": "Woda",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1448557791482,
+        "oldValue": "",
+        "newValue": "Woda",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Długość fali",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451116096442,
+        "oldValue": "",
+        "newValue": "Długość fali",
+        "explanation": null
+      }
+    ]
+  }
+}

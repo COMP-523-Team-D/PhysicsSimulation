@@ -1,0 +1,265 @@
+{
+  "check": {
+    "value": "Checki",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457822211257,
+        "oldValue": "",
+        "newValue": "Checki",
+        "explanation": null
+      }
+    ]
+  },
+  "continue": {
+    "value": "Endelea",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850152,
+        "oldValue": "",
+        "newValue": "Endelea",
+        "explanation": null
+      }
+    ]
+  },
+  "excellent": {
+    "value": "Safi Sana!",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "Safi Sana!",
+        "explanation": null
+      }
+    ]
+  },
+  "good": {
+    "value": "Nzuri!",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "Nzuri!",
+        "explanation": null
+      }
+    ]
+  },
+  "great": {
+    "value": "Safi!",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "Safi!",
+        "explanation": null
+      }
+    ]
+  },
+  "keepTrying": {
+    "value": "Endelea kujaribu",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "Endelea kujaribu",
+        "explanation": null
+      }
+    ]
+  },
+  "label.level": {
+    "value": "Kiwango: {0}",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "Kiwango: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "Matokeo: {0}",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "Mabao: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 276062,
+        "timestamp": 1454681369824,
+        "oldValue": "Mabao: {0}",
+        "newValue": "Matokeo: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score.max": {
+    "value": "Matokeo: {0} toka {1}",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "Mabao: {0} toka {1}",
+        "explanation": null
+      },
+      {
+        "userId": 276062,
+        "timestamp": 1454681369824,
+        "oldValue": "Mabao: {0} toka {1}",
+        "newValue": "Matokeo: {0} toka {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.time": {
+    "value": "Muda: {0}",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "Muda: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Ijayo",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457822211257,
+        "oldValue": "",
+        "newValue": "Ijayo",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Changamoto {0} ya {1}",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457822211257,
+        "oldValue": "",
+        "newValue": "Changamoto {0} ya {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850153,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0yourBest": {
+    "value": "(Matokeo yako ya bora: {0})",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850152,
+        "oldValue": "",
+        "newValue": "(Mabao yako ya bora{0})",
+        "explanation": null
+      },
+      {
+        "userId": 276062,
+        "timestamp": 1454681369824,
+        "oldValue": "(Mabao yako ya bora{0})",
+        "newValue": "(Matokeo yako ya bora{0})",
+        "explanation": null
+      },
+      {
+        "userId": 276062,
+        "timestamp": 1457822211257,
+        "oldValue": "(Matokeo yako ya bora{0})",
+        "newValue": "(Matokeo yako ya bora: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "Onyesha Jibu",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457822211257,
+        "oldValue": "",
+        "newValue": "Onyesha Jibu",
+        "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Anza Upya",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457822211257,
+        "oldValue": "",
+        "newValue": "Anza Upya",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Jaribu Tena",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457822211257,
+        "oldValue": "",
+        "newValue": "Jaribu Tena",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Matokeo yako ya bora mpya!)",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1454679850152,
+        "oldValue": "",
+        "newValue": "(Mabayo yako ya bora mpya!)",
+        "explanation": null
+      },
+      {
+        "userId": 276062,
+        "timestamp": 1454681369824,
+        "oldValue": "(Mabayo yako ya bora mpya!)",
+        "newValue": "(Matokeo yako ya bora mpya!)",
+        "explanation": null
+      }
+    ]
+  }
+}

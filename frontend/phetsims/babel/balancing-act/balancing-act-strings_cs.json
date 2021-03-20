@@ -1,0 +1,80 @@
+{
+  "balanceLab": {
+    "value": "Rovnováha"
+  },
+  "level": {
+    "value": "Rovinu"
+  },
+  "people": {
+    "value": "Lidé"
+  },
+  "forcesFromObjects": {
+    "value": "Sílu působící na objekty"
+  },
+  "meters": {
+    "value": "metrů"
+  },
+  "kg": {
+    "value": "kg"
+  },
+  "mysteryObjects": {
+    "value": "Záhadné balíčky"
+  },
+  "massLabelH": {
+    "value": "H"
+  },
+  "massLabelG": {
+    "value": "G"
+  },
+  "rulers": {
+    "value": "Pravítko"
+  },
+  "massLabelF": {
+    "value": "F"
+  },
+  "massLabelE": {
+    "value": "E"
+  },
+  "massLabelD": {
+    "value": "D"
+  },
+  "massLabels": {
+    "value": "Hmotnost"
+  },
+  "massLabelC": {
+    "value": "C"
+  },
+  "unknownMassLabel": {
+    "value": "?"
+  },
+  "massLabelB": {
+    "value": "B"
+  },
+  "massLabelA": {
+    "value": "A"
+  },
+  "whatIsTheMass": {
+    "value": "Jaká je hmotnost?"
+  },
+  "bricks": {
+    "value": "Závaží"
+  },
+  "pattern0Value1Units": {
+    "value": "{0} {1}"
+  },
+  "balancing-act.title": {
+    "value": "Rovnováha"
+  },
+  "intro": {
+    "value": "Úvod"
+  },
+  "show": {
+    "value": "Zobrazit:"
+  },
+  "game": {
+    "value": "Hra"
+  },
+  "balanceMe": {
+    "value": "Nastav rovnováhu!"
+  }
+}

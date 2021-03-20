@@ -1,0 +1,254 @@
+{
+  "acidic": {
+    "value": "Acide",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Acide",
+        "explanation": null
+      }
+    ]
+  },
+  "basic": {
+    "value": "Basique",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Basique",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.batteryAcid": {
+    "value": "Acide de batterie",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Acide de batterie",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.blood": {
+    "value": "Sang",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Sang",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.chickenSoup": {
+    "value": "Soupe de poulet",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Soupe de poulet",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.coffee": {
+    "value": "Café",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Café",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.custom": {
+    "value": "Liquide particularisé",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Liquide particularisé",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.drainCleaner": {
+    "value": "Décapant",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Décapant",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.handSoap": {
+    "value": "Savon",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Savon",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.milk": {
+    "value": "Lait",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Lait",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.orangeJuice": {
+    "value": "Jus d'orange",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Jus d'orange",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.soda": {
+    "value": "Soda",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Soda",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.spit": {
+    "value": "Crachat",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Crachat",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.vomit": {
+    "value": "Vomi",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Vomi",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.water": {
+    "value": "Eau",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Eau",
+        "explanation": null
+      }
+    ]
+  },
+  "neutral": {
+    "value": "Neutre",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Neutre",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "pH",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0name.1pH": {
+    "value": "{0} (pH {1})",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "{0} (pH {1})",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Macro",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Macro",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  }
+}

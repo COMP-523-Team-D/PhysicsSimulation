@@ -1,0 +1,38 @@
+{
+  "htmlString": {
+    "value": "Test 2",
+    "history": [
+      {
+        "userId": 232337,
+        "timestamp": 1569869204061,
+        "oldValue": "",
+        "newValue": "Test 2",
+        "explanation": null
+      }
+    ]
+  },
+  "plainString": {
+    "value": "No es fácil ser verde.",
+    "history": [
+      {
+        "userId": 232337,
+        "timestamp": 1569869204061,
+        "oldValue": "",
+        "newValue": "No es fácil ser verde.",
+        "explanation": null
+      }
+    ]
+  },
+  "chains.title": {
+    "value": "Cadenas",
+    "history": [
+      {
+        "userId": 232337,
+        "timestamp": 1569869204061,
+        "oldValue": "",
+        "newValue": "Cadenas",
+        "explanation": null
+      }
+    ]
+  }
+}

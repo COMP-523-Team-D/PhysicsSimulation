@@ -1,0 +1,412 @@
+{
+  "keyboardHelpDialog.basicActions": {
+    "value": "การกระทำพื้นฐาน",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610244570018,
+        "oldValue": "",
+        "newValue": "การกระทำพื้นฐาน",
+        "explanation": null
+      }
+    ]
+  },
+  "key.enter": {
+    "value": "เข้าใช้งาน",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1585557258095,
+        "oldValue": "",
+        "newValue": "เข้าใช้งาน",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "ออกจากกล่องข้อความ",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610244570018,
+        "oldValue": "",
+        "newValue": "ออกจากกล่องข้อความ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "เลือก หรือ ปล่อย {{thing}}",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1587788577161,
+        "oldValue": "",
+        "newValue": "เลือก หรือ ปล่อย {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "เลือก หรือ ปล่อย {{thing}}",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1587788577161,
+        "oldValue": "",
+        "newValue": "เลือก หรือ ปล่อย {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "โฮม",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610249823469,
+        "oldValue": "",
+        "newValue": "โฮม",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "ย้ายระหว่างตัวเลือกในกลุ่ม",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610244570018,
+        "oldValue": "",
+        "newValue": "ย้ายระหว่างตัวเลือกในกลุ่ม",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "ไปยังตัวเลือกต่อไป",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610249823469,
+        "oldValue": "",
+        "newValue": "ไปยังตัวเลือกต่อไป",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "ไปยังตัวเลือกหรือกลุ่มถัดไป",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610244570018,
+        "oldValue": "",
+        "newValue": "ย้ายไปยังตัวเลือกหรือกลุ่มถัดไป",
+        "explanation": null
+      },
+      {
+        "userId": 153887,
+        "timestamp": 1610249823469,
+        "oldValue": "ย้ายไปยังตัวเลือกหรือกลุ่มถัดไป",
+        "newValue": "ไปยังตัวเลือกหรือกลุ่มถัดไป",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "ไปยังตัวเลือกที่แล้ว",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610249823470,
+        "oldValue": "",
+        "newValue": "ไปยังตัวเลือกที่แล้ว",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "ไปยังตัวเลือกหรือกลุ่มที่แล้ว",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610244570018,
+        "oldValue": "",
+        "newValue": "ไปยังตัวเลือกหรือกลุ่มที่แล้ว",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "หรือ",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1585557258095,
+        "oldValue": "",
+        "newValue": "หรือ",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "เลื่อนหน้าลง",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1585557258095,
+        "oldValue": "",
+        "newValue": "เลื่อนหน้าลง",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "เลื่อนหน้าขึ้น",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1585557258095,
+        "oldValue": "",
+        "newValue": "เลื่อนหน้าขึ้น",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "กดปุ่ม",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610244570018,
+        "oldValue": "",
+        "newValue": "กดปุ่ม",
+        "explanation": null
+      }
+    ]
+  },
+  "rulerCapitalized": {
+    "value": "ไม้บรรทัด",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610249823470,
+        "oldValue": "",
+        "newValue": "ไม้บรรทัด",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "ไม้บรรทัด",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610249823470,
+        "oldValue": "",
+        "newValue": "ไม้บรรทัด",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "กด Shift",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1585557258095,
+        "oldValue": "",
+        "newValue": "กด Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "กด Space",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1585557258095,
+        "oldValue": "",
+        "newValue": "กด Space",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "กด Tab",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1585557258095,
+        "oldValue": "",
+        "newValue": "กด Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "key.toGrabOrRelease": {
+    "value": "เพื่อ <b>จับ</b> หรือ <b>ปล่อย</b>",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610244570018,
+        "oldValue": "",
+        "newValue": "เพื่อ <b>จับ</b> หรือ <b>ปล่อย</b>",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "เลือกกล่องข้อความ",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610244570018,
+        "oldValue": "",
+        "newValue": "เลือกกล่องข้อความ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1588357236433,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1588357236433,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      },
+      {
+        "userId": 153887,
+        "timestamp": 1588393534132,
+        "oldValue": "Ω",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "ปกติ",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1588393534132,
+        "oldValue": "",
+        "newValue": "ปกติ",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "ช้า",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1588393534132,
+        "oldValue": "",
+        "newValue": "ช้า",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "แสดงผลใหม่อีกครั้ง",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1456898887204,
+        "oldValue": "",
+        "newValue": "แสดงผลใหม่อีกครั้ง",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "แสดงผลด้วยคุณภาพต่ำ",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1585557258095,
+        "oldValue": "",
+        "newValue": "แสดงผลด้วยคุณภาพต่ำ",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "ขออภัย การแสดงผลกราฟิกมีข้อผิดพลาด",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1456898887204,
+        "oldValue": "",
+        "newValue": "ขออภัย การแสดงผลกราฟิกมีข้อผิดพลาด",
+        "explanation": null
+      }
+    ]
+  },
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1493082358370,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "ความเย็น",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1510389988877,
+        "oldValue": "",
+        "newValue": "ความเย็น",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "ความร้อน",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1510389988877,
+        "oldValue": "",
+        "newValue": "ความร้อน",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "นาโนเมตร",
+    "history": [
+      {
+        "userId": 158586,
+        "timestamp": 1493082358370,
+        "oldValue": "",
+        "newValue": "นาโนเมตร",
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "menuItem.about": {
+    "value": "Аб...",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "Аб...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "Праверыць наяўнасць абнаўленняў ...",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "Праверыць наяўнасць абнаўленняў ...",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "Праверка абнаўленняў ...",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "Праверка абнаўленняў ...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "Пацверджанні",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "Пацверджанні",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Завершана",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "Завершана",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "На ўвесь экран",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "На ўвесь экран",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "Атрымаць абнаўленне ...",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "Атрымаць абнаўленне ...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "Графіка: {0}",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "Графіка: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "Дызайн: {0}",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "Дызайн: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "Пошта Увод Дзённік падзей",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Пошта Увод Дзённік падзей",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "Даступна новая версія",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Даступна новая версія",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "Не, дзякуй",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Не, дзякуй",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Параметры",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Параметры",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Параметры ...",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Параметры ...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Выхад Уваход Дзеннік падзей",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Выхад Уваход Дзеннік падзей",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "Сайт PhET",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Сайт PhET",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "Забеспячэнне якасці: {0}",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Забеспячэнне якасці: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "Паведаміць аб праблеме ...",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Паведаміць аб праблеме ...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "Здымак экрана",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Здымак экрана",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Настройкі",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Настройкі",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Паказаць курсор",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Паказаць курсор",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "Распрац. праграмн. забеспячэння: {0}",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Распрац. праграмн. забеспячэння: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Дадаць Уваход Дзеннік падзей",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Дадаць Уваход Дзеннік падзей",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "Каманда: {0}",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Каманда: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Умовы, канфідэнц. і ліцэнзаванне",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Умовы, канфідэнц. і ліцэнзаванне",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "Дзякуй",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Дзякуй",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "Даступна новая версія: {0}.",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Даступна новая версія: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "Іншыя",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Іншыя",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "Абнаўляецца штодня",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Абнаўляецца штодня",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Пераклад",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Пераклад",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "Пераведзены",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Пераведзены",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "Не атрым. правер. наяўн. абнаўленняў.",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Не атрым. правер. наяўн. абнаўленняў.",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "версія {0}",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "версія {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "Ваша бягучая версія: {0}.",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Ваша бягучая версія: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Аўтары: {0}",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1514195135700,
+        "oldValue": "",
+        "newValue": "Аўтары: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Спалучэнні клавіш",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1514195135700,
+        "oldValue": "",
+        "newValue": "Спалучэнні клавіш",
+        "explanation": null
+      }
+    ]
+  },
+  "adaptedFrom": {
+    "value": "адаптавана\r\nз",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959731,
+        "oldValue": "",
+        "newValue": "адаптавана\nз",
+        "explanation": null
+      },
+      {
+        "userId": 287020,
+        "timestamp": 1482378432800,
+        "oldValue": "адаптавана\nз",
+        "newValue": "адаптавана\r\nз",
+        "explanation": null
+      },
+      {
+        "userId": 287020,
+        "timestamp": 1482986919589,
+        "oldValue": "адаптавана\r\nз",
+        "newValue": "адаптавана\r\nз",
+        "explanation": null
+      },
+      {
+        "userId": 287020,
+        "timestamp": 1514195135700,
+        "oldValue": "адаптавана\r\nз",
+        "newValue": "адаптавана\r\nз",
+        "explanation": null
+      },
+      {
+        "userId": 287020,
+        "timestamp": 1518328998686,
+        "oldValue": "адаптавана\r\\nз",
+        "newValue": "адаптавана\r\nз",
+        "explanation": null
+      },
+      {
+        "userId": 287020,
+        "timestamp": 1518530326114,
+        "oldValue": "адаптавана\r\\nз",
+        "newValue": "адаптавана\r\nз",
+        "explanation": null
+      },
+      {
+        "userId": 287020,
+        "timestamp": 1529056043869,
+        "oldValue": "адаптавана\r\\nз",
+        "newValue": "адаптавана\r\nз",
+        "explanation": null
+      },
+      {
+        "userId": 287020,
+        "timestamp": 1529069555043,
+        "oldValue": "адаптавана\r\\nз",
+        "newValue": "адаптавана\r\nз",
+        "explanation": null
+      },
+      {
+        "userId": 287020,
+        "timestamp": 1529161697089,
+        "oldValue": "адаптавана\r\\nз",
+        "newValue": "адаптавана\r\nз",
+        "explanation": null
+      },
+      {
+        "userId": 287020,
+        "timestamp": 1529213320852,
+        "oldValue": "адаптавана\r\\nз",
+        "newValue": "адаптавана\r\nз",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.settings": {
+    "value": "Настройкі...",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1456938959732,
+        "oldValue": "",
+        "newValue": "Настройкі...",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Рэжым праектара",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1482378432800,
+        "oldValue": "",
+        "newValue": "Рэжым праектара",
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "absorbance": {
+    "value": "Absortion",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "Absortion",
+        "explanation": null
+      }
+    ]
+  },
+  "beers-law-lab.title": {
+    "value": "Laboratoire Loi de Beer-Lambert ",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "Laboratoire Loi de Beer-Lambert ",
+        "explanation": null
+      }
+    ]
+  },
+  "cobaltChloride": {
+    "value": "chlorure de cobalt (II)",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "chlorure de cobalt (II)",
+        "explanation": null
+      }
+    ]
+  },
+  "cobaltIINitrate": {
+    "value": "nitrate de cobalt (II)",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "nitrate de cobalt (II)",
+        "explanation": null
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Concentration",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Concentration",
+        "explanation": null
+      }
+    ]
+  },
+  "copperSulfate": {
+    "value": "sulfate de cuivre",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "sulfate de cuivre",
+        "explanation": null
+      }
+    ]
+  },
+  "drinkMix": {
+    "value": "Boisson",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Boisson",
+        "explanation": null
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Évaporation",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Évaporation",
+        "explanation": null
+      }
+    ]
+  },
+  "preset": {
+    "value": "prédéfini",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "prédéfini",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "élevée",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "élevée",
+        "explanation": null
+      }
+    ]
+  },
+  "nickelIIChloride": {
+    "value": "chlorure de nickel (II)",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "chlorure de nickel (II)",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "aucune",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "aucune",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "{0}:",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.parentheses.0text": {
+    "value": "({0})",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "({0})",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumChromate": {
+    "value": "chromate de potassium",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "chromate de potassium",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumDichromate": {
+    "value": "dichromate de potassium",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "dichromate de potassium",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumPermanganate": {
+    "value": "permanganate de potassium",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "permanganate de potassium",
+        "explanation": null
+      }
+    ]
+  },
+  "removeSolute": {
+    "value": "Retirer le soluté",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Retirer le soluté",
+        "explanation": null
+      }
+    ]
+  },
+  "saturated": {
+    "value": "Solution saturée !",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Solution saturée !",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Loi de Beer-Lambert ",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "Loi de Beer-Lambert ",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.concentration": {
+    "value": "Concentration",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Concentration",
+        "explanation": null
+      }
+    ]
+  },
+  "solid": {
+    "value": "Solide",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Solide",
+        "explanation": null
+      }
+    ]
+  },
+  "solute": {
+    "value": "Soluté",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Soluté",
+        "explanation": null
+      }
+    ]
+  },
+  "solution": {
+    "value": "Solution",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Solution",
+        "explanation": null
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Transmission",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "Transmission",
+        "explanation": null
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "mol/L",
+        "explanation": null
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "variable": {
+    "value": "variable",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "variable",
+        "explanation": null
+      }
+    ]
+  },
+  "water": {
+    "value": "eau",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "eau",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Longueur d'onde",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "Longueur d'onde",
+        "explanation": null
+      }
+    ]
+  }
+}

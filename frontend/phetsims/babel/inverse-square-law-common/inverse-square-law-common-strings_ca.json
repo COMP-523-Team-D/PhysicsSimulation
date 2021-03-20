@@ -1,0 +1,74 @@
+{
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "forceOnObjectByOtherObjectPattern": {
+    "value": "Força de {{thisObject}} sobre {{otherObject}}",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "Força de {{thisObject}} sobre {{otherObject}}",
+        "explanation": null
+      }
+    ]
+  },
+  "forceOnObjectByOtherObjectWithUnitsPattern": {
+    "value": "Força de {{thisObject}} sobre {{otherObject}} = {{value}} N",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "Força de {{thisObject}} sobre {{otherObject}} = {{value}} N",
+        "explanation": null
+      }
+    ]
+  },
+  "forceValues": {
+    "value": "Valors de Força",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "Valors de Força",
+        "explanation": null
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "pm",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  }
+}

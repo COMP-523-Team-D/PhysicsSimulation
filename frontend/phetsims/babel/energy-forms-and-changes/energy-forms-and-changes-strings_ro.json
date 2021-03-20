@@ -1,0 +1,59 @@
+{
+  "electrical": {
+    "value": "Electric"
+  },
+  "formsOfEnergy": {
+    "value": "Forme de energie"
+  },
+  "energy-forms-and-changes.title": {
+    "value": "Formele energiei si schimbarile sale"
+  },
+  "none": {
+    "value": "Deloc"
+  },
+  "iron": {
+    "value": "Fier"
+  },
+  "light": {
+    "value": "Lumina"
+  },
+  "feedMe": {
+    "value": "Hraneste-ma"
+  },
+  "chemical": {
+    "value": "Produs chimic"
+  },
+  "energyChunkLabel": {
+    "value": "E"
+  },
+  "lots": {
+    "value": "Multi"
+  },
+  "thermal": {
+    "value": "Termica"
+  },
+  "clouds": {
+    "value": "Nori"
+  },
+  "fastForward": {
+    "value": "Mareste viteza"
+  },
+  "mechanical": {
+    "value": "Mcanica"
+  },
+  "intro": {
+    "value": "Intro"
+  },
+  "energySymbols": {
+    "value": "Simbolurile Energiei"
+  },
+  "brick": {
+    "value": "Caramida"
+  },
+  "normal": {
+    "value": "Normal"
+  },
+  "water": {
+    "value": "Apa"
+  }
+}

@@ -1,0 +1,991 @@
+{
+  "menuItem.about": {
+    "value": "ના વિષે...",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "નાં વિષે ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "નાં વિષે ",
+        "newValue": "નાં વિશે...",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "નાં વિશે...",
+        "newValue": "નાં વિષે ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "નાં વિષે ",
+        "newValue": "ના વિષે ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "ના વિષે ",
+        "newValue": "ના વિષે...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "અપડેટ ચેક કરો...",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "અપડેટ ચેક કરો ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "અપડેટ ચેક કરો ",
+        "newValue": "અપડેટ ચેક કરો...",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "અપડેટ ચેક કરો...",
+        "newValue": "અપડેટ ચેક કરો ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "અપડેટ ચેક કરો ",
+        "newValue": "અપડેટ ચેક કરો...",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "અપડેટ ચેક થઇ રહ્યુ છે...",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "અપડેટ ચેક થઇ રહ્યા છે ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "અપડેટ ચેક થઇ રહ્યા છે ",
+        "newValue": "અપડેટ ચેક થઈ રહ્યું છે...",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "અપડેટ ચેક થઈ રહ્યું છે...",
+        "newValue": "અપડેટ ચેક થઇ રહ્યા છે ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "અપડેટ ચેક થઇ રહ્યા છે ",
+        "newValue": "અપડેટ ચેક થઇ રહ્યુ છે...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "ફાળો આપનારા:{0}",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ફાળો આપનારા:{0}",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "ફાળો આપનારા:{0}",
+        "newValue": "ફાળો આપનાર:{0}",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577178295065,
+        "oldValue": "ફાળો આપનાર:{0}",
+        "newValue": "ફાળો આપનાર: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "ફાળો આપનાર: {0}",
+        "newValue": "ફાળો આપનારા:{0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "ફાળો આપનાર ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ફાળો આપનાર ",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "ઉન્નત અવાજ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "ઉન્નત અવાજ",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "ફૂલ સ્ક્રીન ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ફૂલ સ્ક્રીન ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "ફૂલ સ્ક્રીન ",
+        "newValue": "ફૂલ સ્ક્રિન",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "ફૂલ સ્ક્રિન",
+        "newValue": "ફૂલ સ્ક્રીન ",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "અપડેટ મેળવો...",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "અપડેટ મેળવો ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "અપડેટ મેળવો ",
+        "newValue": "અપડેટ મેળવો...",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "અપડેટ મેળવો...",
+        "newValue": "અપડેટ મેળવો ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "અપડેટ મેળવો ",
+        "newValue": "અપડેટ મેળવો...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "ગ્રાફિક આર્ટ : {0}",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ગ્રાફિક આર્ટ : {0}",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "ગ્રાફિક આર્ટ : {0}",
+        "newValue": "ગ્રાફિક આર્ટ: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "ગ્રાફિક આર્ટ: {0}",
+        "newValue": "ગ્રાફિક આર્ટ : {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "કીબોર્ડ શોર્ટકટ ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "કીબોર્ડ શોર્ટ કટ ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "કીબોર્ડ શોર્ટ કટ ",
+        "newValue": "કીબોર્ડ શોર્ટકટ્સ",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "કીબોર્ડ શોર્ટકટ્સ",
+        "newValue": "કીબોર્ડ શોર્ટ કટ ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "કીબોર્ડ શોર્ટ કટ ",
+        "newValue": "કીબોર્ડ શોર્ટકટ ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "મુખ્ય ડીઝાઈન: {0}",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "લીડ ડીઝાઈન: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "લીડ ડીઝાઈન: {0}",
+        "newValue": "લીડ ડિઝાઈન: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "લીડ ડિઝાઈન: {0}",
+        "newValue": "લીડ ડીઝાઈન: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "લીડ ડીઝાઈન: {0}",
+        "newValue": "મુખ્ય ડીઝાઈન: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "ઇનપુટ ઇવેન્ટ્સ લોગ ઈ મેઇલ કરો.",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "મેઇલ ઇનપુટ ઇવેન્ટ્સ લોગ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "મેઇલ ઇનપુટ ઇવેન્ટ્સ લોગ",
+        "newValue": "ઇનપુટ ઇવેન્ટ્સ લોગ ઈ મેઇલ કરો.",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "નવું સંસ્કરણ ઉપલબ્ધ છે",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "નવું સંસ્કરણ ઉપલબ્ધ છે",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "ના આભાર ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ના આભાર ",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "વિકલ્પો",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ઓપ્શન ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "ઓપ્શન ",
+        "newValue": "ઓપ્શન્સ",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "ઓપ્શન્સ",
+        "newValue": "ઓપ્શન ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "ઓપ્શન ",
+        "newValue": "વિકલ્પો",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "વિકલ્પો...",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ઓપ્શન ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "ઓપ્શન ",
+        "newValue": "ઓપ્શન્સ...",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "ઓપ્શન્સ...",
+        "newValue": "ઓપ્શન ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "ઓપ્શન ",
+        "newValue": "વિકલ્પો...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "આઉટપુટ ઇનપુટ ઇવેન્ટ્સ લોગ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "આઉટપુટ ઇનપુટ ઇવેન્ટ્સ લોગ",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "PhET  વેબસાઈટ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "અમારી વેબ્સાઈટ ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "અમારી વેબ્સાઈટ ",
+        "newValue": "અમારી PhET વેબ્સાઈટ ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "અમારી PhET વેબ્સાઈટ ",
+        "newValue": "અમારી PhET વેબ્સાઈટ...",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "અમારી PhET વેબ્સાઈટ...",
+        "newValue": "અમારી વેબ્સાઈટ ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "અમારી વેબ્સાઈટ ",
+        "newValue": "PhET  વેબ્સાઈટ ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "PhET  વેબ્સાઈટ ",
+        "newValue": "PhET  વેબસાઈટ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "ગુણવત્તાની ખાતરી: {0}",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ગુણવત્તા ખાતરી: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "ગુણવત્તા ખાતરી: {0}",
+        "newValue": "ગુણવત્તાની ખાતરી: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "સમસ્યા જણાવો...",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "સમસ્યા જણાવો ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "સમસ્યા જણાવો ",
+        "newValue": "સમસ્યા જણાવો...",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "સમસ્યા જણાવો...",
+        "newValue": "સમસ્યા જણાવો ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "સમસ્યા જણાવો ",
+        "newValue": "સમસ્યા જણાવો...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "સ્ક્રિનશોટ ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "સ્ક્રિનશોટ ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "સોફ્ટવેર નિર્માણ: {0} ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "સોફ્ટવેર ડેવલપમેન્ટ: {0} ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "સોફ્ટવેર ડેવલપમેન્ટ: {0} ",
+        "newValue": "સોફ્ટવેર નિર્માણ: {0} ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "ધ્વનિ આયોજન: {0}",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "સાઉન્ડ ડિઝાઈન: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "સાઉન્ડ ડિઝાઈન: {0}",
+        "newValue": "ધ્વનિ આયોજન: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "ઇનપુટ ઇવેન્ટ્સ લૉગ મોકલો",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ઇનપુટ ઘટનાઓ લૉગ સબમિટ કરો",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "ઇનપુટ ઘટનાઓ લૉગ સબમિટ કરો",
+        "newValue": "ઇનપુટ ઇવેન્ટ્સ લૉગ સબમિટ કરો",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "ઇનપુટ ઇવેન્ટ્સ લૉગ સબમિટ કરો",
+        "newValue": "ઇનપુટ ઇવેન્ટ્સ લૉગ મોકલો",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "સહાયક સભ્યો: {0}",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ટીમ: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "ટીમ: {0}",
+        "newValue": "ટુકડી: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "ટુકડી: {0}",
+        "newValue": "સહાયક સભ્ટુયો: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598278216740,
+        "oldValue": "સહાયક સભ્ટુયો: {0}",
+        "newValue": "સહાયક સભ્યો: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "શરતો, ગોપનીયતા  અને  લાયસન્સ ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "શરતો , ગોપનીયતા , લાયસન્સ ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "શરતો , ગોપનીયતા , લાયસન્સ ",
+        "newValue": "શરતો, ગોપનીયતા અને લાયસન્સ ",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "શરતો, ગોપનીયતા અને લાયસન્સ ",
+        "newValue": "શરતો , ગોપનીયતા , લાયસન્સ ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "શરતો , ગોપનીયતા , લાયસન્સ ",
+        "newValue": "શરતો , ગોપનીયતા  અને  લાયસન્સ ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "શરતો , ગોપનીયતા  અને  લાયસન્સ ",
+        "newValue": "શરતો, ગોપનીયતા  અને  લાયસન્સ ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "આભાર ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "આભાર ",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "નવું સંસ્કરણ ઉપલબ્ધ છે: {0}.",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "નવું વર્જન અવેલેબલ છે : {0}",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "નવું વર્જન અવેલેબલ છે : {0}",
+        "newValue": "નવું વર્ઝન ઉપલબ્ધ છે: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577175887668,
+        "oldValue": "નવું વર્ઝન ઉપલબ્ધ છે: {0}",
+        "newValue": "નવું વર્ઝન ઉપલબ્ધ છે: {0}.",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "નવું વર્ઝન ઉપલબ્ધ છે: {0}.",
+        "newValue": "નવું વર્જન અવેલેબલ છે : {0}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "નવું વર્જન અવેલેબલ છે : {0}",
+        "newValue": "નવું સંસ્કરણ ઉપલબ્ધ છે: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "અન્ય વ્યક્તિઓનો ફાળો ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "તૃતીય વ્યક્તિ નો ફાળો ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "તૃતીય વ્યક્તિ નો ફાળો ",
+        "newValue": "તૃતીય વ્યક્તિનો ફાળો ",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "તૃતીય વ્યક્તિનો ફાળો ",
+        "newValue": "તૃતીય વ્યક્તિ નો ફાળો ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "તૃતીય વ્યક્તિ નો ફાળો ",
+        "newValue": "અન્ય વ્યક્તિઓનો ફાળો ",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "આ સિમ્યુલેશન અદ્યતન છે.",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "આ સિમ્યુલેશન અપ ટુ ડેટ છે.",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "આ સિમ્યુલેશન અપ ટુ ડેટ છે.",
+        "newValue": "આ સિમ્યુલેશન અદ્યતન છે.",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "પ્રારંભ કરવા માટે",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "પ્રારંભ કરવા માટે",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "ભાષાંતર ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ભાષાંતર ",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "ભાષાંતર કરનાર ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "ભાષાંતર કરનાર ",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "અપડેટ ચેક કરી શકતા નથી ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "અપડેટ ચેક કરી શકતા નથી ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "અપડેટ ચેક કરી શકતા નથી ",
+        "newValue": "અપડેટ ચેક કરી શકતા નથી.",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "અપડેટ ચેક કરી શકતા નથી.",
+        "newValue": "અપડેટ ચેક કરી શકતા નથી ",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "સંસ્કરણ {0}",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "વર્જન {0}",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "વર્જન {0}",
+        "newValue": "વર્ઝન {0}",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "વર્ઝન {0}",
+        "newValue": "વર્જન {0}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "વર્જન {0}",
+        "newValue": "સંસ્કરણ  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "સંસ્કરણ  {0}",
+        "newValue": "સંસ્કરણ {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "આપનું હાલનું સંસ્કરણ છે: {0}.",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553528585838,
+        "oldValue": "",
+        "newValue": "આપનું હાલનું વર્જન છે : {0}.",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "આપનું હાલનું વર્જન છે : {0}.",
+        "newValue": "આપનું હાલનું વર્ઝન છે: {0}.",
+        "explanation": null
+      },
+      {
+        "userId": 654769,
+        "timestamp": 1583586665686,
+        "oldValue": "આપનું હાલનું વર્ઝન છે: {0}.",
+        "newValue": "આપનું હાલનું વર્જન છે : {0}.",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1588755797157,
+        "oldValue": "આપનું હાલનું વર્જન છે : {0}.",
+        "newValue": "આપનું હાલનું સંસ્કરણ છે : {0}.",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598280173441,
+        "oldValue": "આપનું હાલનું સંસ્કરણ છે : {0}.",
+        "newValue": "આપનું હાલનું સંસ્કરણ છે: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553530515113,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "પૂર્ણ ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553529260386,
+        "oldValue": "",
+        "newValue": "પૂર્ણ ",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "સેટિંગ ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553529260386,
+        "oldValue": "",
+        "newValue": "સેટિંગ ",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "પોઈન્ટર બતાવો ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553529260386,
+        "oldValue": "",
+        "newValue": "પોઈન્ટર બતાવો ",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "પ્રોજેક્ટર મોડ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577175887668,
+        "oldValue": "",
+        "newValue": "પ્રોજેક્ટર મોડ",
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "menuItem.about": {
+    "value": "Մասին",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "մասին"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438250,
+        "oldValue": "մասին",
+        "newValue": "Մասին"
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "Ստուգել թարմացումները",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ստուգել թարմացումները"
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "Թարմացումների ստուգում",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Թարմացումների ստուգում"
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "Հեղինակներ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Միավորներ"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438250,
+        "oldValue": "Միավորներ",
+        "newValue": "Հեղինակներ"
+      }
+    ]
+  },
+  "done": {
+    "value": "Կատարված է",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1613120959675,
+        "oldValue": "",
+        "newValue": "Կատարված է"
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "Ամբողջ էկրանով",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ամբողջ էկրանով"
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "Ստացեք թարմացումը",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ստացեք թարմացումը"
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "Գրաֆիկական դիզայն {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "գրաֆիկական դիզայն {0}"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438250,
+        "oldValue": "գրաֆիկական դիզայն {0}",
+        "newValue": "Գրաֆիկական դիզայն {0}"
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "Դիզայնի ձևավորումը՝ {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Դիզայնի ձևավորում {0}"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438250,
+        "oldValue": "Դիզայնի ձևավորում {0}",
+        "newValue": "Դիզայնի ձևավորումը՝ {0}"
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "Իրադարձությունների մուտքագրման մատյան",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Իրադարձությունների մուտքագրման մատյան"
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "Հասանելի է նոր տարբերակ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Հասանելի է նոր տարբերակ"
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "Ոչ, շնորհակալություն",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ոչ, շնորհակալություն"
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Ընտրանքներ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ընտրանքներ"
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Ընտրանքներ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ընտրանքներ"
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Ելք Մուտք Իրադարձությունների մատյան",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ելք Մուտք Իրադարձությունների մատյան"
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "PhET կայքը",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "PhET կայքը"
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "Որակի ապահովումը՝ {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Որակի ապահովում {0}"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438251,
+        "oldValue": "Որակի ապահովում {0}",
+        "newValue": "Որակի ապահովումը՝ {0}"
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "Տեղեկացում խնդրի մասին",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Տեղեկացում խնդիրի մասին"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438251,
+        "oldValue": "Տեղեկացում խնդիրի մասին",
+        "newValue": "Տեղեկացում խնդրի մասին"
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "Սքրինշոթ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Սքրինշոթ"
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Կարգավորումներ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1613120959675,
+        "oldValue": "",
+        "newValue": "Կարգավորումներ"
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Ցուցադրել ցուցիչները",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1613120959675,
+        "oldValue": "",
+        "newValue": "Ցուցադրել ցուցիչները"
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "Ծրագրային ապահովման մշակումը՝ {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ծրագրային ապահովման մշակում {0}"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438251,
+        "oldValue": "Ծրագրային ապահովման մշակում {0}",
+        "newValue": "Ծրագրային ապահովման մշակումը՝ {0}"
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Ուղարկել մուտքային իրադարձությունների մատյանը",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ուղարկել մուտքային իրադարձությունների մատյանը"
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "Թիմը՝ {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Խումբ {0}"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438251,
+        "oldValue": "Խումբ {0}",
+        "newValue": "Թիմը՝ {0}"
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Պայմաններ, գաղտնիություն և լիցենզավորում",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Պայմաններ, գաղտնիություն և լիցենզավորում"
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "Շնորհակալություն",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Շնորհակալություն"
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "Նոր տարբերակը հասանելի է {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Նոր տարբերակը հասանելի է {0}"
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "Այլ հեղինակներ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Լրացուցիչ միավորներ"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438251,
+        "oldValue": "Լրացուցիչ միավորներ",
+        "newValue": "Այլ հեղինակներ"
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "Այս մոդելավորումը արդիական է",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Այս մոդելավորումը արդիական է"
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Թարգմանություն",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Փոխանցում"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438251,
+        "oldValue": "Փոխանցում",
+        "newValue": "Թարգմանություն"
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "Թարգմանությունների հեղինակներ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Միավորների փոխանցում"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438251,
+        "oldValue": "Միավորների փոխանցում",
+        "newValue": "Թարգմանությունների հեղինակներ"
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "Հնարավոր չէ ստուգել թարմացումները",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Հնարավոր չէ ստուգել թարմացումները"
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "տարբերակ {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "տարբերակ {0}"
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "Ձեր ընթացիկ տարբերակն է {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ձեր ընթացիկ տարբերակն է {0}"
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Աջակցող {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Աջակցող {0}"
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "Ուժեղացված ձայն",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ուժեղացված ձայն"
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Ստեղնաշարի դյուրանցումներ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ստեղնաշարի դյուրանցումներ"
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Ձայնի ձևավորում {0}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ձայնի ձևավորում {0}"
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "սկզբի համար",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "սկզբի համար"
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}"
+      }
+    ]
+  }
+}

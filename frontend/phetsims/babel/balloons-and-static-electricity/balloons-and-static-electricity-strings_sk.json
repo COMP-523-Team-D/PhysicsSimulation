@@ -1,0 +1,98 @@
+{
+  "BalloonApplet.ShowAllCharges": {
+    "value": "Zobraziť všetky el. náboje",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456773464007,
+        "oldValue": "",
+        "newValue": "Zobraziť všetky el. náboje",
+        "explanation": null
+      }
+    ]
+  },
+  "BalloonApplet.ShowChargeDifferences": {
+    "value": "Zobraziť rozdielne el. náboje",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456773464007,
+        "oldValue": "",
+        "newValue": "Zobraziť rozdielne el. náboje",
+        "explanation": null
+      }
+    ]
+  },
+  "BalloonApplet.ShowNoCharges": {
+    "value": "Nezobraziť el. náboje",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456773464007,
+        "oldValue": "",
+        "newValue": "Nezobraziť el. náboje",
+        "explanation": null
+      }
+    ]
+  },
+  "addWall": {
+    "value": "Pridať\nstenu",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456773464007,
+        "oldValue": "",
+        "newValue": "Pridať\nstenu",
+        "explanation": null
+      }
+    ]
+  },
+  "balloons-and-static-electricity.title": {
+    "value": "Balón a elektrostatika",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456773464007,
+        "oldValue": "",
+        "newValue": "Balón a elektrostatika",
+        "explanation": null
+      }
+    ]
+  },
+  "removeWall": {
+    "value": "Odstrániť\nstenu",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456773464007,
+        "oldValue": "",
+        "newValue": "Odstrániť\nstenu",
+        "explanation": null
+      }
+    ]
+  },
+  "resetBalloon": {
+    "value": "Obnoviť\r\nstav balóna",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456773464007,
+        "oldValue": "",
+        "newValue": "Obnoviť\r\nstav balóna",
+        "explanation": null
+      }
+    ]
+  },
+  "resetBalloons": {
+    "value": "\r\n\r\nObnoviť stav balónov",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1456773464007,
+        "oldValue": "",
+        "newValue": "\r\n\r\nObnoviť stav balónov",
+        "explanation": null
+      }
+    ]
+  }
+}

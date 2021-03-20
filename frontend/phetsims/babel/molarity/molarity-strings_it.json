@@ -1,0 +1,388 @@
+{
+  "keyboard.sliderHelpHeading": {
+    "value": "Quantità di soluto e volume di soluzione",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1603215709502,
+        "oldValue": "",
+        "newValue": "Quantità di soluto e volume di soluzione",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboard.popUpList": {
+    "value": "1. Elenco a comparsa dei soluti",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1603215709502,
+        "oldValue": "",
+        "newValue": "1. Elenco a comparsa dei soluti",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboard.changeSolute": {
+    "value": "Cambia soluto",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1603215709502,
+        "oldValue": "",
+        "newValue": "Cambia soluto",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboard.moveThrough": {
+    "value": "Spostati tra i soluti",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1603215709502,
+        "oldValue": "",
+        "newValue": "Spostati tra i soluti",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboard.closeList": {
+    "value": "4. Chiudi l'elenco senza cambiamenti",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1603215709502,
+        "oldValue": "",
+        "newValue": "4. Chiudi l'elenco senza cambiamenti",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboard.changeSoluteHelpHeading": {
+    "value": "Passaggi per modificare il soluto",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1603215709502,
+        "oldValue": "",
+        "newValue": "Passaggi per modificare il soluto",
+        "explanation": null
+      }
+    ]
+  },
+  "drinkMix": {
+    "value": "Preparato in polvere",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982667,
+        "oldValue": "",
+        "newValue": "Preparato in polvere",
+        "explanation": null
+      }
+    ]
+  },
+  "cobaltChloride": {
+    "value": "Cloruro di cobalto (II)",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982667,
+        "oldValue": "",
+        "newValue": "Cloruro di cobalto",
+        "explanation": null
+      },
+      {
+        "userId": 157247,
+        "timestamp": 1522396277455,
+        "oldValue": "Cloruro di cobalto",
+        "newValue": "Cloruro di cobalto (II)",
+        "explanation": null
+      }
+    ]
+  },
+  "cobaltIINitrate": {
+    "value": "Nitrato di cobalto (II)",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982667,
+        "oldValue": "",
+        "newValue": "Nitrato di cobalto (II)",
+        "explanation": null
+      }
+    ]
+  },
+  "copperSulfate": {
+    "value": "Solfato di rame (II)",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Solfato di rame",
+        "explanation": null
+      },
+      {
+        "userId": 157247,
+        "timestamp": 1522396277455,
+        "oldValue": "Solfato di rame",
+        "newValue": "Solfato di rame (II)",
+        "explanation": null
+      }
+    ]
+  },
+  "goldIIIChloride": {
+    "value": "Cloruro d'oro  (III)",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982667,
+        "oldValue": "",
+        "newValue": "Cloruro d'oro  (III)",
+        "explanation": null
+      }
+    ]
+  },
+  "nickelIIChloride": {
+    "value": "Cloruro di Nichel (II)",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Cloruro di Nichel (II)",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumChromate": {
+    "value": "Cromato di potassio",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Cromato di potassio",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumDichromate": {
+    "value": "bicromato di potassio",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982667,
+        "oldValue": "",
+        "newValue": "bicromato di potassio",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumPermanganate": {
+    "value": "Permanganato di potassio",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Permanganato di potassio",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "l",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "l",
+        "explanation": null
+      }
+    ]
+  },
+  "high": {
+    "value": "alto",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "alto",
+        "explanation": null
+      }
+    ]
+  },
+  "molarity.label": {
+    "value": "Molarità",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Molarità",
+        "explanation": null
+      }
+    ]
+  },
+  "solutionConcentration": {
+    "value": "Concentrazione\ndella soluzione",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Concentrazione\ndella soluzione",
+        "explanation": null
+      }
+    ]
+  },
+  "saturated": {
+    "value": "Saturo!",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Saturo!",
+        "explanation": null
+      }
+    ]
+  },
+  "solute": {
+    "value": "Soluto",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Soluto",
+        "explanation": null
+      }
+    ]
+  },
+  "full": {
+    "value": "pieno",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "pieno",
+        "explanation": null
+      }
+    ]
+  },
+  "liters": {
+    "value": "litri",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "litri",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "massimo",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "massimo",
+        "explanation": null
+      }
+    ]
+  },
+  "low": {
+    "value": "minimo",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "minimo",
+        "explanation": null
+      }
+    ]
+  },
+  "moles": {
+    "value": "moli",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "moli",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "zero",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "zero",
+        "explanation": null
+      }
+    ]
+  },
+  "showValues": {
+    "value": "Mostra valori",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Mostra valori",
+        "explanation": null
+      }
+    ]
+  },
+  "soluteAmount": {
+    "value": "Quantità di\nsoluto",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Quantità di\nsoluto",
+        "explanation": null
+      }
+    ]
+  },
+  "solutionVolume": {
+    "value": "Volume della\nsoluzione",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Volume della\nsoluzione",
+        "explanation": null
+      }
+    ]
+  },
+  "molarity.title": {
+    "value": "Molarità",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1448635982668,
+        "oldValue": "",
+        "newValue": "Molarità",
+        "explanation": null
+      }
+    ]
+  }
+}

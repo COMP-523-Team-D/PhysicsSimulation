@@ -1,0 +1,655 @@
+{
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "Alt",
+        "explanation": null
+      }
+    ]
+  },
+  "key.enter": {
+    "value": "Enter",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Enter",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Apucați sau eliberați {{thing}}",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Apucați sau Eliberați {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608151734183,
+        "oldValue": "Apucați sau Eliberați {{thing}}",
+        "newValue": "Apucați sau eliberați {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Apucați sau eliberați {{thing}}",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Apucați sau eliberați {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "K",
+        "explanation": null
+      }
+    ]
+  },
+  "key.l": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "sau",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "sau",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Pg Dn",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Pg Dn",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Pg Up",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Pg Up",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Reînoiește",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1613972753632,
+        "oldValue": "",
+        "newValue": "Reînoiește"
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Shift",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Ne pare rău, a apărut o eroare grafică.",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1613972753632,
+        "oldValue": "",
+        "newValue": "Ne pare rău, a apărut o eroare grafică."
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Spațiu",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Spațiu",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tab",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL nu este activat sau nu este disponibil. Faceți clic pentru a afla mai multe.",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1613972753632,
+        "oldValue": "",
+        "newValue": "WebGL nu este activat sau nu este disponibil. Faceți clic pentru a afla mai multe."
+      }
+    ]
+  },
+  "cool": {
+    "value": "Răcire",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Misto",
+        "explanation": null
+      },
+      {
+        "userId": 726466,
+        "timestamp": 1602177040476,
+        "oldValue": "Misto",
+        "newValue": "Rece",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608299207877,
+        "oldValue": "Rece",
+        "newValue": "Răcire",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Încălzire",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Căldură",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608299207877,
+        "oldValue": "Căldură",
+        "newValue": "Încălzire",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Lent",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Încet",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1607283659877,
+        "oldValue": "Încet",
+        "newValue": "Lent",
+        "explanation": null
+      }
+    ]
+  },
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Repede",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "Repede",
+        "explanation": null
+      }
+    ]
+  },
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608227290957,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608227290957,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "Acțiuni de bază",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "Acțiuni de bază",
+        "explanation": null
+      }
+    ]
+  },
+  "key.end": {
+    "value": "End",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "End",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Mesaj de ieșire",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "Mesaj de iesire",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1607496376995,
+        "oldValue": "Mesaj de iesire",
+        "newValue": "Mesaj de ieșire",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608151706391,
+        "oldValue": "Mesaj de ieșire",
+        "newValue": "Ieșire",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608159961419,
+        "oldValue": "Ieșire",
+        "newValue": "Mesaj de ieșire",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Home",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "Home",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Mutați-vă între elementele dintr-un grup",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "Mutați-vă între elementele dintr-un grup",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Treceți la articolul următor",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "Treceți la articolul următor",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Treceți la articolul sau grupul următor",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "Treceți la articolul sau grupul următor",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Treceți la elementul anterior",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "Treceți la elementul anterior",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Mutați la elementul sau grupul anterior",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "Mutați la elementul sau grupul anterior",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Apasă butoanele",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "Apasă butoanele",
+        "explanation": null
+      }
+    ]
+  },
+  "rulerCapitalized": {
+    "value": "rigla",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151734183,
+        "oldValue": "",
+        "newValue": "rigla",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "rigla",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151734183,
+        "oldValue": "",
+        "newValue": "rigla",
+        "explanation": null
+      }
+    ]
+  },
+  "key.toGrabOrRelease": {
+    "value": "to <b>Prinde</b> or <b>Eliberează</b>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151734183,
+        "oldValue": "",
+        "newValue": "to <b>Prinde</b> or <b>Eliberează</b>",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Selectează/Deselectează",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151734183,
+        "oldValue": "",
+        "newValue": "Selectează/Deselectează",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Lungime de undă",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1607730025001,
+        "oldValue": "",
+        "newValue": "Lungime de undă",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelengthNMValuePattern": {
+    "value": "{0} nm",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1607730025001,
+        "oldValue": "",
+        "newValue": "{0} nm",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "Reglaj în pași mari",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1607496376995,
+        "oldValue": "",
+        "newValue": "Reglaj în pași mari",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "Reglaj în pași mici",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1607496376995,
+        "oldValue": "",
+        "newValue": "Reglaj în pași mici",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "Reglaj cursor",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1607496376995,
+        "oldValue": "",
+        "newValue": "Reglaj cursor",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "Maxim",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1607496376996,
+        "oldValue": "",
+        "newValue": "Maxim",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "Minim",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1607496376996,
+        "oldValue": "",
+        "newValue": "Minim",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Controale cursor",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1607496376996,
+        "oldValue": "",
+        "newValue": "Controale cursor",
+        "explanation": null
+      }
+    ]
+  },
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1474531716074,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  }
+}

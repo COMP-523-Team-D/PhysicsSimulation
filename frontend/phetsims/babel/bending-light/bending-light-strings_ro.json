@@ -1,0 +1,405 @@
+{
+  "air": {
+    "value": "Aer",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Aer",
+        "explanation": null
+      }
+    ]
+  },
+  "angles": {
+    "value": "Unghi",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Unghi",
+        "explanation": null
+      }
+    ]
+  },
+  "bending-light.title": {
+    "value": "Refracția luminii",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "\"Îndoirea\" luminii",
+        "explanation": null
+      },
+      {
+        "userId": 161937,
+        "timestamp": 1462258664325,
+        "oldValue": "\"Îndoirea\" luminii",
+        "newValue": "Refracția luminii",
+        "explanation": null
+      }
+    ]
+  },
+  "custom": {
+    "value": "Personal",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Personal",
+        "explanation": null
+      }
+    ]
+  },
+  "diamond": {
+    "value": "Diamant",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Diamant",
+        "explanation": null
+      }
+    ]
+  },
+  "environment": {
+    "value": "Mediu",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Mediu",
+        "explanation": null
+      }
+    ]
+  },
+  "glass": {
+    "value": "Sticlă",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Sticlă",
+        "explanation": null
+      }
+    ]
+  },
+  "indexOfRefraction": {
+    "value": "Indice de refracţie (n)",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Indice de refracţie (n)",
+        "explanation": null
+      }
+    ]
+  },
+  "intensity": {
+    "value": "Intensitate",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Intensitate",
+        "explanation": null
+      }
+    ]
+  },
+  "intro": {
+    "value": "Introducere",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Introducere",
+        "explanation": null
+      }
+    ]
+  },
+  "material": {
+    "value": "Material",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Material",
+        "explanation": null
+      }
+    ]
+  },
+  "miss": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "-",
+        "explanation": null
+      }
+    ]
+  },
+  "moreTools": {
+    "value": "Mai multe unelte",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Mai multe unelte",
+        "explanation": null
+      }
+    ]
+  },
+  "mysteryA": {
+    "value": "Necunoscut A",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Necunoscut A",
+        "explanation": null
+      }
+    ]
+  },
+  "mysteryB": {
+    "value": "Necunoscut B",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Necunoscut B",
+        "explanation": null
+      }
+    ]
+  },
+  "normalLine": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "normalSpeed": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "objects": {
+    "value": "Obiecte:",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Obiecte:",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0value_percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1473922426170,
+        "oldValue": "",
+        "newValue": "{0}%",
+        "explanation": null
+      }
+    ]
+  },
+  "prisms": {
+    "value": "Prisme",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Prisme",
+        "explanation": null
+      }
+    ]
+  },
+  "protractor": {
+    "value": "Raportor",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Raportor",
+        "explanation": null
+      }
+    ]
+  },
+  "ray": {
+    "value": "Rază",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Rază",
+        "explanation": null
+      }
+    ]
+  },
+  "reflections": {
+    "value": "Reflexii",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Reflexii",
+        "explanation": null
+      }
+    ]
+  },
+  "slowMotion": {
+    "value": "Mișcare lentă",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Mișcare lentă",
+        "explanation": null
+      }
+    ]
+  },
+  "speed": {
+    "value": "Viteză",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Viteză",
+        "explanation": null
+      }
+    ]
+  },
+  "time": {
+    "value": "Timp",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Timp",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "unknown": {
+    "value": "Ce este indicele de refracție",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Ce este indicele de refracție",
+        "explanation": null
+      }
+    ]
+  },
+  "unknownVelocity": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1473922426170,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "velocityPattern": {
+    "value": "{0} c",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1473922426170,
+        "oldValue": "",
+        "newValue": "{0} c",
+        "explanation": null
+      }
+    ]
+  },
+  "water": {
+    "value": "Apă",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Apă",
+        "explanation": null
+      }
+    ]
+  },
+  "wave": {
+    "value": "Undă",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1454718396042,
+        "oldValue": "",
+        "newValue": "Undă",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelengthPattern": {
+    "value": "{0} nm",
+    "history": [
+      {
+        "userId": 161937,
+        "timestamp": 1473922426170,
+        "oldValue": "",
+        "newValue": "{0} nm",
+        "explanation": null
+      }
+    ]
+  }
+}

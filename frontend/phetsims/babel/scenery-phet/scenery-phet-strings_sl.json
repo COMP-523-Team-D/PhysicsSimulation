@@ -1,0 +1,292 @@
+{
+  "key.enter": {
+    "value": "Enter",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1556452223754,
+        "oldValue": "",
+        "newValue": "Vstopi",
+        "explanation": null
+      },
+      {
+        "userId": 156538,
+        "timestamp": 1603270034924,
+        "oldValue": "Vstopi",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 157571,
+        "timestamp": 1606853130543,
+        "oldValue": "",
+        "newValue": "Enter",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Primi in spusti {{thing}}",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1577631334440,
+        "oldValue": "",
+        "newValue": "Primi in spusti {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Primi in spusti {{thing}}",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1577631334440,
+        "oldValue": "",
+        "newValue": "Primi in spusti {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Domov",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1616143586404,
+        "oldValue": "",
+        "newValue": "Domov"
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "ali",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1577631334440,
+        "oldValue": "",
+        "newValue": "ali",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Pg Dn",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1606853130543,
+        "oldValue": "",
+        "newValue": "Pg Dn",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Pg Up",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1606853130543,
+        "oldValue": "",
+        "newValue": "Pg Up",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Shift",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1606853130543,
+        "oldValue": "",
+        "newValue": "Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Preslednica",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1606853130543,
+        "oldValue": "",
+        "newValue": "Preslednica",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tab",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1606853130543,
+        "oldValue": "",
+        "newValue": "Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ζ",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1470122707028,
+        "oldValue": "",
+        "newValue": "ζ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1606853130543,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Hitro",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1616142451607,
+        "oldValue": "",
+        "newValue": "Hitro"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Realno",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1538336250954,
+        "oldValue": "",
+        "newValue": "Realna hitrost",
+        "explanation": null
+      },
+      {
+        "userId": 157539,
+        "timestamp": 1556452223754,
+        "oldValue": "Realna hitrost",
+        "newValue": "Realno",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Počasneje",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1538336250954,
+        "oldValue": "",
+        "newValue": "Počasnejša hitrost",
+        "explanation": null
+      },
+      {
+        "userId": 157539,
+        "timestamp": 1556452223754,
+        "oldValue": "Počasnejša hitrost",
+        "newValue": "Počasneje",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "Kratek stik",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1607068082116,
+        "oldValue": "",
+        "newValue": "Kratek stik",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Ponovno naloži",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1603270034924,
+        "oldValue": "",
+        "newValue": "Ponovno naloži",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Oprostite, prišlo je do napake v grafiki.",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1603270034924,
+        "oldValue": "",
+        "newValue": "Oprostite, prišlo je do napake v grafiki.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL ni omogočen ali ni na voljo. Kliknite za več.",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1603270034924,
+        "oldValue": "",
+        "newValue": "WebGL ni omogočen ali ni na voljo. Kliknite za več.",
+        "explanation": null
+      }
+    ]
+  },
+  "NumberControl.pattern_0value_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1455563592321,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Ohlajanje",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1482962703110,
+        "oldValue": "",
+        "newValue": "Ohlajanje",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Segravanje",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1482962703110,
+        "oldValue": "",
+        "newValue": "Segravanje",
+        "explanation": null
+      }
+    ]
+  }
+}

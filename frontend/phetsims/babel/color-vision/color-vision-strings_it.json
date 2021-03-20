@@ -1,0 +1,62 @@
+{
+  "RgbBulbsModule.title": {
+    "value": "Lampade RGB",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1455728105042,
+        "oldValue": "",
+        "newValue": "Lampade RGB",
+        "explanation": null
+      }
+    ]
+  },
+  "SingleBulbModule.title": {
+    "value": "Lampada singola",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1455728105042,
+        "oldValue": "",
+        "newValue": "Lampada singola",
+        "explanation": null
+      }
+    ]
+  },
+  "bulbSlider.label": {
+    "value": "Colore della lampada",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1455728105042,
+        "oldValue": "",
+        "newValue": "Colore della lampada",
+        "explanation": null
+      }
+    ]
+  },
+  "color-vision.title": {
+    "value": "Visione dei Colori",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1455728105042,
+        "oldValue": "",
+        "newValue": "Visione dei Colori",
+        "explanation": null
+      }
+    ]
+  },
+  "filterSlider.label": {
+    "value": "Colore Filtro",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1455728105042,
+        "oldValue": "",
+        "newValue": "Colore Filtro",
+        "explanation": null
+      }
+    ]
+  }
+}

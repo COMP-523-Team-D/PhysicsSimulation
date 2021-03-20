@@ -1,0 +1,52 @@
+{
+  "faradays-law.showFieldLines": {
+    "value": "புலக் கோடுகள்",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464233241569,
+        "oldValue": "",
+        "newValue": "புலக் கோடுகள்",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.title": {
+    "value": "பரடேயின் விதி",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464233241569,
+        "oldValue": "",
+        "newValue": "ஃபரடேயின் விதி",
+        "explanation": null
+      },
+      {
+        "userId": 190960,
+        "timestamp": 1464318954687,
+        "oldValue": "ஃபரடேயின் விதி",
+        "newValue": "பரடேயின் விதி",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.voltage": {
+    "value": "மின்னழுத்தம்",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464233241569,
+        "oldValue": "",
+        "newValue": "மின்னலுத்தம்",
+        "explanation": null
+      },
+      {
+        "userId": 190960,
+        "timestamp": 1464318954687,
+        "oldValue": "மின்னலுத்தம்",
+        "newValue": "மின்னழுத்தம்",
+        "explanation": null
+      }
+    ]
+  }
+}

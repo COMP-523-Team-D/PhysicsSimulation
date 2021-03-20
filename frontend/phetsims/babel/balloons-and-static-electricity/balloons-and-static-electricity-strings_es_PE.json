@@ -1,0 +1,98 @@
+{
+  "BalloonApplet.ShowAllCharges": {
+    "value": "Mostrar todas las cargas",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1456600109722,
+        "oldValue": "",
+        "newValue": "Mostrar todas las cargas",
+        "explanation": null
+      }
+    ]
+  },
+  "BalloonApplet.ShowChargeDifferences": {
+    "value": "Mostrar difrerencia de cargas",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1456600109722,
+        "oldValue": "",
+        "newValue": "Mostrar difrerencia de cargas",
+        "explanation": null
+      }
+    ]
+  },
+  "BalloonApplet.ShowNoCharges": {
+    "value": "Mostrar sin cargas",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1456600109722,
+        "oldValue": "",
+        "newValue": "Mostrar sin cargas",
+        "explanation": null
+      }
+    ]
+  },
+  "addWall": {
+    "value": "Añadir\nPared",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1456600109722,
+        "oldValue": "",
+        "newValue": "Añadir\nPared",
+        "explanation": null
+      }
+    ]
+  },
+  "balloons-and-static-electricity.title": {
+    "value": "Globos y Electricidad Estática",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1456600109722,
+        "oldValue": "",
+        "newValue": "Globos y Electricidad Estática",
+        "explanation": null
+      }
+    ]
+  },
+  "removeWall": {
+    "value": "Remover\nPared",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1456600109722,
+        "oldValue": "",
+        "newValue": "Remover\nPared",
+        "explanation": null
+      }
+    ]
+  },
+  "resetBalloon": {
+    "value": "Reestablecer el Globo",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1456600109722,
+        "oldValue": "",
+        "newValue": "Reestablecer el Globo",
+        "explanation": null
+      }
+    ]
+  },
+  "resetBalloons": {
+    "value": "Reestablecer el Globo",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1456600109722,
+        "oldValue": "",
+        "newValue": "Reestablecer el Globo",
+        "explanation": null
+      }
+    ]
+  }
+}

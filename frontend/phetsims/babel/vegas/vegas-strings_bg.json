@@ -1,0 +1,264 @@
+{
+  "check": {
+    "value": "Провери",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Провери",
+        "explanation": null
+      }
+    ]
+  },
+  "continue": {
+    "value": "Продължи",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Продължи",
+        "explanation": null
+      }
+    ]
+  },
+  "excellent": {
+    "value": "Отлично",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Отлично",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485503397040,
+        "oldValue": "Отлично",
+        "newValue": "Отлично!",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504942324,
+        "oldValue": "Отлично!",
+        "newValue": "Отлично",
+        "explanation": null
+      }
+    ]
+  },
+  "good": {
+    "value": "Добре",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Добре",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485503397040,
+        "oldValue": "Добре",
+        "newValue": "Добре!",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504942324,
+        "oldValue": "Добре!",
+        "newValue": "Добре",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507572475,
+        "oldValue": "Добре",
+        "newValue": "Добре!",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488273384306,
+        "oldValue": "Добре!",
+        "newValue": "Добре",
+        "explanation": null
+      }
+    ]
+  },
+  "great": {
+    "value": "Браво",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Браво",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485503397040,
+        "oldValue": "Браво",
+        "newValue": "Браво!",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504942325,
+        "oldValue": "Браво!",
+        "newValue": "Браво",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507572475,
+        "oldValue": "Браво",
+        "newValue": "Браво!",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488273384307,
+        "oldValue": "Браво!",
+        "newValue": "Браво",
+        "explanation": null
+      }
+    ]
+  },
+  "keepTrying": {
+    "value": "Опитай пак",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Опитай пак",
+        "explanation": null
+      }
+    ]
+  },
+  "label.level": {
+    "value": "Ниво: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Ниво: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "Резултат: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Резултат: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score.max": {
+    "value": "Резултат: {0} от {1}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Резултат: {0} от {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.time": {
+    "value": "Време: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Време: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Напред",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Напред",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Задача {0} от {1}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Задача {0} от {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Избери ниво",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Избери ниво",
+        "explanation": null
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "Покажи отговор",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Покажи отговор",
+        "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Започни отначало",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Започни отначало",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Опитай отново",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Опитай отново",
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "keyboardHelpDialog.basicActions": {
+    "value": "ძირითადი მოქმედებები",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557724607617,
+        "oldValue": "",
+        "newValue": "ძირითადი მოქმედებები",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "გამოსვლა",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557724607617,
+        "oldValue": "",
+        "newValue": "გამოსვლა",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "ან",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557258651858,
+        "oldValue": "",
+        "newValue": "ან",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "გაცივება",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1556961946714,
+        "oldValue": "",
+        "newValue": "გაცივება",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "გაცხელება",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1556961946714,
+        "oldValue": "",
+        "newValue": "გაცხელება",
+        "explanation": null
+      }
+    ]
+  }
+}

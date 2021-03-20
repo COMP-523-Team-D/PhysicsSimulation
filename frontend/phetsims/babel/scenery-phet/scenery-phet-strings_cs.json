@@ -1,0 +1,431 @@
+{
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "Upravit po velkých krocích",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1599807196923,
+        "oldValue": "",
+        "newValue": "Upravit po velkých krocích",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "Upravit po malých krocích",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1599807196923,
+        "oldValue": "",
+        "newValue": "Upravit po malých krocích",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "Upravit posuvník",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1599807196923,
+        "oldValue": "",
+        "newValue": "Upravit posuvník",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "Základní akce",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1565965222746,
+        "oldValue": "",
+        "newValue": "Základní akce",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Ukončit akce",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1565965222746,
+        "oldValue": "",
+        "newValue": "Ukončit akce",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Chytit nebo pustit {{thing}}",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1568092039104,
+        "oldValue": "",
+        "newValue": "Chyť nebo pusť {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "Chyť nebo pusť {{thing}}",
+        "newValue": "Chytit nebo pustit {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Chytit nebo pustit {{thing}}",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1568092039104,
+        "oldValue": "",
+        "newValue": "Chyť nebo pusť {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "Chyť nebo pusť {{thing}}",
+        "newValue": "Chytit nebo pustit {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Domů",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1599807196923,
+        "oldValue": "",
+        "newValue": "Domů",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "Skočit na maximum",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1599807196923,
+        "oldValue": "",
+        "newValue": "Skočit na maximum",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "Skočit na minimum",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1599807196923,
+        "oldValue": "",
+        "newValue": "Skočit na minimum",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Posunout mezi položkami ve skupině",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1565965222746,
+        "oldValue": "",
+        "newValue": "Posunout mezi položkami ve skupině",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Posunout na další položku",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1565965222746,
+        "oldValue": "",
+        "newValue": "Posunout na další položku",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Posunout na další položku nebo skupinu",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1565965222746,
+        "oldValue": "",
+        "newValue": "Posunout na další položku nebo skupinu",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Posunout na předchozí položku",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1565965222746,
+        "oldValue": "",
+        "newValue": "Posunout na předchozí položku",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Posunout na předchozí položku nebo skupinu",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1565965222746,
+        "oldValue": "",
+        "newValue": "Posunout na předchozí položku nebo skupinu",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "nebo",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1565962000487,
+        "oldValue": "",
+        "newValue": "nebo",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Stisknout tlačítko",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1565965222746,
+        "oldValue": "",
+        "newValue": "Stisknout tlačítko",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Ovládání posuvníku",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1599807196923,
+        "oldValue": "",
+        "newValue": "Ovládání posuvníku",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Mezerník",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "",
+        "newValue": "Mezerník",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tabulátor",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "",
+        "newValue": "Tabulátor",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Chladit",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1568095739458,
+        "oldValue": "",
+        "newValue": "Chladit",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Ohřívat",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1568095739458,
+        "oldValue": "",
+        "newValue": "Hřát",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "Hřát",
+        "newValue": "Ohřívat",
+        "explanation": null
+      }
+    ]
+  },
+  "rulerCapitalized": {
+    "value": "Pravítko",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "",
+        "newValue": "Pravítko",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "pravítko",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "",
+        "newValue": "pravítko",
+        "explanation": null
+      }
+    ]
+  },
+  "key.toGrabOrRelease": {
+    "value": "<b>Chytit</b> nebo <b>Pustit</b>",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "",
+        "newValue": "<b>Chytit</b> nebo <b>Pustit</b>",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Přepnout zaškrtávací políčka",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "",
+        "newValue": "Přepnout zaškrtávací políčka",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normálně",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1568095739458,
+        "oldValue": "",
+        "newValue": "Normálně",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Zpomaleně",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1568095739458,
+        "oldValue": "",
+        "newValue": "Zpomaleně",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "Krátké spojení!",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462889225474,
+        "oldValue": "",
+        "newValue": "Krátké spojení!",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL není povoleno nebo není dostupné. Klepněte pro další informace.",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462888491077,
+        "oldValue": "",
+        "newValue": "WebGL není povoleno nebo není dostupné. Klepněte pro další informace.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Bohužel, objevila se chyba grafiky.",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462888491077,
+        "oldValue": "",
+        "newValue": "Bohužel, objevila se chyba grafiky.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Načíst znovu",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462888491077,
+        "oldValue": "",
+        "newValue": "Načíst znovu",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "Aktualizujte Internet Explorer instalací doporučených záplat Windows Update.",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462888491077,
+        "oldValue": "",
+        "newValue": "Aktualizujte Internet Explorer instalací doporučených záplat Windows Update.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "Zobrazení v nízké kvalitě",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462888491077,
+        "oldValue": "",
+        "newValue": "Zobrazení v nízké kvalitě",
+        "explanation": null
+      }
+    ]
+  }
+}

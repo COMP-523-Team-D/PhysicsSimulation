@@ -1,0 +1,62 @@
+{
+  "RgbBulbsModule.title": {
+    "value": "Đèn 3 màu cơ bản RGB",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1455795915732,
+        "oldValue": "",
+        "newValue": "Đèn 3 màu cơ bản RGB",
+        "explanation": null
+      }
+    ]
+  },
+  "SingleBulbModule.title": {
+    "value": "Đèn Đơn sắc",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1455795915732,
+        "oldValue": "",
+        "newValue": "Đèn Đơn sắc",
+        "explanation": null
+      }
+    ]
+  },
+  "bulbSlider.label": {
+    "value": "Màu của đèn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1455795915732,
+        "oldValue": "",
+        "newValue": "Màu của đèn",
+        "explanation": null
+      }
+    ]
+  },
+  "color-vision.title": {
+    "value": "Thị giác màu",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1455795915732,
+        "oldValue": "",
+        "newValue": "Thị giác màu",
+        "explanation": null
+      }
+    ]
+  },
+  "filterSlider.label": {
+    "value": "Màu của bộ lọc",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1455795915732,
+        "oldValue": "",
+        "newValue": "Màu của bộ lọc",
+        "explanation": null
+      }
+    ]
+  }
+}

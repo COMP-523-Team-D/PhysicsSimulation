@@ -1,0 +1,126 @@
+{
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1474885925156,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "ಶಾರ್ಟ್ ಸರ್ಕ್ಯೂಟ್",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1468578158823,
+        "oldValue": "",
+        "newValue": "ಶಾರ್ಟ್ ಸರ್ಕ್ಯೂಟ್",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "ಎನ್. ಮೀ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1468579822197,
+        "oldValue": "",
+        "newValue": "ಎನ್. ಮೀ",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGLಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ ಅಥವಾ ಲಭ್ಯವಿಲ್ಲ.   ಹೆಚ್ಚು ತಿಳಿಯಲು ಕ್ಲಿಕ್\r\n  ಮಾಡಿ.\r\n  \r\n \r\n",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1479114628226,
+        "oldValue": "",
+        "newValue": "WebGLಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ ಅಥವಾ ಲಭ್ಯವಿಲ್ಲ.   ಹೆಚ್ಚು ತಿಳಿಯಲು ಕ್ಲಿಕ್\r\n  ಮಾಡಿ.\r\n  \r\n \r\n",
+        "explanation": null
+      },
+      {
+        "userId": 325813,
+        "timestamp": 1479114896765,
+        "oldValue": "WebGLಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ ಅಥವಾ ಲಭ್ಯವಿಲ್ಲ.   ಹೆಚ್ಚು ತಿಳಿಯಲು ಕ್ಲಿಕ್\r\n  ಮಾಡಿ.\r\n  \r\n \r\n",
+        "newValue": "WebGLಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ ಅಥವಾ ಲಭ್ಯವಿಲ್ಲ.   ಹೆಚ್ಚು ತಿಳಿಯಲು ಕ್ಲಿಕ್\r\n  ಮಾಡಿ.\r\n  \r\n \r\n",
+        "explanation": null
+      },
+      {
+        "userId": 325813,
+        "timestamp": 1479989137553,
+        "oldValue": "WebGLಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ ಅಥವಾ ಲಭ್ಯವಿಲ್ಲ.   ಹೆಚ್ಚು ತಿಳಿಯಲು ಕ್ಲಿಕ್\r\n  ಮಾಡಿ.\r\n  \r\n \r\n",
+        "newValue": "WebGLಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ ಅಥವಾ ಲಭ್ಯವಿಲ್ಲ.   ಹೆಚ್ಚು ತಿಳಿಯಲು ಕ್ಲಿಕ್\r\n  ಮಾಡಿ.\r\n  \r\n \r\n",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "ಕ್ಷಮಿಸಿ, ಗ್ರ್ಯಾಫಿಕ್ ದೋಷ ಸಂಭವಿಸಿದೆ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1474888988314,
+        "oldValue": "",
+        "newValue": "ಕ್ಷಮಿಸಿ, ಗ್ರ್ಯಾಫಿಕ್ ದೋಷ ಸಂಭವಿಸಿದೆ",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "ಮರುಪ್ರಯತ್ನಿಸಿ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1474888988314,
+        "oldValue": "",
+        "newValue": "ಮರುಪ್ರಯತ್ನಿಸಿ",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "ವಿಂಡೋಸ್ ಅಪ್ಡೇಟ್ ತೇಪೆಗಳೊಂದಿಗೆ ಇಂಟರ್ನೆಟ್ ಎಕ್ಸ್ಪ್ಲೋರರ್ ನ್ನು ಆಧುನೀಕರಿಸಿ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1479114628226,
+        "oldValue": "",
+        "newValue": "ವಿಂಡೋಸ್ ಅಪ್ಡೇಟ್ ತೇಪೆಗಳೊಂದಿಗೆ ಇಂಟರ್ನೆಟ್ ಎಕ್ಸ್ಪ್ಲೋರರ್ ನ್ನು ಆಧುನೀಕರಿಸಿ",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "ಕಡಿಮೆ ಗುಣಮಟ್ಟದ\r\n  ಗ್ರಾಫಿಕ್ಸ್ ಚಾಲನೆಯಲ್ಲಿದೆ ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1479114628226,
+        "oldValue": "",
+        "newValue": "ಕಡಿಮೆ ಗುಣಮಟ್ಟದ\r\n  ಗ್ರಾಫಿಕ್ಸ್ ಚಾಲನೆಯಲ್ಲಿದೆ ",
+        "explanation": null
+      },
+      {
+        "userId": 325813,
+        "timestamp": 1479114896765,
+        "oldValue": "ಕಡಿಮೆ ಗುಣಮಟ್ಟದ\r\n  ಗ್ರಾಫಿಕ್ಸ್ ಚಾಲನೆಯಲ್ಲಿದೆ ",
+        "newValue": "ಕಡಿಮೆ ಗುಣಮಟ್ಟದ\r\n  ಗ್ರಾಫಿಕ್ಸ್ ಚಾಲನೆಯಲ್ಲಿದೆ ",
+        "explanation": null
+      },
+      {
+        "userId": 325813,
+        "timestamp": 1479989137553,
+        "oldValue": "ಕಡಿಮೆ ಗುಣಮಟ್ಟದ\r\n  ಗ್ರಾಫಿಕ್ಸ್ ಚಾಲನೆಯಲ್ಲಿದೆ ",
+        "newValue": "ಕಡಿಮೆ ಗುಣಮಟ್ಟದ\r\n  ಗ್ರಾಫಿಕ್ಸ್ ಚಾಲನೆಯಲ್ಲಿದೆ ",
+        "explanation": null
+      }
+    ]
+  }
+}

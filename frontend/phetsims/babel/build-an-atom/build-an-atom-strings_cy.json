@@ -1,0 +1,44 @@
+{
+  "atom": {
+    "value": "Adeiladu Atom"
+  },
+  "massNumber": {
+    "value": "Más"
+  },
+  "game": {
+    "value": "Gêm"
+  },
+  "electronsColon": {
+    "value": "electronau:"
+  },
+  "netCharge": {
+    "value": "Gwefr"
+  },
+  "build-an-atom.title": {
+    "value": "Adeiladu Atom"
+  },
+  "neutronsColon": {
+    "value": "niwtronau:"
+  },
+  "orbits": {
+    "value": "orbitau"
+  },
+  "cloud": {
+    "value": "cwmwl"
+  },
+  "protons": {
+    "value": "Protonau"
+  },
+  "element": {
+    "value": "Elfen"
+  },
+  "neutrons": {
+    "value": "Niwtronau"
+  },
+  "protonsColon": {
+    "value": "protonau:"
+  },
+  "electrons": {
+    "value": "Electronau"
+  }
+}

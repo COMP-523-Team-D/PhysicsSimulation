@@ -1,0 +1,79 @@
+{
+  "equation": {
+    "value": "Juda zo’r!",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615532898086,
+        "oldValue": "",
+        "newValue": "Juda zo’r!"
+      }
+    ]
+  },
+  "levelTitlePattern": {
+    "value": "{{number}}- bosqich",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615525730629,
+        "oldValue": "",
+        "newValue": "{{number}}- bosqich"
+      }
+    ]
+  },
+  "representationMax": {
+    "value": "Maksimum",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615532898086,
+        "oldValue": "",
+        "newValue": "Maksimum"
+      }
+    ]
+  },
+  "mixedNumber": {
+    "value": "Aralash sonlar",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615532898086,
+        "oldValue": "",
+        "newValue": "Aralash sonlar"
+      }
+    ]
+  },
+  "fractionsChooseYourLevel": {
+    "value": "Fractions: Choose Your Level!",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615525730629,
+        "oldValue": "",
+        "newValue": "Fractions: Choose Your Level!"
+      }
+    ]
+  },
+  "mixedNumbersChooseYourLevel": {
+    "value": "Aralash sonlar: Darajangizni tanlang",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615525730629,
+        "oldValue": "",
+        "newValue": "Aralash sonlar: Darajangizni tanlang"
+      }
+    ]
+  },
+  "myMatches": {
+    "value": "Mening moslashtirganlarim",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615525730629,
+        "oldValue": "",
+        "newValue": "Mening moslashtirganlarim"
+      }
+    ]
+  }
+}

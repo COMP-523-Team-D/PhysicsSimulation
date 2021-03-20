@@ -1,0 +1,335 @@
+{
+  "acceleration": {
+    "value": "Przyspieszenie",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Przyspieszenie",
+        "explanation": null
+      }
+    ]
+  },
+  "appliedForce": {
+    "value": "Przyłożona siła",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Przyłożona siła",
+        "explanation": null
+      }
+    ]
+  },
+  "blueWins": {
+    "value": "Niebieski wygrywa!",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867333,
+        "oldValue": "",
+        "newValue": "Niebieski wygrywa!",
+        "explanation": null
+      }
+    ]
+  },
+  "force": {
+    "value": "Siła",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Siła",
+        "explanation": null
+      }
+    ]
+  },
+  "forces": {
+    "value": "Siły",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Siły",
+        "explanation": null
+      }
+    ]
+  },
+  "forces-and-motion-basics.title": {
+    "value": "Siły i ruch: Podstawy",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Siły i ruch: Podstawy",
+        "explanation": null
+      }
+    ]
+  },
+  "friction": {
+    "value": "Tarcie",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Tarcie",
+        "explanation": null
+      }
+    ]
+  },
+  "frictionForce": {
+    "value": "Siła tarcia",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Siła tarcia",
+        "explanation": null
+      }
+    ]
+  },
+  "go": {
+    "value": "Start!",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867333,
+        "oldValue": "",
+        "newValue": "Start!",
+        "explanation": null
+      }
+    ]
+  },
+  "left": {
+    "value": "w lewo",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1515609706072,
+        "oldValue": "",
+        "newValue": "w lewo",
+        "explanation": null
+      }
+    ]
+  },
+  "leftForce": {
+    "value": "Siła w lewo",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Siła z lewej",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1515609706072,
+        "oldValue": "Siła z lewej",
+        "newValue": "Siła w lewo",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "duże",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "duże",
+        "explanation": null
+      }
+    ]
+  },
+  "masses": {
+    "value": "Masy",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Masy",
+        "explanation": null
+      }
+    ]
+  },
+  "motion": {
+    "value": "Ruch",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Ruch",
+        "explanation": null
+      }
+    ]
+  },
+  "netForce": {
+    "value": "Przeciąganie liny",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Przeciąganie liny",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "brak",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "brak",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0valueUnitsNewtons": {
+    "value": "{0} niutonów",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "{0} niutonów",
+        "explanation": null
+      }
+    ]
+  },
+  "pause": {
+    "value": "Pauza",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867333,
+        "oldValue": "",
+        "newValue": "Pauza",
+        "explanation": null
+      }
+    ]
+  },
+  "redWins": {
+    "value": "Czerwony wygrywa!",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867333,
+        "oldValue": "",
+        "newValue": "Czerwony wygrywa!",
+        "explanation": null
+      }
+    ]
+  },
+  "return": {
+    "value": "Wróć",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867333,
+        "oldValue": "",
+        "newValue": "Wróć",
+        "explanation": null
+      }
+    ]
+  },
+  "right": {
+    "value": "w prawo",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1515609706072,
+        "oldValue": "",
+        "newValue": "w prawo",
+        "explanation": null
+      }
+    ]
+  },
+  "rightForce": {
+    "value": "Siła w prawo",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Siła z prawej",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1515609706072,
+        "oldValue": "Siła z prawej",
+        "newValue": "Siła w prawo",
+        "explanation": null
+      }
+    ]
+  },
+  "speed": {
+    "value": "Szybkość",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Prędkość",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1515609706072,
+        "oldValue": "Prędkość",
+        "newValue": "Szybkość",
+        "explanation": null
+      }
+    ]
+  },
+  "sumOfForces": {
+    "value": "Siła wypadkowa",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Siła wypadkowa",
+        "explanation": null
+      }
+    ]
+  },
+  "sumOfForcesEqualsZero": {
+    "value": "Siła wypadkowa = 0",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Siła wypadkowa = 0",
+        "explanation": null
+      }
+    ]
+  },
+  "values": {
+    "value": "Wartości",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1462822867334,
+        "oldValue": "",
+        "newValue": "Wartości",
+        "explanation": null
+      }
+    ]
+  }
+}

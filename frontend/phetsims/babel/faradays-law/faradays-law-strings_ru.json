@@ -1,0 +1,90 @@
+{
+  "faradays-law.n": {
+    "value": "С",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501046363324,
+        "oldValue": "",
+        "newValue": "Север",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1501496093533,
+        "oldValue": "Север",
+        "newValue": "С",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.s": {
+    "value": "Ю",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501046363324,
+        "oldValue": "",
+        "newValue": "Юг",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1501496093533,
+        "oldValue": "Юг",
+        "newValue": "Ю",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.showFieldLines": {
+    "value": "Линии мг. поля",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501046363324,
+        "oldValue": "",
+        "newValue": "Линии поля",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583786191697,
+        "oldValue": "Линии поля",
+        "newValue": "Линии мг. поля",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.voltage": {
+    "value": "Напряжение",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501046363324,
+        "oldValue": "",
+        "newValue": "Напряжение",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.title": {
+    "value": "Опыт Фарадея, правило Ленца",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501046363324,
+        "oldValue": "",
+        "newValue": "Закон Фарадея",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583786191697,
+        "oldValue": "Закон Фарадея",
+        "newValue": "Опыт Фарадея, правило Ленца",
+        "explanation": null
+      }
+    ]
+  }
+}

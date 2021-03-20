@@ -1,0 +1,514 @@
+{
+  "key.enter": {
+    "value": "Giriş",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Giriş",
+        "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "Giriş",
+        "newValue": "Enter",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1608644628037,
+        "oldValue": "Enter",
+        "newValue": "Giriş",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Çıkış",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1611682807901,
+        "oldValue": "",
+        "newValue": "Çıkış"
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Hızlı",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1611682807901,
+        "oldValue": "",
+        "newValue": "Hızlı"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Sürükle ve Bırak {{thing}}",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "{{thing}} Tut veya Bırak",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1608644628037,
+        "oldValue": "{{thing}} Tut veya Bırak",
+        "newValue": "{{şey}} Tut veya Bırak",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1611682807901,
+        "oldValue": "{{şey}} Tut veya Bırak",
+        "newValue": "Sürükle ve Bırak {{thing}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Sürükle ve Bırak {{thing}}",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "{{thing}} Tut veya Bırak",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1608644628037,
+        "oldValue": "{{thing}} Tut veya Bırak",
+        "newValue": "{{şey}} Tut veya Bırak",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1611682807901,
+        "oldValue": "{{şey}} Tut veya Bırak",
+        "newValue": "Sürükle ve Bırak {{thing}}"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579813939678,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "evet da",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "yada",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "yada",
+        "newValue": "ya da",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1608644628037,
+        "oldValue": "ya da",
+        "newValue": "evet da",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Aşağı",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Aşağı",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Yukarı",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Yukarı",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Değiştirme (Vardiya)",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Değiştirme",
+        "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "Değiştirme",
+        "newValue": "Değiştirme (Shift)",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1608644628037,
+        "oldValue": "Değiştirme (Shift)",
+        "newValue": "Değiştirme (Vardiya)",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Yavaş",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579813939678,
+        "oldValue": "",
+        "newValue": "Yavaş",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Boşluk",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Boşluk",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Sekme (Sekme)",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Sekme",
+        "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "Sekme",
+        "newValue": "Sekme (Tab)",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1608644628037,
+        "oldValue": "Sekme (Tab)",
+        "newValue": "Sekme (Sekme)",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "Daha büyük adımlarla ayarla",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Daha büyük adımlarla ayarla",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "Daha küçük adımlarla ayarla",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Daha küçük adımlarla ayarla",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "Kaydırıcıyı ayarla",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Kaydırıcıyı ayarla",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "Temel Hareketler",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Temel Hareketler",
+        "explanation": null
+      }
+    ]
+  },
+  "key.end": {
+    "value": "End",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "End",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Diyaloğu kapat",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Diyaloğu kapat",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Anasayfa",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Anasayfa",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "Maksimuma atla",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Maksimuma atla",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "Minimuma atla",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Minimuma atla",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Grup içindeki maddeler arasında geçiş yap",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Grup içindeki maddeler arasında geçiş yap",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Sıradaki maddeye geç",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Sıradaki maddeye geç",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Sıradaki maddeye yada gruba geç",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Sıradaki maddeye yada gruba geç",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Önceki maddeye geç",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Önceki maddeye geç",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Önceki maddeye yada gruba geç",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Önceki maddeye yada gruba geç",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Düğmelere basın",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Düğmelere basın",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Kaydırıcı Ayarları",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606703938462,
+        "oldValue": "",
+        "newValue": "Kaydırıcı Ayarları",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Tekrar Yükle",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606213489295,
+        "oldValue": "",
+        "newValue": "Tekrar Yükle",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL kullanılabilir yada yüklü değil. Daha fazla bilgi almak için tıklayın.",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606213489296,
+        "oldValue": "",
+        "newValue": "WebGL kullanılabilir yada yüklü değil. Daha fazla bilgi almak için tıklayın.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "Düşük grafik kalitesinde çalışıyor",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Düşük grafik kalitesinde çalışıyor",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Dalga Boyu",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579789101439,
+        "oldValue": "",
+        "newValue": "Dalga Boyu",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Soğut",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "Soğut",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Isıt",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "Isıt",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "Kısa devre!",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1481895116375,
+        "oldValue": "",
+        "newValue": "Kısa devre!",
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "મોટો ફેરફાર કરો",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593333439382,
+        "oldValue": "",
+        "newValue": "મોટા પગલામાં એડજસ્ટ કરો",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "મોટા પગલામાં એડજસ્ટ કરો",
+        "newValue": "મોટો ફેરફાર કરો",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "નાનો ફેરફાર કરો",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593333439382,
+        "oldValue": "",
+        "newValue": "નાના પગલામાં એડજસ્ટ કરો",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "નાના પગલામાં એડજસ્ટ કરો",
+        "newValue": "નાનો ફેરફાર કરો",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "સ્લાઇડરથી યોગ્ય ફેરફાર કરો",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593333439382,
+        "oldValue": "",
+        "newValue": "સ્લાઇડર એડજસ્ટ કરો",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "સ્લાઇડર એડજસ્ટ કરો",
+        "newValue": "સ્લાઇડરથી યોગ્ય ફેરફાર કરો",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "મૂળભૂત ક્રિયાઓ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593331196455,
+        "oldValue": "",
+        "newValue": "મૂળભૂત ક્રિયાઓ",
+        "explanation": null
+      }
+    ]
+  },
+  "key.end": {
+    "value": "End",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593333439382,
+        "oldValue": "",
+        "newValue": "End કી",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "End કી",
+        "newValue": "End",
+        "explanation": null
+      }
+    ]
+  },
+  "key.enter": {
+    "value": "Enter",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "એન્ટર કરો",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "એન્ટર કરો",
+        "newValue": "Enter",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577184008366,
+        "oldValue": "",
+        "newValue": "Esc કી દબાવો",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "Esc કી દબાવો",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "ડાયલોગ બોક્સ બંધ કરો",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577184008366,
+        "oldValue": "",
+        "newValue": "ડાયલોગ બોક્સ બંધ કરો",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "પકડો અથવા છોડી દો {{thing}}",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "લો અથવા છોડી દો {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "લો અથવા છોડી દો {{thing}}",
+        "newValue": "પકડો અથવા છોડી દો {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "પકડો અથવા છોડી દો {{thing}}",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "લો અથવા છોડી દો {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "લો અથવા છોડી દો {{thing}}",
+        "newValue": "પકડો અથવા છોડી દો {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Home",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593333439382,
+        "oldValue": "",
+        "newValue": "હોમ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "હોમ",
+        "newValue": "Home",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "મહત્તમ પર જાઓ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593333439382,
+        "oldValue": "",
+        "newValue": "મહત્તમ પર જાઓ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "લઘુતમ પર જાઓ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593333439382,
+        "oldValue": "",
+        "newValue": "લઘુતમ પર જાઓ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "જૂથની અન્ય વસ્તુઓ પર જાઓ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577184008366,
+        "oldValue": "",
+        "newValue": "જૂથની અન્ય વસ્તુઓ પર જાઓ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "આગલી વસ્તુ પર જાઓ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577184008366,
+        "oldValue": "",
+        "newValue": "આગલી વસ્તુ પર જાઓ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "આગલી વસ્તુ અથવા જૂથ પર જાઓ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577184008366,
+        "oldValue": "",
+        "newValue": "આગલી વસ્તુ અથવા જૂથ પર જાઓ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "પાછલી વસ્તુ પર જાઓ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577184008366,
+        "oldValue": "",
+        "newValue": "પાછલી વસ્તુ પર જાઓ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "પાછલી વસ્તુ અથવા જૂથ પર જાઓ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577184008366,
+        "oldValue": "",
+        "newValue": "પાછલી વસ્તુ અથવા જૂથ પર જાઓ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "અથવા",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "અથવા",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Pg Dn",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "નીચેનું પેજ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "નીચેનું પેજ",
+        "newValue": "Pg Dn",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Pg Up",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "ઉપરનું પેજ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "ઉપરનું પેજ",
+        "newValue": "Pg Up",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "બટનો દબાવો",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593331196456,
+        "oldValue": "",
+        "newValue": "બટનો દબાવો",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Shift",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "શિફ્ટ",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "શિફ્ટ",
+        "newValue": "Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "સ્લાઇડર કંટ્રોલ્સ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593333439382,
+        "oldValue": "",
+        "newValue": "સ્લાઇડર કંટ્રોલ્સ",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Space",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "સ્પેસ આપો",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "સ્પેસ આપો",
+        "newValue": "Space",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tab",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "ટેબ આપો",
+        "explanation": null
+      },
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "ટેબ આપો",
+        "newValue": "Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "ચેક બોક્ષ અદલ બદલ કરો ",
+    "history": [
+      {
+        "userId": 420144,
+        "timestamp": 1598185620768,
+        "oldValue": "",
+        "newValue": "ચેક બોક્ષ અદલ બદલ કરો ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.generalNavigation": {
+    "value": "સામાન્ય નેવિગેશન",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577184008366,
+        "oldValue": "",
+        "newValue": "સામાન્ય નેવિગેશન",
+        "explanation": null
+      }
+    ]
+  },
+  "key.toGrabOrRelease": {
+    "value": " ને <b>લો</b> અથવા <b>છોડો</b>",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1593331196456,
+        "oldValue": "",
+        "newValue": " ને <b>લો</b> અથવા <b>છોડો</b>",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "તરંગલંબાઈ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577272132507,
+        "oldValue": "",
+        "newValue": "તરંગલંબાઈ",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelengthNMValuePattern": {
+    "value": "{0} nm",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577272132507,
+        "oldValue": "",
+        "newValue": "{0} nm",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "સામાન્ય ઝડપે",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577175887668,
+        "oldValue": "",
+        "newValue": "સામાન્ય",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577268254199,
+        "oldValue": "સામાન્ય",
+        "newValue": "સામાન્ય ઝડપે",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "ધીમે",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577175887668,
+        "oldValue": "",
+        "newValue": "ધીમે",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "ફરી લોડ કરો ",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577190369113,
+        "oldValue": "",
+        "newValue": "ફરી લોડ કરો ",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "ઓછી ગ્રાફિક્સ ગુણવત્તા સાથે ચાલી રહ્યું છે.",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577190369113,
+        "oldValue": "",
+        "newValue": "ઓછી ગ્રાફિક્સ ગુણવત્તા સાથે ચાલી રહ્યું છે.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "માફ કરશો, એક ગ્રાફિક્સ ભૂલ આવી છે.",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577190369113,
+        "oldValue": "",
+        "newValue": "માફ કરશો, એક ગ્રાફિક્સ ભૂલ આવી છે.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "ભલામણ કરેલ વિંડોઝ અપડેટ પેચ ઇન્સ્ટોલ કરીને ઇન્ટરનેટ એક્સપ્લોરરને અપડેટ કરો.",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577190369113,
+        "oldValue": "",
+        "newValue": "ભલામણ કરેલ વિંડોઝ અપડેટ પેચ ઇન્સ્ટોલ કરીને ઇન્ટરનેટ એક્સપ્લોરરને અપડેટ કરો.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL સક્ષમ નથી અથવા ઉપલબ્ધ નથી. વધુ જાણવા માટે ક્લિક કરો.",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577190369113,
+        "oldValue": "",
+        "newValue": "WebGL સક્ષમ નથી અથવા ઉપલબ્ધ નથી. વધુ જાણવા માટે ક્લિક કરો.",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577180397118,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577180397118,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "ઠંડી",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "ઠંડી",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "ગરમી",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577170622319,
+        "oldValue": "",
+        "newValue": "ગરમી",
+        "explanation": null
+      }
+    ]
+  },
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577175887668,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "શોર્ટ સર્કીટ ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553529260386,
+        "oldValue": "",
+        "newValue": "શોર્ટ સર્કીટ ",
+        "explanation": null
+      }
+    ]
+  }
+}

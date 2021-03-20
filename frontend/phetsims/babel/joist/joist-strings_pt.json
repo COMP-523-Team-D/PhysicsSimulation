@@ -1,0 +1,577 @@
+{
+  "menuItem.about": {
+    "value": "Sobre...",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Sobre...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "Procurar atualizações...",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Procurar atualizações...",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "A procurar atualizações",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "A procurar atualizações",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Contribuidores: {0}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541095074587,
+        "oldValue": "",
+        "newValue": "Contribuidores: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "Créditos",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Créditos",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "Som melhorado",
+    "history": [
+      {
+        "userId": 156648,
+        "timestamp": 1571654372408,
+        "oldValue": "",
+        "newValue": "Som melhorado",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "Ecrã inteiro",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Ecrã inteiro",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "Obter atualização...",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Obter atualização...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "Grafismo: {0}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Grafismo: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Internet Explorer não é suportado.",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614121898460,
+        "oldValue": "",
+        "newValue": "Internet Explorer não é suportado."
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "Parâmetros de Consulta não Válidos",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1583523132730,
+        "oldValue": "",
+        "newValue": "Parâmetros de Consulta não Válidos",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Atalhos do teclado",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541095074587,
+        "oldValue": "",
+        "newValue": "Atalhos do teclado",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "Direção de Design: {0}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Direção de Design: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "Enviar Registo de Eventos de Input",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Enviar Registo de Eventos de Input",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "Nova versão disponível",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Nova versão disponível",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "Não, obrigado",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Não, obrigado",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "Um ou mais parâmetros da consulta têm valores inválidos:",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1583523132730,
+        "oldValue": "",
+        "newValue": "Um ou mais parâmetros da consulta têm valores inválidos:",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Opções",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Opções",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Opções...",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Opções...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Output do Registo de Eventos de Input",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Output do Registo de Eventos de Input",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "Website PhET...",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Website PhET...",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "Erro de Plataforma",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614121898460,
+        "oldValue": "",
+        "newValue": "Erro de Plataforma"
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Use um navegador diferente por favor",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614121898460,
+        "oldValue": "",
+        "newValue": "Use um navegador diferente por favor"
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "Controlo de Qualidade: {0}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Controlo de Qualidade: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "Reportar um problema...",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Reportar um problema...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "Captura de ecrã",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Captura de ecrã",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "Desenvolvimento de Software: {0}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Desenvolvimento de Software: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Design de som: {0}",
+    "history": [
+      {
+        "userId": 156648,
+        "timestamp": 1571654372408,
+        "oldValue": "",
+        "newValue": "Som Design: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 699594,
+        "timestamp": 1592338475011,
+        "oldValue": "Som Design: {0}",
+        "newValue": "Design de som: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Submeter Registo de Eventos de Input",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Submeter Registo de Eventos de Input",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "Equipa: {0}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Equipa: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Termos, Privacidade & Licenciamento",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Termos, Privacidade & Licenciamento",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "Obrigado",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Agradecimento",
+        "explanation": null
+      },
+      {
+        "userId": 699594,
+        "timestamp": 1590703864394,
+        "oldValue": "Agradecimento",
+        "newValue": "Obrigado",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "A simulação começará com valores padrão<br>para estes parâmetros de consulta.",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1583523132730,
+        "oldValue": "",
+        "newValue": "A simulação começará com valores padrão<br>para estes parâmetros de consulta.",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "Está disponível uma nova versão: {0}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Está disponível uma nova versão: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "Créditos de terceiros",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Créditos de terceiros",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "Esta simulação está atualizada.",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Esta simulação está atualizada.",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "para começar",
+    "history": [
+      {
+        "userId": 156648,
+        "timestamp": 1571654372408,
+        "oldValue": "",
+        "newValue": "para começar",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Tradução",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Tradução",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "Créditos da tradução",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Créditos da tradução",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "Não é possível procurar atualizações.",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Não é possível procurar atualizações.",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "versão {0}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "versão {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "A sua versão atual é: {0}.",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "A sua versão atual é: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541095074587,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Modo de Projector",
+    "history": [
+      {
+        "userId": 156648,
+        "timestamp": 1571654948539,
+        "oldValue": "",
+        "newValue": "Modo de Projector",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Feito",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Feito",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Definições",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Definições",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Mostrar Ponteiros",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Mostrar Ponteiros",
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "menuItem.about": {
+    "value": "حول ...",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "حول ...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "تحقق من وجود تحديثات ...",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "تحقق من وجود تحديثات ...",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": " بحث عن تحديثات …",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": " بحث عن تحديثات …",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "المشاركون: {0}",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533242315258,
+        "oldValue": "",
+        "newValue": "المشاركون: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "شكر",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "شكر",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "صوت محسن",
+    "history": [
+      {
+        "userId": 869663,
+        "timestamp": 1607250651989,
+        "oldValue": "",
+        "newValue": "صوت محسن",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "تكبير الشاشة",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "كامل الشاشة",
+        "explanation": null
+      },
+      {
+        "userId": 576246,
+        "timestamp": 1533230116477,
+        "oldValue": "كامل الشاشة",
+        "newValue": "تكبير الشاشة",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "احصل على التحديث ...",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "احصل على التحديث ...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "الفنون التصويرية: {0}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "الفنون التصويرية: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "اختصارات لوحة المفاتيح",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533242315258,
+        "oldValue": "",
+        "newValue": "اختصارات لوحة المفاتيح",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "قيادي تصميم: {0}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "قيادي تصميم: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "ارسل المدخلات عبر البريد الإلكتروني",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "إرسل المدخلات عبر البريد الإلكتروني",
+        "explanation": null
+      },
+      {
+        "userId": 606331,
+        "timestamp": 1556695230610,
+        "oldValue": "إرسل المدخلات عبر البريد الإلكتروني",
+        "newValue": "ارسل المدخلات عبر البريد الإلكتروني",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "الإصدار الجديد متوفر",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "الإصدار الجديد متوفر",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "لا شكرا",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "لا شكرا",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "خيارات",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "خيارات",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "خيارات ...",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "خيارات ...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "أحداث المدخلات والمخرجات ",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "أحداث المدخلات والمخرجات ",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "موقع PhET...",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "موقع PhET...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "ضمان الجودة: {0}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "ضمان الجودة: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "الإبلاغ عن مشكلة…",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "الإبلاغ عن مشكلة…",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "صورة الشاشة",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "صورة الشاشة",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "تطوير البرمجيات: {0}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "تطوير البرمجيات: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "إرسل المدخلات ",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "إرسل المدخلات ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "فريق: {0}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "فريق: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "شروط الخصوصية والترخيص",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "شروط الخصوصية والترخيص",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "شكرا",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "شكرا",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "هناك نسخة جديدة متوفرة: {0}.",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "هناك نسخة جديدة متوفرة: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "شكر فرق أخرى",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "شكر فرق أخرى",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "هذا البرنامج أحدث إصدار",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "هذا البرنامج أحدث إصدار",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "للبدِء",
+    "history": [
+      {
+        "userId": 606331,
+        "timestamp": 1556695230610,
+        "oldValue": "",
+        "newValue": "للبدِء",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "ترجمة",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "ترجمة",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "شكر الترجمة",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "شكر الترجمة",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "غير قادر على التحقق من وجود تحديثات.",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "غير قادر على التحقق من وجود تحديثات.",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "إصدار {0}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "إصدار {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "الإصدار الحالي هو: {0}.",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "الإصدار الحالي هو: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533246636642,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "وضع جهاز الاسقاط الضوئي",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533229871890,
+        "oldValue": "",
+        "newValue": "وضع جهاز الاسقاط الضوئي",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "إعدادات",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "إعدادات",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "عرض المؤشرات",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "عرض المؤشرات",
+        "explanation": null
+      }
+    ]
+  },
+  "adaptedFrom": {
+    "value": "مقتبس من ",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "مقتبس من ",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.settings": {
+    "value": "إعدادات ...",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "إعدادات ...",
+        "explanation": null
+      }
+    ]
+  },
+  "titlePattern": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  }
+}

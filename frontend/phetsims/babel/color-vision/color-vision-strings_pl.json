@@ -1,0 +1,62 @@
+{
+  "RgbBulbsModule.title": {
+    "value": "Żarówki RGB (czerwona, zielona, niebieska) ",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1456871174315,
+        "oldValue": "",
+        "newValue": "Żarówki RGB (czerwona, zielona, niebieska) ",
+        "explanation": null
+      }
+    ]
+  },
+  "SingleBulbModule.title": {
+    "value": "Pojedyncza żarówka",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1456871174315,
+        "oldValue": "",
+        "newValue": "Pojedyncza żarówka",
+        "explanation": null
+      }
+    ]
+  },
+  "bulbSlider.label": {
+    "value": "Kolor żarówki",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1456871174315,
+        "oldValue": "",
+        "newValue": "Kolor żarówki",
+        "explanation": null
+      }
+    ]
+  },
+  "color-vision.title": {
+    "value": "Widzenie kolorowe",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1456871174315,
+        "oldValue": "",
+        "newValue": "Widzenie kolorowe",
+        "explanation": null
+      }
+    ]
+  },
+  "filterSlider.label": {
+    "value": "Filtr kolorowy",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1456871174315,
+        "oldValue": "",
+        "newValue": "Filtr kolorowy",
+        "explanation": null
+      }
+    ]
+  }
+}

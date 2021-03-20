@@ -1,0 +1,116 @@
+{
+  "low": {
+    "value": "נמוך"
+  },
+  "regulatoryRegion": {
+    "value": ""
+  },
+  "positiveTranscriptionFactorHtml": {
+    "value": ""
+  },
+  "negativeTranscriptionFactor": {
+    "value": "מבקר שעתור שלילי"
+  },
+  "ribosome": {
+    "value": "ריבוזום"
+  },
+  "averageProteinLevelVsTime": {
+    "value": "כמות חלבון ממוצעת מול זמן"
+  },
+  "affinities": {
+    "value": "אפיניות"
+  },
+  "biomoleculeToolbox": {
+    "value": "ארגז כלים ביו-מולקולרי"
+  },
+  "one": {
+    "value": "אחד"
+  },
+  "mRnaDestroyer": {
+    "value": "RNA מפרק"
+  },
+  "protein": {
+    "value": "חלבון"
+  },
+  "slow": {
+    "value": "איטי"
+  },
+  "yourProteinCollection": {
+    "value": ""
+  },
+  "translation.credits": {
+    "value": ""
+  },
+  "previousGene": {
+    "value": "הגן הקודם"
+  },
+  "averageProteinLevel": {
+    "value": "כמות חלבון ממוצעת"
+  },
+  "positiveTranscriptionFactor": {
+    "value": "מבקר שעתוק חיובי"
+  },
+  "many": {
+    "value": "הרבה"
+  },
+  "none": {
+    "value": "אף אחד"
+  },
+  "cells": {
+    "value": "תאים"
+  },
+  "transcribedRegion": {
+    "value": ""
+  },
+  "lots": {
+    "value": "הרבה"
+  },
+  "nextGene": {
+    "value": "הגן הבא"
+  },
+  "negativeTranscriptionFactorHtml": {
+    "value": ""
+  },
+  "gene-expression-essentials.title": {
+    "value": "ביטוי גנים - יסודות"
+  },
+  "gene": {
+    "value": "גן"
+  },
+  "affinity": {
+    "value": "אפיניות"
+  },
+  "imageCaption": {
+    "value": "מבתמונה רואים תאי אי קולי מבטאים חלבון פלורסנטי ירוק GFP. שימו לב שלמרות שהתאים זהים גנטית, הם מבטאים כמויות שונות של החלבון."
+  },
+  "proteinCountCaptionPart2": {
+    "value": "מתוך 3 חלבונים"
+  },
+  "rnaPolymerase": {
+    "value": "פולימראז RNA"
+  },
+  "proteinCountCaptionPart1": {
+    "value": ":יש לך"
+  },
+  "showRealCells": {
+    "value": "הצג תאים אמיתיים"
+  },
+  "high": {
+    "value": "גבוה"
+  },
+  "degradation": {
+    "value": "פירוק"
+  },
+  "collectionComplete": {
+    "value": "\"!האיסוף הושלם\""
+  },
+  "polymerase": {
+    "value": "פולימראז"
+  },
+  "fast": {
+    "value": "מהר"
+  },
+  "screen.multipleCells": {
+    "value": "תאים רבים"
+  }
+}

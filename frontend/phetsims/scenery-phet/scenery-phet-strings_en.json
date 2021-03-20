@@ -1,0 +1,73 @@
+{
+  "scenery-phet.title": {
+    "value": "scenery-phet demo"
+  },
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}"
+  },
+  "units_nm": {
+    "value": "nm"
+  },
+  "shortCircuit": {
+    "value": "Short circuit!"
+  },
+  "heat": {
+    "value": "Heat"
+  },
+  "cool": {
+    "value": "Cool"
+  },
+  "tab": {
+    "value": "Tab"
+  },
+  "shift": {
+    "value": "Shift"
+  },
+  "capsLock": {
+    "value": "Caps Lock"
+  },
+  "enter": {
+    "value": "Enter"
+  },
+  "esc": {
+    "value": "Esc"
+  },
+  "fn": {
+    "value": "Fn"
+  },
+  "pageUp": {
+    "value": "Page Up"
+  },
+  "pageDown": {
+    "value": "Page Down"
+  },
+  "home": {
+    "value": "Home"
+  },
+  "end": {
+    "value": "End"
+  },
+  "webglWarning.title": {
+    "value": "Running with low graphics quality"
+  },
+  "webglWarning.body": {
+    "value": "WebGL is not enabled or not available. Click to learn more."
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Sorry, a graphics error has occurred."
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Reload"
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "Update Internet Explorer by installing recommended Windows Update patches."
+  },
+  "ResetAllButton.name": {
+    "value": "Reset All",
+    "visible": false
+  },
+  "SoundToggleButton.name": {
+    "value": "Toggle Sound",
+    "visible": false
+  }
+}

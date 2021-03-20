@@ -1,0 +1,565 @@
+{
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1604052841829,
+        "oldValue": "",
+        "newValue": "Alt",
+        "explanation": null
+      }
+    ]
+  },
+  "key.enter": {
+    "value": "输入",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "输入",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563853876343,
+        "oldValue": "输入",
+        "newValue": "回车",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563854439001,
+        "oldValue": "回车",
+        "newValue": "输入",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "获取或者释放{{thing}}",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "获取或者释放{{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "获取或者释放{{thing}}",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "获取或者释放{{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1604052841829,
+        "oldValue": "",
+        "newValue": "K",
+        "explanation": null
+      }
+    ]
+  },
+  "key.l": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1604052841829,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "或者",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "或者",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Pg Dn",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "下一页",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "下一页",
+        "newValue": "Pg Dn",
+        "explanation": null
+      },
+      {
+        "userId": 293040,
+        "timestamp": 1597043468509,
+        "oldValue": "Pg Dn",
+        "newValue": "下一页",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1604051980929,
+        "oldValue": "下一页",
+        "newValue": "Pg Dn",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Pg Up",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "上一页",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "上一页",
+        "newValue": "Pg Up",
+        "explanation": null
+      },
+      {
+        "userId": 293040,
+        "timestamp": 1597043468509,
+        "oldValue": "Pg Up",
+        "newValue": "上一页",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1604051980929,
+        "oldValue": "上一页",
+        "newValue": "Pg Up",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Shift",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "移动",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "移动",
+        "newValue": "Shift",
+        "explanation": null
+      },
+      {
+        "userId": 293040,
+        "timestamp": 1597043468509,
+        "oldValue": "Shift",
+        "newValue": "移动",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1604051980929,
+        "oldValue": "移动",
+        "newValue": "Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "空格",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "空间",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "空间",
+        "newValue": "空格",
+        "explanation": null
+      },
+      {
+        "userId": 293040,
+        "timestamp": 1597043468509,
+        "oldValue": "空格",
+        "newValue": "空间",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1604051980929,
+        "oldValue": "空间",
+        "newValue": "空格",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tab",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "标签",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "标签",
+        "newValue": "Tab",
+        "explanation": null
+      },
+      {
+        "userId": 293040,
+        "timestamp": 1597043468509,
+        "oldValue": "Tab",
+        "newValue": "标签",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1604051980929,
+        "oldValue": "标签",
+        "newValue": "Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "重新加载",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1604051980929,
+        "oldValue": "",
+        "newValue": "重新加载",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "抱歉，发生了一个图形错误",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1604051980929,
+        "oldValue": "",
+        "newValue": "抱歉，发生了一个图形错误",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL未开启或不可用，点击获取更多信息",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1604051980929,
+        "oldValue": "",
+        "newValue": "WebGL未开启或不可用，点击获取更多信息",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "基本操作",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "基本操作",
+        "explanation": null
+      }
+    ]
+  },
+  "key.end": {
+    "value": "End",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "End",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "退出对话",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "退出对话",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Home",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "Home",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "移到组内物体",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "移到组内物体",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "下一个物体",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "下一个物体",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "下一个物体或组合",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "下一个物体或组合",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "上一个物体",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "上一个物体",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "上一个物体或组合",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "上一个物体或组合",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "按下按钮",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "按下按钮",
+        "explanation": null
+      }
+    ]
+  },
+  "rulerCapitalized": {
+    "value": "尺",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1573111198401,
+        "oldValue": "",
+        "newValue": "尺",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "尺",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1573111198401,
+        "oldValue": "",
+        "newValue": "尺",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "勾选框",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1573111198401,
+        "oldValue": "",
+        "newValue": "勾选框",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "正常",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "正常",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "慢速",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "慢速",
+        "explanation": null
+      }
+    ]
+  },
+  "NumberControl.pattern_0value_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1460192612883,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "冷",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1492503875859,
+        "oldValue": "",
+        "newValue": "冷",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "热",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1492503875859,
+        "oldValue": "",
+        "newValue": "热",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "捷径",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1458182268971,
+        "oldValue": "",
+        "newValue": "捷径",
+        "explanation": null
+      }
+    ]
+  }
+}

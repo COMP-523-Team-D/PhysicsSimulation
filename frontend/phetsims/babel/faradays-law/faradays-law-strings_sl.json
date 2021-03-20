@@ -1,0 +1,69 @@
+{
+  "faradays-law.n": {
+    "value": "S",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1458564073131,
+        "oldValue": "",
+        "newValue": "S",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.s": {
+    "value": "J",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1458564073131,
+        "oldValue": "",
+        "newValue": "J",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.showFieldLines": {
+    "value": "Magnetno polje",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1458564073131,
+        "oldValue": "",
+        "newValue": "Magnetno polje",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.title": {
+    "value": "Tuljava, Faradayev zakon ali indukcijski zakon",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1458564073131,
+        "oldValue": "",
+        "newValue": "Faradajev zakon",
+        "explanation": null
+      },
+      {
+        "userId": 157539,
+        "timestamp": 1471759885904,
+        "oldValue": "Faradajev zakon",
+        "newValue": "Tuljava, Faradayev zakon ali indukcijski zakon",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.voltage": {
+    "value": "Napetost",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1458564073131,
+        "oldValue": "",
+        "newValue": "Napetost",
+        "explanation": null
+      }
+    ]
+  }
+}

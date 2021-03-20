@@ -1,0 +1,582 @@
+{
+  "key.enter": {
+    "value": "Enter",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548848084798,
+        "oldValue": "",
+        "newValue": "Enter",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Szybko",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1608200855791,
+        "oldValue": "",
+        "newValue": "Szybko",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Chwyć lub uwolnij {{thing}}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548844116432,
+        "oldValue": "",
+        "newValue": "Chwyć lub zwolnij {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1567088018239,
+        "oldValue": "Chwyć lub zwolnij {{thing}}",
+        "newValue": "Chwyć lub uwolnij {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Chwyć lub uwolnij {{thing}}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548844116432,
+        "oldValue": "",
+        "newValue": "Chwyć lub zwolnij {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1567088018239,
+        "oldValue": "Chwyć lub zwolnij {{thing}}",
+        "newValue": "Chwyć lub uwolnij {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normalnie",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1537478959203,
+        "oldValue": "",
+        "newValue": "Normalnie",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "lub",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1544439754079,
+        "oldValue": "",
+        "newValue": "lub",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Pg Dn",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548848084798,
+        "oldValue": "",
+        "newValue": "Pg Dn",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Pg Up",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548848084798,
+        "oldValue": "",
+        "newValue": "Pg Up",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Shift",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548848084798,
+        "oldValue": "",
+        "newValue": "Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Wolno",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1537478959203,
+        "oldValue": "",
+        "newValue": "Wolno",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Spacja",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Spacja",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tab",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548848084798,
+        "oldValue": "",
+        "newValue": "Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548848084798,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548848084798,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Odśwież",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1602694959984,
+        "oldValue": "",
+        "newValue": "Odśwież",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "Działa z niską jakością grafiki",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1602695687557,
+        "oldValue": "",
+        "newValue": "Działa z niską jakością grafiki",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Przepraszamy, wystąpił błąd graficzny.",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1602694959984,
+        "oldValue": "",
+        "newValue": "Przepraszamy, wystąpił błąd graficzny.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "Zaktualizuj Internet Explorera, instalując zalecane poprawki Windows Update.",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1602695687557,
+        "oldValue": "",
+        "newValue": "Zaktualizuj Internet Explorera, instalując zalecane poprawki Windows Update.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL jest wyłączony lub niedostępny. Kliknij, aby dowiedzieć się więcej.",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1602694959984,
+        "oldValue": "",
+        "newValue": "WebGL jest wyłączony lub niedostępny. Kliknij, aby dowiedzieć się więcej.",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "Podstawowe działania",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Podstawowe działania",
+        "explanation": null
+      }
+    ]
+  },
+  "key.end": {
+    "value": "End",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "End",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Zamknij okno dialogowe",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Zamknij okno dialogowe",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Home",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Home",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Przechodź między pozycjami w grupie",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Przechodź między pozycjami w grupie",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Przejdź do następnej pozycji",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Przejdź do następnej pozycji",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Przejdź do następnej pozycji lub grupy",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Przejdź do następnej pozycji lub grupy",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Przejdź do poprzedniej pozycji",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Przejdź do poprzedniej pozycji",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Przejdź do poprzedniej pozycji lub grupy",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Przejdź do poprzedniej pozycji lub grupy",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Naciśnij przycisk",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1546007408162,
+        "oldValue": "",
+        "newValue": "Naciśnij przycisk",
+        "explanation": null
+      }
+    ]
+  },
+  "rulerCapitalized": {
+    "value": "Linijka",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1572194539961,
+        "oldValue": "",
+        "newValue": "Linijka",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "linijka",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1572194539961,
+        "oldValue": "",
+        "newValue": "linijka",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Przełącz pola wyboru",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1567088752340,
+        "oldValue": "",
+        "newValue": "Przełącz pola wyboru",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Długość fali",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1569520154715,
+        "oldValue": "",
+        "newValue": "Długość fali",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelengthNMValuePattern": {
+    "value": "{0} nm",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1569520154715,
+        "oldValue": "",
+        "newValue": "{0} nm",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "Przesuń w większych krokach",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1567087108857,
+        "oldValue": "",
+        "newValue": "Przesuń w większych krokach",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "Przesuń w mniejszych krokach",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1567087108857,
+        "oldValue": "",
+        "newValue": "Przesuń w mniejszych krokach",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "Przesuń suwak",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1567087108857,
+        "oldValue": "",
+        "newValue": "Przesuń suwak",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "Skocz do maksimum",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1567087108857,
+        "oldValue": "",
+        "newValue": "Skocz do maksimum",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "Skocz do minimum",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1567087108857,
+        "oldValue": "",
+        "newValue": "Skocz do minimum",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Sterowanie suwakiem",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1567087108857,
+        "oldValue": "",
+        "newValue": "Sterowanie suwakiem",
+        "explanation": null
+      }
+    ]
+  },
+  "key.toGrabOrRelease": {
+    "value": "żeby <b>chwycić</b> lub <b>uwolnić</b>",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1567088018239,
+        "oldValue": "",
+        "newValue": "żeby <b>chwycić</b> lub <b>uwolnić</b>",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.generalNavigation": {
+    "value": "Ogólna nawigacja",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1567084065725,
+        "oldValue": "",
+        "newValue": "Ogólna nawigacja",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyUnitsPattern": {
+    "value": "{{frequency}} THz",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548973992999,
+        "oldValue": "",
+        "newValue": "{{frequency}} THz",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "zimno",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1482323682097,
+        "oldValue": "",
+        "newValue": "oziębianie",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1548969801811,
+        "oldValue": "oziębianie",
+        "newValue": "zimno",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "ciepło",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1482323682097,
+        "oldValue": "",
+        "newValue": "ogrzewanie",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1548969801812,
+        "oldValue": "ogrzewanie",
+        "newValue": "ciepło",
+        "explanation": null
+      }
+    ]
+  }
+}

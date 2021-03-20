@@ -1,0 +1,26 @@
+{
+  "units_nm": {
+    "value": "нм",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1457021833363,
+        "oldValue": "",
+        "newValue": "нм",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ом",
+    "history": [
+      {
+        "userId": 287020,
+        "timestamp": 1466010791327,
+        "oldValue": "",
+        "newValue": "Ом",
+        "explanation": null
+      }
+    ]
+  }
+}

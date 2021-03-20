@@ -1,0 +1,50 @@
+{
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457799744570,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457799744569,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Samahani, kosa cha graphics kimetokea",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Samahani, kosa cha graphics kimetokea",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Reloadi",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Reloadi",
+        "explanation": null
+      }
+    ]
+  }
+}

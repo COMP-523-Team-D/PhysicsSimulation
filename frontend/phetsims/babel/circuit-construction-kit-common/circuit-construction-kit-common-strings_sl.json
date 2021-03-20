@@ -1,0 +1,460 @@
+{
+  "ammeter": {
+    "value": "Ampermeter",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Ampermeter",
+        "explanation": null
+      }
+    ]
+  },
+  "ammeters": {
+    "value": "Ampermetri",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Ampermetri",
+        "explanation": null
+      }
+    ]
+  },
+  "battery": {
+    "value": "Baterija",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Baterija",
+        "explanation": null
+      }
+    ]
+  },
+  "batteryResistance": {
+    "value": "Upor baterije",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Upor baterije",
+        "explanation": null
+      }
+    ]
+  },
+  "coin": {
+    "value": "Kovanec",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Kovanec",
+        "explanation": null
+      }
+    ]
+  },
+  "conventional": {
+    "value": "Smer električnega toka",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Smer električnega toka",
+        "explanation": null
+      }
+    ]
+  },
+  "current": {
+    "value": "Električni tok",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Električni tok",
+        "explanation": null
+      }
+    ]
+  },
+  "dog": {
+    "value": "Pes",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Pes",
+        "explanation": null
+      }
+    ]
+  },
+  "dollarBill": {
+    "value": "Bankovec",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Bankovec",
+        "explanation": null
+      }
+    ]
+  },
+  "electrons": {
+    "value": "Smer gibanja elektronov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Smer gibanja elektronov",
+        "explanation": null
+      }
+    ]
+  },
+  "eraser": {
+    "value": "Radirka",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Radirka",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Frekvenca",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1577631334439,
+        "oldValue": "",
+        "newValue": "Frekvenca",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Varovalka",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1577631334440,
+        "oldValue": "",
+        "newValue": "Varovalka",
+        "explanation": null
+      }
+    ]
+  },
+  "hand": {
+    "value": "Roka",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Roka",
+        "explanation": null
+      }
+    ]
+  },
+  "labels": {
+    "value": "Imena",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509474765684,
+        "oldValue": "",
+        "newValue": "Imena",
+        "explanation": null
+      }
+    ]
+  },
+  "lightBulb": {
+    "value": "Žarnica",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Žarnica",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "veliko",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "veliko",
+        "explanation": null
+      }
+    ]
+  },
+  "paperClip": {
+    "value": "Sponka za papir",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Sponka za papir",
+        "explanation": null
+      }
+    ]
+  },
+  "pencil": {
+    "value": "Svinčnik",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Svinčnik",
+        "explanation": null
+      }
+    ]
+  },
+  "resistance": {
+    "value": "Upor",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Upornost",
+        "explanation": null
+      },
+      {
+        "userId": 157539,
+        "timestamp": 1548405319871,
+        "oldValue": "Upornost",
+        "newValue": "Upor",
+        "explanation": null
+      }
+    ]
+  },
+  "resistor": {
+    "value": "Upor",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Upor",
+        "explanation": null
+      }
+    ]
+  },
+  "showCurrent": {
+    "value": "Prikaži električni tok",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Prikaži električni tok",
+        "explanation": null
+      }
+    ]
+  },
+  "switch": {
+    "value": "Stikalo",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Stikalo",
+        "explanation": null
+      }
+    ]
+  },
+  "tapCircuitElementToEdit": {
+    "value": "Klikni na element za ureditev elementa.",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Klikni na element za ureditev elementa.",
+        "explanation": null
+      }
+    ]
+  },
+  "theSwitchIsClosed": {
+    "value": "Stikalo izklopljeno",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Stikalo izklopljeno",
+        "explanation": null
+      }
+    ]
+  },
+  "theSwitchIsOpen": {
+    "value": "Stikalo vklopljeno",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Stikalo vklopljeno",
+        "explanation": null
+      }
+    ]
+  },
+  "time": {
+    "value": "Čas",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1577631334440,
+        "oldValue": "",
+        "newValue": "Čas",
+        "explanation": null
+      }
+    ]
+  },
+  "tiny": {
+    "value": "malo",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509474765685,
+        "oldValue": "",
+        "newValue": "malo",
+        "explanation": null
+      }
+    ]
+  },
+  "values": {
+    "value": "Vrednosti",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Vrednosti",
+        "explanation": null
+      }
+    ]
+  },
+  "voltage": {
+    "value": "Napetost",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Napetost",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageChart": {
+    "value": "Graf napetosti",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1577631334440,
+        "oldValue": "",
+        "newValue": "Graf napetosti",
+        "explanation": null
+      }
+    ]
+  },
+  "voltmeter": {
+    "value": "Voltmeter",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Voltmeter",
+        "explanation": null
+      }
+    ]
+  },
+  "wire": {
+    "value": "Vodnik (žica)",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Žica",
+        "explanation": null
+      },
+      {
+        "userId": 157539,
+        "timestamp": 1548405319871,
+        "oldValue": "Žica",
+        "newValue": "Vodnik (žica)",
+        "explanation": null
+      }
+    ]
+  },
+  "wireResistivity": {
+    "value": "Upor žice",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "Upor žice",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohmov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohmov",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} ohmov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohmov",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} voltov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "{{voltage}} voltov",
+        "explanation": null
+      }
+    ]
+  }
+}

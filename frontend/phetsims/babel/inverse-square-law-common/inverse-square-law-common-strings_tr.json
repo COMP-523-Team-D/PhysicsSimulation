@@ -1,0 +1,38 @@
+{
+  "forceOnObjectByOtherObjectPattern": {
+    "value": "{{otherObject}} 'nin {{thisObject}} Uyguladığı Kuvvet",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579760524291,
+        "oldValue": "",
+        "newValue": "{{otherObject}} 'nin {{thisObject}} Uyguladığı Kuvvet",
+        "explanation": null
+      }
+    ]
+  },
+  "forceOnObjectByOtherObjectWithUnitsPattern": {
+    "value": "{{otherObject}} 'nin {{thisObject}} Uyguladığı Kuvvet = {{value}} N",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579679061023,
+        "oldValue": "",
+        "newValue": "{{otherObject}} 'nin {{thisObject}} Uyguladığı Kuvvet = {{value}} N",
+        "explanation": null
+      }
+    ]
+  },
+  "forceValues": {
+    "value": "Kuvvet Değerleri",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579679061023,
+        "oldValue": "",
+        "newValue": "Kuvvet Değerleri",
+        "explanation": null
+      }
+    ]
+  }
+}

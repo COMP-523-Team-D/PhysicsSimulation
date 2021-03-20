@@ -1,0 +1,130 @@
+{
+  "key.enter": {
+    "value": "Սկսել",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "սկսել"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438250,
+        "oldValue": "սկսել",
+        "newValue": "Սկսել"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Բռնել կամ բաց թողել {{thing}}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "բռնել կամ բաց թողել {{thing}}"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438250,
+        "oldValue": "բռնել կամ բաց թողել {{thing}}",
+        "newValue": "Բռնել կամ բաց թողել {{thing}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Բռնել կամ բաց թողել {{thing}}",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "բռնել կամ բաց թողել {{thing}}"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1613026438250,
+        "oldValue": "բռնել կամ բաց թողել {{thing}}",
+        "newValue": "Բռնել կամ բաց թողել {{thing}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "կամ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "կամ"
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "ներքև",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "ներքև"
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "վերև",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "վերև"
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Shift",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Shift"
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Տարածություն",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Տարածություն"
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "ρ"
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1612957921409,
+        "oldValue": "",
+        "newValue": "Ω"
+      }
+    ]
+  }
+}

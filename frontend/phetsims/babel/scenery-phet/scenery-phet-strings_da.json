@@ -1,0 +1,738 @@
+{
+  "keyboardHelpDialog.hyphen": {
+    "value": "- ",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1612502397695,
+        "oldValue": "",
+        "newValue": "- "
+      }
+    ]
+  },
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1599585255911,
+        "oldValue": "",
+        "newValue": "Alt",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "Basale handlinger",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Basale handlinger",
+        "explanation": null
+      }
+    ]
+  },
+  "key.capsLock": {
+    "value": "Caps lock",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1612502397695,
+        "oldValue": "",
+        "newValue": "Caps lock"
+      }
+    ]
+  },
+  "key.end": {
+    "value": "Slut",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Slut",
+        "explanation": null
+      }
+    ]
+  },
+  "key.enter": {
+    "value": "Enter",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Enter",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Slut en dialog",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Slut en dialog",
+        "explanation": null
+      }
+    ]
+  },
+  "key.fn": {
+    "value": "fn",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1612502397695,
+        "oldValue": "",
+        "newValue": "Fn"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "Fn",
+        "newValue": "fn"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Tag fat eller slip {{thing}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Tag fat eller løsne {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1544338437588,
+        "oldValue": "Tag fat eller løsne {{thing}}",
+        "newValue": "Tag fat eller slip {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Tag fat eller slip {{thing}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Tag fat eller løsne {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1544338437588,
+        "oldValue": "Tag fat eller løsne {{thing}}",
+        "newValue": "Tag fat eller slip {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Tilbage",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Tilbage",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Flyt mellem emner i en gruppe",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Flyt mellem emner i en gruppe",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Flyt til næste emne eller gruppe",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Flyt til næste emne eller gruppe",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Flyt til tidligere emne eller gruppe",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Flyt til tidligere emne eller gruppe",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "eller",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "eller",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Side ned",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Side ned",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Side op",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Side op",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Tryk knapper",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497133,
+        "oldValue": "",
+        "newValue": "Tryk knapper",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Skift",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Skift",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Mellemrum",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Mellemrum",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tab",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Skift afkrydsningsfelter",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1572107956465,
+        "oldValue": "",
+        "newValue": "Skift afkrydsningsfelter",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1548795428617,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1548795428617,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1568053796117,
+        "oldValue": "Ω",
+        "newValue": "Ω",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1568405502026,
+        "oldValue": "Ω",
+        "newValue": "Ω",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1580328750535,
+        "oldValue": "Ω",
+        "newValue": "Ω",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1580331734570,
+        "oldValue": "Ω",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Bølgelængde",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1608877036309,
+        "oldValue": "",
+        "newValue": "Bølgelængde",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelengthNMValuePattern": {
+    "value": "{0} nm",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1608877036309,
+        "oldValue": "",
+        "newValue": "{0} nm",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Hurtig",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1604257575714,
+        "oldValue": "",
+        "newValue": "Hurtig",
+        "explanation": null
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1599585255911,
+        "oldValue": "",
+        "newValue": "K",
+        "explanation": null
+      }
+    ]
+  },
+  "key.l": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1599585255911,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1537424158530,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Langsom",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1537424158530,
+        "oldValue": "",
+        "newValue": "Langsom",
+        "explanation": null
+      }
+    ]
+  },
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}}{{units}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1608124086293,
+        "oldValue": "",
+        "newValue": "{{distance}}{{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}}{{units}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1608124086293,
+        "oldValue": "",
+        "newValue": "{{value}}{{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Køling",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1482343533309,
+        "oldValue": "",
+        "newValue": "Køling",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Varme",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1482343533309,
+        "oldValue": "",
+        "newValue": "Varme",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.generalNavigation": {
+    "value": "Generel navigation",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1601090860612,
+        "oldValue": "",
+        "newValue": "Generel navigation",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Flyt til næste emne",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Flyt til næste emne",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Flyt til tidligere emne",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1545970497132,
+        "oldValue": "",
+        "newValue": "Flyt til tidligere emne",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Genstart",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1456834267201,
+        "oldValue": "",
+        "newValue": "Genstart",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "Kører med lav grafisk kvalitet",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1599233176553,
+        "oldValue": "",
+        "newValue": "Kører med lav grafisk kvalitet",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Beklager, en grafikfejl er opstået",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1456834267201,
+        "oldValue": "",
+        "newValue": "Beklager, en grafikfejl er opstået",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "Opdater Internet Explorer ved at installere de anbefalede Windows Update patches.",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1599233176553,
+        "oldValue": "",
+        "newValue": "Opdater Internet Explorer ved at installere de anbefalede Windows Update patches.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL er ikke tilsluttet eller ikke tilgængelig. Klik for at lære mere.",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1599233176553,
+        "oldValue": "",
+        "newValue": "WebGL er ikke tilsluttet eller ikke tilgængelig. Klik for at lære mere.",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "Kortslutning!",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1599199133787,
+        "oldValue": "",
+        "newValue": "Kortslutning!",
+        "explanation": null
+      }
+    ]
+  },
+  "rulerCapitalized": {
+    "value": "Lineal",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1572073512144,
+        "oldValue": "",
+        "newValue": "Lineal",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "Lineal",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1572073512144,
+        "oldValue": "",
+        "newValue": "Lineal",
+        "explanation": null
+      }
+    ]
+  },
+  "key.toGrabOrRelease": {
+    "value": "for at <b>Gribe</b>eller<b>Løsne</b>",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1583528641127,
+        "oldValue": "",
+        "newValue": "For at <b>Gribe</b>eller<b>Løsne</b>",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1583529056711,
+        "oldValue": "For at <b>Gribe</b>eller<b>Løsne</b>",
+        "newValue": "for at <b>Gribe</b>eller<b>Løsne</b>",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "Juster i større trin",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1568427576690,
+        "oldValue": "",
+        "newValue": "Juster i større trin",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "Juster i mindre trin",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1568427576690,
+        "oldValue": "",
+        "newValue": "Juster i mindre trin",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "Juster skydeknap",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1568427576691,
+        "oldValue": "",
+        "newValue": "Juster skydeknap",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "Spring til maksimum",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1568427576691,
+        "oldValue": "",
+        "newValue": "Spring til maksimum",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "Spring til minimum",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1568427576691,
+        "oldValue": "",
+        "newValue": "Spring til minimum",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Skydeknapper",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1568427576691,
+        "oldValue": "",
+        "newValue": "Skydeknapper",
+        "explanation": null
+      }
+    ]
+  },
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565688289816,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyUnitsPattern": {
+    "value": "{{frequency}} THz",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1548904167002,
+        "oldValue": "",
+        "newValue": "{{frequency}} THz",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1461437144355,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  }
+}

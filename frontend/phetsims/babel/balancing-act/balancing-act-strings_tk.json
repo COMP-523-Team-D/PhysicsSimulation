@@ -1,0 +1,47 @@
+{
+  "balanceLab": {
+    "value": "Balans Laboratoriýasy"
+  },
+  "level": {
+    "value": "Dereje"
+  },
+  "people": {
+    "value": "Adamlar"
+  },
+  "forcesFromObjects": {
+    "value": "Obýektlerden döreýän güýçler"
+  },
+  "meters": {
+    "value": "Metrlar"
+  },
+  "mysteryObjects": {
+    "value": "Syrly obýekt"
+  },
+  "rulers": {
+    "value": "Lineýkalar"
+  },
+  "massLabels": {
+    "value": "Massa belligi"
+  },
+  "whatIsTheMass": {
+    "value": "Massa näçe?"
+  },
+  "bricks": {
+    "value": "Kerpiç"
+  },
+  "balancing-act.title": {
+    "value": "Deňagramlyk işi"
+  },
+  "intro": {
+    "value": "Giriş"
+  },
+  "show": {
+    "value": "Görkez"
+  },
+  "game": {
+    "value": "Oýun"
+  },
+  "balanceMe": {
+    "value": "Meni deňagramly et!"
+  }
+}

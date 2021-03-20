@@ -1,0 +1,746 @@
+{
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1613405555033,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "Alt",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "Điều khiển cơ bản",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Tác dụng cơ bản",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Tác dụng cơ bản",
+        "newValue": "Điều khiển cơ bản",
+        "explanation": null
+      }
+    ]
+  },
+  "key.capsLock": {
+    "value": "Caps Lock",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1613405555033,
+        "oldValue": "",
+        "newValue": "Caps Lock"
+      }
+    ]
+  },
+  "key.end": {
+    "value": "End",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Hết",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "Hết",
+        "newValue": "End",
+        "explanation": null
+      }
+    ]
+  },
+  "key.enter": {
+    "value": "Enter",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Enter",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Thoát khỏi dialog",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Thoát khỏi dialog",
+        "explanation": null
+      }
+    ]
+  },
+  "key.fn": {
+    "value": "Fn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1613405555033,
+        "oldValue": "",
+        "newValue": "Fn"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Giữ hay buông {{thing}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Cầm hay buông {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "Cầm hay buông {{thing}}",
+        "newValue": "Giữ hay buông {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Giữ hay buông {{thing}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Cầm hay buông {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "Cầm hay buông {{thing}}",
+        "newValue": "Giữ hay buông {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Home",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Home",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Di chuyển giữa các đối tượng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Di chuyển giữa các đề mục",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Di chuyển giữa các đề mục",
+        "newValue": "Di chuyển giữa các đối tượng",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Chuyển tới đối tượng/nhóm kế tiếp",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Chuyển tới mục/nhóm kế tiếp",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Chuyển tới mục/nhóm kế tiếp",
+        "newValue": "Chuyển tới đối tượng/nhóm kế tiếp",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Chuyển tới đối tượng/nhóm trước đó",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Chuyển tới mục/nhóm trước đó",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Chuyển tới mục/nhóm trước đó",
+        "newValue": "Chuyển tới đối tượng/nhóm trước đó",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "hay",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "hay",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Pg Down",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Pg Down",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Pg Up",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Pg Up",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Bấm phím",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Bấm phím",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Shift",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Space",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Space",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tab",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Thay đổi dấu chọn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1573023036881,
+        "oldValue": "",
+        "newValue": "Thay đổi dấu chọn",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548861277475,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548861277475,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Nhanh",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599899075616,
+        "oldValue": "",
+        "newValue": "Nhanh",
+        "explanation": null
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "K",
+        "explanation": null
+      }
+    ]
+  },
+  "key.l": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Bình thường",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1538195277016,
+        "oldValue": "",
+        "newValue": "Bình thường",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Chậm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1538195277016,
+        "oldValue": "",
+        "newValue": "Chậm",
+        "explanation": null
+      }
+    ]
+  },
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1608337506160,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1608337506160,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.generalNavigation": {
+    "value": "Điều khiển tổng quát",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599900753970,
+        "oldValue": "",
+        "newValue": "Điều khiển tổng quát",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Chuyển tới đối tượng kế tiếp",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Chuyển tới mục kế tiếp",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Chuyển tới mục kế tiếp",
+        "newValue": "Chuyển tới đối tượng kế tiếp",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Chuyển tới đối tượng trước đó",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Chuyển tới mục trước đó",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Chuyển tới mục trước đó",
+        "newValue": "Chuyển tới đối tượng trước đó",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "Điều chỉnh từng phần lớn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599899695530,
+        "oldValue": "",
+        "newValue": "Điều chỉnh từng phần lớn",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "Điều chỉnh từng phần nhỏ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599899695530,
+        "oldValue": "",
+        "newValue": "Điều chỉnh từng phần nhỏ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "Điều chỉnh con chạy",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599899695530,
+        "oldValue": "",
+        "newValue": "Điều chỉnh con chạy",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "Nhảy tới trị cực đại",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599899695530,
+        "oldValue": "",
+        "newValue": "Nhảy tới trị cực đại",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "Nhảy tới trị cực tiểu",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599899695530,
+        "oldValue": "",
+        "newValue": "Nhảy tới trị cực tiểu",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Điều khiển con chạy",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599899695530,
+        "oldValue": "",
+        "newValue": "Điều khiển con chạy",
+        "explanation": null
+      }
+    ]
+  },
+  "rulerCapitalized": {
+    "value": "Thước",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1573023036881,
+        "oldValue": "",
+        "newValue": "Thước",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "Thước",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1573023036881,
+        "oldValue": "",
+        "newValue": "Thước",
+        "explanation": null
+      }
+    ]
+  },
+  "key.toGrabOrRelease": {
+    "value": "<b>Giữ</b>hay<b>Thả</b>",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "",
+        "newValue": "<b>Giữ</b>hay<b>Thả</b>",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Bước sóng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319670,
+        "oldValue": "",
+        "newValue": "Bước sóng",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelengthNMValuePattern": {
+    "value": "{0} nm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319670,
+        "oldValue": "",
+        "newValue": "{0} nm",
+        "explanation": null
+      }
+    ]
+  },
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1565875173135,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyUnitsPattern": {
+    "value": "{{frequency}} THz",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "{{frequency}} THz",
+        "explanation": null
+      }
+    ]
+  },
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1457431246066,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Mát",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1482332470967,
+        "oldValue": "",
+        "newValue": "Mát",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Nóng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1482332470967,
+        "oldValue": "",
+        "newValue": "Nóng",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1457431246066,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL chưa được kích hoạt hoặc không có. Click để có thêm thông tin.",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1464285979557,
+        "oldValue": "",
+        "newValue": "WebGL chưa được kích hoạt hoặc không có. Click để có thêm thông tin.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Xin lỗi, đã có lỗi đồ hoạ.",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1456928684402,
+        "oldValue": "",
+        "newValue": "Xin lỗi, đã có lỗi đồ hoạ.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Nạp lại",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1456928684402,
+        "oldValue": "",
+        "newValue": "Nạp lại",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "Cập nhật IE bằng cách cài đặt các bản cập nhật Windows được đề nghị.",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1464285979557,
+        "oldValue": "",
+        "newValue": "Cập nhật IE bằng cách cài đặt các bản cập nhật Windows được đề nghị.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "Chạy chương trình ở độ phân giải thấp.",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1464285979557,
+        "oldValue": "",
+        "newValue": "Chạy chương trình ở độ phân giải thấp.",
+        "explanation": null
+      }
+    ]
+  }
+}

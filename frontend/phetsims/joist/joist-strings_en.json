@@ -1,0 +1,127 @@
+{
+  "joist.title": {
+    "value": "joist demo"
+  },
+  "done": {
+    "value": "Done"
+  },
+  "PhetButton.name": {
+    "value": "PhET Menu Button",
+    "visible": false
+  },
+  "menuItem.options": {
+    "value": "Options\u2026"
+  },
+  "menuItem.about": {
+    "value": "About\u2026"
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "Mail Input Events Log"
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Output Input Events Log"
+  },
+  "menuItem.outputLog": {
+    "value": "Output Log"
+  },
+  "menuItem.phetWebsite": {
+    "value": "PhET Website\u2026"
+  },
+  "menuItem.reportAProblem": {
+    "value": "Report a Problem\u2026"
+  },
+  "menuItem.screenshot": {
+    "value": "Screenshot"
+  },
+  "menuItem.fullscreen": {
+    "value": "Full Screen"
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Submit Input Events Log"
+  },
+  "menuItem.getUpdate": {
+    "value": "Check for Updates\u2026"
+  },
+  "title.settings": {
+    "value": "Settings"
+  },
+  "showPointers": {
+    "value": "Show Pointers"
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Terms, Privacy & Licensing"
+  },
+  "credits.title": {
+    "value": "Credits"
+  },
+  "credits.leadDesign": {
+    "value": "Lead Design: {0}"
+  },
+  "credits.softwareDevelopment": {
+    "value": "Software Development: {0}"
+  },
+  "credits.team": {
+    "value": "Team: {0}"
+  },
+  "credits.contributors": {
+    "value": "Contributors: {0}"
+  },
+  "credits.qualityAssurance": {
+    "value": "Quality Assurance: {0}"
+  },
+  "credits.graphicArts": {
+    "value": "Graphic Arts: {0}"
+  },
+  "credits.translation": {
+    "value": "Translation"
+  },
+  "credits.thanks": {
+    "value": "Thanks"
+  },
+  "options.title": {
+    "value": "Options"
+  },
+  "versionPattern": {
+    "value": "version {0}"
+  },
+  "updates.upToDate": {
+    "value": "This simulation is up to date."
+  },
+  "updates.outOfDate": {
+    "value": "New version available"
+  },
+  "updates.checking": {
+    "value": "Checking for updates\u2026"
+  },
+  "updates.offline": {
+    "value": "Unable to check for updates."
+  },
+  "updates.newVersionAvailable": {
+    "value": "There is a new version available: {0}."
+  },
+  "updates.yourCurrentVersion": {
+    "value": "Your current version is: {0}."
+  },
+  "updates.getUpdate": {
+    "value": "Get Update\u2026"
+  },
+  "updates.noThanks": {
+    "value": "No Thanks"
+  },
+  "translation.credits.link": {
+    "value": "Translation Credits"
+  },
+  "thirdParty.credits.link": {
+    "value": "Third-party Credits"
+  },
+  "HomeButton.name": {
+    "value": "Home",
+    "visible": false
+  },
+  "keyboardShortcuts.title": {
+    "value": "Keyboard Shortcuts"
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} \u2014 {{screenName}}"
+  }
+}

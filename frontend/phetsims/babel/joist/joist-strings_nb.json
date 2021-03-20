@@ -1,0 +1,909 @@
+{
+  "menuItem.about": {
+    "value": "Om..",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Om",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1570377983201,
+        "oldValue": "Om",
+        "newValue": "Om..",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1570694393257,
+        "oldValue": "Om..",
+        "newValue": "Om",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1584882289205,
+        "oldValue": "Om",
+        "newValue": "Om..",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "Se etter oppdateringer",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Se etter oppdateringer",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "Ser etter oppdateringer",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Ser etter oppdateringer",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Bidragsytere: {0}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1505368805540,
+        "oldValue": "",
+        "newValue": "Bidragsytere: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "Krediteringer",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Krediteringer",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1534586748574,
+        "oldValue": "Krediteringer",
+        "newValue": "Bidragsytere",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1539692358458,
+        "oldValue": "Bidragsytere",
+        "newValue": "Krediteringer",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "Forbedret lyd",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1546519873452,
+        "oldValue": "",
+        "newValue": "Forsterket fyd",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1584897969773,
+        "oldValue": "Forsterket fyd",
+        "newValue": "Forbedret lyd",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "Fullskjerm",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Fullskjerm",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "Hent oppdatering",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Hent oppdatering",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "Grafikk: {0}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Grafikk: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "Feil i spørsmålet",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584897969773,
+        "oldValue": "",
+        "newValue": "Feil i spørsmålet",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Tastatursnarveier",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1505368805540,
+        "oldValue": "",
+        "newValue": "Tastatursnarveier",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "Design: {0}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Design: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "Send inndata-logg",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Send inndata-logg",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "Ny versjon tilgjengelig",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Ny versjon tilgjengelig",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "Nei takk",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Nei takk",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "En eller flere feil i spørsmålet",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584897969773,
+        "oldValue": "",
+        "newValue": "En eller flere feil i spørsmålet",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Alternativer",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Alternativer",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Alternativer...",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Alternativer...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Logg for Ut/-inn-data",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Logg for Ut/-inn-data",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "PhET Nettsted",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "PhET Nettsted",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "Kvalitetssikret: {0}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Kvalitetssikret: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "Rapporter problem...",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Rapporter problem...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "Skjermbilde",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Skjermbilde",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "Utvikler: {0}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Utvikler: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Lyddesign: {0}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1546519873452,
+        "oldValue": "",
+        "newValue": "Lyddesign: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Send hendelseslogg",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Send hendelseslogg",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "Gruppe: {0}.",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Gruppe: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Betingelser og lisens",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Betingelser og lisens",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "Takk",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Takk",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1534586748574,
+        "oldValue": "Takk",
+        "newValue": "Takk ",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1539692358458,
+        "oldValue": "Takk ",
+        "newValue": "Takk",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "Simuleringen vil starte med standardverdier<br>for parameterne i spørsmålet.",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584897969774,
+        "oldValue": "",
+        "newValue": "Simuleringen vil starte med standardverdier for parameterne i spørsmålet.",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1609149691118,
+        "oldValue": "Simuleringen vil starte med standardverdier for parameterne i spørsmålet.",
+        "newValue": "Simuleringen vil starte med standardverdier<br>for parameterne i spørsmålet.",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "Ny versjon er tilgjengelig: {0}.",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Ny versjon er tilgjengelig: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "Tredjehånds kreditering",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Tredjehånds kreditering",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1534586748574,
+        "oldValue": "Tredjehånds kreditering",
+        "newValue": "Takk til",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1539692358458,
+        "oldValue": "Takk til",
+        "newValue": "Tredjehånds kreditering",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "Simuleringen er oppdatert",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Simuleringen er oppdatert",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "for å starte",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1546519873452,
+        "oldValue": "",
+        "newValue": "for å starte",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Oversettelse",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Oversettelse",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "Kreditering for oversettelse",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Kreditering for oversettelse",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1534586748574,
+        "oldValue": "Kreditering for oversettelse",
+        "newValue": "Oversetter",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1539692358458,
+        "oldValue": "Oversetter",
+        "newValue": "Kreditering for oversettelse",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "Greier ikke å se etter oppdateringer.",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Greier ikke å se etter oppdateringer.",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "versjon {0}.",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "versjon {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "Din nåværende versjon er: {0}.",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Din nåværende versjon er: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1511122080566,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Prosjektormodus",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1475905799936,
+        "oldValue": "",
+        "newValue": "Prosjektormodus",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Ferdig",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Ferdig",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Innstillinger",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Innstillinger",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Vis pekere",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Vis",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1452805226115,
+        "oldValue": "Vis",
+        "newValue": "Vis pekere",
+        "explanation": null
+      }
+    ]
+  },
+  "adaptedFrom": {
+    "value": "hentet\r\nfra",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "hentet\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1483136657033,
+        "oldValue": "hentet\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1502824589910,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1502825386847,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1502825727402,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1505368805540,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1505415985962,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1506935548940,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1507013035320,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1507033057396,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1507033365330,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1509399462120,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1509426447327,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1509610988034,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1509611623418,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1509611943754,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1509815042783,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1509815295892,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1511122080567,
+        "oldValue": "hentet\r\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1529427614079,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1529427618049,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1529427619814,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1533834866890,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1534586748574,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1539692358458,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1546519298628,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1546519873452,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1547461931584,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1548968684989,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1567759689709,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1567761622658,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1569919830352,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1569922235789,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1570377983201,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1570694393257,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1570694399435,
+        "oldValue": "hentet\r\\nfra",
+        "newValue": "hentet\r\nfra",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.settings": {
+    "value": "Innstillinger...",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Innstillinger...",
+        "explanation": null
+      }
+    ]
+  },
+  "titlePattern": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  }
+}

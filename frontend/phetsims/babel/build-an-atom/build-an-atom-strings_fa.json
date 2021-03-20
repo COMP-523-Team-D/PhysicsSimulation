@@ -1,0 +1,74 @@
+{
+  "ion": {
+    "value": "یون"
+  },
+  "stableSlashUnstable": {
+    "value": "پایدار/ ناپایدار را نشان بده"
+  },
+  "symbol": {
+    "value": "نماد"
+  },
+  "findTheElement": {
+    "value": "عنصر را پیدا کن"
+  },
+  "massNumber": {
+    "value": "عدد جرمی"
+  },
+  "atom": {
+    "value": "ساخت اتم"
+  },
+  "netCharge": {
+    "value": "بار خالص"
+  },
+  "element": {
+    "value": "عنصر"
+  },
+  "orbits": {
+    "value": "مداری"
+  },
+  "model": {
+    "value": ": مدل"
+  },
+  "whatIsTheMassNumber": {
+    "value": " عدد جرمی چقدر است؟"
+  },
+  "build-an-atom.title": {
+    "value": "اتم بسازید"
+  },
+  "whatIsTheTotalCharge": {
+    "value": "بار کل چقدر است؟"
+  },
+  "electronsColon": {
+    "value": ": الکترون ها"
+  },
+  "game": {
+    "value": "بازی"
+  },
+  "neutralAtom": {
+    "value": "اتم خنثی"
+  },
+  "neutralSlashIon": {
+    "value": " خنثی / یون را نشان بده"
+  },
+  "neutrons": {
+    "value": "نوترون ها"
+  },
+  "protonsColon": {
+    "value": ": پروتون ها"
+  },
+  "cloud": {
+    "value": "ابرالکترونی"
+  },
+  "neutronsColon": {
+    "value": ": نوترون ها"
+  },
+  "electrons": {
+    "value": "الکترون ها"
+  },
+  "isIt": {
+    "value": ":این عنصر"
+  },
+  "protons": {
+    "value": "پروتون ها"
+  }
+}

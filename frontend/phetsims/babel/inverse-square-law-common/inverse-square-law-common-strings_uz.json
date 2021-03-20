@@ -1,0 +1,57 @@
+{
+  "forceValues": {
+    "value": "Kuchlarning qiymati",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615368792843,
+        "oldValue": "",
+        "newValue": "Kuchlarning qiymati"
+      }
+    ]
+  },
+  "units.meter": {
+    "value": "metr",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615372777954,
+        "oldValue": "",
+        "newValue": "metr"
+      }
+    ]
+  },
+  "units.meters": {
+    "value": "metr",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615372777954,
+        "oldValue": "",
+        "newValue": "metr"
+      }
+    ]
+  },
+  "units.newtons": {
+    "value": "nyuton",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615372777954,
+        "oldValue": "",
+        "newValue": "nyuton"
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615368792843,
+        "oldValue": "",
+        "newValue": "cm"
+      }
+    ]
+  }
+}

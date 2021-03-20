@@ -1,0 +1,586 @@
+{
+  "menuItem.about": {
+    "value": "గురించి ...",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "గురించి ...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "అప్డేట్ల కోసం తనిఖీ చేయండి ...",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "అప్డేట్ల కోసం తనిఖీ చేస్తోంది ",
+        "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1596542204136,
+        "oldValue": "అప్డేట్ల కోసం తనిఖీ చేస్తోంది ",
+        "newValue": "అప్డేట్ల కోసం తనిఖీ చేయండి ...",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "అప్డేట్ల కోసం తనిఖీ చేస్తోంది ...",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "అప్డేట్ల కోసం తనిఖీ చేస్తోంది ...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Contributors: {0}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1593451393605,
+        "oldValue": "",
+        "newValue": "Contributors: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "క్రెడిట్స్",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "క్రెడిట్స్",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "మెరుగైన ధ్వని",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1592415283954,
+        "oldValue": "",
+        "newValue": "మెరుగైన ధ్వని",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "పూర్తి స్క్రీన్",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "పూర్తి స్క్రీన్",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "నవీకరణ పొందండి ...",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "నవీకరణ పొందండి ...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "గ్రాఫిక్ ఆర్ట్స్ : {0}",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "గ్రాఫిక్ ఆర్ట్స్ : {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "కీబోర్డ్ చిట్కాలు",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1591815906874,
+        "oldValue": "",
+        "newValue": "కీబోర్డ్ చిట్కాలు",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "లీడ్ డిజైన్: {0}",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "లీడ్ డిజైన్: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "మెయిల్ ఇన్పుట్ ఈవెంట్స్ లోనికి ప్రవేశించండి",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "మెయిల్ ఇన్పుట్ ఈవెంట్స్ లోనికి ప్రవేశించండి",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "అందుబాటులో న్యూ వెర్షన్",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "అందుబాటులో న్యూ వెర్షన్",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "వద్దండీ, ధన్యవాదాలు!",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "వద్దు",
+        "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1592745088953,
+        "oldValue": "వద్దు",
+        "newValue": "వద్దండీ, ధన్యవాదాలు!",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "ఎంపికలు ",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "ఎంపికలు ",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "ఎంపికలు ...",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "ఎంపికలు ...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "అవుట్పుట్ ఇన్పుట్ ఈవెంట్స్ లోనికి ప్రవేశించండి",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "అవుట్పుట్ ఇన్పుట్ ఈవెంట్స్ లోనికి ప్రవేశించండి",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "Phet వెబ్సైట్ ...",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "Phet వెబ్సైట్ ...",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "ప్రొజెక్టర్ వీక్షణం",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1592415283954,
+        "oldValue": "",
+        "newValue": "ప్రొజెక్టర్ విధానం",
+        "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1596623787923,
+        "oldValue": "ప్రొజెక్టర్ విధానం",
+        "newValue": "ప్రొజెక్టర్ వీక్షణం",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "క్వాలిటీ అస్యూరెన్స్ : {0}",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "క్వాలిటీ అస్యూరెన్స్ : {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "ఒక సమస్యను నివేదించండి ...",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "ఒక సమస్యను నివేదించండి ...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "స్క్రీన్షాట్",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "స్క్రీన్షాట్",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "సాఫ్ట్వేర్ డెవలప్మెంట్: {0}",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "సాఫ్ట్వేర్ డెవలప్మెంట్: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "సౌండ్ డిజైన్: {0}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1593451393605,
+        "oldValue": "",
+        "newValue": "సౌండ్ డిజైన్: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "ఇన్పుట్ ఈవెంట్స్ లోనికి ప్రవేశించండి సమర్పించండి",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "ఇన్పుట్ ఈవెంట్స్ లోనికి ప్రవేశించండి సమర్పించండి",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "జట్టు: {0}",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "జట్టు: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "నిబంధనలు,  గోప్యత & లైసెన్సు",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "నిబంధనలు గోప్యత & లైసెన్సు",
+        "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1596623787923,
+        "oldValue": "నిబంధనలు గోప్యత & లైసెన్సు",
+        "newValue": "నిబంధనలు,  గోప్యత & లైసెన్సు",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "ధన్యవాదాలు",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "ధన్యవాదాలు",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "అందుబాటులో కొత్త వెర్షన్ ఉంది :{0}",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "అందుబాటులో కొత్త వెర్షన్ ఉంది :{0}",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "మూడవ పార్టీ క్రెడిట్స్",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "మూడవ పార్టీ క్రెడిట్స్",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "ఈ అనుకరణ తాజాగా ఉంది",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "ఈ అనుకరణ తాజాగా ఉంది",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "మొదలుపెట్టండి",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1592415283954,
+        "oldValue": "",
+        "newValue": "మొదలెట్టుటకు దగ్గరదారి",
+        "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1592745088953,
+        "oldValue": "మొదలెట్టుటకు దగ్గరదారి",
+        "newValue": "మొదలు పెట్టండి",
+        "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1592746459729,
+        "oldValue": "మొదలు పెట్టండి",
+        "newValue": "మొదలుపెట్టండి",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "అనువాదం",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "అనువాద",
+        "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1592745088953,
+        "oldValue": "అనువాద",
+        "newValue": "అనువాదం",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "అనువాద క్రెడిట్స్",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "అనువాద క్రెడిట్స్",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "నవీకరణల కోసం తనిఖీ చెయ్యలేకపోయాము",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "నవీకరణల కోసం తనిఖీ చెయ్యలేకపోయాము",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "వెర్షన్ {0}",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "వెర్షన్ {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "మీ ప్రస్తుత వెర్షన్:{0}",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "మీ ప్రస్తుత వెర్షన్:{0}",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1593451393605,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "పని పూర్తిఅయింది",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "డన్",
+        "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1592832786120,
+        "oldValue": "డన్",
+        "newValue": "పని పూర్తిఅయింది",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "సెట్టింగ్లు",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "సెట్టింగ్లు",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "గమనికలు చూపించండి",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "గమనికలు చూపించండి",
+        "explanation": null
+      }
+    ]
+  },
+  "adaptedFrom": {
+    "value": "నుండి స్వీకరించారు \\ n",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "నుండి స్వీకరించారు \\ n",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.settings": {
+    "value": "సెట్టింగ్లు ...",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "సెట్టింగ్లు ...",
+        "explanation": null
+      }
+    ]
+  },
+  "titlePattern": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 253265,
+        "timestamp": 1448485762180,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  }
+}

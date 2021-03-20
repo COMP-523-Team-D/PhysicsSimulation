@@ -1,0 +1,1113 @@
+{
+  "menuItem.about": {
+    "value": "Thông tin...",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Thông tin...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "Kiểm tra phiên bản...",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Kiểm tra phiên bản...",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "Kiểm tra phiên bản... ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Kiểm tra phiên bản... ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "Công trạng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Công trạng",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Xong",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599789242005,
+        "oldValue": "",
+        "newValue": "Xong",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "Toàn màn hình",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Toàn màn hình",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "Tải cập nhật...",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Tải cập nhật",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1449645365294,
+        "oldValue": "Tải cập nhật",
+        "newValue": "Tải cập nhật...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "Đồ hoạ: {0} ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Đồ hoạ: {0} ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "Thiết kế chính: {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Thiết kế chính: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "Mail Input Events Log",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Mail Input Events Log",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "Đã có phiên bản mới",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Đã có phiên bản mới",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "Không, cám ơn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Không, cám ơn",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Tuỳ chọn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Tuỳ chọn",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Tuỳ chọn...",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Tuỳ chọn...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Output Input Events Log",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Output Input Events Log",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "PhET Website…",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "PhET Website…",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "Kiểm định chất lượng: {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Bảo đảm chất lượng: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1446177907437,
+        "oldValue": "Bảo đảm chất lượng: {0}",
+        "newValue": "Chất lượng: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1447404293482,
+        "oldValue": "Chất lượng: {0}",
+        "newValue": "Kiểm định chất lượng: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "Thông báo sự cố...",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Thông báo sự cố...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "Ảnh chụp màn hình",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Ảnh chụp màn hình",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Thiết đặt",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Thiết đặt",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Hiển thị con trỏ chuột",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Hiển thị con trỏ chuột",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "Phát triển phần mềm: {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Phát triển phần mềm: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Submit Input Events Log",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Submit Input Events Log",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "Nhóm thiết kế: {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Nhóm: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1446177907437,
+        "oldValue": "Nhóm: {0}",
+        "newValue": "Nhóm thiết kế: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Các điều khoản về sự riêng tư, cấp phép",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Các điều khoản về sự riêng tư, cấp phép",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "Tri ân",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Cảm tạ",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1447404633585,
+        "oldValue": "Cảm tạ",
+        "newValue": "Tri ân",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "Đã có phiên bản mới: {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Đã có phiên bản mới: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "Công trạng bên thứ ba",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Tri ân bên thứ ba",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1447329544559,
+        "oldValue": "Tri ân bên thứ ba",
+        "newValue": "Công trạng bên thứ ba",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "Phiên bản đã cập nhật",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Mô phỏng đã cập nhật",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1446189360379,
+        "oldValue": "Mô phỏng đã cập nhật",
+        "newValue": "Phiên bản đã cập nhật",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Biên dịch",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Biên dịch",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "Công trạng phần biên dịch",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Tri ân phần biên dịch",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1447329544559,
+        "oldValue": "Tri ân phần biên dịch",
+        "newValue": "Công trạng phần biên dịch",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "Không thể kiểm tra phiên bản",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Không thể kiểm tra phiên bản",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "phiên bản {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "phiên bản {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "Phiên bản hiện tại: {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "Phiên bản hiện tại: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Những người đóng góp:{0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1497722288426,
+        "oldValue": "",
+        "newValue": "Những người đóng góp:{0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "Âm thanh tăng cường",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Âm thanh tăng cường",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Không thể sử dụng Internet Explorer",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "Không thể sử dụng Internet Explorer",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "Tham số không đúng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "",
+        "newValue": "Tham số không đúng",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Phím tắt",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1497722288426,
+        "oldValue": "",
+        "newValue": "Phím tắt",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "Một hay nhiều tham số không đúng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "",
+        "newValue": "Một hay nhiều tham số không đúng",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "Lỗi Platform",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "Lỗi Platform",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Vui lòng sử dụng trình duyệt khác để chạy mô phỏng này.",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "Vui lòng sử dụng trình duyệt khác để chạy mô phỏng này.",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Thiết kế âm thanh: {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Thiết kế âm thanh: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "Mô phỏng sẽ bắt đầu với giá trị mặc định đối với<br> tham số được yêu cầu ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "",
+        "newValue": "Mô phỏng sẽ bắt đầu với giá trị mặc định đối với<br> tham số được yêu cầu ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "để bắt đầu",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "để bắt đầu",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1510843714983,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Chế độ đèn chiếu",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1475157480007,
+        "oldValue": "",
+        "newValue": "Chế độ đèn chiếu",
+        "explanation": null
+      }
+    ]
+  },
+  "adaptedFrom": {
+    "value": "mô phỏng\r\ntheo",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "mô phỏng\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1482332470967,
+        "oldValue": "mô phỏng\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1483073220621,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1488427234253,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1488427589423,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1491366652937,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1497722288427,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1497722463552,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1499412450378,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1499413781350,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1501242292722,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1501242390600,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1501242945397,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1501243883099,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1503776697281,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1503776772553,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1503779448947,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1505388405588,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1509463175953,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1509463214105,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1509463558563,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1509463700080,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1510843714983,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1514054605764,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1514056313465,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1515603995907,
+        "oldValue": "mô phỏng\r\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1522408699469,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1522408937285,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1525197330346,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1525197664414,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1525197939310,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1525202731612,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1525240716629,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1532109672568,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1532109876122,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1532112025612,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1538195277017,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1544771890036,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1544801533792,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1544896791119,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1548860418471,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1548861277476,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1548861826937,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1548862446858,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1548862531302,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1548988123621,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1548989824194,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1553876944209,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1553877232879,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1556769244496,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1562961445573,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1563302914902,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1565875173135,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1565880097471,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1565881376712,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1565887058153,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1568080524011,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1569600666706,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1569601319670,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1573023036881,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1573023488581,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1573132424407,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1573137282650,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1573137401329,
+        "oldValue": "mô phỏng\r\\ntheo",
+        "newValue": "mô phỏng\r\ntheo",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.settings": {
+    "value": "Thiết đặt...",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Thiết đặt...",
+        "explanation": null
+      }
+    ]
+  },
+  "titlePattern": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372398,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  }
+}

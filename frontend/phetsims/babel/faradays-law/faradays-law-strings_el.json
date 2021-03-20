@@ -1,0 +1,76 @@
+{
+  "faradays-law.n": {
+    "value": "Β",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461865417686,
+        "oldValue": "",
+        "newValue": "Β",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.s": {
+    "value": "Ν",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461865417686,
+        "oldValue": "",
+        "newValue": "Ν",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.showFieldLines": {
+    "value": "Δυναμικές γραμμές",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461865417686,
+        "oldValue": "",
+        "newValue": "Μαγνητικό πεδίο",
+        "explanation": null
+      },
+      {
+        "userId": 146870,
+        "timestamp": 1554994098389,
+        "oldValue": "Μαγνητικό πεδίο",
+        "newValue": "Δυναμικές γραμμές",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.voltage": {
+    "value": "τάση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461865417686,
+        "oldValue": "",
+        "newValue": "τάση",
+        "explanation": null
+      }
+    ]
+  },
+  "faradays-law.title": {
+    "value": "Νόμος του Φάραντεϊ",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461865417686,
+        "oldValue": "",
+        "newValue": "Νόμος του Φαραντέι",
+        "explanation": null
+      },
+      {
+        "userId": 146870,
+        "timestamp": 1554994098389,
+        "oldValue": "Νόμος του Φαραντέι",
+        "newValue": "Νόμος του Φάραντεϊ",
+        "explanation": null
+      }
+    ]
+  }
+}

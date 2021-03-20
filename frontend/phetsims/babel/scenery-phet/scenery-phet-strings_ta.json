@@ -1,0 +1,268 @@
+{
+  "key.enter": {
+    "value": "அழுத்தவும்",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1545244784857,
+        "oldValue": "",
+        "newValue": "அழுத்தவும்",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "இயல்பாக",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1553359817102,
+        "oldValue": "",
+        "newValue": "இயல்பாக",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "அல்லது",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1545244784857,
+        "oldValue": "",
+        "newValue": "அல்லது",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "விசைப்பலகையின் PageDown",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் PageDown",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "விசைப்பலகையின் PageUp",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் PageUp",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "விசைப்பலகையின் Shift",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "மெதுவாக",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1553359817102,
+        "oldValue": "",
+        "newValue": "மெதுவாக",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "விசைப்பலகையின் Space",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் Space",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "விசைப்பலகையின் Tab",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": " Ω",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": " Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "குளிர்",
+    "history": [
+      {
+        "userId": 550661,
+        "timestamp": 1526542511428,
+        "oldValue": "",
+        "newValue": "குளிர்",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "சூடு",
+    "history": [
+      {
+        "userId": 550661,
+        "timestamp": 1526542511428,
+        "oldValue": "",
+        "newValue": "சூடு",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "குறுஞ்சுற்று",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464158927497,
+        "oldValue": "",
+        "newValue": "குறுஞ்சுற்று",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL இயக்கநிலை படுத்தப்படவில்லை அல்லது கிடைக்கக் கூடியதாயில்லை. மேலும் அறிய கிளிக் செய்க ",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464260064761,
+        "oldValue": "",
+        "newValue": "WebGL இயக்கநிலை படுத்தப்படவில்லை அல்லது கிடைக்கக் கூடியதாயில்லை. மேலும் அறிய கிளிக் செய்க ",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "மன்னிக்கவும், ஒரு வரைவியல்  வழு ஏற்பட்டுள்ளது",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464260064761,
+        "oldValue": "",
+        "newValue": "மன்னிக்கவும், ஒரு வரைவியல்வலு ஏற்பட்டுள்ளது",
+        "explanation": null
+      },
+      {
+        "userId": 190960,
+        "timestamp": 1465805417766,
+        "oldValue": "மன்னிக்கவும், ஒரு வரைவியல்வலு ஏற்பட்டுள்ளது",
+        "newValue": "மன்னிக்கவும், ஒரு வரைவியல்  வழு ஏற்பட்டுள்ளது",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "மீள ஏற்று",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464260064761,
+        "oldValue": "",
+        "newValue": "மீள ஏற்று",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "பரிந்துரைக்கப்பட்டWindows தற்காலப்படுத்தல் ஒட்டுகளை நிறுவுதன் மூலம் இணைய ஆய்வியை இற்றைப் படுத்தவும் ",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464260064761,
+        "oldValue": "",
+        "newValue": "பரிநதுரைக்கப்பட்டWindows தற்காலப்படுத்தல் ஒட்டுகளை நிறுவுதன் மூலம் இணைய ஆய்வியை தற்காலப்படுத்தவும் ",
+        "explanation": null
+      },
+      {
+        "userId": 190960,
+        "timestamp": 1465805417766,
+        "oldValue": "பரிநதுரைக்கப்பட்டWindows தற்காலப்படுத்தல் ஒட்டுகளை நிறுவுதன் மூலம் இணைய ஆய்வியை தற்காலப்படுத்தவும் ",
+        "newValue": "பரிந்துரைக்கப்பட்டWindows தற்காலப்படுத்தல் ஒட்டுகளை நிறுவுதன் மூலம் இணைய ஆய்வியை இற்றைப் படுத்தவும் ",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "குறைந்த வரைவியல் தரத்துடன் செயல்படுகிறது",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464260064761,
+        "oldValue": "",
+        "newValue": "குறைந்த வரைவியல் தரத்துடன் செயல்படுகிறது",
+        "explanation": null
+      }
+    ]
+  }
+}

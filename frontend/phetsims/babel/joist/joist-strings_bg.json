@@ -1,0 +1,1180 @@
+{
+  "menuItem.about": {
+    "value": "Относно",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Относно",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "Провери за обновления",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Провери\r\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485502561034,
+        "oldValue": "Провери\r\nза обновления",
+        "newValue": "Провери\r\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485503880273,
+        "oldValue": "Провери\r\n\nза обновления",
+        "newValue": "Провери\r\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094230,
+        "oldValue": "Провери\r\n\n\nза обновления",
+        "newValue": "Провери\r\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192913,
+        "oldValue": "Провери\r\n\n\n\nза обновления",
+        "newValue": "Провери за обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488272954273,
+        "oldValue": "Провери за обновления",
+        "newValue": "Провери\r\n\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488273849959,
+        "oldValue": "Провери\r\n\n\n\n\nза обновления",
+        "newValue": "Провери\r\n\n\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998148018,
+        "oldValue": "Провери\r\n\n\n\n\n\nза обновления",
+        "newValue": "Провери\r\n\n\n\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998792181,
+        "oldValue": "Провери\r\n\n\n\n\n\n\nза обновления",
+        "newValue": "Провери\r\n\n\n\n\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507278231859,
+        "oldValue": "Провери\r\n\n\n\n\n\n\n\nза обновления",
+        "newValue": "Провери за обновления",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "Проверява за обновления",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Проверява\r\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485502561034,
+        "oldValue": "Проверява\r\nза обновления",
+        "newValue": "Проверява\r\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485503880273,
+        "oldValue": "Проверява\r\n\nза обновления",
+        "newValue": "Проверява\r\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094230,
+        "oldValue": "Проверява\r\n\n\nза обновления",
+        "newValue": "Проверява\r\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192913,
+        "oldValue": "Проверява\r\n\n\n\nза обновления",
+        "newValue": "Проверява за обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488272954273,
+        "oldValue": "Проверява за обновления",
+        "newValue": "Проверява\r\n\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488273849961,
+        "oldValue": "Проверява\r\n\n\n\n\nза обновления",
+        "newValue": "Проверява\r\n\n\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998148019,
+        "oldValue": "Проверява\r\n\n\n\n\n\nза обновления",
+        "newValue": "Проверява\r\n\n\n\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998792182,
+        "oldValue": "Проверява\r\n\n\n\n\n\n\nза обновления",
+        "newValue": "Проверява\r\n\n\n\n\n\n\n\nза обновления",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507278231859,
+        "oldValue": "Проверява\r\n\n\n\n\n\n\n\nза обновления",
+        "newValue": "Проверява за обновления",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "Автори",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Автори",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Готово",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Готово",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "Цял екран",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Цял екран",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "Вземи обновление",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Вземи обновление",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "Графични дизайнери: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485503880273,
+        "oldValue": "",
+        "newValue": "Графични\r\nдизайнери: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094231,
+        "oldValue": "Графични\r\nдизайнери: {0}",
+        "newValue": "Графични\r\n\nдизайнери: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192914,
+        "oldValue": "Графични\r\n\nдизайнери: {0}",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507572475,
+        "oldValue": "",
+        "newValue": "Графични\r\n\n\nдизайнери: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507609514,
+        "oldValue": "Графични\r\n\n\nдизайнери: {0}",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488272954273,
+        "oldValue": "",
+        "newValue": "Графични\r\nдизайнери: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488273849961,
+        "oldValue": "Графични\r\nдизайнери: {0}",
+        "newValue": "Графични\r\n\nдизайнери: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998148019,
+        "oldValue": "Графични\r\n\nдизайнери: {0}",
+        "newValue": "Графични\r\n\n\nдизайнери: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998792182,
+        "oldValue": "Графични\r\n\n\nдизайнери: {0}",
+        "newValue": "Графични\r\n\n\n\nдизайнери: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507278231860,
+        "oldValue": "Графични\r\n\n\n\nдизайнери: {0}",
+        "newValue": "Графични дизайнери: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "Водещи дизайнери: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485503880273,
+        "oldValue": "",
+        "newValue": "Водещи\r\nдизайнери: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094232,
+        "oldValue": "Водещи\r\nдизайнери: {0}",
+        "newValue": "Водещи\r\n\nдизайнери: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192914,
+        "oldValue": "Водещи\r\n\nдизайнери: {0}",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488267346965,
+        "oldValue": "",
+        "newValue": "Водещи дизайнери: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "Има нова версия",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Има нова версия",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "Не, благодаря",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Не, благодаря",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Опции",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Опции",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Опции...",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Опции...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "Сайтът на PhET…",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Сайтът на PhET…",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "Качествен контрол: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485503880273,
+        "oldValue": "",
+        "newValue": "\r\n\r\n\r\n \r\n  \r\n  Качествен\r\n  контрол: {0}\r\n  \r\n \r\n\r\n\r\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094232,
+        "oldValue": "\r\n\r\n\r\n \r\n  \r\n  Качествен\r\n  контрол: {0}\r\n  \r\n \r\n\r\n\r\n",
+        "newValue": "\r\n\n\r\n\n\r\n\n \r\n\n  \r\n\n  Качествен\r\n\n  контрол: {0}\r\n\n  \r\n\n \r\n\n\r\n\n\r\n\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192914,
+        "oldValue": "\r\n\n\r\n\n\r\n\n \r\n\n  \r\n\n  Качествен\r\n\n  контрол: {0}\r\n\n  \r\n\n \r\n\n\r\n\n\r\n\n",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488267346965,
+        "oldValue": "",
+        "newValue": "Качествен контрол: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "Съобщи за проблем",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Съобщи за проблем",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "Снимка на екрана ",
+    "history": [
+      {
+        "userId": 842492,
+        "timestamp": 1603917481106,
+        "oldValue": "",
+        "newValue": "Снимка на екрана ",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Настройки",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Настройки",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Покажи указател",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Покажи указател",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "Разработил софтуера: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485503880273,
+        "oldValue": "",
+        "newValue": "Разработил\r\nсофтуера: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094233,
+        "oldValue": "Разработил\r\nсофтуера: {0}",
+        "newValue": "Разработил\r\n\nсофтуера: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192915,
+        "oldValue": "Разработил\r\n\nсофтуера: {0}",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488267346965,
+        "oldValue": "",
+        "newValue": "Разработил софтуера: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "Екип: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485503880273,
+        "oldValue": "",
+        "newValue": "Екип: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507572475,
+        "oldValue": "Екип: {0}",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507742291,
+        "oldValue": "",
+        "newValue": "Екип: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Условия, поверителност и лиценз",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485503880273,
+        "oldValue": "",
+        "newValue": "Условия,\r\nповерителност и лиценз",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094233,
+        "oldValue": "Условия,\r\nповерителност и лиценз",
+        "newValue": "Условия,\r\n\nповерителност и лиценз",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192915,
+        "oldValue": "Условия,\r\n\nповерителност и лиценз",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488267346965,
+        "oldValue": "",
+        "newValue": "Условия, поверителност и лиценз",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "Благодарности",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Благодарности",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "Има нова версия: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Има нова\r\nверсия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485502561035,
+        "oldValue": "Има нова\r\nверсия: {0}",
+        "newValue": "Има нова\r\n\nверсия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485503880274,
+        "oldValue": "Има нова\r\n\nверсия: {0}",
+        "newValue": "Има нова\r\n\n\nверсия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094234,
+        "oldValue": "Има нова\r\n\n\nверсия: {0}",
+        "newValue": "Има нова\r\n\n\n\nверсия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192916,
+        "oldValue": "Има нова\r\n\n\n\nверсия: {0}",
+        "newValue": "Има нова\r\n\n\n\n\nверсия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505212933,
+        "oldValue": "Има нова\r\n\n\n\n\nверсия: {0}",
+        "newValue": "Има нова версия: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "\n\nИзползвани авторски права",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485503880274,
+        "oldValue": "",
+        "newValue": "\r\n\r\n\r\n \r\n  \r\n  Използвани\r\n  авторски права\r\n  \r\n \r\n\r\n\r\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094234,
+        "oldValue": "\r\n\r\n\r\n \r\n  \r\n  Използвани\r\n  авторски права\r\n  \r\n \r\n\r\n\r\n",
+        "newValue": "\r\n\n\r\n\n\r\n\n \r\n\n  \r\n\n  Използвани\r\n\n  авторски права\r\n\n  \r\n\n \r\n\n\r\n\n\r\n\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192916,
+        "oldValue": "\r\n\n\r\n\n\r\n\n \r\n\n  \r\n\n  Използвани\r\n\n  авторски права\r\n\n  \r\n\n \r\n\n\r\n\n\r\n\n",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488267346965,
+        "oldValue": "",
+        "newValue": "\r\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488272954274,
+        "oldValue": "\r\nИзползвани авторски права",
+        "newValue": "\r\n\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488273849962,
+        "oldValue": "\r\n\nИзползвани авторски права",
+        "newValue": "\r\n\n\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998148020,
+        "oldValue": "\r\n\n\nИзползвани авторски права",
+        "newValue": "\r\n\n\n\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998792182,
+        "oldValue": "\r\n\n\n\nИзползвани авторски права",
+        "newValue": "\r\n\n\n\n\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507278231860,
+        "oldValue": "\r\n\n\n\n\nИзползвани авторски права",
+        "newValue": "\r\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507279316660,
+        "oldValue": "\r\nИзползвани авторски права",
+        "newValue": "\r\n\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507280445198,
+        "oldValue": "\r\n\nИзползвани авторски права",
+        "newValue": "\r\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507280795410,
+        "oldValue": "\r\nИзползвани авторски права",
+        "newValue": "\r\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507284316801,
+        "oldValue": "\r\nИзползвани авторски права",
+        "newValue": "\r\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507284818507,
+        "oldValue": "\r\nИзползвани авторски права",
+        "newValue": "\r\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1509437673333,
+        "oldValue": "\r\nИзползвани авторски права",
+        "newValue": "\r\nИзползвани авторски права",
+        "explanation": null
+      },
+      {
+        "userId": 842492,
+        "timestamp": 1603917481106,
+        "oldValue": "\r\nИзползвани авторски права",
+        "newValue": "\n\nИзползвани авторски права",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "Симулацията е актуална",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "Симулацията е актуална",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Превод",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485503880274,
+        "oldValue": "",
+        "newValue": "Превод",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507572475,
+        "oldValue": "Превод",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507742291,
+        "oldValue": "",
+        "newValue": "Превод",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "Превод",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485503880274,
+        "oldValue": "",
+        "newValue": "Превод",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507572475,
+        "oldValue": "Превод",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507742291,
+        "oldValue": "",
+        "newValue": "Превод",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "\n\nНе може да се обнови",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "\r\n\r\n\r\n \r\n  \r\n  Не може да\r\n  се обнови\r\n  \r\n \r\n\r\n\r\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485502561035,
+        "oldValue": "\r\n\r\n\r\n \r\n  \r\n  Не може да\r\n  се обнови\r\n  \r\n \r\n\r\n\r\n",
+        "newValue": "\r\n\n\r\n\n\r\n\n \r\n\n  \r\n\n  Не може да\r\n\n  се обнови\r\n\n  \r\n\n \r\n\n\r\n\n\r\n\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485503880274,
+        "oldValue": "\r\n\n\r\n\n\r\n\n \r\n\n  \r\n\n  Не може да\r\n\n  се обнови\r\n\n  \r\n\n \r\n\n\r\n\n\r\n\n",
+        "newValue": "\r\n\n\n\r\n\n\n\r\n\n\n \r\n\n\n  \r\n\n\n  Не може да\r\n\n\n  се обнови\r\n\n\n  \r\n\n\n \r\n\n\n\r\n\n\n\r\n\n\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094234,
+        "oldValue": "\r\n\n\n\r\n\n\n\r\n\n\n \r\n\n\n  \r\n\n\n  Не може да\r\n\n\n  се обнови\r\n\n\n  \r\n\n\n \r\n\n\n\r\n\n\n\r\n\n\n",
+        "newValue": "\r\n\n\n\n\r\n\n\n\n\r\n\n\n\n \r\n\n\n\n  \r\n\n\n\n  Не може да\r\n\n\n\n  се обнови\r\n\n\n\n  \r\n\n\n\n \r\n\n\n\n\r\n\n\n\n\r\n\n\n\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192916,
+        "oldValue": "\r\n\n\n\n\r\n\n\n\n\r\n\n\n\n \r\n\n\n\n  \r\n\n\n\n  Не може да\r\n\n\n\n  се обнови\r\n\n\n\n  \r\n\n\n\n \r\n\n\n\n\r\n\n\n\n\r\n\n\n\n",
+        "newValue": "Не може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507572475,
+        "oldValue": "Не може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507609515,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507742291,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485508076986,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488267346966,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488272954274,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\n\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488273849962,
+        "oldValue": "\r\n\nНе може да се обнови",
+        "newValue": "\r\n\n\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998148020,
+        "oldValue": "\r\n\n\nНе може да се обнови",
+        "newValue": "\r\n\n\n\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998792183,
+        "oldValue": "\r\n\n\n\nНе може да се обнови",
+        "newValue": "\r\n\n\n\n\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507278231861,
+        "oldValue": "\r\n\n\n\n\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507279316660,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507280445198,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507280795411,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507284316801,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507284818508,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1509437673333,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\r\nНе може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 842492,
+        "timestamp": 1603917481106,
+        "oldValue": "\r\nНе може да се обнови",
+        "newValue": "\n\nНе може да се обнови",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "версия {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "версия {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "\n\nНастоящата версия: {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340546751,
+        "oldValue": "",
+        "newValue": "\r\n\r\n\r\n \r\n  \r\n  Настоящата версия: {0}\r\n  \r\n \r\n\r\n\r\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485502561035,
+        "oldValue": "\r\n\r\n\r\n \r\n  \r\n  Настоящата версия: {0}\r\n  \r\n \r\n\r\n\r\n",
+        "newValue": "\r\n\n\r\n\n\r\n\n \r\n\n  \r\n\n  Настоящата версия: {0}\r\n\n  \r\n\n \r\n\n\r\n\n\r\n\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485503880274,
+        "oldValue": "\r\n\n\r\n\n\r\n\n \r\n\n  \r\n\n  Настоящата версия: {0}\r\n\n  \r\n\n \r\n\n\r\n\n\r\n\n",
+        "newValue": "\r\n\n\n\r\n\n\n\r\n\n\n \r\n\n\n  \r\n\n\n  Настоящата версия: {0}\r\n\n\n  \r\n\n\n \r\n\n\n\r\n\n\n\r\n\n\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485504094235,
+        "oldValue": "\r\n\n\n\r\n\n\n\r\n\n\n \r\n\n\n  \r\n\n\n  Настоящата версия: {0}\r\n\n\n  \r\n\n\n \r\n\n\n\r\n\n\n\r\n\n\n",
+        "newValue": "\r\n\n\n\n\r\n\n\n\n\r\n\n\n\n \r\n\n\n\n  \r\n\n\n\n  Настоящата версия: {0}\r\n\n\n\n  \r\n\n\n\n \r\n\n\n\n\r\n\n\n\n\r\n\n\n\n",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505192917,
+        "oldValue": "\r\n\n\n\n\r\n\n\n\n\r\n\n\n\n \r\n\n\n\n  \r\n\n\n\n  Настоящата версия: {0}\r\n\n\n\n  \r\n\n\n\n \r\n\n\n\n\r\n\n\n\n\r\n\n\n\n",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505212933,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505603345,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485505622496,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507572475,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507609516,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485507742291,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1485508076986,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488267346966,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488272954275,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\n\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1488273849963,
+        "oldValue": "\r\n\nНастоящата версия: {0}",
+        "newValue": "\r\n\n\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998148021,
+        "oldValue": "\r\n\n\nНастоящата версия: {0}",
+        "newValue": "\r\n\n\n\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1489998792184,
+        "oldValue": "\r\n\n\n\nНастоящата версия: {0}",
+        "newValue": "\r\n\n\n\n\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507278231861,
+        "oldValue": "\r\n\n\n\n\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507279316661,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507280445199,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507280795411,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507284316802,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1507284818508,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 374709,
+        "timestamp": 1509437673333,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\r\nНастоящата версия: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 842492,
+        "timestamp": 1603917481106,
+        "oldValue": "\r\nНастоящата версия: {0}",
+        "newValue": "\n\nНастоящата версия: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Сътрудници:  {0}",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1509437673332,
+        "oldValue": "",
+        "newValue": "Сътрудници:  {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Клавишни комбинации",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1509437673332,
+        "oldValue": "",
+        "newValue": "Клавишни комбинации",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Проекторен режим",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1488268297405,
+        "oldValue": "",
+        "newValue": "Проекторен режим",
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "BalloonApplet.ShowAllCharges": {
+    "value": "Mostra tutte le cariche",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1456508464662,
+        "oldValue": "",
+        "newValue": "Mostra tutte le cariche",
+        "explanation": null
+      }
+    ]
+  },
+  "BalloonApplet.ShowChargeDifferences": {
+    "value": "Mostra la differenza delle cariche",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1456508464662,
+        "oldValue": "",
+        "newValue": "Mostra la differenza delle cariche",
+        "explanation": null
+      }
+    ]
+  },
+  "BalloonApplet.ShowNoCharges": {
+    "value": "Non mostrare le cariche",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1456508464662,
+        "oldValue": "",
+        "newValue": "Non mostrare le cariche",
+        "explanation": null
+      }
+    ]
+  },
+  "addWall": {
+    "value": "Aggiungi\nParete",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1456508464662,
+        "oldValue": "",
+        "newValue": "Aggiungi\nParete",
+        "explanation": null
+      }
+    ]
+  },
+  "balloons-and-static-electricity.title": {
+    "value": "Elettricità statica",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1456508464662,
+        "oldValue": "",
+        "newValue": "Elettricità statica",
+        "explanation": null
+      }
+    ]
+  },
+  "removeWall": {
+    "value": "Rimuovi\nParete",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1456508464662,
+        "oldValue": "",
+        "newValue": "Rimuovi\nParete",
+        "explanation": null
+      }
+    ]
+  },
+  "resetBalloon": {
+    "value": "Azzera il pallone",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1456508464662,
+        "oldValue": "",
+        "newValue": "Azzera il pallone",
+        "explanation": null
+      }
+    ]
+  },
+  "resetBalloons": {
+    "value": "Azzera i palloni",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1456508464662,
+        "oldValue": "",
+        "newValue": "Azzera i palloni",
+        "explanation": null
+      }
+    ]
+  }
+}

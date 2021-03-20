@@ -1,0 +1,65 @@
+{
+  "isIt": {
+    "value": "Şeýlemi:"
+  },
+  "symbol": {
+    "value": "Nyşan"
+  },
+  "neutronsColon": {
+    "value": "Neýtronlar:"
+  },
+  "orbits": {
+    "value": "Orbitalar"
+  },
+  "neutrons": {
+    "value": "Neýtronlar"
+  },
+  "stableSlashUnstable": {
+    "value": "Görkez - durnukly / durnuksyz"
+  },
+  "neutralSlashIon": {
+    "value": "Görkez - bitarap / ion"
+  },
+  "atom": {
+    "value": "Atomy ýygna"
+  },
+  "neutralAtom": {
+    "value": "Bitarap (neýtral) atom"
+  },
+  "netCharge": {
+    "value": "Jemlenen zarýad"
+  },
+  "protonsColon": {
+    "value": "Protonlar:"
+  },
+  "game": {
+    "value": "Oýun"
+  },
+  "protons": {
+    "value": "Protonlar"
+  },
+  "electronsColon": {
+    "value": "Elektronlar:"
+  },
+  "electrons": {
+    "value": "Elektronlar"
+  },
+  "cloud": {
+    "value": "Bulut"
+  },
+  "massNumber": {
+    "value": "Massa sany"
+  },
+  "findTheElement": {
+    "value": "Elementi tap:"
+  },
+  "whatIsTheTotalCharge": {
+    "value": "Jemi zarýad näçe?"
+  },
+  "build-an-atom.title": {
+    "value": "Atomy ýygna"
+  },
+  "whatIsTheMassNumber": {
+    "value": "Massa sany näçe?"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "cm": {
+    "value": "სმ."
+  },
+  "resistanceEq": {
+    "value": "წინაღობა = "
+  },
+  "ohm": {
+    "value": "ომი"
+  },
+  "resistance-in-a-wire.title": {
+    "value": "გამტარის წინაღობა"
+  },
+  "translation.credits": {
+    "value": "თარგმანი - თეიმურაზ ხუნდაძე"
+  }
+}

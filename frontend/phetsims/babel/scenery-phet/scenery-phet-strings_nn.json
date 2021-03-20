@@ -1,0 +1,397 @@
+{
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1600772795190,
+        "oldValue": "",
+        "newValue": "Alt",
+        "explanation": null
+      }
+    ]
+  },
+  "key.enter": {
+    "value": "Enter",
+    "history": [
+      {
+        "userId": 536139,
+        "timestamp": 1558108066581,
+        "oldValue": "",
+        "newValue": "Enter",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1600772795190,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Dra eller slepp {{thing}}",
+    "history": [
+      {
+        "userId": 536139,
+        "timestamp": 1558108066581,
+        "oldValue": "",
+        "newValue": "Dra eller slepp {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Dra eller slepp {{thing}}",
+    "history": [
+      {
+        "userId": 536139,
+        "timestamp": 1558108066581,
+        "oldValue": "",
+        "newValue": "Dra eller slepp {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1600772795190,
+        "oldValue": "",
+        "newValue": "K",
+        "explanation": null
+      }
+    ]
+  },
+  "key.l": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1600772795190,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "eller",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1542624851945,
+        "oldValue": "",
+        "newValue": "eller",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "Page Down",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1542624851945,
+        "oldValue": "",
+        "newValue": "Page Down",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "Page Up",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1542624851945,
+        "oldValue": "",
+        "newValue": "Page Up",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Shift",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1542624851945,
+        "oldValue": "",
+        "newValue": "Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Mellomrom",
+    "history": [
+      {
+        "userId": 536139,
+        "timestamp": 1558108066581,
+        "oldValue": "",
+        "newValue": "Mellomrom",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tabulator",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1542624851945,
+        "oldValue": "",
+        "newValue": "Tabulator",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1569919811270,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1569919811270,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      },
+      {
+        "userId": 536139,
+        "timestamp": 1578172611463,
+        "oldValue": "Ω",
+        "newValue": "Ω",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1584882280811,
+        "oldValue": "Ω",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "Kortslutting",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584883726969,
+        "oldValue": "",
+        "newValue": "Kortslutting",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584882760751,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Sakte",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584882760751,
+        "oldValue": "",
+        "newValue": "Sakte",
+        "explanation": null
+      }
+    ]
+  },
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584882760751,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Bølgjelengde",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1569922059172,
+        "oldValue": "",
+        "newValue": "Bølgjelengde",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelengthNMValuePattern": {
+    "value": "{0} nm",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1569922059172,
+        "oldValue": "",
+        "newValue": "{0} nm",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Nedkjøling",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1533881051327,
+        "oldValue": "",
+        "newValue": "Nedkjøling",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Oppvarming",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1533881051327,
+        "oldValue": "",
+        "newValue": "Oppvarming",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Last på nytt",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1536060667668,
+        "oldValue": "",
+        "newValue": "Last på nytt",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "Køyrer med låg grafikkkvalitet",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1536060667668,
+        "oldValue": "",
+        "newValue": "Kjører med lav grafikkkvalitet",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1539406100702,
+        "oldValue": "Kjører med lav grafikkkvalitet",
+        "newValue": "Køyrer med lav grafikkkvalitet",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1539517982494,
+        "oldValue": "Køyrer med lav grafikkkvalitet",
+        "newValue": "Køyrer med låg grafikkkvalitet",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Beklager, grafikkfeil",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1536060667668,
+        "oldValue": "",
+        "newValue": "Beklager, grafikkfeil",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "Oppdater Internett Explorer",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1536060667668,
+        "oldValue": "",
+        "newValue": "Oppdater Internett Explorer",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "v",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1536060667668,
+        "oldValue": "",
+        "newValue": "WebGL er ikkje aktivert eller ikkje tilgjengelig",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1539406100702,
+        "oldValue": "WebGL er ikkje aktivert eller ikkje tilgjengelig",
+        "newValue": "v",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1529427521895,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1529427521896,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  }
+}

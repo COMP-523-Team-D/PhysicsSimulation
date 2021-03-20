@@ -1,0 +1,1113 @@
+{
+  "menuItem.about": {
+    "value": "개요",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "개요",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "업데이트 확인",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "업데이트 확인",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "업데이트 확인 중 ",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "업데이트 확인 중 ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "기여자: {0}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1497623688091,
+        "oldValue": "",
+        "newValue": "기여자: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "크레디트",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "크레디트",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "강화된 소리",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1549001246828,
+        "oldValue": "",
+        "newValue": "강화된 소리",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "전체 화면",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "전체화면",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451302375909,
+        "oldValue": "전체화면",
+        "newValue": "전체 화면",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "업데이트 하기",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "업데이트 하기",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "그래픽 아트: {0}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "그래픽 : {0}",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1526213074756,
+        "oldValue": "그래픽 : {0}",
+        "newValue": "그래픽 아트: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "인터넷익스플로러가 지원되지 아니함",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1599740660301,
+        "oldValue": "",
+        "newValue": "인터넷익스플로러가 지원되지 아니함",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "유효하지 않은 질문 변수",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1583640603995,
+        "oldValue": "",
+        "newValue": "유효하지 않은 질문 변수",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "단축키",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1497623688091,
+        "oldValue": "",
+        "newValue": "단축키",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "선임 디자인: {0}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "선임디자인: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1446363030865,
+        "oldValue": "선임디자인: {0}",
+        "newValue": "선임 디자인: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "메일 입력 이벤트 입장 ",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "메일 입력 이벤트 입장 ",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "새로운 버전 사용 가능",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "새로운 버전 사용 가능",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "아니요",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "아니요",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "1개 이상의 질문 변수가 유효하지 않은 값을 가짐",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1583640603995,
+        "oldValue": "",
+        "newValue": "1개 이상의 질문 변수가 유효하지 않은 값을 가짐",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "선택",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "선택",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "선택",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "선택",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "출력 입력 이벤트 로그",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "출력 입력 이벤트 입장",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1446810037287,
+        "oldValue": "출력 입력 이벤트 입장",
+        "newValue": "출력 입력 이벤트 로그",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "PhET 웹사이트",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "PHET 웹페이지",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451302375910,
+        "oldValue": "PHET 웹페이지",
+        "newValue": "PHET 웹사이트",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1454550267285,
+        "oldValue": "PHET 웹사이트",
+        "newValue": "PhET 웹사이트",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "플렛폼 오류",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1599740660301,
+        "oldValue": "",
+        "newValue": "플렛폼 오류",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "이 시뮬레이션 실행을 위해 다른 브라우져를 사용하세요",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1599740660301,
+        "oldValue": "",
+        "newValue": "이 시뮬레이션 실행을 위해 다른 브라우져를 사용하세요",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "질 보장: {0}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "질 보장: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "문제 보고",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "문제 보고",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "스크린 사진",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "스크린 사진",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "소프트웨어 개발: {0}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "소프트웨어 개발: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "소리 설계: {0}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1549001246828,
+        "oldValue": "",
+        "newValue": "소리 설계: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "입력 이벤트 로그 제출",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "제출 입력 에빈트 입장",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1446810037287,
+        "oldValue": "제출 입력 에빈트 입장",
+        "newValue": "제출 입력 에빈트 로그",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451301375138,
+        "oldValue": "제출 입력 에빈트 로그",
+        "newValue": "입력 이빈트 로그 제출",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451301515439,
+        "oldValue": "입력 이빈트 로그 제출",
+        "newValue": "입력 이벤트 로그 제출",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "팀: {0} ",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "팀: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1454550471267,
+        "oldValue": "팀: {0}",
+        "newValue": "{0} 팀",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1526213074756,
+        "oldValue": "{0} 팀",
+        "newValue": "팀: {0} ",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "개인정보 및 라이센스 조건",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "조건 개인정보 및 라이센스",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451301375138,
+        "oldValue": "조건 개인정보 및 라이센스",
+        "newValue": "조건, 개인정보 및 라이센스",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1454550267285,
+        "oldValue": "조건, 개인정보 및 라이센스",
+        "newValue": "개인정보 및 라이센스 조건",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "감사",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "감사",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "시뮬레이션이 질문 변수가 <br> 디폴트인 상태로 시작됨",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1583640603995,
+        "oldValue": "",
+        "newValue": "시뮬레이션이 질문 변수가 <br> 디폴트인 상태로 시작됨",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "새로운 버전 사용 가능: {0}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "새로운 버전 사용 가능: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "제3자 크레디트",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "제3자 크레데트",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451301375138,
+        "oldValue": "제3자 크레데트",
+        "newValue": "제3자 크레디트",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "이 시물레이션은 최신판입니다.",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "이 시물레이션은 최신판입니다.",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "시작하기",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1549001246828,
+        "oldValue": "",
+        "newValue": "시작하기",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "번역",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "번역",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "번역: 이화국 교수(whakuklee@gmail.com",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "번역 크레디트",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1470967377000,
+        "oldValue": "번역 크레디트",
+        "newValue": "번역자",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1470968893510,
+        "oldValue": "번역자",
+        "newValue": "번역자: 이화국(www.whakuk.com)",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1478930977223,
+        "oldValue": "번역자: 이화국(www.whakuk.com)",
+        "newValue": "번역: 이화국(www.whakuk.com)",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1478932195420,
+        "oldValue": "번역: 이화국(www.whakuk.com)",
+        "newValue": "번역: 이화국 교수(www.whakuk.com)",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1482629863075,
+        "oldValue": "번역: 이화국 교수(www.whakuk.com)",
+        "newValue": "이화국 교수(www.whakuk.com)",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1491374560368,
+        "oldValue": "이화국 교수(www.whakuk.com)",
+        "newValue": "번역: 이화국 교수(www.whakuk.com)",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1599740660301,
+        "oldValue": "번역: 이화국 교수(www.whakuk.com)",
+        "newValue": "번역: 이화국 교수(whakuklee@gmail.com",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "업데이트 확인 불가",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "업데이트 확인 불가능",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451302375910,
+        "oldValue": "업데이트 확인 불가능",
+        "newValue": "업데이트 확인 불가",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "버전 {0}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "버전 {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "현재의 버전은 {0} 입니다.",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "현재의 번전은 {0} 입니다.",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451301375138,
+        "oldValue": "현재의 번전은 {0} 입니다.",
+        "newValue": "현재의 버전은 {0} 입니다.",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1521873320478,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "프로젝터 모드",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1478932195420,
+        "oldValue": "",
+        "newValue": "프로젝터 모드",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "완료",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1549997952317,
+        "oldValue": "",
+        "newValue": "완료",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "조정",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "조정",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "포인터 보기",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "포인트 보이기",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451301375138,
+        "oldValue": "포인트 보이기",
+        "newValue": "포인터 보기",
+        "explanation": null
+      }
+    ]
+  },
+  "adaptedFrom": {
+    "value": "\r\n(으)로부터 개조됨",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "원래의 시뮬레이션",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1451301375138,
+        "oldValue": "원래의 시뮬레이션",
+        "newValue": "\n으로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1454550267285,
+        "oldValue": "\n으로부터 개조됨",
+        "newValue": "\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1482629863075,
+        "oldValue": "\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1482629872786,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1482630006594,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1482630766134,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1490881652172,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1491374560368,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1497622612400,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1497623688091,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1497626706337,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1501822661766,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1501823204282,
+        "oldValue": "\r\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1521873320478,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1521874266912,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1521875549339,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1521876264484,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1521876899851,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1521877027697,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1522472054866,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1526213074757,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1526213465431,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1526213624802,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1532341812498,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1532342246238,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1549001246830,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1549003193638,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1549003744069,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1549004633085,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1549005321325,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1549006919798,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1549007572139,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1549008493243,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1549997952317,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1550518683067,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1553909475301,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1556920157158,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1562977914937,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1568121414449,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1568122279624,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1568124435100,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1568124610290,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1568373414498,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1568725660445,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1569847270577,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1573824851699,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1573825882354,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1573826331048,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1573826652420,
+        "oldValue": "\r\\n(으)로부터 개조됨",
+        "newValue": "\r\n(으)로부터 개조됨",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.settings": {
+    "value": "조정",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "조정",
+        "explanation": null
+      }
+    ]
+  },
+  "titlePattern": {
+    "value": "{0}{1}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1446362603538,
+        "oldValue": "",
+        "newValue": "{0}{1}",
+        "explanation": null
+      }
+    ]
+  }
+}

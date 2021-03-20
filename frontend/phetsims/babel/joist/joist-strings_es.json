@@ -1,0 +1,2058 @@
+{
+  "menuItem.about": {
+    "value": "Acerca de...",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Acerca de...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "Buscar actualizaciones...",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Chequear actualizaciones...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1480456693123,
+        "oldValue": "Chequear actualizaciones...",
+        "newValue": "Buscar actualizaciones...",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "Buscando actualizaciones...",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Chequeando actualizaciones...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1480456693123,
+        "oldValue": "Chequeando actualizaciones...",
+        "newValue": "Buscando actualizaciones...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Colaboradores: {0}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1494641247016,
+        "oldValue": "",
+        "newValue": "Colaboradores: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "Créditos",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1460981676657,
+        "oldValue": "",
+        "newValue": "Creditos",
+        "explanation": null
+      },
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "Creditos",
+        "newValue": "Créditos",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "Sonido mejorado",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1544581085277,
+        "oldValue": "",
+        "newValue": "Sonido mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Sonido mejorado",
+        "newValue": "Sonido Mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Sonido Mejorado",
+        "newValue": "Sonido mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Sonido mejorado",
+        "newValue": "Sonido Mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Sonido Mejorado",
+        "newValue": "Sonido mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Sonido mejorado",
+        "newValue": "Sonido Mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Sonido Mejorado",
+        "newValue": "Sonido mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Sonido mejorado",
+        "newValue": "Sonido Mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158694,
+        "oldValue": "Sonido Mejorado",
+        "newValue": "Sonido mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Sonido mejorado",
+        "newValue": "Sonido Mejorado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Sonido Mejorado",
+        "newValue": "Sonido mejorado",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "Pantalla completa",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Pantalla completa",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Pantalla completa",
+        "newValue": "Pantalla Completa",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Pantalla Completa",
+        "newValue": "Pantalla completa",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Pantalla completa",
+        "newValue": "Pantalla Completa",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Pantalla Completa",
+        "newValue": "Pantalla completa",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Pantalla completa",
+        "newValue": "Pantalla Completa",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Pantalla Completa",
+        "newValue": "Pantalla completa",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Pantalla completa",
+        "newValue": "Pantalla Completa",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158694,
+        "oldValue": "Pantalla Completa",
+        "newValue": "Pantalla completa",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Pantalla completa",
+        "newValue": "Pantalla Completa",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Pantalla Completa",
+        "newValue": "Pantalla completa",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "Actualizar...",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Actualizar...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "Artes gráficas:  {0}",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Artes gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565980480319,
+        "oldValue": "Artes gráficas:  {0}",
+        "newValue": "Artes Gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Artes Gráficas:  {0}",
+        "newValue": "Artes gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Artes gráficas:  {0}",
+        "newValue": "Artes Gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Artes Gráficas:  {0}",
+        "newValue": "Artes gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Artes gráficas:  {0}",
+        "newValue": "Artes Gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Artes Gráficas:  {0}",
+        "newValue": "Artes gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Artes gráficas:  {0}",
+        "newValue": "Artes Gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158694,
+        "oldValue": "Artes Gráficas:  {0}",
+        "newValue": "Artes gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Artes gráficas:  {0}",
+        "newValue": "Artes Gráficas:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Artes Gráficas:  {0}",
+        "newValue": "Artes gráficas:  {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Internet Explorer no es compatible.",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1599871650999,
+        "oldValue": "",
+        "newValue": "Internet Explorer no es compatible.",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "Parametros de consulta no válidos",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1583534681079,
+        "oldValue": "",
+        "newValue": "Parametros de consulta no válidos",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Uso del Teclado",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1494641247017,
+        "oldValue": "",
+        "newValue": "Uso del Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Uso del Teclado",
+        "newValue": "Atajos de Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Atajos de Teclado",
+        "newValue": "Uso del Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Uso del Teclado",
+        "newValue": "Atajos de Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Atajos de Teclado",
+        "newValue": "Uso del Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Uso del Teclado",
+        "newValue": "Atajos de Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Atajos de Teclado",
+        "newValue": "Uso del Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Uso del Teclado",
+        "newValue": "Atajos de Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158694,
+        "oldValue": "Atajos de Teclado",
+        "newValue": "Uso del Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Uso del Teclado",
+        "newValue": "Atajos de Teclado",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Atajos de Teclado",
+        "newValue": "Uso del Teclado",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "Elaboración de diseño:  {0}",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Elaboración de diseño:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Elaboración de diseño:  {0}",
+        "newValue": "Diseño de Plomo:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Diseño de Plomo:  {0}",
+        "newValue": "Elaboración de diseño:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Elaboración de diseño:  {0}",
+        "newValue": "Diseño de Plomo:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Diseño de Plomo:  {0}",
+        "newValue": "Elaboración de diseño:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Elaboración de diseño:  {0}",
+        "newValue": "Diseño de Plomo:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Diseño de Plomo:  {0}",
+        "newValue": "Elaboración de diseño:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Elaboración de diseño:  {0}",
+        "newValue": "Diseño de Plomo:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158694,
+        "oldValue": "Diseño de Plomo:  {0}",
+        "newValue": "Elaboración de diseño:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Elaboración de diseño:  {0}",
+        "newValue": "Diseño de Plomo:  {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Diseño de Plomo:  {0}",
+        "newValue": "Elaboración de diseño:  {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "Mail registrado para ingreso de sucesos",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Mail registrado para ingreso de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Mail registrado para ingreso de sucesos",
+        "newValue": "Registro de Eventos Entrada de Correo",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Registro de Eventos Entrada de Correo",
+        "newValue": "Mail registrado para ingreso de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Mail registrado para ingreso de sucesos",
+        "newValue": "Registro de Eventos Entrada de Correo",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Registro de Eventos Entrada de Correo",
+        "newValue": "Mail registrado para ingreso de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Mail registrado para ingreso de sucesos",
+        "newValue": "Registro de Eventos Entrada de Correo",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Registro de Eventos Entrada de Correo",
+        "newValue": "Mail registrado para ingreso de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Mail registrado para ingreso de sucesos",
+        "newValue": "Registro de Eventos Entrada de Correo",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158694,
+        "oldValue": "Registro de Eventos Entrada de Correo",
+        "newValue": "Mail registrado para ingreso de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Mail registrado para ingreso de sucesos",
+        "newValue": "Registro de Eventos Entrada de Correo",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Registro de Eventos Entrada de Correo",
+        "newValue": "Mail registrado para ingreso de sucesos",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "Nueva versión disponible",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Nueva versión disponible",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "No, gracias",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "No, gracias",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "Uno o más parámetros de consulta tienen valores no válidos:",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1583534681079,
+        "oldValue": "",
+        "newValue": "Uno o más parámetros de consulta tienen valores no válidos:",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Opciones",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1460981676657,
+        "oldValue": "",
+        "newValue": "Opciones",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Opciones",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Opciones",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Opciones",
+        "newValue": "Opciones...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Opciones...",
+        "newValue": "Opciones",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Opciones",
+        "newValue": "Opciones...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Opciones...",
+        "newValue": "Opciones",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Opciones",
+        "newValue": "Opciones...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Opciones...",
+        "newValue": "Opciones",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Opciones",
+        "newValue": "Opciones...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Opciones...",
+        "newValue": "Opciones",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Opciones",
+        "newValue": "Opciones...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Opciones...",
+        "newValue": "Opciones",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Registro de ingreso y salida de sucesos",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Registro de ingreso y salida de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Registro de ingreso y salida de sucesos",
+        "newValue": "Registro de Eventos de Entrada de Salida",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Registro de Eventos de Entrada de Salida",
+        "newValue": "Registro de ingreso y salida de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Registro de ingreso y salida de sucesos",
+        "newValue": "Registro de Eventos de Entrada de Salida",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Registro de Eventos de Entrada de Salida",
+        "newValue": "Registro de ingreso y salida de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Registro de ingreso y salida de sucesos",
+        "newValue": "Registro de Eventos de Entrada de Salida",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Registro de Eventos de Entrada de Salida",
+        "newValue": "Registro de ingreso y salida de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Registro de ingreso y salida de sucesos",
+        "newValue": "Registro de Eventos de Entrada de Salida",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Registro de Eventos de Entrada de Salida",
+        "newValue": "Registro de ingreso y salida de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Registro de ingreso y salida de sucesos",
+        "newValue": "Registro de Eventos de Entrada de Salida",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Registro de Eventos de Entrada de Salida",
+        "newValue": "Registro de ingreso y salida de sucesos",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "Sitio web PhET",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1460981676657,
+        "oldValue": "",
+        "newValue": "Sitio web PhET",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Sitio web PhET",
+        "newValue": "Sitio web PhET...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Sitio web PhET...",
+        "newValue": "Sitio web PhET",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Sitio web PhET",
+        "newValue": "Sitio web PhET...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Sitio web PhET...",
+        "newValue": "Sitio web PhET",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Sitio web PhET",
+        "newValue": "Sitio web PhET...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Sitio web PhET...",
+        "newValue": "Sitio web PhET",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Sitio web PhET",
+        "newValue": "Sitio web PhET...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Sitio web PhET...",
+        "newValue": "Sitio web PhET",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Sitio web PhET",
+        "newValue": "Sitio web PhET...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Sitio web PhET...",
+        "newValue": "Sitio web PhET",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "Error de plataforma",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1599871650999,
+        "oldValue": "",
+        "newValue": "Error de plataforma",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Utilice un navegador diferente para ejecutar esta simulación.",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1599871650999,
+        "oldValue": "",
+        "newValue": "Utilice un navegador diferente para ejecutar esta simulación.",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "Seguro de calidad: {0}",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Seguro de calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Seguro de calidad: {0}",
+        "newValue": "Seguro de Calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Seguro de Calidad: {0}",
+        "newValue": "Seguro de calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Seguro de calidad: {0}",
+        "newValue": "Seguro de Calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Seguro de Calidad: {0}",
+        "newValue": "Seguro de calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Seguro de calidad: {0}",
+        "newValue": "Seguro de Calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Seguro de Calidad: {0}",
+        "newValue": "Seguro de calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Seguro de calidad: {0}",
+        "newValue": "Seguro de Calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Seguro de Calidad: {0}",
+        "newValue": "Seguro de calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Seguro de calidad: {0}",
+        "newValue": "Seguro de Calidad: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Seguro de Calidad: {0}",
+        "newValue": "Seguro de calidad: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "Informe un problema",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Informe un problema",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Informe un problema",
+        "newValue": "Reporte un Problema...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Reporte un Problema...",
+        "newValue": "Informe un problema",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Informe un problema",
+        "newValue": "Reporte un Problema...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Reporte un Problema...",
+        "newValue": "Informe un problema",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Informe un problema",
+        "newValue": "Reporte un Problema...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Reporte un Problema...",
+        "newValue": "Informe un problema",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Informe un problema",
+        "newValue": "Reporte un Problema...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Reporte un Problema...",
+        "newValue": "Informe un problema",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Informe un problema",
+        "newValue": "Reporte un Problema...",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Reporte un Problema...",
+        "newValue": "Informe un problema",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "Captura de pantalla",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Captura de pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Captura de pantalla",
+        "newValue": "Captura de Pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Captura de Pantalla",
+        "newValue": "Captura de pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Captura de pantalla",
+        "newValue": "Captura de Pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Captura de Pantalla",
+        "newValue": "Captura de pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Captura de pantalla",
+        "newValue": "Captura de Pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Captura de Pantalla",
+        "newValue": "Captura de pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Captura de pantalla",
+        "newValue": "Captura de Pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Captura de Pantalla",
+        "newValue": "Captura de pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Captura de pantalla",
+        "newValue": "Captura de Pantalla",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Captura de Pantalla",
+        "newValue": "Captura de pantalla",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "Desarrollo de software {0}",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Desarrollo de software {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Desarrollo de software {0}",
+        "newValue": "Desarrollo de Software: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Desarrollo de Software: {0}",
+        "newValue": "Desarrollo de software {0}",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Desarrollo de software {0}",
+        "newValue": "Desarrollo de Software: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Desarrollo de Software: {0}",
+        "newValue": "Desarrollo de software {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Desarrollo de software {0}",
+        "newValue": "Desarrollo de Software: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Desarrollo de Software: {0}",
+        "newValue": "Desarrollo de software {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Desarrollo de software {0}",
+        "newValue": "Desarrollo de Software: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Desarrollo de Software: {0}",
+        "newValue": "Desarrollo de software {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Desarrollo de software {0}",
+        "newValue": "Desarrollo de Software: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Desarrollo de Software: {0}",
+        "newValue": "Desarrollo de software {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Diseño de Sonido: {0}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1544581085278,
+        "oldValue": "",
+        "newValue": "Diseño de Sonido: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Enviar registro de entrada de sucesos",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Enviar registro de entrada de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Enviar registro de entrada de sucesos",
+        "newValue": "Enviar Registro de Entrada de Sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Enviar Registro de Entrada de Sucesos",
+        "newValue": "Enviar registro de entrada de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Enviar registro de entrada de sucesos",
+        "newValue": "Enviar Registro de Entrada de Sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Enviar Registro de Entrada de Sucesos",
+        "newValue": "Enviar registro de entrada de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Enviar registro de entrada de sucesos",
+        "newValue": "Enviar Registro de Entrada de Sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668857,
+        "oldValue": "Enviar Registro de Entrada de Sucesos",
+        "newValue": "Enviar registro de entrada de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Enviar registro de entrada de sucesos",
+        "newValue": "Enviar Registro de Entrada de Sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Enviar Registro de Entrada de Sucesos",
+        "newValue": "Enviar registro de entrada de sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Enviar registro de entrada de sucesos",
+        "newValue": "Enviar Registro de Entrada de Sucesos",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Enviar Registro de Entrada de Sucesos",
+        "newValue": "Enviar registro de entrada de sucesos",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "Equipo: {0}",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Equipo: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Términos, privacidad y licencias",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Términos, Privacidad y Licencias",
+        "explanation": null
+      },
+      {
+        "userId": 174240,
+        "timestamp": 1472008743430,
+        "oldValue": "Términos, Privacidad y Licencias",
+        "newValue": "Términos, privacidad y licencias",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Términos, privacidad y licencias",
+        "newValue": "Términos, Privacidad y Licencias",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Términos, Privacidad y Licencias",
+        "newValue": "Términos, privacidad y licencias",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Términos, privacidad y licencias",
+        "newValue": "Términos, Privacidad y Licencias",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Términos, Privacidad y Licencias",
+        "newValue": "Términos, privacidad y licencias",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Términos, privacidad y licencias",
+        "newValue": "Términos, Privacidad y Licencias",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668858,
+        "oldValue": "Términos, Privacidad y Licencias",
+        "newValue": "Términos, privacidad y licencias",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Términos, privacidad y licencias",
+        "newValue": "Términos, Privacidad y Licencias",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Términos, Privacidad y Licencias",
+        "newValue": "Términos, privacidad y licencias",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Términos, privacidad y licencias",
+        "newValue": "Términos, Privacidad y Licencias",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Términos, Privacidad y Licencias",
+        "newValue": "Términos, privacidad y licencias",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "Gracias",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Gracias",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "La simulación comenzará con los valores predeterminados para esos <br> parámetros de consulta.",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1583534681079,
+        "oldValue": "",
+        "newValue": "La simulación comenzará con los valores predeterminados para esos <br> parámetros de consulta.",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "Hay una nueva versión disponible {0}",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Hay una nueva versión disponible {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Hay una nueva versión disponible {0}",
+        "newValue": "Hay una nueva versión disponible: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Hay una nueva versión disponible: {0}",
+        "newValue": "Hay una nueva versión disponible {0}",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Hay una nueva versión disponible {0}",
+        "newValue": "Hay una nueva versión disponible: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Hay una nueva versión disponible: {0}",
+        "newValue": "Hay una nueva versión disponible {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Hay una nueva versión disponible {0}",
+        "newValue": "Hay una nueva versión disponible: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668858,
+        "oldValue": "Hay una nueva versión disponible: {0}",
+        "newValue": "Hay una nueva versión disponible {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Hay una nueva versión disponible {0}",
+        "newValue": "Hay una nueva versión disponible: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Hay una nueva versión disponible: {0}",
+        "newValue": "Hay una nueva versión disponible {0}",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Hay una nueva versión disponible {0}",
+        "newValue": "Hay una nueva versión disponible: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Hay una nueva versión disponible: {0}",
+        "newValue": "Hay una nueva versión disponible {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "Créditos de terceros",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Créditos de terceros",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Créditos de terceros",
+        "newValue": "Créditos de Terceros",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Créditos de Terceros",
+        "newValue": "Créditos de terceros",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Créditos de terceros",
+        "newValue": "Créditos de Terceros",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Créditos de Terceros",
+        "newValue": "Créditos de terceros",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Créditos de terceros",
+        "newValue": "Créditos de Terceros",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668858,
+        "oldValue": "Créditos de Terceros",
+        "newValue": "Créditos de terceros",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Créditos de terceros",
+        "newValue": "Créditos de Terceros",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Créditos de Terceros",
+        "newValue": "Créditos de terceros",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Créditos de terceros",
+        "newValue": "Créditos de Terceros",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Créditos de Terceros",
+        "newValue": "Créditos de terceros",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "La simulación está realizada al día ...",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "La simulación está realizada al ...",
+        "explanation": null
+      },
+      {
+        "userId": 174240,
+        "timestamp": 1476033820032,
+        "oldValue": "La simulación está realizada al ...",
+        "newValue": "La simulación está realizada al día ...",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "La simulación está realizada al día ...",
+        "newValue": "Esta simulación está actualizada.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Esta simulación está actualizada.",
+        "newValue": "La simulación está realizada al día ...",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "La simulación está realizada al día ...",
+        "newValue": "Esta simulación está actualizada.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Esta simulación está actualizada.",
+        "newValue": "La simulación está realizada al día ...",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "La simulación está realizada al día ...",
+        "newValue": "Esta simulación está actualizada.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668858,
+        "oldValue": "Esta simulación está actualizada.",
+        "newValue": "La simulación está realizada al día ...",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "La simulación está realizada al día ...",
+        "newValue": "Esta simulación está actualizada.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Esta simulación está actualizada.",
+        "newValue": "La simulación está realizada al día ...",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "La simulación está realizada al día ...",
+        "newValue": "Esta simulación está actualizada.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Esta simulación está actualizada.",
+        "newValue": "La simulación está realizada al día ...",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "Para iniciar",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1544581085278,
+        "oldValue": "",
+        "newValue": "Para iniciar",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Traducción",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Traducción",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "Créditos de traducción",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Créditos de traducción",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Créditos de traducción",
+        "newValue": "Créditos de Traducción",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Créditos de Traducción",
+        "newValue": "Créditos de traducción",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "Créditos de traducción",
+        "newValue": "Créditos de Traducción",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "Créditos de Traducción",
+        "newValue": "Créditos de traducción",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "Créditos de traducción",
+        "newValue": "Créditos de Traducción",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668858,
+        "oldValue": "Créditos de Traducción",
+        "newValue": "Créditos de traducción",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "Créditos de traducción",
+        "newValue": "Créditos de Traducción",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "Créditos de Traducción",
+        "newValue": "Créditos de traducción",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "Créditos de traducción",
+        "newValue": "Créditos de Traducción",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "Créditos de Traducción",
+        "newValue": "Créditos de traducción",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "No disponible para chequear actualizaciones",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "No disponible para chequear actualizaciones",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "No disponible para chequear actualizaciones",
+        "newValue": "No esta disponible para chequear actualizaciones.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "No esta disponible para chequear actualizaciones.",
+        "newValue": "No disponible para chequear actualizaciones",
+        "explanation": null
+      },
+      {
+        "userId": 695095,
+        "timestamp": 1568133520049,
+        "oldValue": "No disponible para chequear actualizaciones",
+        "newValue": "No esta disponible para chequear actualizaciones.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1569006848921,
+        "oldValue": "No esta disponible para chequear actualizaciones.",
+        "newValue": "No disponible para chequear actualizaciones",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1572295981258,
+        "oldValue": "No disponible para chequear actualizaciones",
+        "newValue": "No esta disponible para chequear actualizaciones.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1573081668858,
+        "oldValue": "No esta disponible para chequear actualizaciones.",
+        "newValue": "No disponible para chequear actualizaciones",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1573776997505,
+        "oldValue": "No disponible para chequear actualizaciones",
+        "newValue": "No esta disponible para chequear actualizaciones.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1574447158695,
+        "oldValue": "No esta disponible para chequear actualizaciones.",
+        "newValue": "No disponible para chequear actualizaciones",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1576013953714,
+        "oldValue": "No disponible para chequear actualizaciones",
+        "newValue": "No esta disponible para chequear actualizaciones.",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1580335855189,
+        "oldValue": "No esta disponible para chequear actualizaciones.",
+        "newValue": "No disponible para chequear actualizaciones",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "Versión {0}",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Versión {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "Su versión actual es: {0}.",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Su versión actual es: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1510840035203,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Modo de proyector",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1476059976217,
+        "oldValue": "",
+        "newValue": "Modo de proyector",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "Modo de proyector",
+        "newValue": "Modo de Proyector",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1567810664365,
+        "oldValue": "Modo de Proyector",
+        "newValue": "Modo de proyector",
+        "explanation": null
+      }
+    ]
+  },
+  "adaptedFrom": {
+    "value": "Adaptación de",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Adaptación desde",
+        "explanation": null
+      },
+      {
+        "userId": 174240,
+        "timestamp": 1476033820032,
+        "oldValue": "Adaptación desde",
+        "newValue": "Adaptación de",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Hecho",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Hecho",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.settings": {
+    "value": "Configuraciones",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Configuraciones",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Punteros de muestra",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Punteros de muestra",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Configuraciones",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "Configuraciones",
+        "explanation": null
+      }
+    ]
+  },
+  "titlePattern": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 174240,
+        "timestamp": 1471832087918,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  }
+}

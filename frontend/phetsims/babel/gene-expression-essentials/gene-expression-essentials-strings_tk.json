@@ -1,0 +1,116 @@
+{
+  "low": {
+    "value": "Pes"
+  },
+  "regulatoryRegion": {
+    "value": ""
+  },
+  "positiveTranscriptionFactorHtml": {
+    "value": ""
+  },
+  "negativeTranscriptionFactor": {
+    "value": "Negatiw transkripsiýa görkezijisi"
+  },
+  "ribosome": {
+    "value": "Ribosoma"
+  },
+  "averageProteinLevelVsTime": {
+    "value": "\"Ortaca belok derejesi\" garşy \"Wagt\""
+  },
+  "affinities": {
+    "value": "Garyndaşlyklar"
+  },
+  "biomoleculeToolbox": {
+    "value": "Biomolekulýar esbaplar"
+  },
+  "one": {
+    "value": "Bir"
+  },
+  "mRnaDestroyer": {
+    "value": "\"mRna\" ýykyjy"
+  },
+  "protein": {
+    "value": "Belok"
+  },
+  "slow": {
+    "value": "haýal"
+  },
+  "yourProteinCollection": {
+    "value": ""
+  },
+  "translation.credits": {
+    "value": "PICTT"
+  },
+  "previousGene": {
+    "value": "Öňki gen"
+  },
+  "averageProteinLevel": {
+    "value": "Ortaça belok derejesi"
+  },
+  "positiveTranscriptionFactor": {
+    "value": "Pozitiw transkripsiýa görkezijisi"
+  },
+  "many": {
+    "value": "Köp sanly"
+  },
+  "none": {
+    "value": "Hiç"
+  },
+  "cells": {
+    "value": "Öýjükler"
+  },
+  "transcribedRegion": {
+    "value": ""
+  },
+  "lots": {
+    "value": "Köp"
+  },
+  "nextGene": {
+    "value": "Indiki gen"
+  },
+  "negativeTranscriptionFactorHtml": {
+    "value": ""
+  },
+  "gene-expression-essentials.title": {
+    "value": "Genlaryň täsiri - ekspressiýanyň esaslary"
+  },
+  "gene": {
+    "value": "Gen"
+  },
+  "affinity": {
+    "value": "Garyndaşlyk"
+  },
+  "imageCaption": {
+    "value": "Bu surat E. Coli öýjükleriň ýaşyl fluoressent proteininiň beýan edilişini görkzeýär. Üns beriň: öýjükler genetiki taýdan meňzeş bolsalar-da, olar beloklaryň dürli mukdarlaryny beýan edýärler"
+  },
+  "proteinCountCaptionPart2": {
+    "value": "3 sany belok görnüşinden."
+  },
+  "rnaPolymerase": {
+    "value": "RNK polimerazasy"
+  },
+  "proteinCountCaptionPart1": {
+    "value": "Sizde bar:"
+  },
+  "showRealCells": {
+    "value": "Hakyky öýjükleri görkez"
+  },
+  "high": {
+    "value": "Ýokary"
+  },
+  "degradation": {
+    "value": "Pese düşme"
+  },
+  "collectionComplete": {
+    "value": "\"Ýygyndy doldy!\""
+  },
+  "polymerase": {
+    "value": "Polimeraza"
+  },
+  "fast": {
+    "value": "çalt"
+  },
+  "screen.multipleCells": {
+    "value": "Köplük öýjükler"
+  }
+}

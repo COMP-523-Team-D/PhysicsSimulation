@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <title>PhET Test</title>
+
+  <style type="text/css">
+
+    #sims {
+      padding-top: 20px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .status {
+      padding-right: 10px;
+    }
+
+    .masterStatus {
+      padding-right: 10px;
+    }
+
+    .masterUpToDate {
+      color: #080;
+    }
+
+    .masterOutOfDate {
+      color: #f00;
+    }
+
+    .masterFailed {
+      color: #ff0;
+    }
+
+    #commonSameAsRemoteMasterStatus {
+      margin-top: 10px;
+    }
+
+    #commonSameAsRemoteMasterStatus.commonChecking {
+      color: #000;
+    }
+
+    #commonSameAsRemoteMasterStatus.commonUpToDate {
+      color: #080;
+    }
+
+    #commonSameAsRemoteMasterStatus.commonOutOfDate {
+      color: #f00;
+    }
+
+    .testlink {
+      margin-bottom: 10px;
+    }
+
+    .testlink a {
+      padding: 5px;
+    }
+
+    body {
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h1>PhET Test (Mendeleev)</h1>
+
+  <div class="testlink">
+    <a href="http://www.colorado.edu/physics/phet/dev/html/">PhET Dev (HTML)</a>
+    <a href="http://www.colorado.edu/physics/phet/dev/">PhET Dev (Java/Flash)</a>
+    <a href="/phetmarks/">Phetmarks</a>
+    <a href="/aqua/test-server/test-sims.html?ea&amp;audioVolume=0&amp;testDuration=45000&amp;testConcurrentBuilds=2&amp;fuzzMouse">Automated Tests</a>
+    <a href="/scenery/tests/qunit/unit-tests.html">Scenery Unit Tests</a>
+  </div>
+
+  <button id="pullAll">Pull All</button>
+  <button id="chipperRefresh">Refresh Chipper</button>
+
+  <div id="pullStatus"></div>
+  <div id="chipperStatus"></div>
+  <div id="commonSameAsRemoteMasterStatus"></div>
+
+  <table id="sims">
+  </table>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script type="text/javascript">
+    // will be replaced by domain name in the future
+    var domain = 'phettest.colorado.edu';
+
+    var simSameMasterStatusElements = {
+
+    };
+    function checkSimSameMaster( reposToCheck ) {
+      if ( reposToCheck === undefined ) {
+        reposToCheck = Object.keys( simSameMasterStatusElements );
+      }
+
+      function checkSim( sim ) {
+        var statusElement = simSameMasterStatusElements[ sim ];
+        $( statusElement ).text( '?' );
+        statusElement.className = 'masterStatus';
+        $.ajax( 'http://' + domain + ':45362/same-as-remote-master?repo=' + sim ).done( function( data ) {
+          if ( data.output === 'same' ) {
+            $( statusElement ).text( 'up-to-date' );
+            statusElement.className = 'masterStatus masterUpToDate'
+          }
+          else if ( data.output === 'different' ) {
+            $( statusElement ).text( 'out-of-date' );
+            statusElement.className = 'masterStatus masterOutOfDate'
+          } else {
+            $( statusElement ).text( 'failed' );
+            statusElement.className = 'masterStatus masterFailed'
+          }
+          reposToCheck.length && checkSim( reposToCheck.shift() );
+        } ).fail( function() {
+          $( statusElement ).text( 'failed' );
+          statusElement.className = 'masterStatus masterFailed'
+          reposToCheck.length && checkSim( reposToCheck.shift() );
+        } );
+      }
+      checkSim( reposToCheck.shift() );
+    }
+
+    var commonRepos = [];
+    function checkCommonSameMaster() {
+      var reposToCheck = [].concat( commonRepos );
+      var statusElement = document.getElementById( 'commonSameAsRemoteMasterStatus' );
+      $( statusElement ).text( 'checking status of common repos...' );
+      statusElement.className = 'commonChecking'
+      var outOfDateRepos = [];
+
+      function checkCommon( repo ) {
+        $.ajax( 'http://' + domain + ':45362/same-as-remote-master?repo=' + repo ).done( function( data ) {
+          if ( data.output === 'different' ) {
+            outOfDateRepos.push( repo );
+          }
+
+          if ( reposToCheck.length ) {
+            checkCommon( reposToCheck.shift() );
+          }
+          else {
+            if ( outOfDateRepos.length ) {
+              $( statusElement ).text( 'out-of-date common repos: ' + outOfDateRepos.join( ', ' ) );
+              statusElement.className = 'commonOutOfDate'
+            }
+            else {
+              $( statusElement ).text( 'common repos all up-to-date' );
+              statusElement.className = 'commonUpToDate'
+            }
+          }
+        } ).fail( function() {
+          $( statusElement ).text( 'common repo status check failed' );
+        } );
+      }
+      checkCommon( reposToCheck.shift() );
+    }
+
+    document.getElementById( 'pullAll' ).addEventListener( 'click', function() {
+      var status = document.getElementById( 'pullStatus' );
+      $( status ).text( 'pulling...' );
+      $.ajax( 'http://' + domain + ':45362/pull-all' ).done( function( data ) {
+        $( status ).text( '' );
+
+        checkSimSameMaster();
+        checkCommonSameMaster();
+      } ).fail( function() {
+        $( status ).text( 'pull failed' );
+      } );
+    } );
+
+    document.getElementById( 'chipperRefresh' ).addEventListener( 'click', function() {
+      var status = document.getElementById( 'chipperStatus' );
+      $( status ).text( 'refreshing chipper' );
+      $.ajax( 'http://' + domain + ':45362/chipper-refresh' ).done( function( data ) {
+        $( status ).text( '' );
+
+        updateSims();
+      } ).fail( function() {
+        $( status ).text( 'chipper refresh failed' );
+      } );
+    } );
+
+    function updateSims() {
+      var simsTable = document.getElementById( 'sims' );
+      while ( simsTable.childNodes.length ) {
+        simsTable.removeChild( simsTable.childNodes[ 0 ] );
+      }
+      $.ajax( 'http://' + domain + ':45362/sim-list' ).done( function( data ) {
+        var sims = data.output;
+
+        _.each( sims, function( simName ) {
+          // row
+          var tr = document.createElement( 'tr' );
+          simsTable.appendChild( tr );
+
+          function cell( element ) {
+            var td = document.createElement( 'td' );
+            tr.appendChild( td );
+            td.appendChild( element );
+          }
+          function linkCell( text, url ) {
+            var a = document.createElement( 'a' );
+            $( a ).text( text );
+            a.href = url;
+            cell( a );
+          }
+          function actionCell( text, url ) {
+            var button = document.createElement( 'button' );
+            var status = document.createElement( 'span' );
+            status.className = 'status';
+            $( button ).text( text );
+            button.addEventListener( 'click', function() {
+              $( status ).text( 'running' );
+              $.ajax( url ).done( function handle( data ) {
+                if ( data.success ) {
+                  $( status ).text( '' );
+                }
+                else {
+                  $( status ).text( 'failed' );
+                }
+                checkSimSameMaster( [ simName ] );
+              } ).fail( function() {
+                $( status ).text( 'failed' );
+              } );
+            } );
+            cell( button );
+            cell( status );
+          }
+          function sameAsMasterCell( simName ) {
+            var status = document.createElement( 'span' );
+            status.className = 'masterStatus';
+            $( status ).text( '?' );
+            simSameMasterStatusElements[ simName ] = status;
+            cell( status );
+          }
+
+          linkCell( simName, 'http://' + domain + '/' + simName + '/' + simName + '_en.html?ea&brand=phet' );
+          sameAsMasterCell( simName );
+          actionCell( 'Pull', 'http://' + domain + ':45362/pull?sim=' + simName );
+          actionCell( 'Build', 'http://' + domain + ':45362/build?sim=' + simName );
+          linkCell( 'Built Version', 'http://' + domain + '/' + simName + '/build/' + simName + '_en.html' );
+          linkCell( 'GitHub Issues', 'http://github.com/phetsims/' + simName + '/issues' );
+          linkCell( 'Dev', 'http://www.colorado.edu/physics/phet/dev/html/' + simName );
+          linkCell( 'Production', 'http://phet.colorado.edu/sims/html/' + simName + '/latest/' + simName + '_en.html' );
+        } );
+
+        checkSimSameMaster();
+
+        $.ajax( 'http://' + domain + ':45362/repo-list' ).done( function( data ) {
+          var repos = data.output;
+          commonRepos = repos.filter( function( repo ) {
+            return !_.includes( sims, repo );
+          } );
+
+          checkCommonSameMaster();
+        } );
+      } );
+    }
+
+    updateSims();
+  </script>
+</body>
+</html>

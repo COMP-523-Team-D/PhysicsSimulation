@@ -1,0 +1,980 @@
+{
+  "menuItem.about": {
+    "value": "Om...",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Om...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "Kontrollera uppdateringar...",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Kontrollera uppdateringar...",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "Kontrollerar uppdateringar...",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Kontrollerar uppdateringar...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Bidragsgivare: {0} ",
+    "history": [
+      {
+        "userId": 155212,
+        "timestamp": 1509454437955,
+        "oldValue": "",
+        "newValue": "Bidragsgivare: {0} ",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "Credits",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Credits",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "Förbättrat ljud",
+    "history": [
+      {
+        "userId": 155212,
+        "timestamp": 1551870885304,
+        "oldValue": "",
+        "newValue": "Förbättrat ljud",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "Helskärm",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Helskärm",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "Hämta uppdatering...",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Hämta uppdatering...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "Grafik: {0}",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Grafik: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Kortkommandon för tangentbordet",
+    "history": [
+      {
+        "userId": 155212,
+        "timestamp": 1509454437955,
+        "oldValue": "",
+        "newValue": "Kortkommandon för tangentbordet",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "Lead Design: {0}",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Lead Design: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "Mail Input Events Log",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Mail Input Events Log",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "Ny version tillgänglig",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Ny version tillgänglig",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "Nej tack",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Nej tack",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Alternativ",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Alternativ",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Alternativ...",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Alternativ...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Händelselogg",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Output Input Events Log",
+        "explanation": null
+      },
+      {
+        "userId": 822442,
+        "timestamp": 1598868745056,
+        "oldValue": "Output Input Events Log",
+        "newValue": "Händelselogg",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "PhET Webbsida…",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "PhET Website…",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1509454437956,
+        "oldValue": "PhET Website…",
+        "newValue": "PhET Webbsida…",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "Kvalitetskontroll: {0}",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Kvalitetskontroll: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "Rapportera ett problem...",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Rapportera ett problem...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "Skärmdump",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Skärmdump",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "Mjukvaruutveckling: {0}",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Software Development: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1509454437956,
+        "oldValue": "Software Development: {0}",
+        "newValue": "Mjukvaruutveckling: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Ljudskapare: {0}",
+    "history": [
+      {
+        "userId": 155212,
+        "timestamp": 1551870885304,
+        "oldValue": "",
+        "newValue": "Ljudskapare: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Skicka in händelselogg",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Submit Input Events Log",
+        "explanation": null
+      },
+      {
+        "userId": 822442,
+        "timestamp": 1598868745056,
+        "oldValue": "Submit Input Events Log",
+        "newValue": "Skicka in händelselogg",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "Team: {0}",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Team: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "Villkor, sekretess och licensiering",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Terms, Privacy & Licensing",
+        "explanation": null
+      },
+      {
+        "userId": 822442,
+        "timestamp": 1598868745056,
+        "oldValue": "Terms, Privacy & Licensing",
+        "newValue": "Villkor, sekretess och licensiering",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "Tack",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Tack",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "Det finns en ny version att använda: {0}.",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "There is a new version available: {0}.",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1484304561012,
+        "oldValue": "There is a new version available: {0}.",
+        "newValue": "Det finns en ny version att använda: {0}.",
+        "explanation": null
+      },
+      {
+        "userId": 202544,
+        "timestamp": 1523184041396,
+        "oldValue": "Det finns en ny version att använda: {0}.",
+        "newValue": "En ny version är tillgänglig: {0}.",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551870885304,
+        "oldValue": "En ny version är tillgänglig: {0}.",
+        "newValue": "Det finns en ny version att använda: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "Tredjepartserkännanden",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Third-party Credits",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1509454437956,
+        "oldValue": "Third-party Credits",
+        "newValue": "Tredjepart, Credits",
+        "explanation": null
+      },
+      {
+        "userId": 822442,
+        "timestamp": 1598868745056,
+        "oldValue": "Tredjepart, Credits",
+        "newValue": "Tredjepartserkännanden",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "Denna simulering är uppdaterad.",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "This simulation is up to date.",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1484304561012,
+        "oldValue": "This simulation is up to date.",
+        "newValue": "Denna simulering är uppdaterad",
+        "explanation": null
+      },
+      {
+        "userId": 822442,
+        "timestamp": 1598868745056,
+        "oldValue": "Denna simulering är uppdaterad",
+        "newValue": "Denna simulering är uppdaterad.",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "för att komma igång",
+    "history": [
+      {
+        "userId": 155212,
+        "timestamp": 1551870885304,
+        "oldValue": "",
+        "newValue": "för att komma igång",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Översättning",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Översättning",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "Översättning, ",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Translation Credits",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1509454437956,
+        "oldValue": "Translation Credits",
+        "newValue": "Översättning, Credits",
+        "explanation": null
+      },
+      {
+        "userId": 822442,
+        "timestamp": 1598868543030,
+        "oldValue": "Översättning, Credits",
+        "newValue": "Översättning, ",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "Det går inte att kontrollera uppdateringar.",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Det går inte att kontrollera uppdateringar.",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "version {0}",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "version {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "Din nuvarande version är: {0}.",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Din nuvarande version är: {0}.",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 822442,
+        "timestamp": 1598868543030,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Projektorläge",
+    "history": [
+      {
+        "userId": 155212,
+        "timestamp": 1485812125857,
+        "oldValue": "",
+        "newValue": "Projektorläge",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Inställningar",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Inställningar",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Visa markörer",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Visa markörer",
+        "explanation": null
+      }
+    ]
+  },
+  "adaptedFrom": {
+    "value": "bearbetad\r\nfrån",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "bearbetad\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1484304561013,
+        "oldValue": "bearbetad\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1484306345571,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1484306507463,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1484306956948,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1484307331235,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485810246613,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485810525349,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485810835318,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485811220660,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485811636315,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485812631982,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485812975014,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485812990800,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485813440542,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485818875907,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485819221713,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485819288902,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1485819817382,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1502792739422,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1502888376546,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1505076870241,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1505077366735,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1505078058213,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1505078692923,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1505079294465,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1505079738287,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1505742596469,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1509454437956,
+        "oldValue": "bearbetad\r\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519681397602,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519685083966,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519685554936,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519685970928,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519686586344,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519686699152,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519687573184,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519687975910,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519688327614,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1519689286768,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 202544,
+        "timestamp": 1523184041396,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551870885304,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551871319293,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551872474502,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551872795561,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551874011061,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551874321833,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551875408484,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551875832773,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551876445971,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1551877275742,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1567368048213,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1567369388423,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      },
+      {
+        "userId": 155212,
+        "timestamp": 1567369871261,
+        "oldValue": "bearbetad\r\\nfrån",
+        "newValue": "bearbetad\r\nfrån",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.settings": {
+    "value": "Inställningar...",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "Inställningar...",
+        "explanation": null
+      }
+    ]
+  },
+  "titlePattern": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 202544,
+        "timestamp": 1473775049729,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  }
+}

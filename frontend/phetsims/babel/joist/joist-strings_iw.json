@@ -1,0 +1,688 @@
+{
+  "menuItem.about": {
+    "value": "אודות...",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520224,
+        "oldValue": "",
+        "newValue": "אודות...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "חיפוש עדכונים",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520224,
+        "oldValue": "",
+        "newValue": "עדכונים",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "עדכונים",
+        "newValue": "חיפוש עדכונים",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "מחפש עדכונים...",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520224,
+        "oldValue": "",
+        "newValue": "מחפש עדכונים...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "תורמים: {0}",
+    "history": [
+      {
+        "userId": 318703,
+        "timestamp": 1513717959215,
+        "oldValue": "",
+        "newValue": "תורמים {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1584817185229,
+        "oldValue": "תורמים {0}",
+        "newValue": "תורמים: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "קרדיטים",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "",
+        "newValue": "קרדיטים",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "הגברת צליל",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1584817185229,
+        "oldValue": "",
+        "newValue": "הגברת צליל",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "מסך מלא",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520224,
+        "oldValue": "",
+        "newValue": "מסך מלא",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "הורדת עדכון...",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520224,
+        "oldValue": "",
+        "newValue": "השג עדכונים...",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "השג עדכונים...",
+        "newValue": "הורדת עדכון...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.graphicArts": {
+    "value": "גרפיקה: {0}",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112186,
+        "oldValue": "",
+        "newValue": "גרפיקה: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "לא נתמך ע\"י דפדפן אקספלורר.",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1607208543387,
+        "oldValue": "",
+        "newValue": "לא נתמך ע\"י דפדפן אקספלורר.",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "ערכי חיפוש לא חוקיים",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1584824363262,
+        "oldValue": "",
+        "newValue": "ערכי חיפוש לא חוקיים",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "קיצורי מקשים",
+    "history": [
+      {
+        "userId": 318703,
+        "timestamp": 1513717959215,
+        "oldValue": "",
+        "newValue": "קיצורי מקשים",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.leadDesign": {
+    "value": "עיצוב: {0}",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112186,
+        "oldValue": "",
+        "newValue": "עיצוב: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "תיעוד אירועי קלט דואר אלקטרוני",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "",
+        "newValue": "תיעוד אירועי קלט דואר אלקטרוני",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.outOfDate": {
+    "value": "גרסה חדשה זמינה",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112186,
+        "oldValue": "",
+        "newValue": "גרסה חדשה זמינה",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.noThanks": {
+    "value": "לא תודה",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520225,
+        "oldValue": "",
+        "newValue": "לא תודה",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "אחד או יותר מערכי החיפוש לא חוקיים",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1584824363262,
+        "oldValue": "",
+        "newValue": "אחד או יותר מערכי החיפוש לא חוקיים",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "אפשרויות",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520225,
+        "oldValue": "",
+        "newValue": "אפשרויות",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "אפשרויות...",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520225,
+        "oldValue": "",
+        "newValue": "אפשרויות...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "תיעוד אירועי קלט פלט",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "",
+        "newValue": "תיעוד אירועי קלט פלט",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.phetWebsite": {
+    "value": "אתר PhET",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520225,
+        "oldValue": "",
+        "newValue": "אתר PhET",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "בבקשה השתמש בדפדפן אחר להרצת הסימולציה הזאת.",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1607208543387,
+        "oldValue": "",
+        "newValue": "בבקשה השתמש בדפדפן אחר להרצת הסימולציה הזאת.",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.qualityAssurance": {
+    "value": "אבטחת איכות: {0}",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464765391090,
+        "oldValue": "",
+        "newValue": "אבטחת איכות: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.reportAProblem": {
+    "value": "דווח על בעיה...",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520226,
+        "oldValue": "",
+        "newValue": "דווח על בעיה...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "צילום מסך",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520226,
+        "oldValue": "",
+        "newValue": "צילום מסך",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.softwareDevelopment": {
+    "value": "פיתוח תכנה: {0}",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112187,
+        "oldValue": "",
+        "newValue": "פיתוח תכנה: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "פיתוח תכנה: {0}",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1464765391090,
+        "oldValue": "",
+        "newValue": "פיתוח תכנה: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "עיצוב צליל: {0}",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1584817185229,
+        "oldValue": "",
+        "newValue": "עיצוב צליל: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "שליחת תיעוד אירועי קלט",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "",
+        "newValue": "שלח תיעוד אירועי קלט",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "שלח תיעוד אירועי קלט",
+        "newValue": "שליחת תיעוד אירועי קלט",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.team": {
+    "value": "צוות: {0}",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464765391090,
+        "oldValue": "",
+        "newValue": "צוות: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "termsPrivacyAndLicensing": {
+    "value": "תנאים, הגדרות פרטיות ורשיונות",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112187,
+        "oldValue": "",
+        "newValue": "תנאים, הגדרות פרטיות ורשיונות",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "תודה",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520226,
+        "oldValue": "",
+        "newValue": "תודה",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "ההדמיה תתחיל עם ערכי ברירת מחדל עבור<br>ערכי החיפוש",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1584824363262,
+        "oldValue": "",
+        "newValue": "ההדמיה תתחיל עם ערכי ברירת מחדל עבור<br>ערכי החיפוש",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.newVersionAvailable": {
+    "value": "גרסה חדשה זמינה: {0}",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112187,
+        "oldValue": "",
+        "newValue": "יש גרסה חדשה זמינה: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "יש גרסה חדשה זמינה: {0}",
+        "newValue": "גרסה חדשה זמינה: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "thirdParty.credits.link": {
+    "value": "קרדיטים לצד ג",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "",
+        "newValue": "קרדיטים לצד ג",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.upToDate": {
+    "value": "הסימולציה מעודכנת",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112187,
+        "oldValue": "",
+        "newValue": "תרגום",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "תרגום",
+        "newValue": "הסימולציה מעודכנת",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "להתחלה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1584817185229,
+        "oldValue": "",
+        "newValue": "להתחלה",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "תרגום",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "",
+        "newValue": "תרגום",
+        "explanation": null
+      }
+    ]
+  },
+  "translation.credits.link": {
+    "value": "קרדיטי תרגום",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "",
+        "newValue": "תרגום על ידי",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "תרגום על ידי",
+        "newValue": "קרדיטי תרגום",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.offline": {
+    "value": "בדיקת עדכונים נכשלה",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "",
+        "newValue": "בדיקת עדכונים נכשלה",
+        "explanation": null
+      }
+    ]
+  },
+  "versionPattern": {
+    "value": "גרסה {0}",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112187,
+        "oldValue": "",
+        "newValue": "גרסה {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.yourCurrentVersion": {
+    "value": "הגרסה הנוכחית שלך היא: {0}",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112187,
+        "oldValue": "",
+        "newValue": "הגרסה הנוכחית שלך היא: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 318703,
+        "timestamp": 1513717959215,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "adaptedFrom": {
+    "value": "מבוסס על",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1442512520224,
+        "oldValue": "",
+        "newValue": "נלקח מ",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "נלקח מ",
+        "newValue": "מבוסס על",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "סיום",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112186,
+        "oldValue": "",
+        "newValue": "סיים",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "סיים",
+        "newValue": "סיום",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.settings": {
+    "value": "הגדרות...",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112187,
+        "oldValue": "",
+        "newValue": "אפשרויות...",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "אפשרויות...",
+        "newValue": "הגדרות...",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "הצגת סמנים",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112187,
+        "oldValue": "",
+        "newValue": "הצג סמנים",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "הצג סמנים",
+        "newValue": "הצגת סמנים",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "הגדרות",
+    "history": [
+      {
+        "userId": 154968,
+        "timestamp": 1443093112187,
+        "oldValue": "",
+        "newValue": "אפשרויות",
+        "explanation": null
+      },
+      {
+        "userId": 322219,
+        "timestamp": 1465142953211,
+        "oldValue": "אפשרויות",
+        "newValue": "הגדרות",
+        "explanation": null
+      }
+    ]
+  },
+  "titlePattern": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1464764933341,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "מצב מקרן",
+    "history": [
+      {
+        "userId": 322219,
+        "timestamp": 1465457133844,
+        "oldValue": "",
+        "newValue": "מצב מקרן",
+        "explanation": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "dot",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phetsims/dot.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "esprima": "~2.7.0",
+    "js-beautify": "~1.5.10"
+  },
+  "phet": {
+    "isJSOnly": true,
+    "requiresLodash": true,
+    "assignGlobals": {
+      "dot": "DOT/main",
+      "axon": "AXON/main",
+      "phetCore": "PHET_CORE/main"
+    }
+  }
+}

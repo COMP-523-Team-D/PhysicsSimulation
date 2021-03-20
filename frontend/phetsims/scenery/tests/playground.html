@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<!--
+When run in the browser, this will load code into the global namespace so that it can be tested via the developer console. Additionally, it provides
+an UI and Display made for visual testing and debugging.
+-->
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Scenery Playground</title>
+
+  <script src="../../assert/js/assert.js"></script>
+  <script src="../../sherpa/lib/jquery-2.1.0.js"></script>
+  <script src="../../sherpa/lib/lodash-4.17.4.min.js"></script>
+  <script src="../../sherpa/lib/himalaya-0.2.7.js"></script>
+
+  <script type="text/javascript">
+    window.assertions.enableAssert();
+    window.assertions.enableAssertSlow();
+  </script>
+
+  <script data-main="../js/config.js" src="../../sherpa/lib/require-2.1.11.js"></script>
+
+  <style>
+    html, body {
+      background-color: #eee;
+      border: 0;
+      padding: 0;
+    }
+
+    #display {
+      background-color: #fff;
+    }
+
+    #debug {
+      position: relative;
+      top: 320px;
+      padding: 0.5em;
+      border: 1px solid rgba(0, 0, 255, 0.3);
+    }
+
+    #serialized {
+      position: relative;
+      top: 320px;
+      padding: 0.5em;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    #controls {
+      position: absolute;
+      width: 170px;
+      top: 0;
+      right: 0;
+    }
+  </style>
+
+</head>
+<body>
+
+<div id="controls">
+  <button onclick="toggleDebug();">Toggle Debug</button>
+  <br>
+  <button onclick="toggleLogging();">Toggle Logging</button>
+  <br>
+  <button onclick="display.setPointerDisplayVisible( !display._pointerOverlay );">Toggle Pointer Overlay</button>
+  <br>
+  <button onclick="display.setPointerAreaDisplayVisible( !display._pointerAreaOverlay );">Toggle Pointer Area Overlay
+  </button>
+  <br>
+  <button onclick="toggleUpdates();">Toggle Update</button>
+  <br>
+  <button onclick="display.initializeEvents();">Events</button>
+  <br>
+  <br>
+  <button onclick="display.updateDisplay();">Update</button>
+  <br>
+  <button onclick="display.popupDebug();">Popup Debug</button>
+  <br>
+</div>
+
+<script>
+  var fuzzStep = false;
+
+  require( [ 'config' ], function() {
+    require( [ 'main', 'KITE/main', 'DOT/main', 'PHET_CORE/main', 'AXON/main' ], function( scenery, kite, dot, phetCore, axon ) {
+      window.scenery = scenery;
+      window.kite = kite;
+      window.dot = dot;
+      window.phetCore = phetCore;
+      window.axon = axon;
+
+      console.log( 'loaded' );
+
+      window.scene = new scenery.Node();
+
+      var display = window.display = new scenery.Display( scene, {
+        width: 640,
+        height: 320,
+        preserveDrawingBuffer: true
+        // any overrides here?
+      } );
+      console.log( 'window.display created' );
+
+      display._domElement.id = 'display';
+      document.body.insertBefore( display._domElement, document.body.firstChild );
+
+      phetCore.loadScript( {
+        src: 'qunit/js/test-utils.js',
+        callback: function() {
+          console.log( 'loaded test-utils.js' );
+        }
+      } );
+
+      scenery.Util.polyfillRequestAnimationFrame();
+
+      // convenience function for IE stack trackes
+      window.twrap = function( f ) {
+        try {
+          f();
+        }
+        catch( e ) {
+          console.log( e.stack );
+        }
+      };
+
+      window.testContent = {
+        createPeer: function( accessibleInstance ) {
+          return new scenery.AccessiblePeer( accessibleInstance, document.createElement( 'div' ) );
+        }
+      };
+      window.accessibleTest = function() {
+        setTimeout( function() {
+          scenery.enableLogging( [ 'AccessibleInstance' ] )
+          window.a = new scenery.Node( { accessibleContent: testContent } );
+          scene.addChild( a );
+          window.b = new scenery.Node();
+          b.addChild( a );
+        } )
+      };
+
+      window.displayTest = function() {
+        setTimeout( function() {
+          scenery.enableLogging( [ 'RichText' ] );
+
+          window.text = new scenery.RichText( '‫تطوير البرمجيات: ‪Michael Dubson, John Blanco‬‬', {
+            x: 50,
+            y: 50
+          } );
+          scene.addChild( text );
+
+          display.updateDisplay();
+        }, 400 );
+      };
+
+      window.displayErr = function() {
+        setTimeout( function() {
+          var node0 = new scenery.Node();
+          var node4 = new scenery.Node();
+          var path1 = new scenery.Path();
+          var path3 = new scenery.Path();
+
+          path1.insertChild( 0, node4 );
+          node4.insertChild( 0, path3 );
+          scene.insertChild( 0, node0 );
+          node0.insertChild( 0, path1 );
+          scene.transform.append( dot.Matrix3.scaling( 1.5586118499044517 ) );
+          node0.renderer = "canvas";
+          display.updateDisplay();
+        } );
+      };
+
+      window.inputTest = function() {
+        display.initializeEvents();
+        toggleUpdates();
+
+        var circle = new scenery.Circle( 30, { fill: 'red', cursor: 'pointer' } );
+        scene.addChild( circle );
+        circle.addInputListener( new scenery.DragListener( {
+          translateNode: true,
+          press: function() { console.log( 'press' ); },
+          release: function() { console.log( 'release' ); },
+          drag: function() { console.log( 'drag' ); }
+        } ) );
+
+        var square = new scenery.Rectangle( 0, 0, 60, 60, { fill: 'blue', cursor: 'pointer', x: -30, y: 90 } );
+        scene.addChild( square );
+        square.addInputListener( new scenery.SimpleDragHandler( {
+          start: function() { console.log( 'start' ); },
+          end: function() { console.log( 'end' ); },
+          drag: function() { console.log( 'drag' ); }
+        } ) );
+      };
+
+      window.cssTest = function() {
+        window.assertSlow = window.assert;
+        setTimeout( function() {
+          window.back = new scenery.Rectangle( 0, 0, 100, 100, 0, 0, {
+            fill: '#000'
+          } );
+          window.rect = new scenery.Rectangle( 0, 0, 100, 50, 0, 0, {
+            y: 50,
+            fill: new scenery.LinearGradient( 0, 0, 100, 0 ).addColorStop( 0, 'red' ).addColorStop( 1, 'blue' )
+          } );
+          window.a = new scenery.Node( {} );
+          window.b = new scenery.Node( { y: 100 } );
+          b._hints.cssTransform = true;
+          a.addChild( back );
+          a.addChild( rect );
+          b.addChild( back );
+          b.addChild( rect );
+          scene.addChild( a );
+          scene.addChild( b );
+
+          display.updateDisplay();
+
+          scene.renderer = 'canvas';
+
+          display.updateDisplay();
+        } );
+      };
+
+      window.transformTest = function() {
+        window.n = new scenery.Node();
+        n.addChild( new scenery.Rectangle( 0, 50, 100, 50, { fill: '#aaa' } ) );
+        n.addChild( new scenery.Rectangle( 50, 0, 50, 50, { fill: '#aaf' } ) );
+        scene.addChild( n );
+        n.x = 50;
+        n.y = 50;
+        n.rotation = Math.PI / 4;
+        n.left = 50;
+        scene.addChild( scenery.Rectangle.bounds( n.bounds, { stroke: 'red' } ) );
+        n.transformBounds = true;
+        scene.addChild( scenery.Rectangle.bounds( n.bounds, { stroke: 'blue' } ) );
+
+        display.updateDisplay();
+      };
+
+      /*---------------------------------------------------------------------------*
+       * Debug
+       *----------------------------------------------------------------------------*/
+
+      var playgroundDebugging = false;
+      var playgroundDebuggingRequestID = 0;
+
+      var debug = document.createElement( 'div' );
+      debug.id = 'debug';
+      debug.style.display = 'none';
+      document.body.appendChild( debug );
+
+      function debugStep() {
+        playgroundDebuggingRequestID = window.requestAnimationFrame( debugStep, debug );
+
+        debug.style.display = '';
+        debug.innerHTML = display.getDebugHTML();
+      }
+
+      window.toggleDebug = function() {
+        if ( playgroundDebugging ) {
+          window.cancelAnimationFrame( playgroundDebuggingRequestID );
+          debug.style.display = 'none';
+        }
+        else {
+          debugStep();
+        }
+
+        playgroundDebugging = !playgroundDebugging;
+      };
+
+      /*---------------------------------------------------------------------------*
+       * Updates
+       *----------------------------------------------------------------------------*/
+
+      var playgroundUpdating = false;
+
+      window.toggleUpdates = function() {
+        if ( playgroundUpdating ) {
+          display.cancelUpdateOnRequestAnimationFrame();
+        }
+        else {
+          display.updateOnRequestAnimationFrame();
+        }
+
+        playgroundUpdating = !playgroundUpdating;
+      };
+
+      /*---------------------------------------------------------------------------*
+       * Logging
+       *----------------------------------------------------------------------------*/
+
+      var logging = false;
+
+      window.toggleLogging = function() {
+        if ( logging ) {
+          scenery.disableLogging();
+        }
+        else {
+          scenery.enableLogging( [
+            'Accessibility'
+          ] );
+        }
+
+        logging = !logging;
+      };
+    } );
+  } );
+</script>
+</body>
+</html>

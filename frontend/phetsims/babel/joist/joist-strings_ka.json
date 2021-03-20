@@ -1,0 +1,170 @@
+{
+  "menuItem.about": {
+    "value": "შესახებ",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1506410068260,
+        "oldValue": "",
+        "newValue": "შესახებ",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.getUpdate": {
+    "value": "განახლება",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1551708803831,
+        "oldValue": "",
+        "newValue": "განახლება",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.checking": {
+    "value": "განახლება მოწმდება",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1551708803831,
+        "oldValue": "",
+        "newValue": "განახლება მოწმდება",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.title": {
+    "value": "კრედიტები",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1551708803831,
+        "oldValue": "",
+        "newValue": "კრედიტები",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "დასრულდა",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1551708803831,
+        "oldValue": "",
+        "newValue": "დასრულდა",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.fullscreen": {
+    "value": "გადიდება",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1551708803831,
+        "oldValue": "",
+        "newValue": "გადიდება",
+        "explanation": null
+      }
+    ]
+  },
+  "updates.getUpdate": {
+    "value": "განახლების მიღება",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1551708803831,
+        "oldValue": "",
+        "newValue": "განახლების მიღება",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "პარამეტრები",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557258651858,
+        "oldValue": "",
+        "newValue": "პარამეტრები",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "პარამეტრები...",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557258651858,
+        "oldValue": "",
+        "newValue": "პარამეტრები...",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.screenshot": {
+    "value": "ეკრანის სურათი",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557260489592,
+        "oldValue": "",
+        "newValue": "ეკრანის სურათი",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "პარამეტრები",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557260489592,
+        "oldValue": "",
+        "newValue": "პარამეტრები",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.thanks": {
+    "value": "მადლობა",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557258651858,
+        "oldValue": "",
+        "newValue": "მადლობა",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "თარგმანი",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557258651858,
+        "oldValue": "",
+        "newValue": "თარგმანი",
+        "explanation": null
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1556961946714,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  }
+}

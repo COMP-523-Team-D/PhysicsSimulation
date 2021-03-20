@@ -1,0 +1,134 @@
+{
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "forceOnObjectByOtherObjectPattern": {
+    "value": "Force de {{otherObject}} sur {{thisObject}} ",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "Force de {{otherObject}} sur {{thisObject}} ",
+        "explanation": null
+      }
+    ]
+  },
+  "forceOnObjectByOtherObjectWithUnitsPattern": {
+    "value": "Force de {{otherObject}} sur {{thisObject}} = {{value}} N  ",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "Force de {{otherObject}} sur {{thisObject}} = {{value}} N  ",
+        "explanation": null
+      }
+    ]
+  },
+  "forceValues": {
+    "value": "Valeurs de la force",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "Valeurs de la force",
+        "explanation": null
+      }
+    ]
+  },
+  "hidden": {
+    "value": "Caché",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1584844839885,
+        "oldValue": "",
+        "newValue": "Caché",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meter": {
+    "value": "mètre",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1576973740574,
+        "oldValue": "",
+        "newValue": "mètre",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meters": {
+    "value": "mètres",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1576973740574,
+        "oldValue": "",
+        "newValue": "mètres",
+        "explanation": null
+      }
+    ]
+  },
+  "units.newtons": {
+    "value": "newtons",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1576973740574,
+        "oldValue": "",
+        "newValue": "newtons",
+        "explanation": null
+      }
+    ]
+  },
+  "scientificNotation": {
+    "value": "Notation Scientifique",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1584844839885,
+        "oldValue": "",
+        "newValue": "Notation Scientifique",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "pm",
+        "explanation": null
+      }
+    ]
+  }
+}

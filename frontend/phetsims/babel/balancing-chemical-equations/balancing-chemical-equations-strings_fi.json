@@ -1,0 +1,266 @@
+{
+  "balanced": {
+    "value": "tasapainossa",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "tasapainossa",
+        "explanation": null
+      }
+    ]
+  },
+  "balancing-chemical-equations.title": {
+    "value": "Reaktioyhtälöiden tasapainottaminen",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Reaktioyhtälöiden tasapainottaminen",
+        "explanation": null
+      }
+    ]
+  },
+  "check": {
+    "value": "Tarkista",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Tarkista",
+        "explanation": null
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Valitse taso",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Valitse taso",
+        "explanation": null
+      }
+    ]
+  },
+  "combustMethane": {
+    "value": "Metaanin palaminen",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Metaanin palaminen",
+        "explanation": null
+      }
+    ]
+  },
+  "hideWhy": {
+    "value": "Piilota selitys",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Piilota selitys",
+        "explanation": null
+      }
+    ]
+  },
+  "makeAmmonia": {
+    "value": "Ammoniakin valmistaminen",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Ammoniakin valmistaminen",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Seuraava",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Seuraava",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "Ei mitään",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Ei mitään",
+        "explanation": null
+      }
+    ]
+  },
+  "notBalanced": {
+    "value": "Ei tasapainossa",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Ei tasapainossa",
+        "explanation": null
+      }
+    ]
+  },
+  "notSimplified": {
+    "value": "Ei yksinkertaistettu",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Ei yksinkertaistettu",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0level": {
+    "value": "Taso {0}",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Taso {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0points": {
+    "value": "+{0}",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "+{0}",
+        "explanation": null
+      }
+    ]
+  },
+  "products": {
+    "value": "Tuotteet",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Tuotteet",
+        "explanation": null
+      }
+    ]
+  },
+  "reactants": {
+    "value": "Lähtöaineet",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Lähtöaineet",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.game": {
+    "value": "Peli",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Peli",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.introduction": {
+    "value": "Johdanto",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Johdanto",
+        "explanation": null
+      }
+    ]
+  },
+  "separateWater": {
+    "value": "Veden erottaminen",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Veden erottaminen",
+        "explanation": null
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "Näytä vastaus",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Näytä vastaus",
+        "explanation": null
+      }
+    ]
+  },
+  "showWhy": {
+    "value": "Näytä selitys",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Näytä selitys",
+        "explanation": null
+      }
+    ]
+  },
+  "tools": {
+    "value": "Työkalut:",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Työkalut:",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Yritä uudelleen",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Yritä uudelleen",
+        "explanation": null
+      }
+    ]
+  }
+}

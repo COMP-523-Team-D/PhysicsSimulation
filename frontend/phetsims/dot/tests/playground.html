@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!-- When run in the browser, this will load code into the global namespace so that it can be tested via the developer console -->
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <title>Dot Playground</title>
+
+  <script src="../../assert/js/assert.js"></script>
+  <script src="../../sherpa/lib/lodash-4.17.4.js"></script>
+
+  <script data-main="../js/dot-config.js" src="../../sherpa/lib/require-2.1.11.js"></script>
+
+</head>
+<body>
+<script>
+  window.assertions.enableAssert();
+  window.assertions.enableAssertSlow();
+
+  require( [ 'dot-config' ], function() {
+    require( [ 'main', 'PHET_CORE/main' ], function( dot, phetCore ) {
+      window.dot = dot;
+      window.phetCore = phetCore;
+
+      console.log( 'loaded' );
+    } );
+  } );
+</script>
+</body>
+</html>

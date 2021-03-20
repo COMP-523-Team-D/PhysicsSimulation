@@ -1,0 +1,62 @@
+{
+  "RgbBulbsModule.title": {
+    "value": "RGB-lys",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1455865329270,
+        "oldValue": "",
+        "newValue": "RGB-lys",
+        "explanation": null
+      }
+    ]
+  },
+  "SingleBulbModule.title": {
+    "value": "Enkelfarvet lys",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1455865329270,
+        "oldValue": "",
+        "newValue": "Enkelfarvet lys",
+        "explanation": null
+      }
+    ]
+  },
+  "bulbSlider.label": {
+    "value": "Lyskildens farve",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1455865329270,
+        "oldValue": "",
+        "newValue": "Lyskildens farve",
+        "explanation": null
+      }
+    ]
+  },
+  "color-vision.title": {
+    "value": "Farvesyn",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1455865329270,
+        "oldValue": "",
+        "newValue": "Farvesyn",
+        "explanation": null
+      }
+    ]
+  },
+  "filterSlider.label": {
+    "value": "Filterfarve",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1455865329270,
+        "oldValue": "",
+        "newValue": "Filterfarve",
+        "explanation": null
+      }
+    ]
+  }
+}

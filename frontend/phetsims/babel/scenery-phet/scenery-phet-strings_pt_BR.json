@@ -1,0 +1,426 @@
+{
+  "keyboardHelpDialog.basicActions": {
+    "value": "Ações Básicas",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665161,
+        "oldValue": "",
+        "newValue": "Ações Básicas",
+        "explanation": null
+      }
+    ]
+  },
+  "key.enter": {
+    "value": "Enter",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1548934815808,
+        "oldValue": "",
+        "newValue": "Enter",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Sair do diálogo",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Sair do diálogo",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Rápido",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1605263847111,
+        "oldValue": "",
+        "newValue": "Rápido",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Pegue ou solte {{thing}}",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1544558986863,
+        "oldValue": "",
+        "newValue": "Pegue ou solte {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Pegue ou Solte {{thing}}",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1544558986863,
+        "oldValue": "",
+        "newValue": "Pegue ou Solte {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Mover entre itens de um grupo",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Mover entre itens de um grupo",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Mover para o próximo item",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Mover para o próximo item",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Mover para o próximo item ou grupo",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Mover para o próximo item ou grupo",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Mover para o item anterior",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Mover para o item anterior",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Mover para item ou grupo anterior",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Mover para item ou grupo anterior",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1537981823675,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "ou",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1544558986863,
+        "oldValue": "",
+        "newValue": "ou",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Marcar/Desmarcar opção",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1573149420161,
+        "oldValue": "",
+        "newValue": "Marcar/Desmarcar opção",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Lento",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1537981823675,
+        "oldValue": "",
+        "newValue": "Lento",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Espaço",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1544558986863,
+        "oldValue": "",
+        "newValue": "Espaço",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Alternar caixas de seleção",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1572311205551,
+        "oldValue": "",
+        "newValue": "Alternar caixas de seleção",
+        "explanation": null
+      }
+    ]
+  },
+  "key.end": {
+    "value": "Fim",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665161,
+        "oldValue": "",
+        "newValue": "Fim",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1572311205551,
+        "oldValue": "Fim",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1573149420161,
+        "oldValue": "",
+        "newValue": "Fim",
+        "explanation": null
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Início",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Início",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1572311205551,
+        "oldValue": "Início",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1573149420161,
+        "oldValue": "",
+        "newValue": "Início",
+        "explanation": null
+      }
+    ]
+  },
+  "rulerCapitalized": {
+    "value": "Régua",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1572311205551,
+        "oldValue": "",
+        "newValue": "Régua",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "Régua",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1572311205551,
+        "oldValue": "",
+        "newValue": "Régua",
+        "explanation": null
+      }
+    ]
+  },
+  "key.toGrabOrRelease": {
+    "value": "para <b>Pegar</b> ou <b>Soltar</b>",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1583789936398,
+        "oldValue": "",
+        "newValue": "para <b>Pegar</b> ou <b>Soltar</b>",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Comprimento de Onda",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1569612129840,
+        "oldValue": "",
+        "newValue": "Comprimento de Onda",
+        "explanation": null
+      }
+    ]
+  },
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456102445425,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Esfriar",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1482952096291,
+        "oldValue": "",
+        "newValue": "Esfriar",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Aquecer",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1482952096291,
+        "oldValue": "",
+        "newValue": "Aquecer",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "Curto circuito!",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1458644429649,
+        "oldValue": "",
+        "newValue": "Curto circuito!",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456102445425,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL não habilitado ou indisponível. Clique para saber mais.",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1457174648418,
+        "oldValue": "",
+        "newValue": "WebGL não habilitado ou indisponível. Clique para saber mais.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Desculpe-nos, ocorreu um erro gráfico.",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1457174390332,
+        "oldValue": "",
+        "newValue": "Desculpe-nos, ocorreu um erro gráfico.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Recarregar",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1457174390332,
+        "oldValue": "",
+        "newValue": "Recarregar",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "Atualize o Internet Explorer usando os pacotes recomendados do Windows Update",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1457174648418,
+        "oldValue": "",
+        "newValue": "Atualize o Internet Explorer usando os pacotes recomendados do Windows Update",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "Trabalhando com gráficos em baixa resolução",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1457174648418,
+        "oldValue": "",
+        "newValue": "Trabalhando com gráficos em baixa resolução",
+        "explanation": null
+      }
+    ]
+  }
+}

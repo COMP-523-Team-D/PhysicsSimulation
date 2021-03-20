@@ -1,0 +1,110 @@
+{
+  "WavelengthSlider.pattern_0wavelength_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 190972,
+        "timestamp": 1494917291091,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Frío",
+    "history": [
+      {
+        "userId": 190972,
+        "timestamp": 1494841743523,
+        "oldValue": "",
+        "newValue": "Frío",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Calor",
+    "history": [
+      {
+        "userId": 190972,
+        "timestamp": 1494841743523,
+        "oldValue": "",
+        "newValue": "Calor",
+        "explanation": null
+      }
+    ]
+  },
+  "units_nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 190972,
+        "timestamp": 1494917291090,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL no está activado o no está disponible. Haz click para saber más.",
+    "history": [
+      {
+        "userId": 190972,
+        "timestamp": 1494591759265,
+        "oldValue": "",
+        "newValue": "WebGL no está activado o no está disponible. Haz click para saber más.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Lo lamentamos, ha ocurrido un error gráfico.",
+    "history": [
+      {
+        "userId": 190972,
+        "timestamp": 1494591759265,
+        "oldValue": "",
+        "newValue": "Lo lamentamos, ha ocurrido un error gráfico.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Recargar",
+    "history": [
+      {
+        "userId": 190972,
+        "timestamp": 1494591759265,
+        "oldValue": "",
+        "newValue": "Recargar",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.ie11StencilBody": {
+    "value": "Actualice Internet Explorer instalando el parche de Windows Update recomentado.",
+    "history": [
+      {
+        "userId": 190972,
+        "timestamp": 1494591759265,
+        "oldValue": "",
+        "newValue": "Actualice Internet Explorer instalando el parche de Windows Update recomentado.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.title": {
+    "value": "Se está ejecutando con baja calidad gráfica",
+    "history": [
+      {
+        "userId": 190972,
+        "timestamp": 1494591759265,
+        "oldValue": "",
+        "newValue": "Se está ejecutando con baja calidad gráfica",
+        "explanation": null
+      }
+    ]
+  }
+}

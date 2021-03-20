@@ -1,0 +1,98 @@
+{
+  "BalloonApplet.ShowAllCharges": {
+    "value": "Mostrar todas as cargas",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456506258799,
+        "oldValue": "",
+        "newValue": "Mostrar todas as cargas",
+        "explanation": null
+      }
+    ]
+  },
+  "BalloonApplet.ShowChargeDifferences": {
+    "value": "Mostrar cargas resultantes",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456506258799,
+        "oldValue": "",
+        "newValue": "Mostrar cargas resultantes",
+        "explanation": null
+      }
+    ]
+  },
+  "BalloonApplet.ShowNoCharges": {
+    "value": "Ocultar todas as cargas",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456506258799,
+        "oldValue": "",
+        "newValue": "Ocultar todas as cargas",
+        "explanation": null
+      }
+    ]
+  },
+  "addWall": {
+    "value": "Com\nParede",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456506258799,
+        "oldValue": "",
+        "newValue": "Com\nParede",
+        "explanation": null
+      }
+    ]
+  },
+  "balloons-and-static-electricity.title": {
+    "value": "Balões e Eletricidade Estática",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456506258799,
+        "oldValue": "",
+        "newValue": "Balões e Eletricidade Estática",
+        "explanation": null
+      }
+    ]
+  },
+  "removeWall": {
+    "value": "Sem\nParede",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456506258799,
+        "oldValue": "",
+        "newValue": "Sem\nParede",
+        "explanation": null
+      }
+    ]
+  },
+  "resetBalloon": {
+    "value": "Reiniciar Balão",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456506258799,
+        "oldValue": "",
+        "newValue": "Reiniciar Balão",
+        "explanation": null
+      }
+    ]
+  },
+  "resetBalloons": {
+    "value": "Reiniciar Balões",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1456506258799,
+        "oldValue": "",
+        "newValue": "Reiniciar Balões",
+        "explanation": null
+      }
+    ]
+  }
+}

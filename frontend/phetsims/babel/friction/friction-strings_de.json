@@ -1,0 +1,38 @@
+{
+  "chemistry": {
+    "value": "Chemie",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1454859950685,
+        "oldValue": "",
+        "newValue": "Chemie",
+        "explanation": null
+      }
+    ]
+  },
+  "friction.title": {
+    "value": "Reibung",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1454859950685,
+        "oldValue": "",
+        "newValue": "Reibung",
+        "explanation": null
+      }
+    ]
+  },
+  "physics": {
+    "value": "Physik",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1454859950685,
+        "oldValue": "",
+        "newValue": "Physik",
+        "explanation": null
+      }
+    ]
+  }
+}

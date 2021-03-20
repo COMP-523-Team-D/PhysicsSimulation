@@ -1,0 +1,38 @@
+{
+  "cool": {
+    "value": "གྲང་མོ།",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1495708051223,
+        "oldValue": "",
+        "newValue": "གྲང་མོ།",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "ཚ་པོ།",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1495708051223,
+        "oldValue": "",
+        "newValue": "ཚ་པོ།",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "གློག་འགོག་ནུས་པ། ρ",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1462101699952,
+        "oldValue": "",
+        "newValue": "གློག་འགོག་ནུས་པ། ρ",
+        "explanation": null
+      }
+    ]
+  }
+}

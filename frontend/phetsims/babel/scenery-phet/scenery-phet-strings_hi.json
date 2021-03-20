@@ -1,0 +1,302 @@
+{
+  "key.enter": {
+    "value": "एंटर ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1545557938240,
+        "oldValue": "",
+        "newValue": "एंटर ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "पकड़ो या छोड़ दो {{thing}}",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1545557938240,
+        "oldValue": "",
+        "newValue": "पकड़ो या छोड़ दो {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "पकड़ो या छोड़ दो {{thing}}",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1545557938240,
+        "oldValue": "",
+        "newValue": "पकड़ो या छोड़ दो {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "सामान्य ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1572016833596,
+        "oldValue": "",
+        "newValue": "सामान्य ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "या ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "या ",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "पेज  नीचे ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1545557938240,
+        "oldValue": "",
+        "newValue": "पेज  नीचे ",
+        "explanation": null
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "पेज  ऊपर ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1545557938240,
+        "oldValue": "",
+        "newValue": "पेज  ऊपर ",
+        "explanation": null
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "शिफ्ट ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "शिफ्ट ",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "धीमा ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1572016833596,
+        "oldValue": "",
+        "newValue": "धीमा ",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "स्पेस ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1545557938240,
+        "oldValue": "",
+        "newValue": "स्पेस ",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "टैब ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063921,
+        "oldValue": "",
+        "newValue": "टैब ",
+        "explanation": null
+      }
+    ]
+  },
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1572016833596,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": " ρ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1548886622099,
+        "oldValue": "",
+        "newValue": " ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": " Ω",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1548886622099,
+        "oldValue": "",
+        "newValue": " Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "ठंडा ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1563804583389,
+        "oldValue": "",
+        "newValue": "ठंडा ",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "ऊष्मा ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1563804583389,
+        "oldValue": "",
+        "newValue": "ऊष्मा ",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "बाहर निकले ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "बाहर निकले ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.generalNavigation": {
+    "value": "सामान्य नेविगेशन",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "सामान्य नेविगेशन",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "एक समूह में वस्तुओं के बीच ले जाएँ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "एक समूह में वस्तुओं के बीच ले जाएँ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "अगले वस्तु  पर जाएँ ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "अगले वस्तु  पर जाएँ ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "अगले वस्तु या समूह पर जाएँ ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "अगले वस्तु या समूह पर जाएँ ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "पिछले वस्तु पर जाएँ ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "पिछले वस्तु पर जाएँ ",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "पिछले वस्तु या समूह पर जाएँ ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1530159063920,
+        "oldValue": "",
+        "newValue": "पिछले वस्तु या समूह पर जाएँ ",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "शार्ट सर्किट !",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503364839968,
+        "oldValue": "",
+        "newValue": "शार्ट सर्किट !",
+        "explanation": null
+      }
+    ]
+  }
+}

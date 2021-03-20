@@ -1,0 +1,23 @@
+{
+  "name": "kite",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phetsims/kite.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "pegjs": "0.7.0"
+  },
+  "phet": {
+    "isJSOnly": true,
+    "requiresLodash": true,
+    "assignGlobals": {
+      "kite": "KITE/main",
+      "dot": "DOT/main",
+      "axon": "AXON/main",
+      "phetCore": "PHET_CORE/main"
+    }
+  }
+}
