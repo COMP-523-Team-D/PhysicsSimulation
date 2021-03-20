@@ -6,14 +6,6 @@ Body {
     overflow-y: auto;
 }
 
-/*exampleHomeScreen{ */
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*    overflow-x: hidden;*/
-/*    overflow-y: hidden !important;*/
-/*    margin-bottom: 0rem !important;*/
-/*}*/
-
 .routes {
     height: 85%;
     width: 100%;
@@ -38,15 +30,11 @@ Body {
 .courseList {
     font-size: 1.5rem;
 }
+
 .navBarContainer {
     font-size: 1.2rem;
     width: 100vw;
 }
-
-/*.pickUpButton {*/
-/*    width: 25vw;*/
-/*    height: 15vh;*/
-/*}*/
 
 .navBrand {
     font-size: 1.6rem;
@@ -137,3 +125,4 @@ Body {
 .frqTextArea{
     min-height: 100px;
 }
+
