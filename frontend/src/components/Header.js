@@ -31,9 +31,11 @@ const Header = ({ data }) => {
               <LinkContainer to="/simulation">
                 <Nav.Link>Simulation</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/build">
-                <Nav.Link>Build New Simulation</Nav.Link>
-              </LinkContainer>
+              {typeEnum === "INSTRUCTOR" && (
+                <LinkContainer to="/build">
+                  <Nav.Link>Build New Simulation</Nav.Link>
+                </LinkContainer>
+              )}
               <LinkContainer to="/">
                 <Nav.Link>I'm a link!</Nav.Link>
               </LinkContainer>

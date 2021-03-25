@@ -2,5 +2,46 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/assert" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/axon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/babel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/brand" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/chipper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/dot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/example-sim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/joist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/kite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/perennial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phet-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetcommon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetmarks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/assert" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/axon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/babel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/brand" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/chipper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/dot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/example-sim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/joist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/kite" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/perennial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/phet-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/phetcommon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/phetmarks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/projectile-motion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/query-string-machine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/scenery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/scenery-phet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/sherpa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/sun" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/tandem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/phetsim/utterance-queue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/query-string-machine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/scenery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/scenery-phet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/sherpa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/sun" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/tandem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/frontend/utterance-queue" vcs="Git" />
   </component>
 </project>
