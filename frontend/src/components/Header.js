@@ -36,8 +36,8 @@ const Header = ({ data }) => {
                   <Nav.Link>Build New Simulation</Nav.Link>
                 </LinkContainer>
               )}
-              <LinkContainer to="/">
-                <Nav.Link>I'm a link!</Nav.Link>
+              <LinkContainer to="/InstructorProfile">
+                <Nav.Link>Profile</Nav.Link>
               </LinkContainer>
               <NavDropdown title="Even More Links" id="username">
                 <LinkContainer to="/">

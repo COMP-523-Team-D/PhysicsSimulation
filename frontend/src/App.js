@@ -6,6 +6,7 @@ import HomeScreen from "./screens/HomeScreen";
 import ExampleSimulationScreen from "./screens/ExampleSimulationScreen";
 import ExampleBuildScreen from "./screens/ExampleBuildScreen";
 import HomeScreenB from "./screens/HomeScreenB";
+import InstructorProfile from "./screens/InstructorProfile";
 
 // main container component
 
@@ -66,6 +67,14 @@ const App = () => {
             <ExampleSimulationScreen
               data={dummyUserInfo}
               assignment={dummyAssignment}
+            />
+          )}
+        />
+        <Route
+          path="/InstructorProfile"
+          component={() => (
+            <InstructorProfile
+              data={dummyUserInfo}
             />
           )}
         />

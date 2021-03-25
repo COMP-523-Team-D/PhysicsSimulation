@@ -1,0 +1,9 @@
+body{margin-right: 100px; margin-left: 100px}
+#root{outline: black 3px solid;}
+p.scroll{
+    background-color:peachpuff;
+    width: 250px; height: 300px;
+    overflow: scroll;
+    padding-right: 10px;
+    padding-left: 10px;
+}
