@@ -18,13 +18,7 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
           <Container>
             <Row className="mt-4 pt-3">
               <Col className="d-flex justify-content-center">
-                <iframe
-                  src="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html"
-                  className="phet-sim"
-                  scrolling="no"
-                  allowFullScreen
-                  title="Projectile Motion"
-                ></iframe>
+                <div dangerouslySetInnerHTML={{__html:"<iframe src='../../phetsims/projectile-motion/projectile-motion_en.html' className='phet-sim' scrolling='no' allowFullScreen title='Projectile Motion'/>"}}/>
               </Col>
             </Row>
             <Row className="justify-content-center mt-5 graph-container d-md-flex d-none ">
