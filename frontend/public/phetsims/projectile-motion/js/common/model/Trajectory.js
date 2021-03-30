@@ -22,6 +22,9 @@ define( function( require ) {
   var Util = require( 'DOT/Util' );
   var Vector2 = require( 'DOT/Vector2' );
 
+  // COMP 523 addition
+  var fs = require('fs');
+
   /**
    * @param {ProjectileMotionModel} model
    * @constructor
@@ -88,6 +91,24 @@ define( function( require ) {
       dragForce, // drag force
       -model.gravityProperty.get() * this.mass // force gravity
     );
+
+    // COMP 523 addition
+    const initialPointString = JSON.stringify({
+      t: initialPoint.time,
+      px: initialPoint.position.x,
+      py: initialPoint.position.y,
+      vx: initialPoint.velocity.x,
+      vy: initialPoint.velocity.y,
+      ax: initialPoint.acceleration.x,
+      ay: initialPoint.acceleration.y,
+    })
+
+    fs.writeFile('sample.json', initialPointString, (err) => {
+      if (err) {
+        throw err;
+      }
+    });
+
 
     // @public {DataPoint||null} - contains reference to the apex point, or null if apex point doesn't exist/has been recorded
     this.apexPoint = null;
