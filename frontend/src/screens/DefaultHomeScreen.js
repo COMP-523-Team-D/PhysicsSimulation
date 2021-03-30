@@ -1,39 +1,8 @@
 import "../App.css";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 
-const HomeScreen = ({ db, auth, simulations }) => {
-
-  const data = {
-    loggedIn: false,
-    user: null,
-    courses: null
-  };
-  
-  /*
-   * Set an authentication state observer to update screen data
-   */
-  auth.onAuthStateChanged((user) => {
-    if (user) {
-      data.loggedIn = true;
-      
-      db.collection("Users").get().then((querySnapshot) => {
-        querySnapshot.forEach((doc) => {
-            if(doc.get("UID")==user.uid) {
-              data.user = doc.data;
-              data.courses = data.user.Courses.map((course) => {db.collection("Courses").doc(course)});
-            }
-          });
-      });
-  
-      data.user || // Returns false if user data was not identified
-      console.log("Error. Authenticated user is not an Instructor or a Student.");
-  
-    } else {
-      data.loggedIn = false;
-      data.user = null;
-    }
-  });
-
+const HomeScreen = ({ data }) => {
+  const { id, typeEnum, firstName, lastName, courses } = data;
   return (
     <Container>
       <Row className="m-4"> </Row>
@@ -48,13 +17,7 @@ const HomeScreen = ({ db, auth, simulations }) => {
                 Explore Simulations
               </Card.Title>
             </Card.Header>
-            <Card.Body>
-              <ul className="simulationList list-unstyled">
-                {simulations.map((sim) => {
-                  <li key={sim.Name.toString()}>{sim.Name}</li>
-                })}
-              </ul>
-            </Card.Body>
+            <Card.Body></Card.Body>
           </Card>
         </Col>
         <Col md={4}>
@@ -68,13 +31,11 @@ const HomeScreen = ({ db, auth, simulations }) => {
               </Card.Title>
             </Card.Header>
             <Card.Body>
-              {data.loggedIn
-               ? <ul className="courseList list-unstyled">
-                   {data.courses.map((course) => {
-                   <li key={course.Code}>{course.Name}</li>
-                   })}
-                 </ul>
-               :"Login to see your courses!"}
+              <ul className="courseList list-unstyled">
+                {courses.map((course) => (
+                  <li key={course.toString()}>{course}</li>
+                ))}
+              </ul>
             </Card.Body>
           </Card>
         </Col>

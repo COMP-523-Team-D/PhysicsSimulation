@@ -7,6 +7,45 @@ import ExampleSimulationScreen from "./screens/ExampleSimulationScreen";
 import ExampleBuildScreen from "./screens/ExampleBuildScreen";
 import HomeScreenB from "./screens/HomeScreenB";
 import InstructorProfile from "./screens/InstructorProfile";
+import LoginScreen from "./screens/LoginScreen";
+import RegisterScreen from "./screens/RegisterScreen";
+
+// Firebase App (the core Firebase SDK) is always required and
+// must be listed before other Firebase SDKs
+import firebase from "firebase/app";
+
+// Add the Firebase services that you want to use
+import "firebase/auth";
+import "firebase/firestore";
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+var firebaseConfig = {
+  apiKey: "AIzaSyA1gu3Z0AhuGUQXFMOl9C69-V-eCcwD3hI",
+  //authDomain: "unc-physics-simulation.firebaseapp.com",
+  //databaseURL: "https://unc-physics-simulation-default-rtdb.firebaseio.com",
+  databaseURL: "https://localhost:8080",
+  projectId: "unc-physics-simulation",
+  //storageBucket: "unc-physics-simulation.appspot.com",
+  messagingSenderId: "188932414514",
+  appId: "1:188932414514:web:c7df0cb566929883fc302b",
+  measurementId: "G-Z97JLPVR8C"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+//firebase.analytics();
+
+/*
+ * Firebase Authentication
+ * & Firebase Firestore
+ */
+const auth = firebase.auth();
+auth.useEmulator("http://localhost:9099"); // Initialize to use the emulators
+
+const db = firebase.firestore()
+//db.useEmulator("localhost", 8080); // Initialize to use the emulators
 
 // main container component
 
@@ -56,11 +95,132 @@ const supportedSimulations = [
   },
 ];
 
+/*
+auth.onAuthStateChanged( (user) => {
+  if (user) {
+    props = <Router>
+              <Header data={dummyUserInfo} />
+              <Container className="routes py-2 d-flex justify-content-center">
+                <Route
+                  exact
+                  path="/"
+                  component={() => (
+                    <HomeScreen data={dummyUserInfo} className="HomeScreen" />
+                  )}
+                />
+                <Route
+                  exact
+                  path="/Login"
+                  component={() => (
+                    <LoginScreen data={dummyUserInfo} className="LoginScreen" />
+                  )}
+                />
+                <Route
+                  exact
+                  path="/Register"
+                  component={() => (
+                    <RegisterScreen data={dummyUserInfo} className="RegisterScreen" />
+                  )}
+                />
+                <Route
+                  path="/simulation"
+                  component={() => (
+                    <ExampleSimulationScreen
+                      data={dummyUserInfo}
+                      assignment={dummyAssignment}
+                    />
+                  )}
+                />
+                <Route
+                  path="/InstructorProfile"
+                  component={() => (
+                    <InstructorProfile
+                      data={dummyUserInfo}
+                    />
+                  )}
+                />
+                <Route
+                  path="/b"
+                  component={() => <HomeScreenB data={dummyUserInfo} />}
+                />
+                <Route
+                  path="/build"
+                  component={() => (
+                    <ExampleBuildScreen
+                      data={dummyUserInfo}
+                      supportedSimulations={supportedSimulations}
+                    />
+                  )}
+                />
+              </Container>
+            </Router>
+  }else {
+    props = <Router>
+              <Header data={dummyUserInfo} />
+              <Container className="routes py-2 d-flex justify-content-center">
+                <Route
+                  exact
+                  path="/"
+                  component={() => (
+                    <HomeScreen data={dummyUserInfo} className="HomeScreen" />
+                  )}
+                />
+                <Route
+                  exact
+                  path="/Login"
+                  component={() => (
+                    <LoginScreen data={dummyUserInfo} className="LoginScreen" />
+                  )}
+                />
+                <Route
+                  exact
+                  path="/Register"
+                  component={() => (
+                    <RegisterScreen data={dummyUserInfo} className="RegisterScreen" />
+                  )}
+                />
+                <Route
+                  path="/simulation"
+                  component={() => (
+                    <ExampleSimulationScreen
+                      data={dummyUserInfo}
+                      assignment={dummyAssignment}
+                    />
+                  )}
+                />
+              </Container>
+            </Router>
+    
+  }
+});
+*/
+
 const App = () => {
   return (
     <Router>
-      <Header data={dummyUserInfo} />
+      <Header db={db} auth={auth} />
       <Container className="routes py-2 d-flex justify-content-center">
+        <Route
+          exact
+          path="/"
+          component={() => (
+            <HomeScreen db={db} auth={auth} simulations={supportedSimulations} className="HomeScreen" />
+          )}
+        />
+        <Route
+          exact
+          path="/Login"
+          component={() => (
+            <LoginScreen db={db} auth={auth} className="LoginScreen" />
+          )}
+        />
+        <Route
+          exact
+          path="/Register"
+          component={() => (
+            <RegisterScreen db={db} auth={auth} className="RegisterScreen" />
+          )}
+        />
         <Route
           path="/simulation"
           component={() => (
@@ -89,13 +249,6 @@ const App = () => {
               data={dummyUserInfo}
               supportedSimulations={supportedSimulations}
             />
-          )}
-        />
-        <Route
-          exact
-          path="/"
-          component={() => (
-            <HomeScreen data={dummyUserInfo} className="exampleHomeScreen" />
           )}
         />
       </Container>
