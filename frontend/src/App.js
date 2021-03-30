@@ -21,18 +21,18 @@ const dummyUserInfo = {
   courses: ["Physics 100", "Another Class"],
 };
 
-const dummyAssignment = {
-  id: 0,
-  name: "Projectile Motion",
-  questions: ["q1", "q2", "q3"],
-};
-
 const supportedSimulations = [
   {
+    //renamed variables to make less ambiguous
+    //left old names until I can hunt them all down and change them
+
+    simName: "Projectile Motion",
+    simSrcPath: "../../phetsims/projectile-motion/projectile-motion_en.html",
     Name: "Projectile Motion",
     Source:
       "https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html",
     Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
+    simVariables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
   },
   {
     Name: "Forces and Motion",
@@ -56,6 +56,13 @@ const supportedSimulations = [
   },
 ];
 
+const dummyAssignment = {
+  id: 0,
+  name: "Projectile Motion",
+  questions: ["q1", "q2", "q3"],
+  simulation: supportedSimulations[0],
+};
+
 const App = () => {
   return (
     <Router>
@@ -72,11 +79,7 @@ const App = () => {
         />
         <Route
           path="/InstructorProfile"
-          component={() => (
-            <InstructorProfile
-              data={dummyUserInfo}
-            />
-          )}
+          component={() => <InstructorProfile data={dummyUserInfo} />}
         />
         <Route
           path="/b"

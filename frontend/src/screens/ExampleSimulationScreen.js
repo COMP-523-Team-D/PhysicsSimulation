@@ -1,11 +1,15 @@
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import { useState } from "react";
 import QandA from "../components/QandA";
+import SimulationContainerComponent from "../components/SimulationContainerComponent";
 
 const ExampleSimulationScreen = ({ data, assignment }) => {
   const { typeEnum, firstName, lastName, courses } = data;
   const { name, questions } = assignment;
   const [qIndex, setqIndex] = useState(1);
+
+  const { simulation } = assignment;
+  const { simName, simSrcPath, simVariables } = simulation;
 
   return (
     <Container className="simulation-container">
@@ -18,7 +22,11 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
           <Container>
             <Row className="mt-4 pt-3">
               <Col className="d-flex justify-content-center">
-                <div dangerouslySetInnerHTML={{__html:"<iframe src='../../phetsims/projectile-motion/projectile-motion_en.html' className='phet-sim' scrolling='no' allowFullScreen title='Projectile Motion'/>"}}/>
+                <SimulationContainerComponent
+                  simVariables={simVariables}
+                  simName={simName}
+                  simSrcPath={simSrcPath}
+                />
               </Col>
             </Row>
             <Row className="justify-content-center mt-5 graph-container d-md-flex d-none ">
