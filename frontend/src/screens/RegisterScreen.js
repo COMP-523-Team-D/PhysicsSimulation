@@ -64,3 +64,56 @@ const RegisterScreen = ({ db, auth }) => {
 };
 
 export default RegisterScreen;
+
+
+<Form onSubmit={(e) => register(e)}>
+                <Form.Row>
+                  <Form.Group as={Col} controlId="formGridFirstName">
+                    <Form.Label>First Name</Form.Label>
+                    <Form.Control type="first name" placeholder="Enter first name" onChange={e => setFirstName(e.target.value)}/>
+                  </Form.Group>
+
+                  <Form.Group as={Col} controlId="formGridLastName">
+                    <Form.Label>Last Name</Form.Label>
+                    <Form.Control type="last name" placeholder="Enter last name" onChange={e => setLastName(e.target.value)}/>
+                  </Form.Group>
+                </Form.Row>
+
+                <Form.Row>
+                  <Form.Group as={Col} controlId="formGridEmail">
+                    <Form.Label>Email Address</Form.Label>
+                    <Form.Control type="email" placeholder="Enter email" onChange={e => setEmail(e.target.value)}/>
+                  </Form.Group>
+
+                  <Form.Group as={Col} controlId="formGridPassword">
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control type="password" placeholder="Enter password" onChange={p => setPassword(p.target.value)}/>
+                  </Form.Group>
+                </Form.Row>
+
+                <Form.Row>
+                  <Form.Group as={Col} controlId="formGridInstructors">
+                    <Form.Label>Select Your Instructors</Form.Label>
+                    <Form.Control as="select" multiple>
+                    {teachers.map((teacher, i) => {
+                        <option key={i} value={teacher}>{teacher}</option> 
+                    })}
+                    </Form.Control>
+                  </Form.Group>
+
+                  <Form.Group as={Col} controlId="formGridCourses">
+                    <Form.Label>Select Your Courses</Form.Label>
+                    <Form.Control as="select" multiple>
+                      {classes.map((cls, i) => {
+                            <option key={i} value={cls}>{cls}</option> 
+                      })}
+                    </Form.Control>
+                  </Form.Group>
+                </Form.Row>
+
+                <Button variant="primary" type="submit">
+                  Register!
+                </Button>
+              </Form>
+
+
