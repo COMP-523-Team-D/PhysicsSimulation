@@ -66,7 +66,7 @@ const RegisterScreen = ({ db, auth }) => {
       <Row className="m-4"> </Row>
       <Row className="mt-5">
         <Col className="d-flex justify-content-center">
-          <Card className="text-weight-bold register-card">
+          <Card className="text-weight-bold authentication-card">
             <Card.Header className="bg-secondary">
               <Card.Title className="landingPageCardTitle">
                 <span>
