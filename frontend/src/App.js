@@ -27,9 +27,9 @@ var firebaseConfig = {
   databaseURL: "https://localhost:8080",
   projectId: "unc-physics-simulation",
   //storageBucket: "unc-physics-simulation.appspot.com",
-  messagingSenderId: "188932414514",
-  appId: "1:188932414514:web:c7df0cb566929883fc302b",
-  measurementId: "G-Z97JLPVR8C",
+  //messagingSenderId: "188932414514",
+  // appId: "1:188932414514:web:c7df0cb566929883fc302b",
+  // measurementId: "G-Z97JLPVR8C",
 };
 
 // Initialize Firebase
@@ -44,7 +44,7 @@ const auth = firebase.auth();
 auth.useEmulator("http://localhost:9099"); // Initialize to use the emulators
 
 const db = firebase.firestore();
-//db.useEmulator("localhost", 8080); // Initialize to use the emulators
+db.useEmulator("localhost", 8080); // Initialize to use the emulators
 
 // main container component
 
@@ -241,10 +241,7 @@ const App = () => {
           path="/InstructorProfile"
           component={() => <InstructorProfile data={dummyUserInfo} />}
         />
-        <Route
-          path="/b"
-          component={() => <HomeScreenB data={dummyUserInfo} />}
-        />
+
         <Route
           path="/build"
           component={() => (
