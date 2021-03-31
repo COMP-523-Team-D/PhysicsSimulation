@@ -242,10 +242,6 @@ const App = () => {
           component={() => <InstructorProfile data={dummyUserInfo} />}
         />
         <Route
-          path="/b"
-          component={() => <HomeScreenB data={dummyUserInfo} />}
-        />
-        <Route
           path="/build"
           component={() => (
             <ExampleBuildScreen
