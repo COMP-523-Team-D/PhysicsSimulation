@@ -1,6 +1,7 @@
 import useCanvas from "../utils/useCanvas";
 
 const GraphCanvasComponent = ({ points, ...rest }) => {
+  // draw function for drawing curves
   const draw = (ctx) => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.fillStyle = "#000000";

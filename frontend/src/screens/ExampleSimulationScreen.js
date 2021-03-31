@@ -4,6 +4,7 @@ import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import { useState } from "react";
 import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
+import GraphCanvasComponent from "../components/GraphCanvasComponent";
 
 const ExampleSimulationScreen = ({ data, assignment }) => {
   const { typeEnum, firstName, lastName, courses } = data;
@@ -12,6 +13,8 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
 
   const { simulation } = assignment;
   const { simName, simSrcPath, simVariables } = simulation;
+
+  const points = [0, 1, 100, 23, 45, 3];
 
   return (
     <Container className="simulation-container">
@@ -31,37 +34,54 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
                 />
               </Col>
             </Row>
-            <Row className="justify-content-center mt-5 graph-container d-md-flex d-none ">
+            <Row className="my-3 justify-content-center mt-5 graph-container d-md-flex d-none ">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Body>
+                  <Card.Header>
                     <Card.Title>A Graph Title</Card.Title>
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <i className="fas fa-chart-area fa-8x"></i>
+                  </Card.Header>
+                  <Card.Body>
+                    <Container className="bg-white d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent points={points} />
                     </Container>
-                    <Card.Text>This is where a graph could go</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Body>
+                  <Card.Header>
                     <Card.Title>A Graph Title</Card.Title>
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <i className="fas fa-chart-area fa-8x"></i>
+                  </Card.Header>
+                  <Card.Body>
+                    <Container className="bg-white d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent points={points} />
                     </Container>
-                    <Card.Text>This is where a graph could go</Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+            <Row className="my-3 justify-content-center mt-5 graph-container d-md-flex d-none ">
+              <Col className="graph my-5">
+                <Card className="d-flex graph-card">
+                  <Card.Header>
+                    <Card.Title>A Graph Title</Card.Title>
+                  </Card.Header>
+                  <Card.Body>
+                    <Container className="bg-white d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent points={points} />
+                    </Container>
                   </Card.Body>
                 </Card>
               </Col>
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Body>
+                  <Card.Header>
                     <Card.Title>A Graph Title</Card.Title>
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <i className="fas fa-chart-area fa-8x"></i>
+                  </Card.Header>
+                  <Card.Body>
+                    <Container className="bg-white d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent points={points} />
                     </Container>
-                    <Card.Text>This is where a graph could go</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -70,12 +90,13 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
             <Row className="mt-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Body>
+                  <Card.Header>
                     <Card.Title>A Graph Title</Card.Title>
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <i className="fas fa-chart-area fa-8x"></i>
+                  </Card.Header>
+                  <Card.Body>
+                    <Container className="bg-white d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent points={points} />
                     </Container>
-                    <Card.Text>This is where a graph could go</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -83,12 +104,13 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
             <Row className="mt-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Body>
+                  <Card.Header>
                     <Card.Title>A Graph Title</Card.Title>
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <i className="fas fa-chart-area fa-8x"></i>
+                  </Card.Header>
+                  <Card.Body>
+                    <Container className="bg-white d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent points={points} />
                     </Container>
-                    <Card.Text>This is where a graph could go</Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
@@ -96,12 +118,27 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
             <Row className="mt-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Body>
+                  <Card.Header>
                     <Card.Title>A Graph Title</Card.Title>
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <i className="fas fa-chart-area fa-8x"></i>
+                  </Card.Header>
+                  <Card.Body>
+                    <Container className="bg-white d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent points={points} />
                     </Container>
-                    <Card.Text>This is where a graph could go</Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+            <Row className="mt-5 d-md-none d-xs-flex flex-xs-row">
+              <Col className="graph my-5">
+                <Card className="d-flex graph-card">
+                  <Card.Header>
+                    <Card.Title>A Graph Title</Card.Title>
+                  </Card.Header>
+                  <Card.Body>
+                    <Container className="bg-white d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent points={points} />
+                    </Container>
                   </Card.Body>
                 </Card>
               </Col>
