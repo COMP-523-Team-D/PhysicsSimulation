@@ -12,6 +12,7 @@ const HomeScreen = ({ db, auth, simulations }) => {
   /*
    * Set an authentication state observer to update screen data
    */
+  /*
   auth.onAuthStateChanged((user) => {
     if (user) {
       data.loggedIn = true;
@@ -33,6 +34,7 @@ const HomeScreen = ({ db, auth, simulations }) => {
       data.user = null;
     }
   });
+  */
 
   return (
     <Container>

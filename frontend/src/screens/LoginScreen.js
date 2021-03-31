@@ -9,7 +9,6 @@ const LoginScreen = ({ db, auth }) => {
 
   const login = (e) => {
     e.preventDefault();
-    console.log("You did it!");
     auth.signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
           // Signed in
@@ -42,20 +41,19 @@ const LoginScreen = ({ db, auth }) => {
                 <span>
                   <i className="fas fa-calendar-alt fa-1.7x mr-2"></i>{" "}
                 </span>
-                Login
+                Existing User Login
               </Card.Title>
             </Card.Header>
             <Card.Body>
               <Form onSubmit={(e) => login(e)}>
-                <Form.Label>Existing user login</Form.Label>
                 <Form.Group controlId="formBasicEmail">
                   <Form.Label>Please enter your email address:</Form.Label>
-                  <Form.Control type="email" placeholder="<onyen>@email.unc.edu" onChange={e => setEmail(e.target.value)}/>
+                  <Form.Control type="email" placeholder="Enter email" onChange={e => setEmail(e.target.value)}/>
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
                   <Form.Label>Please enter your password:</Form.Label>
-                  <Form.Control type="password" placeholder="Password" onChange={p => setPassword(p.target.value)}/>
+                  <Form.Control type="password" placeholder="Enter password" onChange={p => setPassword(p.target.value)}/>
                 </Form.Group>
 
                 <Button variant="primary" type="submit">
