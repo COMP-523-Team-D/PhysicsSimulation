@@ -9,7 +9,6 @@ import InstructorProfile from "./screens/InstructorProfile";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
 import { firebaseConfig } from "./firebaseConfig";
-
 // Firebase App (the core Firebase SDK) is always required and
 // must be listed before other Firebase SDKs
 import firebase from "firebase/app";
