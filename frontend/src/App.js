@@ -20,7 +20,7 @@ import "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyA1gu3Z0AhuGUQXFMOl9C69-V-eCcwD3hI",
   //authDomain: "unc-physics-simulation.firebaseapp.com",
   //databaseURL: "https://unc-physics-simulation-default-rtdb.firebaseio.com",
@@ -29,8 +29,8 @@ var firebaseConfig = {
   //storageBucket: "unc-physics-simulation.appspot.com",
   //messagingSenderId: "188932414514",
 
-  // appId: "1:188932414514:web:c7df0cb566929883fc302b",
-  // measurementId: "G-Z97JLPVR8C",
+  //appId: "1:188932414514:web:c7df0cb566929883fc302b",
+  //measurementId: "G-Z97JLPVR8C"
 };
 
 // Initialize Firebase
@@ -101,102 +101,6 @@ const dummyAssignment = {
   questions: ["q1", "q2", "q3"],
   simulation: supportedSimulations[0],
 };
-
-/*
-auth.onAuthStateChanged( (user) => {
-  if (user) {
-    props = <Router>
-              <Header data={dummyUserInfo} />
-              <Container className="routes py-2 d-flex justify-content-center">
-                <Route
-                  exact
-                  path="/"
-                  component={() => (
-                    <HomeScreen data={dummyUserInfo} className="HomeScreen" />
-                  )}
-                />
-                <Route
-                  exact
-                  path="/Login"
-                  component={() => (
-                    <LoginScreen data={dummyUserInfo} className="LoginScreen" />
-                  )}
-                />
-                <Route
-                  exact
-                  path="/Register"
-                  component={() => (
-                    <RegisterScreen data={dummyUserInfo} className="RegisterScreen" />
-                  )}
-                />
-                <Route
-                  path="/simulation"
-                  component={() => (
-                    <ExampleSimulationScreen
-                      data={dummyUserInfo}
-                      assignment={dummyAssignment}
-                    />
-                  )}
-                />
-                <Route
-                  path="/InstructorProfile"
-                  component={() => (
-                    <InstructorProfile
-                      data={dummyUserInfo}
-                    />
-                  )}
-                />
-                <Route
-                  path="/build"
-                  component={() => (
-                    <ExampleBuildScreen
-                      data={dummyUserInfo}
-                      supportedSimulations={supportedSimulations}
-                    />
-                  )}
-                />
-              </Container>
-            </Router>
-  }else {
-    props = <Router>
-              <Header data={dummyUserInfo} />
-              <Container className="routes py-2 d-flex justify-content-center">
-                <Route
-                  exact
-                  path="/"
-                  component={() => (
-                    <HomeScreen data={dummyUserInfo} className="HomeScreen" />
-                  )}
-                />
-                <Route
-                  exact
-                  path="/Login"
-                  component={() => (
-                    <LoginScreen data={dummyUserInfo} className="LoginScreen" />
-                  )}
-                />
-                <Route
-                  exact
-                  path="/Register"
-                  component={() => (
-                    <RegisterScreen data={dummyUserInfo} className="RegisterScreen" />
-                  )}
-                />
-                <Route
-                  path="/simulation"
-                  component={() => (
-                    <ExampleSimulationScreen
-                      data={dummyUserInfo}
-                      assignment={dummyAssignment}
-                    />
-                  )}
-                />
-              </Container>
-            </Router>
-    
-  }
-});
-*/
 
 const App = () => {
   return (
