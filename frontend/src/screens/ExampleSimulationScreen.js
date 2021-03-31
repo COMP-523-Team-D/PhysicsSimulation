@@ -1,3 +1,5 @@
+// <div dangerouslySetInnerHTML={{__html:"<iframe src='../../phetsims/projectile-motion/projectile-motion_en.html' className='phet-sim' scrolling='no' allowFullScreen title='Projectile Motion'/>"}}/>
+
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import { useState } from "react";
 import QandA from "../components/QandA";

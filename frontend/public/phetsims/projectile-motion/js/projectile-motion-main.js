@@ -9,10 +9,15 @@ define( function( require ) {
   'use strict';
 
   // modules
+  /*
+   * Removed to force the simulation to load into the lab screen
+   * - Ross Rucho
+   *
   var IntroScreen = require( 'PROJECTILE_MOTION/intro/IntroScreen' );
   var DragScreen = require( 'PROJECTILE_MOTION/drag/DragScreen' );
-  var LabScreen = require( 'PROJECTILE_MOTION/lab/LabScreen' );
   var VectorsScreen = require( 'PROJECTILE_MOTION/vectors/VectorsScreen' );
+  */
+  var LabScreen = require( 'PROJECTILE_MOTION/lab/LabScreen' );
   var Sim = require( 'JOIST/Sim' );
   var SimLauncher = require( 'JOIST/SimLauncher' );
 
@@ -31,9 +36,14 @@ define( function( require ) {
 
   SimLauncher.launch( function() {
     var sim = new Sim( projectileMotionTitleString, [
+      /*
+       * Removed to force the simulation to load into the lab screen
+       * - Ross Rucho
+       *
       new IntroScreen(),
       new VectorsScreen(),
       new DragScreen(),
+      */
       new LabScreen()
     ], simOptions );
     sim.start();
