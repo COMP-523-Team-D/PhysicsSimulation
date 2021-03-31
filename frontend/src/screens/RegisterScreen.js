@@ -1,9 +1,8 @@
 import "../App.css";
-import {useState} from "react";
+import { useState } from "react";
 import { Button, Card, Col, Container, Row, Form } from "react-bootstrap";
 
 const RegisterScreen = ({ db, auth }) => {
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [firstName, setFirstName] = useState("");
@@ -13,59 +12,61 @@ const RegisterScreen = ({ db, auth }) => {
   const teachers = [];
   const classes = [];
 
-  db.collection("Users").where("isInstructor", "==", true)
-  .get()
-  .then((querySnapshot) => {
-    querySnapshot.forEach((doc) => {
-      teachers.push(`${doc.get('First Name')} ${doc.get('Last Name')}`);
+  db.collection("Users")
+    .where("isInstructor", "==", true)
+    .get()
+    .then((querySnapshot) => {
+      querySnapshot.forEach((doc) => {
+        teachers.push(`${doc.get("First Name")} ${doc.get("Last Name")}`);
+      });
+    })
+    .catch((error) => {
+      console.log("Error getting instructors: ", error);
     });
-  })
-  .catch((error) => {
-    console.log("Error getting instructors: ", error);
-  });
 
   db.collection("Courses")
-  .get()
-  .then((querySnapshot) => {
-    querySnapshot.forEach((doc) => {
-      classes.push(doc.get('Name'));
+    .get()
+    .then((querySnapshot) => {
+      querySnapshot.forEach((doc) => {
+        classes.push(doc.get("Name"));
+      });
+    })
+    .catch((error) => {
+      console.log("Error getting courses: ", error);
     });
-  })
-  .catch((error) => {
-    console.log("Error getting courses: ", error);
-  })
 
   console.log(teachers);
   console.log(classes);
 
   const register = (e) => {
     e.preventDefault();
-    auth.createUserWithEmailAndPassword(email, password)
-        .then((userCredential) => {
-          // Signed in 
-          var user = userCredential.user;
-          db.collection("Users").add({
-            "UID": user.uid,
-            "First Name": firstName,
-            "Last Name": lastName,
-            "isInstructor": false,
-            "Instructors": instructors,
-            "Students": [],
-            "Courses": courses
-          })
-        })
-        .catch((error) => {
-          console.log(error.code);
-          console.log(error.message);
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((userCredential) => {
+        // Signed in
+        var user = userCredential.user;
+        db.collection("Users").add({
+          UID: user.uid,
+          "First Name": firstName,
+          "Last Name": lastName,
+          isInstructor: false,
+          Instructors: instructors,
+          Students: [],
+          Courses: courses,
         });
-  }
+      })
+      .catch((error) => {
+        console.log(error.code);
+        console.log(error.message);
+      });
+  };
 
   return (
     <Container>
       <Row className="m-4"> </Row>
       <Row className="mt-5">
-        <Col md={4}>
-          <Card className="landingPageCard text-weight-bold">
+        <Col className="d-flex justify-content-center">
+          <Card className="text-weight-bold register-card">
             <Card.Header className="bg-secondary">
               <Card.Title className="landingPageCardTitle">
                 <span>
@@ -79,24 +80,40 @@ const RegisterScreen = ({ db, auth }) => {
                 <Form.Row>
                   <Form.Group as={Col} controlId="formGridFirstName">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="first name" placeholder="Enter first name" onChange={e => setFirstName(e.target.value)}/>
+                    <Form.Control
+                      type="first name"
+                      placeholder="Enter first name"
+                      onChange={(e) => setFirstName(e.target.value)}
+                    />
                   </Form.Group>
 
                   <Form.Group as={Col} controlId="formGridLastName">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="last name" placeholder="Enter last name" onChange={e => setLastName(e.target.value)}/>
+                    <Form.Control
+                      type="last name"
+                      placeholder="Enter last name"
+                      onChange={(e) => setLastName(e.target.value)}
+                    />
                   </Form.Group>
                 </Form.Row>
 
                 <Form.Row>
                   <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label>Email Address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" onChange={e => setEmail(e.target.value)}/>
+                    <Form.Control
+                      type="email"
+                      placeholder="Enter email"
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
                   </Form.Group>
 
                   <Form.Group as={Col} controlId="formGridPassword">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Enter password" onChange={p => setPassword(p.target.value)}/>
+                    <Form.Control
+                      type="password"
+                      placeholder="Enter password"
+                      onChange={(p) => setPassword(p.target.value)}
+                    />
                   </Form.Group>
                 </Form.Row>
 
@@ -104,9 +121,11 @@ const RegisterScreen = ({ db, auth }) => {
                   <Form.Group as={Col} controlId="formGridInstructors">
                     <Form.Label>Select Your Instructors</Form.Label>
                     <Form.Control as="select" multiple>
-                    {teachers.map((teacher, i) => {
-                        <option key={i} value={teacher}>{teacher}</option> 
-                    })}
+                      {teachers.map((teacher, i) => {
+                        <option key={i} value={teacher}>
+                          {teacher}
+                        </option>;
+                      })}
                     </Form.Control>
                   </Form.Group>
 
@@ -114,7 +133,9 @@ const RegisterScreen = ({ db, auth }) => {
                     <Form.Label>Select Your Courses</Form.Label>
                     <Form.Control as="select" multiple>
                       {classes.map((cls, i) => {
-                            <option key={i} value={cls}>{cls}</option> 
+                        <option key={i} value={cls}>
+                          {cls}
+                        </option>;
                       })}
                     </Form.Control>
                   </Form.Group>
@@ -126,7 +147,7 @@ const RegisterScreen = ({ db, auth }) => {
               </Form>
             </Card.Body>
           </Card>
-        </Col>     
+        </Col>
       </Row>
       <Row className="m-4"></Row>
     </Container>

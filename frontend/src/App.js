@@ -28,13 +28,9 @@ var firebaseConfig = {
   projectId: "unc-physics-simulation",
   //storageBucket: "unc-physics-simulation.appspot.com",
   //messagingSenderId: "188932414514",
-<<<<<<< HEAD
-  //appId: "1:188932414514:web:c7df0cb566929883fc302b",
-  //measurementId: "G-Z97JLPVR8C",
-=======
+
   // appId: "1:188932414514:web:c7df0cb566929883fc302b",
   // measurementId: "G-Z97JLPVR8C",
->>>>>>> 926a384400a900c5f82d2c0f5834c3eb4062c280
 };
 
 // Initialize Firebase
@@ -246,10 +242,6 @@ const App = () => {
           path="/InstructorProfile"
           component={() => <InstructorProfile data={dummyUserInfo} />}
         />
-<<<<<<< HEAD
-=======
-
->>>>>>> 926a384400a900c5f82d2c0f5834c3eb4062c280
         <Route
           path="/build"
           component={() => (

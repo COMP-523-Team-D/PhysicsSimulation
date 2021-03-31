@@ -126,3 +126,7 @@ Body {
     min-height: 100px;
 }
 
+.register-card {
+    height: 80vh;
+    border: 2px solid black;
+}
