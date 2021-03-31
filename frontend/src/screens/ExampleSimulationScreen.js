@@ -34,7 +34,7 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
                 />
               </Col>
             </Row>
-            <Row className="my-3 justify-content-center mt-5 graph-container d-md-flex d-none ">
+            <Row className="my-5 justify-content-center mt-5 graph-container d-md-flex d-none ">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header>
@@ -60,7 +60,7 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
                 </Card>
               </Col>
             </Row>
-            <Row className="my-3 justify-content-center mt-5 graph-container d-md-flex d-none ">
+            <Row className="my-5 justify-content-center mt-5 graph-container d-md-flex d-none ">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header>
@@ -87,7 +87,7 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
               </Col>
             </Row>
 
-            <Row className="mt-5 d-md-none d-xs-flex flex-xs-row">
+            <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header>
@@ -101,7 +101,7 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
                 </Card>
               </Col>
             </Row>
-            <Row className="mt-5 d-md-none d-xs-flex flex-xs-row">
+            <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header>
@@ -115,7 +115,7 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
                 </Card>
               </Col>
             </Row>
-            <Row className="mt-5 d-md-none d-xs-flex flex-xs-row">
+            <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header>
@@ -129,7 +129,7 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
                 </Card>
               </Col>
             </Row>
-            <Row className="mt-5 d-md-none d-xs-flex flex-xs-row">
+            <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header>
