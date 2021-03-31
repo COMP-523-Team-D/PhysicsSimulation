@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import HomeScreen from "./screens/HomeScreen";
 import ExampleSimulationScreen from "./screens/ExampleSimulationScreen";
 import ExampleBuildScreen from "./screens/ExampleBuildScreen";
-import HomeScreenB from "./screens/HomeScreenB";
 import InstructorProfile from "./screens/InstructorProfile";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
@@ -145,10 +144,6 @@ auth.onAuthStateChanged( (user) => {
                       data={dummyUserInfo}
                     />
                   )}
-                />
-                <Route
-                  path="/b"
-                  component={() => <HomeScreenB data={dummyUserInfo} />}
                 />
                 <Route
                   path="/build"
