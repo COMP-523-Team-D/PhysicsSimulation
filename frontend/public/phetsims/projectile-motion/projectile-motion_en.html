@@ -32,8 +32,7 @@ The logo dimensions are given in splash.svg, currently at width="273.172px" heig
 <script type="text/javascript">
   ( function() {
     // Identify the brand (assume generated brand if not provided with query parameters)
-    var brandMatch = location.search.match( /brand=([^&]+)/ );
-    var brand = brandMatch ? decodeURIComponent( brandMatch[ 1 ] ) : 'adapted-from-phet';
+    var brand = 'adapted-from-phet';
 
     // Preloads, with more included for phet-io brand
     var preloads = [
@@ -52,13 +51,6 @@ The logo dimensions are given in splash.svg, currently at width="273.172px" heig
       '../sherpa/lib/TextEncoderLite-3c9f6f0.js', 
       '../sherpa/lib/Tween-r12.js'
     ];
-
-    if ( brand === 'phet-io' ) {
-      preloads = preloads.concat( [
-      '../sherpa/lib/jsondiffpatch-0.1.31.js', 
-      '../phet-io/js/phet-io-query-parameters.js'
-    ] );
-    }
 
     // Loads a synchronously-executed asynchronously-downloaded script tag, with optional data-main parameter.
     // See http://www.html5rocks.com/en/tutorials/speed/script-loading/ for more about script loading. It helps to
