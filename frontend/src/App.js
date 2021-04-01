@@ -68,7 +68,6 @@ const dummyAssignment = {
   simulation: supportedSimulations[0],
 };
 
-/*
 const App = () => {
   return (
     <Router>
@@ -126,21 +125,5 @@ const App = () => {
     </Router>
   );
 };
-*/
 
-const App = () => (
-  <Router>
-    <div>
-      <Navigation />
 
-      <hr />
-
-      {/*<Route exact path={ROUTES.LANDING_SCREEN} component={LandingScreen} />*/}
-      <Route exact path={ROUTES.HOME_SCREEN} component={() => (<HomeScreen className="HomeScreen"/>)}/>
-      <Route exact path={ROUTES.REGISTER_SCREEN} component={() => (<RegisterScreen className="RegisterScreen"/>)}/>
-      <Route exact path={ROUTES.LOGIN_SCREEN} component={() => (<LoginScreen className="LoginScreen" />)} />
-    </div>
-  </Router>
-);
-
-export default App;
