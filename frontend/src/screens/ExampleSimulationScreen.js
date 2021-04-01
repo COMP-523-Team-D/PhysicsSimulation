@@ -1,5 +1,5 @@
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
 import GraphCanvasComponent from "../components/GraphCanvasComponent";
@@ -14,6 +14,24 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
 
   // Temp data for testing graphing
   const points = [0, 0, 50, 100, 100, 0];
+
+  // TODO: do something real with the points that we recieve.
+  // Also, the simulation seems to dispatch more messages than we send
+  // of its own free will, so maybe we should do some verification that
+  // the message we got is actually a data point object.
+  var handleNewPoint = function (e) {
+    console.log("Message recieved");
+    console.log(e.data);
+  }
+
+  // This sets up the communication between the frontend and the simulation
+  // when the screen is rendered.
+  useEffect(() => {
+    window.addEventListener("message", handleNewPoint);
+    return function cleanup() {
+      window.removeEventListener("message", handleNewPoint);
+    };
+  });
 
   return (
     <Container className="simulation-container">

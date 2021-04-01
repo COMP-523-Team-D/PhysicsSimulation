@@ -9,6 +9,22 @@
  *
  * @author Andrea Lin (PhET Interactive Simulations)
  */
+
+// COMP 523 addition
+function sendPointToReact(t_in, px_in, py_in, vx_in, vy_in, ax_in, ay_in) {
+  var data = {
+    t : t_in,
+    px : px_in,
+    py : py_in,
+    vx : vx_in,
+    vy : vy_in,
+    ax : ax_in,
+    ay : ay_in
+  };
+  // TODO: Replace '*' with an actual URI before production.
+  window.parent.postMessage(data, '*');
+}
+
 define( function( require ) {
   'use strict';
 
@@ -21,9 +37,6 @@ define( function( require ) {
   var Property = require( 'AXON/Property' );
   var Util = require( 'DOT/Util' );
   var Vector2 = require( 'DOT/Vector2' );
-
-  // COMP 523 addition
-  var fs = require('fs');
 
   /**
    * @param {ProjectileMotionModel} model
@@ -93,22 +106,10 @@ define( function( require ) {
     );
 
     // COMP 523 addition
-    const initialPointString = JSON.stringify({
-      t: initialPoint.time,
-      px: initialPoint.position.x,
-      py: initialPoint.position.y,
-      vx: initialPoint.velocity.x,
-      vy: initialPoint.velocity.y,
-      ax: initialPoint.acceleration.x,
-      ay: initialPoint.acceleration.y,
-    })
-
-    fs.writeFile('sample.json', initialPointString, (err) => {
-      if (err) {
-        throw err;
-      }
-    });
-
+    sendPointToReact(initialPoint.time,
+             initialPoint.position.x, initialPoint.position.y,
+             initialPoint.velocity.x, initialPoint.velocity.y,
+             initialPoint.acceleration.x, initialPoint.acceleration.y);
 
     // @public {DataPoint||null} - contains reference to the apex point, or null if apex point doesn't exist/has been recorded
     this.apexPoint = null;
@@ -208,6 +209,12 @@ define( function( require ) {
             -gravity * this.mass
           );
 
+          // COMP 523 addition
+          sendPointToReact(apexPoint.time,
+            apexPoint.position.x, apexPoint.position.y,
+            apexPoint.velocity.x, apexPoint.velocity.y,
+            apexPoint.acceleration.x, apexPoint.acceleration.y);
+
           // add this special property to just the apex point collected for a trajectory
           apexPoint.apex = true;
 
@@ -259,6 +266,12 @@ define( function( require ) {
           );
 
         }
+
+        // COMP 523 addition
+        sendPointToReact(newPoint.time,
+          newPoint.position.x, newPoint.position.y,
+          newPoint.velocity.x, newPoint.velocity.y,
+          newPoint.acceleration.x, newPoint.acceleration.y);
 
         // add point, and update tracer tool and David
         this.dataPoints.push( newPoint );
