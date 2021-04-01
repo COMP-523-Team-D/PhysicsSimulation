@@ -3,12 +3,12 @@ import { LinkContainer } from "react-router-bootstrap";
 import "../App.css";
 import "../App.js";
 
-const Header = ({db, auth}) => {
+let data = {
+  loggedIn: false,
+  user: null
+};
 
-  const data = {
-    loggedIn: false,
-    user: null,
-  };
+const Header = ({db, auth}) => {
   
   /*
    * Set an authentication state observer to update screen data
@@ -16,17 +16,21 @@ const Header = ({db, auth}) => {
   auth.onAuthStateChanged((user) => {
     if (user) {
       data.loggedIn = true;
-      
-      db.collection("Users").get().then((querySnapshot) => {
+
+      db.collection("Users")
+        .get()
+        .then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
             if(doc.get("UID")==user.uid) {
-              data.user = doc.data;
+              data.user = doc.data();
             }
           });
-      });
+        })
+        .catch((error) => {
+          console.log("Error getting user data: ", error);
+        });
   
-      data.user || // Returns false if user data was not identified
-      console.log("Error. Authenticated user is not an Instructor or a Student.");
+      console.log(`Logged In: ${data.loggedIn} User: ${data.user}`);
   
     } else {
       data.loggedIn = false;

@@ -1,51 +1,17 @@
-import "./App.css";
+import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import Header from "./components/Header";
+import LandingScreen from "./screens/LandingScreen";
 import HomeScreen from "./screens/HomeScreen";
 import ExampleSimulationScreen from "./screens/ExampleSimulationScreen";
 import ExampleBuildScreen from "./screens/ExampleBuildScreen";
 import InstructorProfile from "./screens/InstructorProfile";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
-
-// Firebase App (the core Firebase SDK) is always required and
-// must be listed before other Firebase SDKs
-import firebase from "firebase/app";
-
-// Add the Firebase services that you want to use
-import "firebase/auth";
-import "firebase/firestore";
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
-const firebaseConfig = {
-  apiKey: "AIzaSyA1gu3Z0AhuGUQXFMOl9C69-V-eCcwD3hI",
-  //authDomain: "unc-physics-simulation.firebaseapp.com",
-  //databaseURL: "https://unc-physics-simulation-default-rtdb.firebaseio.com",
-  databaseURL: "https://localhost:8080",
-  projectId: "unc-physics-simulation",
-  //storageBucket: "unc-physics-simulation.appspot.com",
-  //messagingSenderId: "188932414514",
-
-  //appId: "1:188932414514:web:c7df0cb566929883fc302b",
-  //measurementId: "G-Z97JLPVR8C"
-};
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-//firebase.analytics();
-
-/*
- * Firebase Authentication
- * & Firebase Firestore
- */
-const auth = firebase.auth();
-auth.useEmulator("http://localhost:9099"); // Initialize to use the emulators
-
-const db = firebase.firestore();
-db.useEmulator("localhost", 8080); // Initialize to use the emulators
+import Navigation from './components/Navigation';
+import * as ROUTES from "./constants/routes"
+import "./App.css";
 
 // main container component
 
@@ -102,6 +68,7 @@ const dummyAssignment = {
   simulation: supportedSimulations[0],
 };
 
+/*
 const App = () => {
   return (
     <Router>
@@ -109,7 +76,7 @@ const App = () => {
       <Container className="routes py-2 d-flex justify-content-center">
         <Route
           exact
-          path="/"
+          path={HOME_SCREEN}
           component={() => (
             <HomeScreen
               db={db}
@@ -121,14 +88,14 @@ const App = () => {
         />
         <Route
           exact
-          path="/Login"
+          path={LOGIN_SCREEN}
           component={() => (
             <LoginScreen db={db} auth={auth} className="LoginScreen" />
           )}
         />
         <Route
           exact
-          path="/Register"
+          path={REGISTER_SCREEN}
           component={() => (
             <RegisterScreen db={db} auth={auth} className="RegisterScreen" />
           )}
@@ -159,5 +126,21 @@ const App = () => {
     </Router>
   );
 };
+*/
+
+const App = () => (
+  <Router>
+    <div>
+      <Navigation />
+
+      <hr />
+
+      {/*<Route exact path={ROUTES.LANDING_SCREEN} component={LandingScreen} />*/}
+      <Route exact path={ROUTES.HOME_SCREEN} component={() => (<HomeScreen className="HomeScreen"/>)}/>
+      <Route exact path={ROUTES.REGISTER_SCREEN} component={() => (<RegisterScreen className="RegisterScreen"/>)}/>
+      <Route exact path={ROUTES.LOGIN_SCREEN} component={() => (<LoginScreen className="LoginScreen" />)} />
+    </div>
+  </Router>
+);
 
 export default App;
