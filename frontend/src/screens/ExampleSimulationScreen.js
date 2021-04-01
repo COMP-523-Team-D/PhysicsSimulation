@@ -1,7 +1,7 @@
 // <div dangerouslySetInnerHTML={{__html:"<iframe src='../../phetsims/projectile-motion/projectile-motion_en.html' className='phet-sim' scrolling='no' allowFullScreen title='Projectile Motion'/>"}}/>
 
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
 import GraphCanvasComponent from "../components/GraphCanvasComponent";
@@ -15,6 +15,24 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
   const { simName, simSrcPath, simVariables } = simulation;
 
   const points = [0, 1, 100, 23, 45, 3];
+
+  // TODO: do something real with the points that we recieve.
+  // Also, the simulation seems to dispatch more messages than we send
+  // of its own free will, so maybe we should do some verification that
+  // the message we got is actually a data point object.
+  var handleNewPoint = function (e) {
+    console.log("Message recieved");
+    console.log(e.data);
+  }
+
+  // This sets up the communication between the frontend and the simulation
+  // when the screen is rendered.
+  useEffect(() => {
+    window.addEventListener("message", handleNewPoint);
+    return function cleanup() {
+      window.removeEventListener("message", handleNewPoint);
+    };
+  });
 
   return (
     <Container className="simulation-container">
