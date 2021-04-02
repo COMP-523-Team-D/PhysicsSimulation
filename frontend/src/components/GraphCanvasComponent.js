@@ -1,24 +1,60 @@
 import useCanvas from "../utils/useCanvas";
 
 const GraphCanvasComponent = ({ points, ...rest }) => {
+  const width = 200;
+  const height = 200;
+
+  // Adapted from:
+  // https://codereview.stackexchange.com/questions/114702/drawing-a-grid-on-canvas
+  // Function to draw the gridlines on the graph
+  const drawGrid = function (ctx, w, h, step) {
+    ctx.beginPath();
+    for (let x = 0; x <= w; x += step) {
+      ctx.moveTo(x, 0);
+      ctx.lineTo(x, h);
+    }
+    ctx.strokeStyle = "rgb(0,0,0)";
+    ctx.lineWidth = 1;
+    ctx.stroke();
+
+    ctx.beginPath();
+    for (let y = 0; y <= h; y += step) {
+      ctx.moveTo(0, y);
+      ctx.lineTo(w, y);
+    }
+
+    ctx.strokeStyle = "rgb(0,0,0)";
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  };
+
   // draw function for drawing curves
   const draw = (ctx) => {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.fillStyle = "#000000";
+
+    drawGrid(ctx, width, height, 20);
+
     ctx.beginPath();
-    ctx.moveTo(points[0], points[1]);
-    ctx.quadraticCurveTo(points[2], points[3], points[4], points[5]);
+    ctx.moveTo(points[0] * 2, height - points[1] * 2);
+    ctx.quadraticCurveTo(
+      points[2] * 2,
+      height - points[3] * 2,
+      points[4] * 2,
+      height - points[5] * 2
+    );
     ctx.stroke();
   };
 
+  // Set up reference to graph
   const canvasRef = useCanvas(draw);
 
   return (
     <canvas
       className="graph-canvas"
       ref={canvasRef}
-      width="200"
-      height="175"
+      width={width}
+      height={height}
       {...rest}
     />
   );

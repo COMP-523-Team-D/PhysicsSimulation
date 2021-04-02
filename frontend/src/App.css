@@ -53,11 +53,11 @@ Body {
     font-size: 1.5rem;
 }
 
-.courseList li  {
+.courseList li, .tool-bag{
     transition: all .2s ease-in-out;
 }
 
-.courseList li:hover {
+.courseList li:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -90,7 +90,6 @@ Body {
     font-size: 2rem;
 }
 
-
 .phet-sim-preview-alt {
     width: 100%;
 }
@@ -100,7 +99,12 @@ Body {
     height: 30vh;
 }
 
-.questions-card-body, .graph-card, .build-card-body{
+.tool-bag:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.questions-card-body, .graph-card-body, .build-card-body{
     background: rgba(210,180,140, .3);
 }
 

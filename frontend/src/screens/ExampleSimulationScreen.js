@@ -1,5 +1,3 @@
-// <div dangerouslySetInnerHTML={{__html:"<iframe src='../../phetsims/projectile-motion/projectile-motion_en.html' className='phet-sim' scrolling='no' allowFullScreen title='Projectile Motion'/>"}}/>
-
 import { Card, Col, Container, Row, Button } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import QandA from "../components/QandA";
@@ -14,7 +12,8 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
   const { simulation } = assignment;
   const { simName, simSrcPath, simVariables } = simulation;
 
-  const points = [0, 1, 100, 23, 45, 3];
+  // Temp data for testing graphing
+  const points = [0, 0, 50, 100, 100, 0];
 
   // TODO: do something real with the points that we recieve.
   // Also, the simulation seems to dispatch more messages than we send
@@ -55,24 +54,36 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
             <Row className="my-5 justify-content-center mt-5 graph-container d-md-flex d-none ">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Header>
-                    <Card.Title>A Graph Title</Card.Title>
+                  <Card.Header className="graph-card-header d-flex">
+                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <span className="ml-auto justify-self-end tool-bag">
+                      <i className="fas fa-tools fa-1.5x"></i>
+                    </span>
                   </Card.Header>
-                  <Card.Body>
-                    <Container className="bg-white d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent points={points} />
+                  <Card.Body className="graph-card-body">
+                    <Container className="d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent
+                        className="bg-white"
+                        points={points}
+                      />
                     </Container>
                   </Card.Body>
                 </Card>
               </Col>
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Header>
-                    <Card.Title>A Graph Title</Card.Title>
+                  <Card.Header className="graph-card-header d-flex">
+                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <span className="ml-auto justify-self-end tool-bag">
+                      <i className="fas fa-tools fa-1.5x"></i>
+                    </span>
                   </Card.Header>
-                  <Card.Body>
-                    <Container className="bg-white d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent points={points} />
+                  <Card.Body className="graph-card-body">
+                    <Container className="d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent
+                        className="bg-white"
+                        points={points}
+                      />
                     </Container>
                   </Card.Body>
                 </Card>
@@ -81,24 +92,36 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
             <Row className="my-5 justify-content-center mt-5 graph-container d-md-flex d-none ">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Header>
-                    <Card.Title>A Graph Title</Card.Title>
+                  <Card.Header className="graph-card-header d-flex">
+                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <span className="ml-auto justify-self-end tool-bag">
+                      <i className="fas fa-tools fa-1.5x"></i>
+                    </span>
                   </Card.Header>
-                  <Card.Body>
-                    <Container className="bg-white d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent points={points} />
+                  <Card.Body className="graph-card-body">
+                    <Container className="d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent
+                        className="bg-white"
+                        points={points}
+                      />
                     </Container>
                   </Card.Body>
                 </Card>
               </Col>
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Header>
-                    <Card.Title>A Graph Title</Card.Title>
+                  <Card.Header className="graph-card-header d-flex">
+                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <span className="ml-auto justify-self-end tool-bag">
+                      <i className="fas fa-tools fa-1.5x"></i>
+                    </span>
                   </Card.Header>
-                  <Card.Body>
-                    <Container className="bg-white d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent points={points} />
+                  <Card.Body className="graph-card-body">
+                    <Container className="d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent
+                        className="bg-white"
+                        points={points}
+                      />
                     </Container>
                   </Card.Body>
                 </Card>
@@ -108,12 +131,18 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
             <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Header>
-                    <Card.Title>A Graph Title</Card.Title>
+                  <Card.Header className="graph-card-header d-flex">
+                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <span className="ml-auto justify-self-end tool-bag">
+                      <i className="fas fa-tools fa-1.5x"></i>
+                    </span>
                   </Card.Header>
-                  <Card.Body>
-                    <Container className="bg-white d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent points={points} />
+                  <Card.Body className="graph-card-body">
+                    <Container className="d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent
+                        className="bg-white"
+                        points={points}
+                      />
                     </Container>
                   </Card.Body>
                 </Card>
@@ -122,12 +151,18 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
             <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Header>
-                    <Card.Title>A Graph Title</Card.Title>
+                  <Card.Header className="graph-card-header d-flex">
+                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <span className="ml-auto justify-self-end tool-bag">
+                      <i className="fas fa-tools fa-1.5x"></i>
+                    </span>
                   </Card.Header>
-                  <Card.Body>
-                    <Container className="bg-white d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent points={points} />
+                  <Card.Body className="graph-card-body">
+                    <Container className="d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent
+                        className="bg-white"
+                        points={points}
+                      />
                     </Container>
                   </Card.Body>
                 </Card>
@@ -136,12 +171,18 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
             <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
-                  <Card.Header>
-                    <Card.Title>A Graph Title</Card.Title>
+                  <Card.Header className="graph-card-header d-flex">
+                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <span className="ml-auto justify-self-end tool-bag">
+                      <i className="fas fa-tools fa-1.5x"></i>
+                    </span>
                   </Card.Header>
-                  <Card.Body>
-                    <Container className="bg-white d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent points={points} />
+                  <Card.Body className="graph-card-body">
+                    <Container className="d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent
+                        className="bg-white"
+                        points={points}
+                      />
                     </Container>
                   </Card.Body>
                 </Card>
@@ -149,13 +190,19 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
             </Row>
             <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
               <Col className="graph my-5">
-                <Card className="d-flex graph-card">
-                  <Card.Header>
-                    <Card.Title>A Graph Title</Card.Title>
+                <Card className="d-flex align-content-center graph-card">
+                  <Card.Header className="graph-card-header d-flex">
+                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <span className="ml-auto justify-self-end tool-bag">
+                      <i className="fas fa-tools fa-1.5x"></i>
+                    </span>
                   </Card.Header>
-                  <Card.Body>
-                    <Container className="bg-white d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent points={points} />
+                  <Card.Body className="graph-card-body">
+                    <Container className="d-flex justify-content-center align-content-center">
+                      <GraphCanvasComponent
+                        className="bg-white"
+                        points={points}
+                      />
                     </Container>
                   </Card.Body>
                 </Card>
