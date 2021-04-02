@@ -8,12 +8,10 @@ import ExampleBuildScreen from "./screens/ExampleBuildScreen";
 import InstructorProfile from "./screens/InstructorProfile";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
-<<<<<<< HEAD
 import Navigation from "./components/Navigation";
 import * as ROUTES from "./constants/routes";
 import { withAuthentication } from "./Session";
 import "./App.css";
-=======
 
 // Firebase App (the core Firebase SDK) is always required and
 // must be listed before other Firebase SDKs
