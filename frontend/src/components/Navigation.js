@@ -1,25 +1,78 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { AuthUserContext } from '../Session';
+import LogoutButton from './LogoutComponent';
 import * as ROUTES from '../constants/routes';
+import { LinkContainer } from 'react-router-bootstrap';
+import { Navbar, Nav, Container } from "react-bootstrap";
+import "../App.css";
  
 const Navigation = () => (
-  <div>
-    <ul>
-      <li>
-        <Link to={ROUTES.LANDING_SCREEN}>Landing</Link>
-      </li>
-      <li>
-        <Link to={ROUTES.HOME_SCREEN}>Home</Link>
-      </li>
-      <li>
-        <Link to={ROUTES.REGISTER_SCREEN}>Register</Link>
-      </li>
-      <li>
-        <Link to={ROUTES.LOGIN_SCREEN}>Login</Link>
-      </li>
-  
-    </ul>
-  </div>
+    <AuthUserContext.Consumer>
+      {authUserData => authUserData ? <NavigationAuth authUserData={authUserData}/> : <NavigationNonAuth />}
+    </AuthUserContext.Consumer>
 );
+
+const NavigationAuth = ({authUserData}) => (
+    <header>
+      <Navbar
+        bg="dark"
+        variant="dark"
+        expand="lg"
+        collapseOnSelect
+        className="py-4 mb-3 navBarContainer"
+      >
+        <Container>
+          <LinkContainer to={ROUTES.HOME_SCREEN}>
+            <Navbar.Brand className="navBrand">
+              {`Welcome back ${authUserData['First Name']} ${authUserData['Last Name']}`}
+            </Navbar.Brand>
+          </LinkContainer>
+
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+          <Navbar.Collapse id="basic-navbar-nav" className="">
+            <Nav className="ml-auto innerNav">
+
+              <LogoutButton />
+
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </header>
+);
+
+const NavigationNonAuth = () => (
+  <header>
+    <Navbar
+      bg="dark"
+      variant="dark"
+      expand="lg"
+      collapseOnSelect
+      className="py-4 mb-3 navBarContainer"
+    >
+      <Container>
+        <LinkContainer to={ROUTES.LANDING_SCREEN}>
+          <Navbar.Brand className="navBrand">
+            Welcome to UNC Physics Simulation!
+          </Navbar.Brand>
+        </LinkContainer>
+
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+        <Navbar.Collapse id="basic-navbar-nav" className="">
+          <Nav className="ml-auto innerNav">
+            <LinkContainer to={ROUTES.LOGIN_SCREEN}>
+              <Nav.Link>Login</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to={ROUTES.REGISTER_SCREEN}>
+                <Nav.Link>Register</Nav.Link>
+            </LinkContainer>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  </header>
+)
  
 export default Navigation;

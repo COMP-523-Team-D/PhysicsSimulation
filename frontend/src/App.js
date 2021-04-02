@@ -1,7 +1,6 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
-import Header from "./components/Header";
 import LandingScreen from "./screens/LandingScreen";
 import HomeScreen from "./screens/HomeScreen";
 import ExampleSimulationScreen from "./screens/ExampleSimulationScreen";
@@ -9,8 +8,9 @@ import ExampleBuildScreen from "./screens/ExampleBuildScreen";
 import InstructorProfile from "./screens/InstructorProfile";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
-import Navigation from './components/Navigation';
-import * as ROUTES from "./constants/routes"
+import Navigation from "./components/Navigation";
+import * as ROUTES from "./constants/routes";
+import { withAuthentication } from "./Session";
 import "./App.css";
 
 // main container component
@@ -39,6 +39,7 @@ const supportedSimulations = [
     Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
     simVariables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
   },
+
   {
     Name: "Forces and Motion",
     Source:
@@ -71,59 +72,19 @@ const dummyAssignment = {
 const App = () => {
   return (
     <Router>
-      <Header db={db} auth={auth} />
+      <Navigation />
       <Container className="routes py-2 d-flex justify-content-center">
-        <Route
-          exact
-          path={HOME_SCREEN}
-          component={() => (
-            <HomeScreen
-              db={db}
-              auth={auth}
-              simulations={supportedSimulations}
-              className="HomeScreen"
-            />
-          )}
-        />
-        <Route
-          exact
-          path={LOGIN_SCREEN}
-          component={() => (
-            <LoginScreen db={db} auth={auth} className="LoginScreen" />
-          )}
-        />
-        <Route
-          exact
-          path={REGISTER_SCREEN}
-          component={() => (
-            <RegisterScreen db={db} auth={auth} className="RegisterScreen" />
-          )}
-        />
-        <Route
-          path="/simulation"
-          component={() => (
-            <ExampleSimulationScreen
-              data={dummyUserInfo}
-              assignment={dummyAssignment}
-            />
-          )}
-        />
-        <Route
-          path="/InstructorProfile"
-          component={() => <InstructorProfile data={dummyUserInfo} />}
-        />
-        <Route
-          path="/build"
-          component={() => (
-            <ExampleBuildScreen
-              data={dummyUserInfo}
-              supportedSimulations={supportedSimulations}
-            />
-          )}
-        />
+        <Route exact path={ROUTES.LANDING_SCREEN} component={() => (<LandingScreen simulations={supportedSimulations} className="LandingScreen"/>)}/>
+        <Route exact path={ROUTES.REGISTER_SCREEN} component={() => (<RegisterScreen className="RegisterScreen"/>)}/>
+        <Route exact path={ROUTES.LOGIN_SCREEN} component={() => (<LoginScreen className="LoginScreen" />)} />
+        <Route exact path={ROUTES.HOME_SCREEN} component={() => (<HomeScreen simulations={supportedSimulations} className="HomeScreen"/>)}/>
+        <Route exact path={ROUTES.PROBLEM_SCREEN}component={() => (<ExampleSimulationScreen data={dummyUserInfo} assignment={dummyAssignment}/>)}/>
+        <Route exact path={ROUTES.PROFILE_SCREEN} component={() => (<InstructorProfile data={dummyUserInfo} />)}/>
+        <Route exact path={ROUTES.BUILD_SCREEN} component={() => (<ExampleBuildScreen data={dummyUserInfo} supportedSimulations={supportedSimulations}/>)}/>
       </Container>
     </Router>
   );
 };
 
+export default withAuthentication(App);
 

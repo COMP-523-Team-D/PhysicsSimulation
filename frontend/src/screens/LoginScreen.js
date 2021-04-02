@@ -1,80 +1,114 @@
-import "../App.css";
-import { useState } from "react";
+import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
+import { RegisterLink } from './RegisterScreen';
+import { withFirebase } from '../Firebase';
+import * as ROUTES from '../constants/routes';
 import { Button, Card, Col, Container, Row, Form } from "react-bootstrap";
+import "../App.css";
 
-const LoginScreen = ({ db, auth }) => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-
-  const login = (e) => {
-    e.preventDefault();
-    auth
-      .signInWithEmailAndPassword(email, password)
-      .then((userCredential) => {
-        // Signed in
-        //let user = userCredential.user;
-      })
-      .catch((error) => {
-        console.log(error.code);
-        console.log(error.message);
-      });
-  };
-
-  /*
-  const logout = () => {
-    auth.signOut().then(() => {
-      // Sign-out successful.
-    }).catch((error) => {
-      // An error happened.
-    });
-  }
-  */
-
-  return (
-    <Container>
-      <Row className="m-4"> </Row>
-      <Row className="mt-5">
-        <Col className="d-flex justify-content-center">
-          <Card className="authentication-card text-weight-bold">
-            <Card.Header className="bg-secondary">
-              <Card.Title className="landingPageCardTitle">
-                <span>
-                  <i className="fas fa-calendar-alt fa-1.7x mr-2"></i>{" "}
-                </span>
-                Existing User Login
-              </Card.Title>
-            </Card.Header>
-            <Card.Body>
-              <Form onSubmit={(e) => login(e)}>
-                <Form.Group controlId="formBasicEmail">
-                  <Form.Label>Please enter your email address:</Form.Label>
-                  <Form.Control
-                    type="email"
-                    placeholder="Enter email"
-                    onChange={(e) => setEmail(e.target.value)}
-                  />
-                </Form.Group>
-
-                <Form.Group controlId="formBasicPassword">
-                  <Form.Label>Please enter your password:</Form.Label>
-                  <Form.Control
-                    type="password"
-                    placeholder="Enter password"
-                    onChange={(p) => setPassword(p.target.value)}
-                  />
-                </Form.Group>
-
-                <Button variant="primary" type="submit">
-                  Login!
-                </Button>
-              </Form>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-      <Row className="m-4"></Row>
-    </Container>
-  );
+const LoginScreen = () => (
+    <LoginForm />
+);
+ 
+const INITIAL_STATE = {
+  email: '',
+  password: '',
+  error: null,
 };
+ 
+class LoginFormBase extends Component {
+  constructor(props) {
+    super(props);
+ 
+    this.state = { ...INITIAL_STATE };
+  }
 
+  onSubmit = event => {
+    const { email, password } = this.state;
+ 
+    this.props.firebase
+      .doSignInWithEmailAndPassword(email, password)
+      .then(() => {
+        this.setState({ ...INITIAL_STATE });
+        this.props.history.push(ROUTES.HOME_SCREEN);
+      })
+      .catch(error => {
+        this.setState({ error });
+      });
+ 
+    event.preventDefault();
+  };
+ 
+  onChange = event => {
+    this.setState({ [event.target.name]: event.target.value });
+  };
+ 
+  render() {
+    const { email, password, error } = this.state;
+ 
+    const isInvalid = password === '' || email === '';
+ 
+    return (
+      <Container>
+        <Row className="m-4"> </Row>
+        <Row className="mt-5">
+          <Col className="d-flex justify-content-center">
+            <Card className="authentication-card text-weight-bold">
+              <Card.Header className="bg-secondary">
+                <Card.Title className="landingPageCardTitle">
+                  <span>
+                    <i className="fas fa-calendar-alt fa-1.7x mr-2"></i>{" "}
+                  </span>
+                  Existing User Login
+                </Card.Title>
+              </Card.Header>
+              <Card.Body>
+                
+                <Form onSubmit={this.onSubmit}>
+                  <Form.Group controlId="formBasicEmail">
+                    <Form.Label>Please enter your email address:</Form.Label>
+                    <Form.Control
+                      name="email"
+                      value={email}
+                      type="email"
+                      placeholder="Enter email address"
+                      onChange={this.onChange}
+                    />
+                  </Form.Group>
+
+                  <Form.Group controlId="formBasicPassword">
+                    <Form.Label>Please enter your password:</Form.Label>
+                    <Form.Control
+                      name="password"
+                      value={password}
+                      type="password"
+                      placeholder="Enter password"
+                      onChange={this.onChange}
+                    />
+                  </Form.Group>
+
+                  <Button disabled={isInvalid} variant="primary" type="submit">
+                    Login!
+                  </Button>
+
+                  <br/>
+
+                  {error && <p>{error.message}</p>}
+                </Form>
+
+                <RegisterLink />
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="m-4"></Row>
+      </Container>
+    );
+  }
+}
+ 
+const LoginForm = withRouter(withFirebase(LoginFormBase));
+ 
 export default LoginScreen;
+ 
+export { LoginForm };
