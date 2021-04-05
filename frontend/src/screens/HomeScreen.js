@@ -73,6 +73,6 @@ const HomeScreen = ({simulations}) => (
   </AuthUserContext.Consumer>
 );
 
-const condition = authUser => !!authUser;
+const condition = authUserData => !!authUserData;
 
 export default withAuthorization(condition)(HomeScreen);
