@@ -18,7 +18,7 @@ Body {
     font-size: 1.6rem;
 }
 
-.landingPageCard {
+.landingPageCard{
     height: 40vh;
     border: 2px solid black;
 }
@@ -104,7 +104,7 @@ Body {
     cursor: pointer;
 }
 
-.questions-card-body, .graph-card-body, .build-card-body{
+.questions-card-body, .graph-card-body, .build-card-body {
     background: rgba(210,180,140, .3);
 }
 
@@ -133,6 +133,7 @@ Body {
 .authentication-card {
     max-height: 80vh;
     min-height: 40vh;
+    width: 45vw;
     border: 2px solid black;
 }
 
@@ -144,4 +145,31 @@ a:link, a:visited {
 .profile-link:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+.course-button {
+    padding: 5px 15px;
+    border: none;
+    margin:0 0.3em 0.3em 0;
+    text-decoration:none;
+    transition: all 0.2s;
+}
+
+.logout-button {
+    color: gray;
+    font-size: 1.2rem;
+}
+.logout-button:hover {
+    color: lightgray;
+}
+
+.register-button, .login-button {
+    width: 100px;
+    padding: 5px 15px;
+    border: none;
+    margin:0 0.3em 0.3em 0;
+    text-decoration:none;
+    transition: all 0.2s;
+}
+.course-button:hover, .register-button:hover, .login-button:hover {
+    border: none;
 }

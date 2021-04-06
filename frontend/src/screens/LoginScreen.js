@@ -87,7 +87,7 @@ class LoginFormBase extends Component {
                     />
                   </Form.Group>
 
-                  <Button disabled={isInvalid} variant="primary" type="submit">
+                  <Button disabled={isInvalid} className="login-button bg-secondary" variant="primary" type="submit">
                     Login!
                   </Button>
 

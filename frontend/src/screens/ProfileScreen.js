@@ -26,7 +26,7 @@ const ProfileScreen = () => {
                         <Card.Text>
                           Course Information
                         </Card.Text>
-                        <Button classname="course-button" variant="primary">Course Assignments</Button>
+                        <Button className="course-button bg-secondary" variant="primary">Course Assignments</Button>
                       </Card.Body>
                     </Card>
                     </Col>
@@ -44,7 +44,7 @@ const ProfileScreen = () => {
                         <Card.Text>
                           Grade Information
                         </Card.Text>
-                        <Button classname="course-button" variant="primary">More Details</Button>
+                        <Button className="course-button bg-secondary" variant="primary">More Details</Button>
                       </Card.Body>
                     </Card>
                     </Col>

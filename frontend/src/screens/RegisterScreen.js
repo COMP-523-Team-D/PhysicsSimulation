@@ -227,7 +227,7 @@ class RegisterFormBase extends Component {
                     </Form.Group>
                   </Form.Row>
 
-                  <Button disabled={isInvalid} variant="primary" type="submit">
+                  <Button disabled={isInvalid} className="register-button bg-secondary" variant="primary" type="submit">
                     Register!
                   </Button>
 
@@ -246,7 +246,9 @@ class RegisterFormBase extends Component {
  
 const RegisterLink = () => (
   <p>
-    Don't have an account? <Link to={ROUTES.REGISTER_SCREEN}>Register</Link>
+    Don't have an account?<br/>
+    {/* <Link to={ROUTES.REGISTER_SCREEN} className="register-link bg-secondary">Register</Link> */}
+    <a class="btn register-button bg-secondary" href={ROUTES.REGISTER_SCREEN} role="button">Register</a>
   </p>
 );
 

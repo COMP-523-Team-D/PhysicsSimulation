@@ -5,13 +5,14 @@ import LandingScreen from "./screens/LandingScreen";
 import HomeScreen from "./screens/HomeScreen";
 import ExampleSimulationScreen from "./screens/ExampleSimulationScreen";
 import ExampleBuildScreen from "./screens/ExampleBuildScreen";
-import ProfileScreen from "./screens/ProfileScreen";
+import InstructorProfile from "./screens/ProfileScreen";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
 import Navigation from "./components/Navigation";
 import * as ROUTES from "./constants/routes";
 import { withAuthentication } from "./Session";
 import "./App.css";
+import ProfileScreen from "./screens/ProfileScreen";
 
 // main container component
 
@@ -79,7 +80,7 @@ const App = () => {
         <Route exact path={ROUTES.LOGIN_SCREEN} component={() => (<LoginScreen className="LoginScreen" />)} />
         <Route exact path={ROUTES.HOME_SCREEN} component={() => (<HomeScreen simulations={supportedSimulations} className="HomeScreen"/>)}/>
         <Route exact path={ROUTES.PROBLEM_SCREEN}component={() => (<ExampleSimulationScreen data={dummyUserInfo} assignment={dummyAssignment}/>)}/>
-        <Route exact path={ROUTES.PROFILE_SCREEN} component={() => (<ProfileScreen className="ProfileScreen"/>)}/>
+        <Route exact path={ROUTES.PROFILE_SCREEN} component={() => (<ProfileScreen data={dummyUserInfo} />)}/>
         <Route exact path={ROUTES.BUILD_SCREEN} component={() => (<ExampleBuildScreen data={dummyUserInfo} supportedSimulations={supportedSimulations}/>)}/>
       </Container>
     </Router>
@@ -87,4 +88,3 @@ const App = () => {
 };
 
 export default withAuthentication(App);
-
