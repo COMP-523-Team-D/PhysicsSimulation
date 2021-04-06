@@ -15,9 +15,7 @@ const ProfileScreen = () => {
               <Card.Header className="bg-secondary"><Card.Title className="profile-title">{authUserData['First Name']}'s Profile</Card.Title></Card.Header>
               <Card.Body>
               <Card.Text>
-                  <p>ID: {authUserData.uid}</p>
-                  <p>Email address: Placeholder@email</p>
-                  <p>Courses taught: </p>
+                  <p>Courses: </p>
               <Row>
               <Container fluid="md" className="class-container">
                   {authUserData['Courses'].map((course, index) => (
@@ -29,6 +27,24 @@ const ProfileScreen = () => {
                           Course Information
                         </Card.Text>
                         <Button classname="course-button" variant="primary">Course Assignments</Button>
+                      </Card.Body>
+                    </Card>
+                    </Col>
+                  ))}
+              </Container>
+              </Row>
+              <p>Grades: </p>
+              <Row>
+                    <Container fluid="md" className="grade-container">
+                  {authUserData['Courses'].map((course, index) => (
+                      <Col>
+                      <Card style={{ width: '18rem', margin: '1rem' }}>
+                      <Card.Header className="bg-secondary"><Card.Title>{course}</Card.Title></Card.Header>
+                      <Card.Body>
+                        <Card.Text>
+                          Grade Information
+                        </Card.Text>
+                        <Button classname="course-button" variant="primary">More Details</Button>
                       </Card.Body>
                     </Card>
                     </Col>
