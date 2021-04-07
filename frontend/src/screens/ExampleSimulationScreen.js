@@ -13,16 +13,23 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
   const { simName, simSrcPath, simVariables } = simulation;
 
   // Temp data for testing graphing
-  const points = [0, 0, 50, 100, 100, 0];
-
+  const [points, setPoints] = useState([]);
   // TODO: do something real with the points that we recieve.
   // Also, the simulation seems to dispatch more messages than we send
   // of its own free will, so maybe we should do some verification that
   // the message we got is actually a data point object.
-  var handleNewPoint = function (e) {
-    console.log("Message recieved");
-    console.log(e.data);
-  }
+
+  // function for handling data points from projectile motion simulation
+  // assumes parabola
+
+  const handleNewPoint = function (e) {
+    // t = 0: the start
+    // vy = 0: at top of curve (midpoint)
+    //       : or at end where it has hit the ground
+    if (e.data.t == 0 || e.data.vy == 0) {
+      setPoints([...points, e.data.px, e.data.py]);
+    }
+  };
 
   // This sets up the communication between the frontend and the simulation
   // when the screen is rendered.
@@ -32,6 +39,10 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
       window.removeEventListener("message", handleNewPoint);
     };
   });
+
+  useEffect(() => {
+    console.log(points);
+  }, [points]);
 
   return (
     <Container className="simulation-container">
