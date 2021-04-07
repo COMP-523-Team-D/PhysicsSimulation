@@ -1,12 +1,11 @@
-import { Card, Col, Container, Row, Button } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
 import GraphCanvasComponent from "../components/GraphCanvasComponent";
 
 const ProjectileMotionSimulation = ({ data, assignment }) => {
-  const { typeEnum, firstName, lastName, courses } = data;
-  const { name, questions } = assignment;
+  const { questions } = assignment;
   const [qIndex, setqIndex] = useState(1);
 
   const { simulation } = assignment;
@@ -26,7 +25,7 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
     // t = 0: the start
     // vy = 0: at top of curve (midpoint)
     //       : or at end where it has hit the ground
-    if (e.data.t == 0 || e.data.vy == 0) {
+    if (e.data.t === 0 || e.data.vy === 0) {
       setPoints([...points, e.data.px, e.data.py]);
     }
   };
@@ -230,7 +229,7 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
                     type="button"
                     className={
                       "btn btn-outline scroll-btn" +
-                      (qIndex == 1 ? " disabled" : " not-disabled")
+                      (qIndex === 1 ? " disabled" : " not-disabled")
                     }
                     onClick={() => {
                       qIndex - 1 > 0 && setqIndex((prev) => prev - 1);
@@ -247,7 +246,7 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
                     type="button"
                     className={
                       "btn btn-outline scroll-btn" +
-                      (qIndex == questions.length
+                      (qIndex === questions.length
                         ? " disabled"
                         : " not-disabled")
                     }
@@ -298,7 +297,7 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
                     type="button"
                     className={
                       "btn btn-outline scroll-btn" +
-                      (qIndex == 1 ? " disabled" : " not-disabled")
+                      (qIndex === 1 ? " disabled" : " not-disabled")
                     }
                     onClick={() => {
                       qIndex - 1 > 0 && setqIndex((prev) => prev - 1);
@@ -315,7 +314,7 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
                     type="button"
                     className={
                       "btn btn-outline scroll-btn" +
-                      (qIndex == questions.length
+                      (qIndex === questions.length
                         ? " disabled"
                         : " not-disabled")
                     }

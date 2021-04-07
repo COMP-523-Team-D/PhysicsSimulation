@@ -1,22 +1,20 @@
-import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
-import { withFirebase} from '../Firebase';
-import * as ROUTES from '../constants/routes';
+import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
+import { withFirebase } from "../Firebase";
+import * as ROUTES from "../constants/routes";
 import { Button, Card, Col, Container, Row, Form } from "react-bootstrap";
 import "../App.css";
 
-const RegisterScreen = () => (
-    <RegisterForm />
-);
- 
+const RegisterScreen = () => <RegisterForm />;
+
 const INITIAL_STATE = {
-  firstName: '',
-  lastName: '',
+  firstName: "",
+  lastName: "",
   instructors: [],
   courses: [],
-  email: '',
-  passwordOne: '',
-  passwordTwo: '',
+  email: "",
+  passwordOne: "",
+  passwordTwo: "",
   error: null,
 };
 
@@ -32,74 +30,88 @@ class RegisterFormBase extends Component {
     this.state.unsubscribeCourses = null;
   }
 
-  onSubmit = event => {
-    const { firstName, lastName, instructors, courses, email, passwordOne} = this.state;
- 
+  onSubmit = (event) => {
+    const {
+      firstName,
+      lastName,
+      instructors,
+      courses,
+      email,
+      passwordOne,
+    } = this.state;
+
     this.props.firebase
       .doCreateUserWithEmailAndPassword(email, passwordOne)
-      .then(authUser => {
-         // Create a document in the Users collection
-         return this.props.firebase
-          .doCreateNewUserDocument(authUser.user.uid, firstName, lastName, instructors, courses)
-          .catch(error => {
-            this.setState({error});
+      .then((authUser) => {
+        // Create a document in the Users collection
+        return this.props.firebase
+          .doCreateNewUserDocument(
+            authUser.user.uid,
+            firstName,
+            lastName,
+            instructors,
+            courses
+          )
+          .catch((error) => {
+            this.setState({ error });
           });
       })
       .then(() => {
         this.setState({ ...INITIAL_STATE });
         this.props.history.push(ROUTES.HOME_SCREEN);
       })
-      .catch(error => {
+      .catch((error) => {
         this.setState({ error });
       });
- 
+
     event.preventDefault();
-  }
- 
-  onChange = event => {
+  };
+
+  onChange = (event) => {
     this.setState({ [event.target.name]: event.target.value });
   };
 
-  onChangeArray = event => {
+  onChangeArray = (event) => {
     const array = this.state[event.target.name];
     const eltIndex = array.indexOf(event.target.value);
-    (eltIndex >= 0)
-      ? array.splice(eltIndex, 1)
-      : array.push(event.target.value);
-  }
+    eltIndex >= 0 ? array.splice(eltIndex, 1) : array.push(event.target.value);
+  };
 
   componentDidMount() {
-    this.state.unsubscribeInstructors = this.props.firebase.instructors()
-        .onSnapshot((querySnapshot) => {
-          let instructorsList = []; 
-          querySnapshot.forEach((doc) => {
-            instructorsList.push(`${doc.data()['First Name']} ${doc.data()['Last Name']}`);
-          });
-
-          this.setState({
-            INSTRUCTORS: instructorsList
-          });
+    this.state.unsubscribeInstructors = this.props.firebase
+      .instructors()
+      .onSnapshot((querySnapshot) => {
+        let instructorsList = [];
+        querySnapshot.forEach((doc) => {
+          instructorsList.push(
+            `${doc.data()["First Name"]} ${doc.data()["Last Name"]}`
+          );
         });
 
-    this.state.unsubscribeCourses = this.props.firebase.courses()
-        .onSnapshot((querySnapshot) =>{
-          let coursesList = [];
-          querySnapshot.forEach((doc) => {
-            coursesList.push(doc.data().Name);
-          });
-
-          this.setState({
-            COURSES: coursesList
-            
-          });
+        this.setState({
+          INSTRUCTORS: instructorsList,
         });
+      });
+
+    this.state.unsubscribeCourses = this.props.firebase
+      .courses()
+      .onSnapshot((querySnapshot) => {
+        let coursesList = [];
+        querySnapshot.forEach((doc) => {
+          coursesList.push(doc.data().Name);
+        });
+
+        this.setState({
+          COURSES: coursesList,
+        });
+      });
   }
 
   componentWillUnmount() {
     this.state.unsubscribeInstructors();
     this.state.unsubscribeCourses();
   }
- 
+
   render() {
     const {
       firstName,
@@ -114,10 +126,10 @@ class RegisterFormBase extends Component {
 
     const isInvalid =
       passwordOne !== passwordTwo ||
-      passwordOne === '' ||
-      email === '' ||
-      firstName === '' ||
-      lastName === '';
+      passwordOne === "" ||
+      email === "" ||
+      firstName === "" ||
+      lastName === "";
 
     return (
       <Container>
@@ -134,7 +146,6 @@ class RegisterFormBase extends Component {
                 </Card.Title>
               </Card.Header>
               <Card.Body>
-
                 <Form onSubmit={this.onSubmit}>
                   <Form.Row>
                     <Form.Group as={Col} controlId="formGridFirstName">
@@ -196,14 +207,14 @@ class RegisterFormBase extends Component {
                   </Form.Row>
 
                   <Form.Row>
-                    <Form.Group as ={Col}>
+                    <Form.Group as={Col}>
                       <Form.Label>Select Your Instructors</Form.Label>
                       {this.state.INSTRUCTORS.map((instructor, i) => (
                         <div key={instructor} className="mb-3">
                           <Form.Check
                             name="instructors"
                             value={instructor}
-                            type={'checkbox'}
+                            type={"checkbox"}
                             label={instructor}
                             onChange={this.onChangeArray}
                           />
@@ -215,10 +226,10 @@ class RegisterFormBase extends Component {
                       <Form.Label>Select Your Courses</Form.Label>
                       {this.state.COURSES.map((course, i) => (
                         <div key={course} className="mb-3">
-                          <Form.Check 
+                          <Form.Check
                             name="courses"
                             value={course}
-                            type={'checkbox'}
+                            type={"checkbox"}
                             label={course}
                             onChange={this.onChangeArray}
                           />
@@ -227,33 +238,44 @@ class RegisterFormBase extends Component {
                     </Form.Group>
                   </Form.Row>
 
-                  <Button disabled={isInvalid} className="register-button bg-secondary" variant="primary" type="submit">
+                  <Button
+                    disabled={isInvalid}
+                    className="register-button bg-secondary"
+                    variant="primary"
+                    type="submit"
+                  >
                     Register!
                   </Button>
 
                   {error && <p>{error.message}</p>}
                 </Form>
-
               </Card.Body>
             </Card>
           </Col>
         </Row>
         <Row className="m-4"></Row>
-      </Container> 
+      </Container>
     );
   }
 }
- 
+
 const RegisterLink = () => (
   <p>
-    Don't have an account?<br/>
+    Don't have an account?
+    <br />
     {/* <Link to={ROUTES.REGISTER_SCREEN} className="register-link bg-secondary">Register</Link> */}
-    <a class="btn register-button bg-secondary" href={ROUTES.REGISTER_SCREEN} role="button">Register</a>
+    <a
+      class="btn register-button bg-secondary"
+      href={ROUTES.REGISTER_SCREEN}
+      role="button"
+    >
+      Register
+    </a>
   </p>
 );
 
 const RegisterForm = withRouter(withFirebase(RegisterFormBase));
- 
+
 export default RegisterScreen;
- 
+
 export { RegisterForm, RegisterLink };

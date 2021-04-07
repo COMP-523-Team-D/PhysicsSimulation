@@ -1,8 +1,7 @@
 import "../App.css";
 import "../App.js";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { LinkContainer } from "react-router-bootstrap";
 import * as ROUTES from "../constants/routes";
 import { AuthUserContext, withAuthorization } from "../Session";
 

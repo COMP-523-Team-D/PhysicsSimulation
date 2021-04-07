@@ -1,10 +1,4 @@
-import {
-  FormLabel,
-  Row,
-  InputGroup,
-  FormControl,
-  Container,
-} from "react-bootstrap";
+import { FormLabel, InputGroup, FormControl } from "react-bootstrap";
 
 const QandA = (props) => {
   return (

@@ -1,5 +1,4 @@
 import { Card, Col, Container, Row, Form } from "react-bootstrap";
-import QandA from "../components/QandA";
 import { useState } from "react";
 
 const ExampleBuildScreen = ({ data, supportedSimulations }) => {

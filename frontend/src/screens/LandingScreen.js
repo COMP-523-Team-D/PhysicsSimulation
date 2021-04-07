@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
-import * as ROUTES from '../constants/routes';
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import * as ROUTES from "../constants/routes";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import "../App.css";
 
-const LandingScreen = ({simulations}) => {
+const LandingScreen = ({ simulations }) => {
   return (
     <Container>
       <Row className="m-4"> </Row>
@@ -19,13 +19,13 @@ const LandingScreen = ({simulations}) => {
               </Card.Title>
             </Card.Header>
             <Card.Body>
-                <ul className="simulationList list-unstyled">
-                  {simulations.map((sim) => (
-                    <li key={sim.Name}>
-                      <Link to={ROUTES.PROBLEM_SCREEN}>{sim.Name}</Link>
-                    </li>
-                  ))}
-                </ul>
+              <ul className="simulationList list-unstyled">
+                {simulations.map((sim) => (
+                  <li key={sim.Name}>
+                    <Link to={ROUTES.PROBLEM_SCREEN}>{sim.Name}</Link>
+                  </li>
+                ))}
+              </ul>
             </Card.Body>
           </Card>
         </Col>
@@ -39,9 +39,7 @@ const LandingScreen = ({simulations}) => {
                 My Courses
               </Card.Title>
             </Card.Header>
-            <Card.Body>
-                Login to see your courses!
-            </Card.Body>
+            <Card.Body>Login to see your courses!</Card.Body>
           </Card>
         </Col>
         <Col md={4}>
@@ -54,9 +52,7 @@ const LandingScreen = ({simulations}) => {
                 My Profile
               </Card.Title>
             </Card.Header>
-            <Card.Body>
-                Login to see your profile!
-            </Card.Body>
+            <Card.Body>Login to see your profile!</Card.Body>
           </Card>
         </Col>
       </Row>
