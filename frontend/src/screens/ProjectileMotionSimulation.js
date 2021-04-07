@@ -27,7 +27,6 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
     //       : or at end where it has hit the ground
     if (e.data.t === 0 && e.data.px === 0 && e.data.py === 0) {
       setPoints([0, 0]);
-      alert("here");
     }
     if (e.data.vy === 0) {
       setPoints([...points, e.data.px, e.data.py]);
