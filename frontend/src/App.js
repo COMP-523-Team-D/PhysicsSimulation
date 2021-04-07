@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import LandingScreen from "./screens/LandingScreen";
 import HomeScreen from "./screens/HomeScreen";
-import ExampleSimulationScreen from "./screens/ExampleSimulationScreen";
+import ProjectileMotionSimulation from "./screens/ProjectileMotionSimulation";
 import ExampleBuildScreen from "./screens/ExampleBuildScreen";
 import InstructorProfile from "./screens/ProfileScreen";
 import LoginScreen from "./screens/LoginScreen";
@@ -75,13 +75,61 @@ const App = () => {
     <Router>
       <Navigation />
       <Container className="routes py-2 d-flex justify-content-center">
-        <Route exact path={ROUTES.LANDING_SCREEN} component={() => (<LandingScreen simulations={supportedSimulations} className="LandingScreen"/>)}/>
-        <Route exact path={ROUTES.REGISTER_SCREEN} component={() => (<RegisterScreen className="RegisterScreen"/>)}/>
-        <Route exact path={ROUTES.LOGIN_SCREEN} component={() => (<LoginScreen className="LoginScreen" />)} />
-        <Route exact path={ROUTES.HOME_SCREEN} component={() => (<HomeScreen simulations={supportedSimulations} className="HomeScreen"/>)}/>
-        <Route exact path={ROUTES.PROBLEM_SCREEN}component={() => (<ExampleSimulationScreen data={dummyUserInfo} assignment={dummyAssignment}/>)}/>
-        <Route exact path={ROUTES.PROFILE_SCREEN} component={() => (<ProfileScreen data={dummyUserInfo} />)}/>
-        <Route exact path={ROUTES.BUILD_SCREEN} component={() => (<ExampleBuildScreen data={dummyUserInfo} supportedSimulations={supportedSimulations}/>)}/>
+        <Route
+          exact
+          path={ROUTES.LANDING_SCREEN}
+          component={() => (
+            <LandingScreen
+              simulations={supportedSimulations}
+              className="LandingScreen"
+            />
+          )}
+        />
+        <Route
+          exact
+          path={ROUTES.REGISTER_SCREEN}
+          component={() => <RegisterScreen className="RegisterScreen" />}
+        />
+        <Route
+          exact
+          path={ROUTES.LOGIN_SCREEN}
+          component={() => <LoginScreen className="LoginScreen" />}
+        />
+        <Route
+          exact
+          path={ROUTES.HOME_SCREEN}
+          component={() => (
+            <HomeScreen
+              simulations={supportedSimulations}
+              className="HomeScreen"
+            />
+          )}
+        />
+        <Route
+          exact
+          path={ROUTES.PROBLEM_SCREEN}
+          component={() => (
+            <ProjectileMotionSimulation
+              data={dummyUserInfo}
+              assignment={dummyAssignment}
+            />
+          )}
+        />
+        <Route
+          exact
+          path={ROUTES.PROFILE_SCREEN}
+          component={() => <ProfileScreen data={dummyUserInfo} />}
+        />
+        <Route
+          exact
+          path={ROUTES.BUILD_SCREEN}
+          component={() => (
+            <ExampleBuildScreen
+              data={dummyUserInfo}
+              supportedSimulations={supportedSimulations}
+            />
+          )}
+        />
       </Container>
     </Router>
   );

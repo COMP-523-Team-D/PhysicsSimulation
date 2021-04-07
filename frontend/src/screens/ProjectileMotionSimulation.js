@@ -4,7 +4,7 @@ import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
 import GraphCanvasComponent from "../components/GraphCanvasComponent";
 
-const ExampleSimulationScreen = ({ data, assignment }) => {
+const ProjectileMotionSimulation = ({ data, assignment }) => {
   const { typeEnum, firstName, lastName, courses } = data;
   const { name, questions } = assignment;
   const [qIndex, setqIndex] = useState(1);
@@ -362,4 +362,4 @@ const ExampleSimulationScreen = ({ data, assignment }) => {
   );
 };
 
-export default ExampleSimulationScreen;
+export default ProjectileMotionSimulation;
