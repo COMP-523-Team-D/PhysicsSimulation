@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import LandingScreen from "./screens/LandingScreen";
 import HomeScreen from "./screens/HomeScreen";
-import ProjectileMotionSimulation from "./screens/ProjectileMotionSimulation";
+import ProjectileMotionSimulationScreen from "./screens/ProjectileMotionSimulationScreen";
 import ExampleBuildScreen from "./screens/ExampleBuildScreen";
 import InstructorProfile from "./screens/ProfileScreen";
 import LoginScreen from "./screens/LoginScreen";
@@ -109,7 +109,7 @@ const App = () => {
           exact
           path={ROUTES.PROBLEM_SCREEN}
           component={() => (
-            <ProjectileMotionSimulation
+            <ProjectileMotionSimulationScreen
               data={dummyUserInfo}
               assignment={dummyAssignment}
             />

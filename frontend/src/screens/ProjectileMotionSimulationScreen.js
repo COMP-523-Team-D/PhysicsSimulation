@@ -4,7 +4,7 @@ import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
 import GraphCanvasComponent from "../components/GraphCanvasComponent";
 
-const ProjectileMotionSimulation = ({ data, assignment }) => {
+const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const { questions } = assignment;
   const [qIndex, setqIndex] = useState(1);
 
@@ -28,7 +28,7 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
       setPoints([...points, e.data.px, e.data.py]);
     }
   };
-  ny;
+
   // This sets up the communication between the frontend and the simulation
   // when the screen is rendered.
   useEffect(() => {
@@ -356,4 +356,4 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
   );
 };
 
-export default ProjectileMotionSimulation;
+export default ProjectileMotionSimulationScreen;
