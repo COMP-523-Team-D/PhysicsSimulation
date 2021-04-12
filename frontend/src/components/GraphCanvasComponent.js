@@ -36,13 +36,9 @@ const GraphCanvasComponent = ({ points, ...rest }) => {
     drawGrid(ctx, width, height, 20);
 
     ctx.beginPath();
-    ctx.moveTo(points[0] * 2, height - points[1] * 2);
-    ctx.quadraticCurveTo(
-      points[2] * 2,
-      height - points[3] * 2,
-      points[4] * 2,
-      height - points[5] * 2
-    );
+    for (let i = 0; i < points.length; i += 2) {
+      ctx.lineTo(points[i], height - points[i + 1]);
+    }
     ctx.stroke();
   };
 

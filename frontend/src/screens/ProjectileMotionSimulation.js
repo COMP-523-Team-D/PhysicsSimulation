@@ -22,17 +22,13 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
   // assumes parabola
 
   const handleNewPoint = function (e) {
-    // t = 0: the start
-    // vy = 0: at top of curve (midpoint)
-    //       : or at end where it has hit the ground
-    if (e.data.t === 0 && e.data.px === 0 && e.data.py === 0) {
-      setPoints([0, 0]);
-    }
-    if (e.data.vy === 0) {
+    if (e.data.t === 0) {
+      setPoints([e.data.px, e.data.py]);
+    } else {
       setPoints([...points, e.data.px, e.data.py]);
     }
   };
-
+  ny;
   // This sets up the communication between the frontend and the simulation
   // when the screen is rendered.
   useEffect(() => {
@@ -41,10 +37,6 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
       window.removeEventListener("message", handleNewPoint);
     };
   });
-
-  useEffect(() => {
-    console.log(points);
-  }, [points]);
 
   return (
     <Container className="simulation-container">
