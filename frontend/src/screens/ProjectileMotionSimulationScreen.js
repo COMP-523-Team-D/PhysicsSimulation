@@ -60,7 +60,9 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <Card.Title className="mr-auto">
+                      Position vs Time
+                    </Card.Title>
                     <span className="ml-auto justify-self-end tool-bag">
                       <i className="fas fa-tools fa-1.5x"></i>
                     </span>
@@ -137,7 +139,9 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <Card.Title className="mr-auto">
+                      Position vs Time
+                    </Card.Title>
                     <span className="ml-auto justify-self-end tool-bag">
                       <i className="fas fa-tools fa-1.5x"></i>
                     </span>

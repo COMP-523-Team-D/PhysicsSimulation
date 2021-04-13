@@ -6,13 +6,6 @@ import * as ROUTES from "../constants/routes";
 import { AuthUserContext, withAuthorization } from "../Session";
 
 const HomeScreen = ({ db, auth, simulations }) => {
-  const data = {
-    loggedIn: false,
-    isInstructor: false,
-    user: null,
-    courses: null,
-  };
-
   /*
    * Set an authentication state observer to update screen data
    */
