@@ -4,7 +4,7 @@ import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
 import GraphCanvasComponent from "../components/GraphCanvasComponent";
 
-const ProjectileMotionSimulation = ({ data, assignment }) => {
+const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const { questions } = assignment;
   const [qIndex, setqIndex] = useState(1);
 
@@ -22,13 +22,9 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
   // assumes parabola
 
   const handleNewPoint = function (e) {
-    // t = 0: the start
-    // vy = 0: at top of curve (midpoint)
-    //       : or at end where it has hit the ground
-    if (e.data.t === 0 && e.data.px === 0 && e.data.py === 0) {
-      setPoints([0, 0]);
-    }
-    if (e.data.vy === 0) {
+    if (e.data.t === 0) {
+      setPoints([e.data.px, e.data.py]);
+    } else {
       setPoints([...points, e.data.px, e.data.py]);
     }
   };
@@ -41,10 +37,6 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
       window.removeEventListener("message", handleNewPoint);
     };
   });
-
-  useEffect(() => {
-    console.log(points);
-  }, [points]);
 
   return (
     <Container className="simulation-container">
@@ -68,7 +60,9 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <Card.Title className="mr-auto">
+                      Position vs Time
+                    </Card.Title>
                     <span className="ml-auto justify-self-end tool-bag">
                       <i className="fas fa-tools fa-1.5x"></i>
                     </span>
@@ -145,7 +139,9 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
+                    <Card.Title className="mr-auto">
+                      Position vs Time
+                    </Card.Title>
                     <span className="ml-auto justify-self-end tool-bag">
                       <i className="fas fa-tools fa-1.5x"></i>
                     </span>
@@ -364,4 +360,4 @@ const ProjectileMotionSimulation = ({ data, assignment }) => {
   );
 };
 
-export default ProjectileMotionSimulation;
+export default ProjectileMotionSimulationScreen;

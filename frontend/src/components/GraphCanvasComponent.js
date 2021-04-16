@@ -4,6 +4,15 @@ const GraphCanvasComponent = ({ points, ...rest }) => {
   const width = 200;
   const height = 200;
 
+  // Calculate the 'scale factor'
+  // floor(w/x) = x_fac, floor(h/y) = y_fac
+  // scale = min(x_fac, y_fac);
+  const x_final = points[-2];
+  const y_final = points[-1];
+
+  const scale = 10;
+  const step = 20;
+
   // Adapted from:
   // https://codereview.stackexchange.com/questions/114702/drawing-a-grid-on-canvas
   // Function to draw the gridlines on the graph
@@ -36,13 +45,9 @@ const GraphCanvasComponent = ({ points, ...rest }) => {
     drawGrid(ctx, width, height, 20);
 
     ctx.beginPath();
-    ctx.moveTo(points[0] * 2, height - points[1] * 2);
-    ctx.quadraticCurveTo(
-      points[2] * 2,
-      height - points[3] * 2,
-      points[4] * 2,
-      height - points[5] * 2
-    );
+    for (let i = 0; i < points.length; i += 2) {
+      ctx.lineTo(points[i] * scale, height - scale * points[i + 1]);
+    }
     ctx.stroke();
   };
 

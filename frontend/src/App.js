@@ -10,7 +10,7 @@ import ProfileScreen from "./screens/ProfileScreen";
 import ExampleBuildScreen from "./screens/ExampleBuildScreen";
 import CourseScreen from "./screens/CourseScreen";
 import AssignmentScreen from "./screens/AssignmentScreen";
-import ProjectileMotionSimulation from "./screens/ProjectileMotionSimulation";
+import ProjectileMotionSimulationScreen from "./screens/ProjectileMotionSimulation";
 import Navigation from "./components/Navigation";
 import * as ROUTES from "./constants/routes";
 import { withAuthentication } from "./Session";
@@ -102,7 +102,7 @@ const App = () => {
           exact
           path={ROUTES.PROBLEM_SCREEN}
           component={() => (
-            <ProjectileMotionSimulation
+            <ProjectileMotionSimulationScreen
               data={dummyUserInfo}
               assignment={dummyAssignment}
             />
