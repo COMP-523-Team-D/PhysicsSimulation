@@ -95,8 +95,20 @@ class Firebase {
   courses = () =>
     this.db.collection("Courses");
 
+  /////////////////////////////////////////////////////////
+  // Course Collection API
+  /////////////////////////////////////////////////////////
+  
+  // Return a reference to all the assignments associated with a course
+  // specified by course name
+  // Implicitly assumes that there will never be two courses with the same name
+  assignments = courseName =>
+    this.db.collection("Assignments").where("Course", "==", courseName);
+
   // Create a new assignment for a course
-  createAssignment() {};
+  createAssignment() {
+
+  };
 
   /////////////////////////////////////////////////////////
   // Simulation Collection API

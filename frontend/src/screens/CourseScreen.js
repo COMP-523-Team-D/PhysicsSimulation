@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { withFirebase } from "../Firebase";
 import { AuthUserContext, withAuthorization } from "../Session";
 import { Container } from "react-bootstrap";
+import * as ROUTES from "../constants/routes";
 import { Card, Col, Row, Button } from "react-bootstrap";
 
 const CourseScreen = () => <CourseScreenBase/>;
@@ -19,6 +20,7 @@ class CourseBase extends Component {
 
     this.state = { ...INITIAL_STATE };
     this.state.unsubscribeCourse = null;
+    this.state.unsubscribeAssignments = null;
   }
 
   componentDidMount() {
@@ -29,10 +31,19 @@ class CourseBase extends Component {
       unsubscribeCourse:
         this.props.firebase.course(courseName)
             .onSnapshot((querySnapshot) => {
-              let assignmentList = [];
               querySnapshot.forEach((doc) => {
                 this.setState({courseCode: doc.get("Code")});
-                assignmentList.push(doc.get("Assignments"));
+              });
+            })
+    });
+
+    this.setState({
+      unsubscribeAssignments:
+        this.props.firebase.assignments(courseName)
+            .onSnapshot((querySnapshot) => {
+              let assignmentList = [];
+              querySnapshot.forEach((doc) => {
+                assignmentList.push(doc.data());
               });
 
               this.setState({assignments: assignmentList});
@@ -42,6 +53,7 @@ class CourseBase extends Component {
 
   componentWillUnmount() {
     this.state.unsubscribeCourse();
+    this.state.unsubscribeAssignments();
   }
 
   render() {
@@ -52,26 +64,55 @@ class CourseBase extends Component {
             <Card style={{ width: "100%", margin: "auto" }}>
               <Card.Header className="bg-secondary">
                 <Card.Title className="profile-title">
-                  {this.state.courseName}: Assignments
+                  {this.state.courseCode}: {this.state.courseName} -- Course Outline
                 </Card.Title>
               </Card.Header>
               <Card.Body>
-                  <Row>
-                    <Container fluid="md" className="class-container">
-                      {this.state.assignments.map((assignment, index) => (
-                        <Col key={index}>
-                          <Card style={{ width: "18rem", margin: "1rem" }} className="coursePageCard">
-                            <Card.Header className="bg-secondary">
-                              <Card.Title className="coursePageCardTitle">
-                              </Card.Title>
-                            </Card.Header>
-                            <Card.Body >
-                            </Card.Body>
-                          </Card>
-                        </Col>
-                      ))}
-                    </Container>
+                <Container fluid="md" className="class-container">
+                  {this.state.assignments.map((assignment, index) => (
+                    <Row key={index}>
+                      <Card style={{ width: "18rem", margin: "1rem" }} className="coursePageCard">
+                        <Card.Header className="bg-secondary">
+                          <Card.Title className="coursePageCardTitle">
+                          </Card.Title>
+                        </Card.Header>
+                        <Card.Body >
+
+                          <Card.Text>{assignment["Name"]}</Card.Text>
+                          <Button
+                            className="course-button bg-secondary"
+                            variant="primary"
+                          >
+                            More Details
+                          </Button>
+
+                        </Card.Body>
+                      </Card>
+                    </Row>
+                  ))}
+                  <Row >
+                    <Card style={{ width: "100%", margin: "1rem" }} className="buildAssignmentCard">
+                      <Card.Header className="bg-secondary">
+                        <Card.Title className="coursePageCardTitle">
+                        </Card.Title>
+                      </Card.Header>
+                      <Card.Body>
+
+                        <Card.Text>Build A New Assignment</Card.Text>
+
+                        <Button
+                          className="course-button bg-secondary"
+                          variant="primary"
+                          >
+                            <Link to={ROUTES.BUILD_SCREEN + `/${this.state.courseName.replace(/\s+/g, '_')}`} className="build-link">
+                              Start Building!
+                            </Link>
+                        </Button>
+
+                      </Card.Body>
+                    </Card>
                   </Row>
+                </Container> 
               </Card.Body>
             </Card>
           </Container>

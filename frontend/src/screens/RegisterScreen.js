@@ -267,7 +267,6 @@ const RegisterLink = () => (
   <p>
     Don't have an account?
     <br />
-    {/* <Link to={ROUTES.REGISTER_SCREEN} className="register-link bg-secondary">Register</Link> */}
     <a
       className="btn register-button bg-secondary"
       href={ROUTES.REGISTER_SCREEN}

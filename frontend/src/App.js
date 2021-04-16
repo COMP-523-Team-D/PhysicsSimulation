@@ -7,10 +7,10 @@ import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
 import HomeScreen from "./screens/HomeScreen";
 import ProfileScreen from "./screens/ProfileScreen";
-import ExampleBuildScreen from "./screens/ExampleBuildScreen";
+import BuildScreen from "./screens/BuildScreen";
 import CourseScreen from "./screens/CourseScreen";
 import AssignmentScreen from "./screens/AssignmentScreen";
-import ProjectileMotionSimulationScreen from "./screens/ProjectileMotionSimulation";
+import ProjectileMotionSimulationScreen from "./screens/ProjectileMotionSimulationScreen";
 import Navigation from "./components/Navigation";
 import * as ROUTES from "./constants/routes";
 import { withAuthentication } from "./Session";
@@ -20,43 +20,6 @@ import "./App.css";
 
 // example dummy data
 // added so we could see how things could be rendered based on user details
-
-const supportedSimulations = [
-  {
-    //renamed variables to make less ambiguous
-    //left old names until I can hunt them all down and change them
-
-    simName: "Projectile Motion",
-    simSrcPath: "../../phetsims/projectile-motion/projectile-motion_en.html",
-    Name: "Projectile Motion",
-    Source:
-      "https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html",
-    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-    simVariables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-  },
-
-  {
-    Name: "Forces and Motion",
-    Source:
-      "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html",
-    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-  },
-
-  {
-    Name: "Friction",
-    Source:
-      "https://phet.colorado.edu/sims/html/friction/latest/friction_en.html",
-    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-  },
-
-  {
-    Name: "Hooke's Law",
-    Source:
-      "https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_en.html",
-    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-  },
-];
-
 
 const dummyUserInfo = {
   id: 1,
@@ -70,7 +33,11 @@ const dummyAssignment = {
   id: 0,
   name: "Projectile Motion",
   questions: ["q1", "q2", "q3"],
-  simulation: supportedSimulations[0],
+  simulation: {
+    simName: "Projectile Motion",
+    simSrcPath: "../../phetsims/projectile-motion/projectile-motion_en.html",
+    simVariables: ["Initial Speed", "Cannon Angle", "Cannon Height"]
+  }
 };
 
 const App = () => {
@@ -115,13 +82,8 @@ const App = () => {
         />
         <Route
           exact
-          path={ROUTES.BUILD_SCREEN}
-          component={() => (
-            <ExampleBuildScreen
-              data={dummyUserInfo}
-              supportedSimulations={supportedSimulations}
-            />
-          )}
+          path={ROUTES.BUILD_SCREEN + "/:courseName"}
+          component={() => (<BuildScreen className="BuildScreen"/>)}
         />
         <Route
           exact

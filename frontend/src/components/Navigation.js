@@ -66,9 +66,6 @@ const NavigationNonAuth = () => (
             <LinkContainer to={ROUTES.PROBLEM_SCREEN}>
               <Nav.Link>Problem</Nav.Link>
             </LinkContainer>
-            <LinkContainer to={ROUTES.BUILD_SCREEN}>
-              <Nav.Link>Build</Nav.Link>
-            </LinkContainer>
 
             <LinkContainer to={ROUTES.LOGIN_SCREEN}>
               <Nav.Link>Login</Nav.Link>
