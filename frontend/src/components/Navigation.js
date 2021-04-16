@@ -24,7 +24,7 @@ const NavigationAuth = ({authUserData}) => (
         <Container>
           <LinkContainer to={ROUTES.HOME_SCREEN}>
             <Navbar.Brand className="navBrand">
-              {`Welcome back ${authUserData['First Name']} ${authUserData['Last Name']}`}
+              {`Welcome Back ${authUserData['First Name']} ${authUserData['Last Name']}`}
             </Navbar.Brand>
           </LinkContainer>
 
@@ -62,6 +62,14 @@ const NavigationNonAuth = () => (
 
         <Navbar.Collapse id="basic-navbar-nav" className="">
           <Nav className="ml-auto innerNav">
+
+            <LinkContainer to={ROUTES.PROBLEM_SCREEN}>
+              <Nav.Link>Problem</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to={ROUTES.BUILD_SCREEN}>
+              <Nav.Link>Build</Nav.Link>
+            </LinkContainer>
+
             <LinkContainer to={ROUTES.LOGIN_SCREEN}>
               <Nav.Link>Login</Nav.Link>
             </LinkContainer>

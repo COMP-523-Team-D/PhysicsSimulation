@@ -2,30 +2,24 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import LandingScreen from "./screens/LandingScreen";
-import HomeScreen from "./screens/HomeScreen";
-import ProjectileMotionSimulation from "./screens/ProjectileMotionSimulation";
-import ExampleBuildScreen from "./screens/ExampleBuildScreen";
-import InstructorProfile from "./screens/ProfileScreen";
+import SandboxScreen from "./screens/SandboxScreen";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
+import HomeScreen from "./screens/HomeScreen";
+import ProfileScreen from "./screens/ProfileScreen";
+import ExampleBuildScreen from "./screens/ExampleBuildScreen";
+import CourseScreen from "./screens/CourseScreen";
+import AssignmentScreen from "./screens/AssignmentScreen";
+import ProjectileMotionSimulation from "./screens/ProjectileMotionSimulation";
 import Navigation from "./components/Navigation";
 import * as ROUTES from "./constants/routes";
 import { withAuthentication } from "./Session";
 import "./App.css";
-import ProfileScreen from "./screens/ProfileScreen";
 
 // main container component
 
 // example dummy data
 // added so we could see how things could be rendered based on user details
-
-const dummyUserInfo = {
-  id: 1,
-  typeEnum: "STUDENT",
-  firstName: "John",
-  lastName: "Doe",
-  courses: ["Physics 100", "Another Class"],
-};
 
 const supportedSimulations = [
   {
@@ -63,6 +57,15 @@ const supportedSimulations = [
   },
 ];
 
+
+const dummyUserInfo = {
+  id: 1,
+  typeEnum: "STUDENT",
+  firstName: "John",
+  lastName: "Doe",
+  courses: ["Physics 100", "Another Class"],
+};
+
 const dummyAssignment = {
   id: 0,
   name: "Projectile Motion",
@@ -78,32 +81,22 @@ const App = () => {
         <Route
           exact
           path={ROUTES.LANDING_SCREEN}
-          component={() => (
-            <LandingScreen
-              simulations={supportedSimulations}
-              className="LandingScreen"
-            />
-          )}
+          component={() => <LandingScreen className="LandingScreen"/>}
         />
         <Route
           exact
           path={ROUTES.REGISTER_SCREEN}
-          component={() => <RegisterScreen className="RegisterScreen" />}
+          component={() => <RegisterScreen className="RegisterScreen"/>}
         />
         <Route
           exact
           path={ROUTES.LOGIN_SCREEN}
-          component={() => <LoginScreen className="LoginScreen" />}
+          component={() => <LoginScreen className="LoginScreen"/>}
         />
         <Route
           exact
           path={ROUTES.HOME_SCREEN}
-          component={() => (
-            <HomeScreen
-              simulations={supportedSimulations}
-              className="HomeScreen"
-            />
-          )}
+          component={() => <HomeScreen className="HomeScreen"/>}
         />
         <Route
           exact
@@ -118,7 +111,7 @@ const App = () => {
         <Route
           exact
           path={ROUTES.PROFILE_SCREEN}
-          component={() => <ProfileScreen data={dummyUserInfo} />}
+          component={() => <ProfileScreen className="ProfileScreen"/>}
         />
         <Route
           exact
@@ -129,6 +122,21 @@ const App = () => {
               supportedSimulations={supportedSimulations}
             />
           )}
+        />
+        <Route
+          exact
+          path={ROUTES.SANDBOX_SCREEN + "/:simulationName"}
+          component={() => <SandboxScreen className="SandboxScreen"/>}
+        />
+        <Route
+          exact
+          path={ROUTES.COURSE_SCREEN + "/:courseName"}
+          component={() => <CourseScreen className="CourseScreen"/>}
+        />
+        <Route
+          exact
+          path={ROUTES.COURSE_SCREEN + "/:courseName" + ROUTES.ASSIGNMENT_SCREEN + "/:assignmentName"}
+          component={() => <AssignmentScreen className="AssignmentScreen"/>}
         />
       </Container>
     </Router>
