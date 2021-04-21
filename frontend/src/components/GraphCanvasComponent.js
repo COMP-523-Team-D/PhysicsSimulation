@@ -4,13 +4,32 @@ const GraphCanvasComponent = ({ points, ...rest }) => {
   const width = 200;
   const height = 200;
 
-  // Calculate the 'scale factor'
-  // floor(w/x) = x_fac, floor(h/y) = y_fac
-  // scale = min(x_fac, y_fac);
-  const x_final = points[-2];
-  const y_final = points[-1];
+  const findXMax = () => {
+    let max = points[0];
+    for (let i = 0; i < points.length; i += 2) {
+      if (max < points[i]) {
+        max = points[i];
+      }
+    }
+    return max;
+  };
+
+  const findYMax = () => {
+    let max = points[1];
+    for (let i = 1; i <= points.length; i += 2) {
+      if (max < points[i]) {
+        max = points[i];
+      }
+    }
+    return max;
+  };
+
+  const x_max = findXMax();
+  const y_max = findYMax();
 
   const scale = 10;
+  const x_scale = (width / x_max) * 0.9;
+  const y_scale = (height / y_max) * 0.9;
   const step = 20;
 
   // Adapted from:
@@ -46,7 +65,7 @@ const GraphCanvasComponent = ({ points, ...rest }) => {
 
     ctx.beginPath();
     for (let i = 0; i < points.length; i += 2) {
-      ctx.lineTo(points[i] * scale, height - scale * points[i + 1]);
+      ctx.lineTo(points[i] * x_scale, height - y_scale * points[i + 1]);
     }
     ctx.stroke();
   };

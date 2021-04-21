@@ -12,20 +12,31 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const { simName, simSrcPath, simVariables } = simulation;
 
   // Temp data for testing graphing
-  const [points, setPoints] = useState([]);
+  const [graph1, setGraph1] = useState([]);
+  const [graph2, setGraph2] = useState([]);
+  const [graph3, setGraph3] = useState([]);
+  const [graph4, setGraph4] = useState([]);
   // TODO: do something real with the points that we recieve.
   // Also, the simulation seems to dispatch more messages than we send
   // of its own free will, so maybe we should do some verification that
   // the message we got is actually a data point object.
 
-  // function for handling data points from projectile motion simulation
-  // assumes parabola
+  // function for building an array for a given independent and dependent variable
+  // Processes data from simulation in order to prepare to graph
+  // Returns array
+  const buildPointArray = (ind, dep) => {};
 
   const handleNewPoint = function (e) {
     if (e.data.t === 0) {
-      setPoints([e.data.px, e.data.py]);
+      setGraph1([e.data.px, e.data.py]);
+      setGraph2([e.data.t, e.data.py]);
+      setGraph3([e.data.t, e.data.px]);
+      setGraph4([e.data.t, e.data.vy]);
     } else {
-      setPoints([...points, e.data.px, e.data.py]);
+      setGraph1([...graph1, e.data.px, e.data.py]);
+      setGraph2([...graph2, e.data.t, e.data.py]);
+      setGraph3([...graph3, e.data.t, e.data.px]);
+      setGraph4([...graph4, e.data.t, e.data.vy]);
     }
   };
 
@@ -60,18 +71,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">
-                      Position vs Time
+                    <Card.Title className="mr-auto card-title">
+                      PositionX vs PositionY
                     </Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={points}
+                        points={graph1}
                       />
                     </Container>
                   </Card.Body>
@@ -80,16 +88,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
+                    <Card.Title className="mr-auto card-title">
+                      Time vs. PositionY
+                    </Card.Title>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={points}
+                        points={graph2}
                       />
                     </Container>
                   </Card.Body>
@@ -100,16 +107,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
+                    <Card.Title className="mr-auto card-title">
+                      Time vs PositionX
+                    </Card.Title>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={points}
+                        points={graph3}
                       />
                     </Container>
                   </Card.Body>
@@ -118,16 +124,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
+                    <Card.Title className="mr-auto card-title">
+                      Time vs. Y Velocity
+                    </Card.Title>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={points}
+                        points={graph4}
                       />
                     </Container>
                   </Card.Body>
@@ -139,18 +144,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">
+                    <Card.Title className="mr-auto card-title">
                       Position vs Time
                     </Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={points}
+                        points={graph1}
                       />
                     </Container>
                   </Card.Body>
@@ -161,16 +163,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
+                    <Card.Title className="mr-auto card-title">
+                      Time vs PositionY
+                    </Card.Title>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={points}
+                        points={graph2}
                       />
                     </Container>
                   </Card.Body>
@@ -181,16 +182,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
+                    <Card.Title className="mr-auto card-title">
+                      Time vs PositionX
+                    </Card.Title>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={points}
+                        points={graph3}
                       />
                     </Container>
                   </Card.Body>
@@ -201,16 +201,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
               <Col className="graph my-5">
                 <Card className="d-flex align-content-center graph-card">
                   <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
+                    <Card.Title className="mr-auto card-title">
+                      Time vs Y Velocity
+                    </Card.Title>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={points}
+                        points={graph4}
                       />
                     </Container>
                   </Card.Body>

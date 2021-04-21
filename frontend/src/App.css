@@ -90,9 +90,8 @@ Body {
     height: 30vh;
 }
 
-.tool-bag:hover {
-    transform: scale(1.5);
-    cursor: pointer;
+.card-title {
+ font-size: 5px;
 }
 
 .questions-card-body, .graph-card-body, .build-card-body {
