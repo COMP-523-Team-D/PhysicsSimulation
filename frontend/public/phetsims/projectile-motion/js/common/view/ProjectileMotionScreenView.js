@@ -70,7 +70,9 @@ define( function( require ) {
   var FLATIRONS_RANGE = { min: 1500, max: 1700 };
 
   // COMP 523 addition: see whether to disable the initial velocity slider.
-  var isSpeedFixed = !isNaN(parseInt(JSON.parse(window.sessionStorage.getItem("fixedVariables")).velocity));
+  var params = window.sessionStorage.getItem("fixedVariables")
+  var isSpeedFixed = params ? 
+    !isNaN(parseInt(JSON.parse(window.sessionStorage.getItem("fixedVariables")).velocity)) : false;
 
   /**
    * @param {ProjectileMotionModel} model
