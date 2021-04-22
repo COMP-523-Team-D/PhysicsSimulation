@@ -1,10 +1,11 @@
 const SimulationContainerComponent = ({
-  simVariables,
+  reloadFlag,
   simName,
   simSrcPath,
 }) => {
   return (
     <iframe
+      key={reloadFlag}
       className="phet-sim"
       src={simSrcPath}
       scrolling="no"

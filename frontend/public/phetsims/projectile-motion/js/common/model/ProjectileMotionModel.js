@@ -53,16 +53,33 @@ define( function( require ) {
 
     // --initial values
 
+    // COMP 523 change: independently control whether each variable is fixed at the beginning.
+
     // @public {Property.<number>} height of the cannon, in meters
-    this.cannonHeightProperty = new NumberProperty( defaultCannonHeight ? defaultCannonHeight : 0 );
+    this.cannonHeightProperty = new NumberProperty( isNaN(defaultCannonHeight) ? 0 : defaultCannonHeight );
 
     // @public {Property.<number>} angle of the cannon, in degrees
-    this.cannonAngleProperty = new NumberProperty( defaultCannonHeight ? defaultCannonAngle : 80 );
+    this.cannonAngleProperty = new NumberProperty( isNaN(defaultCannonAngle) ? 80 : defaultCannonAngle );
 
     // @public {Property.<number>} launch speed, in meters per second
-    this.launchVelocityProperty = new NumberProperty( defaultCannonHeight ? defaultInitialSpeed : 18 );
-
+    this.launchVelocityProperty = new NumberProperty( isNaN(defaultInitialSpeed) ? 18 : defaultInitialSpeed );
     // --parameters for next projectile fired
+
+    // Listen for requests to send our current parameter values back
+    // to the frontend (used in the assignment build screen)
+    window.addEventListener("message", (event) => {
+      // TODO: Add a check on the event's origin
+      if (event.data === "Request Parameters") {
+        const output = {
+          check : "Parameters Requested",
+          height : this.cannonHeightProperty.get(),
+          velocity : this.launchVelocityProperty.get(),
+          angle : this.cannonAngleProperty.get()
+        };
+        // TODO: Make this a real origin
+        window.parent.postMessage(output, '*');
+      }
+    }, false);
 
     // @public {Property.<number>} mass of the projectile, in kilograms
     this.projectileMassProperty = new NumberProperty( defaultProjectileObjectType.mass );

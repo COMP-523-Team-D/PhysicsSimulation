@@ -69,6 +69,9 @@ define( function( require ) {
   var Y_MARGIN = 5;
   var FLATIRONS_RANGE = { min: 1500, max: 1700 };
 
+  // COMP 523 addition: see whether to disable the initial velocity slider.
+  var isSpeedFixed = !isNaN(parseInt(JSON.parse(window.sessionStorage.getItem("fixedVariables")).velocity));
+
   /**
    * @param {ProjectileMotionModel} model
    * @param {Panel} topRightPanel - the projectile control panel at the top right
@@ -170,6 +173,13 @@ define( function( require ) {
         bottom: this.layoutBounds.bottom - 10
       }, ProjectileMotionConstants.INITIAL_SPEED_PANEL_OPTIONS )
     );
+
+    // COMP 523 addition:
+    // disable the initial speed panel if we provide our own default.
+    initialSpeedPanel.setPickable(isSpeedFixed);
+    if (isSpeedFixed) {
+      initialSpeedPanel.setOpacity(0.5);
+    }
 
     // Create a measuring tape (set to invisible initially)
     var measuringTapeNode = new MeasuringTapeNode(

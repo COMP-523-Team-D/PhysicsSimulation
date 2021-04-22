@@ -8,8 +8,12 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const { questions } = assignment;
   const [qIndex, setqIndex] = useState(1);
 
+  // Update this state (add 1) whenever we have new parameters for the simulation.
+  // This will alert the iframe that it needs to refresh.
+  const [reloadIframe, setReloadIframe] = useState(0);
+
   const { simulation } = assignment;
-  const { simName, simSrcPath, simVariables } = simulation;
+  const { simName, simSrcPath } = simulation;
 
   // Temp data for testing graphing
   const [points, setPoints] = useState([]);
@@ -29,14 +33,36 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
     }
   };
 
-  // This sets up the communication between the frontend and the simulation
-  // when the screen is rendered.
+  // Dummy simulation parameters to fix
+  const fixedVariables = {
+    height : 5,
+    velocity : 15,
+    angle : 45
+  }
+  // TODO : Replace with a real database query
+  const getParameters = () => {
+    return new Promise(resolve => {
+      setTimeout(() => resolve(fixedVariables), 1000)
+    })
+  }
+
+  // Sets up the communication between the frontend and the simulation
+  // when the screen is initially rendered.
   useEffect(() => {
+    // Listen for information about cannon fires
     window.addEventListener("message", handleNewPoint);
+
+    // Send fixed parameters to the simulation (if any),
+    // and then alert the iframe that it needs to refresh.
+    getParameters().then(function (params) {
+      window.sessionStorage.setItem('fixedVariables', JSON.stringify(params));
+      setReloadIframe(reloadIframe + 1);
+    });
+
     return function cleanup() {
       window.removeEventListener("message", handleNewPoint);
     };
-  });
+  }, []);
 
   return (
     <Container className="simulation-container">
@@ -50,7 +76,7 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
             <Row className="mt-4 pt-3">
               <Col className="d-flex justify-content-center">
                 <SimulationContainerComponent
-                  simVariables={simVariables}
+                  reloadFlag={reloadIframe}
                   simName={simName}
                   simSrcPath={simSrcPath}
                 />

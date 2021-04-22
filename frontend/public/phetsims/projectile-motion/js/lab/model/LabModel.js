@@ -53,9 +53,18 @@ define( function( require ) {
     // @public {string} save the most recent benchmark (e.g. pumpkin, human, etc.) used
     this.lastType = this.objectTypes[ 1 ].benchmark;
 
-    ProjectileMotionModel.call( this, this.objectTypes[ 1 ], false );
+    // COMP 523 addition: read in all the parameters we want to fix
+    // and pass them as optional arguments to the ProjectileMotionModel constructor.
+    const params = JSON.parse(window.sessionStorage.getItem('fixedVariables'));
 
+    ProjectileMotionModel.call( this, this.objectTypes[ 1 ], false,
+      parseInt(params.height),
+      parseInt(params.angle),
+      parseInt(params.speed));
   }
+
+  // Clear storage so present values don't get read in the future
+  // window.sessionStorage.setItem('fixedVariables', JSON.stringify({ height: NaN, angle: NaN, speed: NaN }));
 
   projectileMotion.register( 'LabModel', LabModel );
 
