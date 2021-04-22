@@ -178,7 +178,7 @@ define( function( require ) {
 
     // COMP 523 addition:
     // disable the initial speed panel if we provide our own default.
-    initialSpeedPanel.setPickable(isSpeedFixed);
+    initialSpeedPanel.setPickable(!isSpeedFixed);
     if (isSpeedFixed) {
       initialSpeedPanel.setOpacity(0.5);
     }
