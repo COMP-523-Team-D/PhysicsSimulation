@@ -60,7 +60,7 @@ define( function( require ) {
       ProjectileMotionModel.call( this, this.objectTypes[ 1 ], false,
         parseInt(params.height),
         parseInt(params.angle),
-        parseInt(params.speed));
+        parseInt(params.velocity));
     } else {
       ProjectileMotionModel.call( this, this.objectTypes[ 1 ], false);
     }

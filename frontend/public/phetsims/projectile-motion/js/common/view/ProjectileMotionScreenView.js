@@ -72,7 +72,7 @@ define( function( require ) {
   // COMP 523 addition: see whether to disable the initial velocity slider.
   var params = window.sessionStorage.getItem("fixedVariables")
   var isSpeedFixed = params ? 
-    !isNaN(parseInt(JSON.parse(window.sessionStorage.getItem("fixedVariables")).velocity)) : false;
+    !isNaN(parseInt(JSON.parse(params).velocity)) : false;
 
   /**
    * @param {ProjectileMotionModel} model
