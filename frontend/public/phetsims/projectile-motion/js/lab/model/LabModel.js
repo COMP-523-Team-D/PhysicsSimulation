@@ -56,11 +56,14 @@ define( function( require ) {
     // COMP 523 addition: read in all the parameters we want to fix
     // and pass them as optional arguments to the ProjectileMotionModel constructor.
     const params = JSON.parse(window.sessionStorage.getItem('fixedVariables'));
-
-    ProjectileMotionModel.call( this, this.objectTypes[ 1 ], false,
-      parseInt(params.height),
-      parseInt(params.angle),
-      parseInt(params.speed));
+    if (params) {
+      ProjectileMotionModel.call( this, this.objectTypes[ 1 ], false,
+        parseInt(params.height),
+        parseInt(params.angle),
+        parseInt(params.speed));
+    } else {
+      ProjectileMotionModel.call( this, this.objectTypes[ 1 ], false);
+    }
   }
 
   // Clear storage so present values don't get read in the future
