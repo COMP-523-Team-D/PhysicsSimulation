@@ -426,7 +426,7 @@ define( function( require ) {
 
         var angleRange = heightProperty.get() < 4 ? new Range( ANGLE_RANGE_MINS[ heightProperty.get() ], 90 ) : ANGLE_RANGE;
 
-        if (isNaN(parseInt(fixedParams.angle))) {
+        if (fixedParams && isNaN(parseInt(fixedParams.angle))) {
           // mouse dragged angle is within angle range
           if ( angleRange.contains( unboundedNewAngle ) ) {
             var delta = options.preciseCannonDelta ? 1 : 5;
@@ -460,7 +460,7 @@ define( function( require ) {
 
         var unboundedNewHeight = transformProperty.get().viewToModelY( startHeight + heightChange );
 
-        if (isNaN(parseInt(fixedParams.height))) {
+        if (fixedParams && isNaN(parseInt(fixedParams.height))) {
           // mouse dragged height is within height range
           if ( HEIGHT_RANGE.contains( unboundedNewHeight ) ) {
             heightProperty.set( Util.roundSymmetric( unboundedNewHeight ) );
