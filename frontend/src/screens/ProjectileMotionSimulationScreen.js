@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
 import GraphCanvasComponent from "../components/GraphCanvasComponent";
+import GraphComponent from "../components/GraphComponent";
 
 const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const { questions } = assignment;
@@ -11,33 +12,44 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const { simulation } = assignment;
   const { simName, simSrcPath, simVariables } = simulation;
 
-  // Temp data for testing graphing
-  const [graph1, setGraph1] = useState([]);
-  const [graph2, setGraph2] = useState([]);
-  const [graph3, setGraph3] = useState([]);
-  const [graph4, setGraph4] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [count, setCount] = useState(0);
+
+  const [t, setT] = useState([]);
+  const [px, setPx] = useState([]);
+  const [py, setPy] = useState([]);
+  const [vx, setVx] = useState([]);
+  const [vy, setVy] = useState([]);
+  const [ax, setAx] = useState([]);
+  const [ay, setAy] = useState([]);
+
   // TODO: do something real with the points that we recieve.
   // Also, the simulation seems to dispatch more messages than we send
   // of its own free will, so maybe we should do some verification that
   // the message we got is actually a data point object.
-
-  // function for building an array for a given independent and dependent variable
-  // Processes data from simulation in order to prepare to graph
-  // Returns array
-  const buildPointArray = (ind, dep) => {};
-
   const handleNewPoint = function (e) {
     if (e.data.t === 0) {
-      setGraph1([e.data.px, e.data.py]);
-      setGraph2([e.data.t, e.data.py]);
-      setGraph3([e.data.t, e.data.px]);
-      setGraph4([e.data.t, e.data.vy]);
-    } else {
-      setGraph1([...graph1, e.data.px, e.data.py]);
-      setGraph2([...graph2, e.data.t, e.data.py]);
-      setGraph3([...graph3, e.data.t, e.data.px]);
-      setGraph4([...graph4, e.data.t, e.data.vy]);
+      setLoading(true);
+      setT([e.data.t.toFixed(2)]);
+      setPx([e.data.px.toFixed(2)]);
+      setPy([e.data.py.toFixed(2)]);
+      setVx([e.data.vx.toFixed(2)]);
+      setVy([e.data.vy.toFixed(2)]);
+      setAx([e.data.ax.toFixed(2)]);
+      setAy([e.data.ay.toFixed(2)]);
+    } else if (e.data.t) {
+      if (e.data.vx == 0 && e.data.vy == 0) setLoading(false);
+      if (count % 4 == 0) {
+        setT([...t, e.data.t.toFixed(2)]);
+        setPx([...px, e.data.px.toFixed(2)]);
+        setPy([...py, e.data.py.toFixed(2)]);
+        setVx([...vx, e.data.vx.toFixed(2)]);
+        setVy([...vy, e.data.vy.toFixed(2)]);
+        setAx([...ax, e.data.ax.toFixed(2)]);
+        setAy([...ay, e.data.ay.toFixed(2)]);
+      }
     }
+    setCount((prev) => prev + 1);
   };
 
   // This sets up the communication between the frontend and the simulation
@@ -48,7 +60,10 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
       window.removeEventListener("message", handleNewPoint);
     };
   });
-
+  function handleClick(e) {
+    e.preventDefault();
+    alert(e);
+  }
   return (
     <Container className="simulation-container">
       <Row className="d-md-flex justify-content-center">
@@ -72,14 +87,16 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
                     <Card.Title className="mr-auto card-title">
-                      PositionX vs PositionY
+                      T vs Position X
                     </Card.Title>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
+                      <GraphComponent
+                        onClick={(e) => handleClick(e)}
                         className="bg-white"
-                        points={graph1}
+                        ind={!loading && t}
+                        dep={!loading && px}
                       />
                     </Container>
                   </Card.Body>
@@ -94,9 +111,10 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
+                      <GraphComponent
                         className="bg-white"
-                        points={graph2}
+                        ind={!loading && t}
+                        dep={!loading && py}
                       />
                     </Container>
                   </Card.Body>
@@ -108,14 +126,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                 <Card className="d-flex graph-card">
                   <Card.Header className="graph-card-header d-flex">
                     <Card.Title className="mr-auto card-title">
-                      Time vs PositionX
+                      Time vs Velocity X
                     </Card.Title>
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
-                        className="bg-white"
-                        points={graph3}
+                      <GraphComponent
+                        className="bg-white graphComponent"
+                        ind={!loading && t}
+                        dep={!loading && vx}
                       />
                     </Container>
                   </Card.Body>
@@ -130,9 +149,10 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
+                      <GraphComponent
                         className="bg-white"
-                        points={graph4}
+                        ind={!loading && t}
+                        dep={!loading && vy}
                       />
                     </Container>
                   </Card.Body>
@@ -152,7 +172,8 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={graph1}
+                        ind={!loading && t}
+                        dep={!loading && py}
                       />
                     </Container>
                   </Card.Body>
@@ -171,7 +192,8 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={graph2}
+                        ind={!loading && t}
+                        dep={!loading && px}
                       />
                     </Container>
                   </Card.Body>
@@ -190,7 +212,8 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={graph3}
+                        ind={!loading && t}
+                        dep={!loading && px}
                       />
                     </Container>
                   </Card.Body>
@@ -209,7 +232,8 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphCanvasComponent
                         className="bg-white"
-                        points={graph4}
+                        ind={!loading && t}
+                        dep={!loading && px}
                       />
                     </Container>
                   </Card.Body>

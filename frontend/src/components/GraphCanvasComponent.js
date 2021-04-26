@@ -1,35 +1,27 @@
 import useCanvas from "../utils/useCanvas";
 
-const GraphCanvasComponent = ({ points, ...rest }) => {
+const GraphCanvasComponent = ({ dep, ind, ...rest }) => {
   const width = 200;
   const height = 200;
 
-  const findXMax = () => {
-    let max = points[0];
-    for (let i = 0; i < points.length; i += 2) {
-      if (max < points[i]) {
-        max = points[i];
-      }
+  const maxMin = (arr) => {
+    let max = arr[0];
+    let min = arr[0];
+    let mid = arr[0];
+    for (let i = 0; i <= arr.length; i++) {
+      if (max < arr[i]) max = arr[i];
+      if (min > arr[i]) min = arr[i];
     }
-    return max;
+
+    return [max, min];
   };
 
-  const findYMax = () => {
-    let max = points[1];
-    for (let i = 1; i <= points.length; i += 2) {
-      if (max < points[i]) {
-        max = points[i];
-      }
-    }
-    return max;
-  };
-
-  const x_max = findXMax();
-  const y_max = findYMax();
+  const xMaxMin = maxMin(ind);
+  const yMaxMin = maxMin(dep);
 
   const scale = 10;
-  const x_scale = (width / x_max) * 0.9;
-  const y_scale = (height / y_max) * 0.9;
+  const x_scale = (width / xMaxMin[0]) * 0.9;
+  const y_scale = (height / yMaxMin[0]) * 0.9;
   const step = 20;
 
   // Adapted from:
@@ -64,8 +56,8 @@ const GraphCanvasComponent = ({ points, ...rest }) => {
     drawGrid(ctx, width, height, 20);
 
     ctx.beginPath();
-    for (let i = 0; i < points.length; i += 2) {
-      ctx.lineTo(points[i] * x_scale, height - y_scale * points[i + 1]);
+    for (let i = 0; i <= dep.length; i++) {
+      ctx.lineTo(ind[i] * x_scale, height - y_scale * dep[i]);
     }
     ctx.stroke();
   };
