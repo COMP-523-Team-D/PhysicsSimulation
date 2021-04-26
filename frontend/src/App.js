@@ -2,17 +2,19 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import LandingScreen from "./screens/LandingScreen";
-import HomeScreen from "./screens/HomeScreen";
-import ProjectileMotionSimulationScreen from "./screens/ProjectileMotionSimulationScreen";
-import ExampleBuildScreen from "./screens/ExampleBuildScreen";
-import InstructorProfile from "./screens/ProfileScreen";
+import SandboxScreen from "./screens/SandboxScreen";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
+import HomeScreen from "./screens/HomeScreen";
+import ProfileScreen from "./screens/ProfileScreen";
+import BuildScreen from "./screens/BuildScreen";
+import CourseScreen from "./screens/CourseScreen";
+import AssignmentScreen from "./screens/AssignmentScreen";
+import ProjectileMotionSimulationScreen from "./screens/ProjectileMotionSimulationScreen";
 import Navigation from "./components/Navigation";
 import * as ROUTES from "./constants/routes";
 import { withAuthentication } from "./Session";
 import "./App.css";
-import ProfileScreen from "./screens/ProfileScreen";
 
 // main container component
 
@@ -27,47 +29,15 @@ const dummyUserInfo = {
   courses: ["Physics 100", "Another Class"],
 };
 
-const supportedSimulations = [
-  {
-    //renamed variables to make less ambiguous
-    //left old names until I can hunt them all down and change them
-
-    simName: "Projectile Motion",
-    simSrcPath: "../../phetsims/projectile-motion/projectile-motion_en.html",
-    Name: "Projectile Motion",
-    Source:
-      "https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html",
-    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-    simVariables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-  },
-
-  {
-    Name: "Forces and Motion",
-    Source:
-      "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html",
-    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-  },
-
-  {
-    Name: "Friction",
-    Source:
-      "https://phet.colorado.edu/sims/html/friction/latest/friction_en.html",
-    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-  },
-
-  {
-    Name: "Hooke's Law",
-    Source:
-      "https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_en.html",
-    Variables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
-  },
-];
-
 const dummyAssignment = {
   id: 0,
   name: "Projectile Motion",
   questions: ["q1", "q2", "q3"],
-  simulation: supportedSimulations[0],
+  simulation: {
+    simName: "Projectile Motion",
+    simSrcPath: "../../phetsims/projectile-motion/projectile-motion_en.html",
+    simVariables: ["Initial Speed", "Cannon Angle", "Cannon Height"]
+  }
 };
 
 const App = () => {
@@ -78,32 +48,22 @@ const App = () => {
         <Route
           exact
           path={ROUTES.LANDING_SCREEN}
-          component={() => (
-            <LandingScreen
-              simulations={supportedSimulations}
-              className="LandingScreen"
-            />
-          )}
+          component={() => <LandingScreen className="LandingScreen"/>}
         />
         <Route
           exact
           path={ROUTES.REGISTER_SCREEN}
-          component={() => <RegisterScreen className="RegisterScreen" />}
+          component={() => <RegisterScreen className="RegisterScreen"/>}
         />
         <Route
           exact
           path={ROUTES.LOGIN_SCREEN}
-          component={() => <LoginScreen className="LoginScreen" />}
+          component={() => <LoginScreen className="LoginScreen"/>}
         />
         <Route
           exact
           path={ROUTES.HOME_SCREEN}
-          component={() => (
-            <HomeScreen
-              simulations={supportedSimulations}
-              className="HomeScreen"
-            />
-          )}
+          component={() => <HomeScreen className="HomeScreen"/>}
         />
         <Route
           exact
@@ -118,17 +78,27 @@ const App = () => {
         <Route
           exact
           path={ROUTES.PROFILE_SCREEN}
-          component={() => <ProfileScreen data={dummyUserInfo} />}
+          component={() => <ProfileScreen className="ProfileScreen"/>}
         />
         <Route
           exact
-          path={ROUTES.BUILD_SCREEN}
-          component={() => (
-            <ExampleBuildScreen
-              data={dummyUserInfo}
-              supportedSimulations={supportedSimulations}
-            />
-          )}
+          path={ROUTES.BUILD_SCREEN + "/:courseName"}
+          component={() => (<BuildScreen className="BuildScreen"/>)}
+        />
+        <Route
+          exact
+          path={ROUTES.SANDBOX_SCREEN + "/:simulationName"}
+          component={() => <SandboxScreen className="SandboxScreen"/>}
+        />
+        <Route
+          exact
+          path={ROUTES.COURSE_SCREEN + "/:courseName"}
+          component={() => <CourseScreen className="CourseScreen"/>}
+        />
+        <Route
+          exact
+          path={ROUTES.COURSE_SCREEN + "/:courseName" + ROUTES.ASSIGNMENT_SCREEN + "/:assignmentName"}
+          component={() => <AssignmentScreen className="AssignmentScreen"/>}
         />
       </Container>
     </Router>

@@ -11,18 +11,36 @@
  */
 
 // COMP 523 addition
-function sendPointToReact(t_in, px_in, py_in, vx_in, vy_in, ax_in, ay_in) {
-  var data = {
-    t : t_in,
-    px : px_in,
-    py : py_in,
-    vx : vx_in,
-    vy : vy_in,
-    ax : ax_in,
-    ay : ay_in
-  };
+
+var trajectoryInfo = {
+  t : [],
+  px : [],
+  py : [],
+  vx : [],
+  vy : [],
+  ax : [],
+  ay : []
+}
+
+function clearInfo() {
+  for (var field in trajectoryInfo) {
+    trajectoryInfo[field] = [];
+  }
+}
+
+function collectPoint(t_in, px_in, py_in, vx_in, vy_in, ax_in, ay_in) {
+  trajectoryInfo.t.push(t_in);
+  trajectoryInfo.px.push(px_in);
+  trajectoryInfo.py.push(py_in);
+  trajectoryInfo.vx.push(vx_in);
+  trajectoryInfo.vy.push(vy_in);
+  trajectoryInfo.ax.push(ax_in);
+  trajectoryInfo.ay.push(ay_in);
+}
+
+function sendDataToReact() {
   // TODO: Replace '*' with an actual URI before production.
-  window.parent.postMessage(data, '*');
+  window.parent.postMessage(trajectoryInfo, '*');
 }
 
 define( function( require ) {
@@ -106,7 +124,8 @@ define( function( require ) {
     );
 
     // COMP 523 addition
-    sendPointToReact(initialPoint.time,
+    clearInfo();
+    collectPoint(initialPoint.time,
              initialPoint.position.x, initialPoint.position.y,
              initialPoint.velocity.x, initialPoint.velocity.y,
              initialPoint.acceleration.x, initialPoint.acceleration.y);
@@ -210,7 +229,7 @@ define( function( require ) {
           );
 
           // COMP 523 addition
-          sendPointToReact(apexPoint.time,
+          collectPoint(apexPoint.time,
             apexPoint.position.x, apexPoint.position.y,
             apexPoint.velocity.x, apexPoint.velocity.y,
             apexPoint.acceleration.x, apexPoint.acceleration.y);
@@ -251,8 +270,16 @@ define( function( require ) {
 
           // add this special property to just the last datapoint collected for a trajectory
           newPoint.reachedGround = true;
-        }
 
+          // COMP 523 addition:
+          // Add the last point and then send the data to our frontend.
+          collectPoint(newPoint.time,
+            newPoint.position.x, newPoint.position.y,
+            newPoint.velocity.x, newPoint.velocity.y,
+            newPoint.acceleration.x, newPoint.acceleration.y);
+          sendDataToReact();
+          
+        }
         // Still in the air
         else {
           newPoint = new DataPoint(
@@ -265,13 +292,12 @@ define( function( require ) {
             -gravity * this.mass
           );
 
-        }
-
-        // COMP 523 addition
-        sendPointToReact(newPoint.time,
-          newPoint.position.x, newPoint.position.y,
-          newPoint.velocity.x, newPoint.velocity.y,
-          newPoint.acceleration.x, newPoint.acceleration.y);
+          // COMP 523 addition
+          collectPoint(newPoint.time,
+            newPoint.position.x, newPoint.position.y,
+            newPoint.velocity.x, newPoint.velocity.y,
+            newPoint.acceleration.x, newPoint.acceleration.y);
+          }
 
         // add point, and update tracer tool and David
         this.dataPoints.push( newPoint );

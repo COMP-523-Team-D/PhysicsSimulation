@@ -9,12 +9,8 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const { questions } = assignment;
   const [qIndex, setqIndex] = useState(1);
 
-  // Update this state (add 1) whenever we have new parameters for the simulation.
-  // This will alert the iframe that it needs to refresh.
-  const [reloadIframe, setReloadIframe] = useState(0);
-
   const { simulation } = assignment;
-  const { simName, simSrcPath } = simulation;
+  const { simName, simSrcPath, simVariables } = simulation;
 
   const [loading, setLoading] = useState(false);
   const [count, setCount] = useState(0);
@@ -56,45 +52,18 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
     setCount((prev) => prev + 1);
   };
 
-  // Dummy simulation parameters to fix
-  const fixedVariables = {
-    height : 5,
-    velocity : 15,
-    angle : 45
-  }
-  // TODO : Replace with a real database query
-  const getParameters = () => {
-    return new Promise(resolve => {
-      setTimeout(() => resolve(fixedVariables), 1000)
-    })
-  }
-
-  // Sets up the communication between the frontend and the simulation
-  // when the screen is initially rendered.
+  // This sets up the communication between the frontend and the simulation
+  // when the screen is rendered.
   useEffect(() => {
-    // Listen for information about cannon fires
     window.addEventListener("message", handleNewPoint);
-
-    // Send fixed parameters to the simulation (if any),
-    // and then alert the iframe that it needs to refresh.
-    getParameters().then(function (params) {
-      window.sessionStorage.setItem('fixedVariables', JSON.stringify(params));
-      setReloadIframe(reloadIframe + 1);
-    });
-
     return function cleanup() {
       window.removeEventListener("message", handleNewPoint);
     };
-<<<<<<< HEAD
   });
   function handleClick(e) {
     e.preventDefault();
     alert(e);
   }
-=======
-  }, []);
-
->>>>>>> a4f67839d3ea9f8213f8d6759aa0e5a61c483480
   return (
     <Container className="simulation-container">
       <Row className="d-md-flex justify-content-center">
@@ -107,7 +76,7 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
             <Row className="mt-4 pt-3">
               <Col className="d-flex justify-content-center">
                 <SimulationContainerComponent
-                  reloadFlag={reloadIframe}
+                  simVariables={simVariables}
                   simName={simName}
                   simSrcPath={simSrcPath}
                 />

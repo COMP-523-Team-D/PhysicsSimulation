@@ -78,33 +78,37 @@ class RegisterFormBase extends Component {
   };
 
   componentDidMount() {
-    this.state.unsubscribeInstructors = this.props.firebase
-      .instructors()
-      .onSnapshot((querySnapshot) => {
-        let instructorsList = [];
-        querySnapshot.forEach((doc) => {
-          instructorsList.push(
-            `${doc.data()["First Name"]} ${doc.data()["Last Name"]}`
-          );
-        });
+    this.setState({
+      unsubscribeInstructors:
+        this.props.firebase.instructors()
+            .onSnapshot((querySnapshot) => {
+              let instructorsList = [];
+              querySnapshot.forEach((doc) => {
+                instructorsList.push(
+                  `${doc.data()["First Name"]} ${doc.data()["Last Name"]}`
+                );
+              });
 
-        this.setState({
-          INSTRUCTORS: instructorsList,
-        });
-      });
+            this.setState({
+              INSTRUCTORS: instructorsList,
+            });
+        })
+    });
+    
+    this.setState({
+      unsubscribeCourses:
+        this.props.firebase.courses()
+            .onSnapshot((querySnapshot) => {
+              let coursesList = [];
+              querySnapshot.forEach((doc) => {
+                coursesList.push(doc.data().Name);
+              });
 
-    this.state.unsubscribeCourses = this.props.firebase
-      .courses()
-      .onSnapshot((querySnapshot) => {
-        let coursesList = [];
-        querySnapshot.forEach((doc) => {
-          coursesList.push(doc.data().Name);
-        });
-
-        this.setState({
-          COURSES: coursesList,
-        });
-      });
+              this.setState({
+                COURSES: coursesList,
+              });
+            })
+    });
   }
 
   componentWillUnmount() {
@@ -263,9 +267,8 @@ const RegisterLink = () => (
   <p>
     Don't have an account?
     <br />
-    {/* <Link to={ROUTES.REGISTER_SCREEN} className="register-link bg-secondary">Register</Link> */}
     <a
-      class="btn register-button bg-secondary"
+      className="btn register-button bg-secondary"
       href={ROUTES.REGISTER_SCREEN}
       role="button"
     >

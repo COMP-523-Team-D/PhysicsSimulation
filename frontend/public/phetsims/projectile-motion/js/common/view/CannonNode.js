@@ -68,6 +68,8 @@ define( function( require ) {
   var MUZZLE_FLASH_OPACITY_DELTA = 0.04;
   var MUZZLE_FLASH_DURATION_OF_FRAMES = 16;
   var MUZZLE_FLASH_START = 1 - MUZZLE_FLASH_DURATION_OF_FRAMES * MUZZLE_FLASH_OPACITY_DELTA;
+  
+  var fixedParams = JSON.parse(window.sessionStorage.getItem("fixedVariables"));
 
   /**
    * @param {Property.<number>} heightProperty - height of the cannon
@@ -424,20 +426,21 @@ define( function( require ) {
 
         var angleRange = heightProperty.get() < 4 ? new Range( ANGLE_RANGE_MINS[ heightProperty.get() ], 90 ) : ANGLE_RANGE;
 
-        // mouse dragged angle is within angle range
-        if ( angleRange.contains( unboundedNewAngle ) ) {
-          var delta = options.preciseCannonDelta ? 1 : 5;
-          angleProperty.set( Util.roundSymmetric( unboundedNewAngle / delta ) * delta );
+        if (!fixedParams || isNaN(parseInt(fixedParams.angle))) {
+          // mouse dragged angle is within angle range
+          if ( angleRange.contains( unboundedNewAngle ) ) {
+            var delta = options.preciseCannonDelta ? 1 : 5;
+            angleProperty.set( Util.roundSymmetric( unboundedNewAngle / delta ) * delta );
+          }
+          // the current, unchanged, angle is closer to max than min
+          else if ( angleRange.max + angleRange.min < 2 * angleProperty.get() ) {
+            angleProperty.set( angleRange.max );
+          }
+          // the current, unchanged, angle is closer or same distance to min than max
+          else {
+            angleProperty.set( angleRange.min );
+          }
         }
-        // the current, unchanged, angle is closer to max than min
-        else if ( angleRange.max + angleRange.min < 2 * angleProperty.get() ) {
-          angleProperty.set( angleRange.max );
-        }
-        // the current, unchanged, angle is closer or same distance to min than max
-        else {
-          angleProperty.set( angleRange.min );
-        }
-
       },
 
       allowTouchSnag: true
@@ -457,17 +460,19 @@ define( function( require ) {
 
         var unboundedNewHeight = transformProperty.get().viewToModelY( startHeight + heightChange );
 
-        // mouse dragged height is within height range
-        if ( HEIGHT_RANGE.contains( unboundedNewHeight ) ) {
-          heightProperty.set( Util.roundSymmetric( unboundedNewHeight ) );
-        }
-        // the current, unchanged, height is closer to max than min
-        else if ( HEIGHT_RANGE.max + HEIGHT_RANGE.min < 2 * heightProperty.get() ) {
-          heightProperty.set( HEIGHT_RANGE.max );
-        }
-        // the current, unchanged, height is closer or same distance to min than max
-        else {
-          heightProperty.set( HEIGHT_RANGE.min );
+        if (!fixedParams || isNaN(parseInt(fixedParams.height))) {
+          // mouse dragged height is within height range
+          if ( HEIGHT_RANGE.contains( unboundedNewHeight ) ) {
+            heightProperty.set( Util.roundSymmetric( unboundedNewHeight ) );
+          }
+          // the current, unchanged, height is closer to max than min
+          else if ( HEIGHT_RANGE.max + HEIGHT_RANGE.min < 2 * heightProperty.get() ) {
+            heightProperty.set( HEIGHT_RANGE.max );
+          }
+          // the current, unchanged, height is closer or same distance to min than max
+          else {
+            heightProperty.set( HEIGHT_RANGE.min );
+          }
         }
       },
 

@@ -58,11 +58,16 @@ class Firebase {
   */
 
   /* FIRESTORE API */
+
+  /////////////////////////////////////////////////////////
+  // User Collection API
+  /////////////////////////////////////////////////////////
+
+  // Returns a reference to the user document specified by uid
   user = uid => this.db.collection("Users").doc(uid);
 
+  // Returns a reference to all documents associated with instructors
   instructors = () => this.db.collection("Users").where("isInstructor", "==", true);
-
-  courses = () => this.db.collection("Courses");
 
   doCreateNewUserDocument = (uid, firstName, lastName, instructors, courses) =>
     this.db.collection("Users").doc(uid).set({
@@ -76,6 +81,68 @@ class Firebase {
 
   getAuthorizedUserData = uid => 
     this.db.collection("Users").doc(uid).get();
+
+  /////////////////////////////////////////////////////////
+  // Course Collection API
+  /////////////////////////////////////////////////////////
+
+  // Return a reference to the course specified by courseName
+  // Implicitly assumes that there will never be two courses with the same name
+  course = courseName =>
+    this.db.collection("Courses").where("Name", "==", courseName);
+
+  // Return a reference to the courses collection
+  courses = () =>
+    this.db.collection("Courses");
+
+  /////////////////////////////////////////////////////////
+  // Course Collection API
+  /////////////////////////////////////////////////////////
+  
+  // Return a reference to all the assignments associated with a course
+  // specified by course name
+  // Implicitly assumes that there will never be two courses with the same name
+  assignments = courseName =>
+    this.db.collection("Assignments").where("Course", "==", courseName);
+
+  // Create a new assignment for a course
+  createAssignment() {
+
+  };
+
+  /////////////////////////////////////////////////////////
+  // Simulation Collection API
+  /////////////////////////////////////////////////////////
+
+  // Returns a reference to the simulation specified by simulationName
+  // Implicitly assumes that there will never be two simulations with the same name
+  simulation = simulationName =>
+    this.db.collection("Simulations").where("Name", "==", simulationName);
+
+  // Returns a reference to the simulations collection
+  simulations = () =>
+    this.db.collection("Simulations");
+
+  /////////////////////////////////////////////////////////
+  // Grades Collection API
+  /////////////////////////////////////////////////////////
+
+  /*
+
+  this.db.collection("").where("", "==", ).get()
+        .then((querySnapshot) => {
+          querySnapshot.forEach((doc) => {
+            // doc.data() is never undefined for query doc snapshots
+            // Todo
+          });
+        })
+        .catch((error) => {
+          console.log("Error getting documents: ", error);
+        });
+
+  */
+
+  
   
 }
  
