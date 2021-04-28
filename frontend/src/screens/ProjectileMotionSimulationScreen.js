@@ -40,14 +40,9 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const [ax, setAx] = useState([]);
   const [ay, setAy] = useState([]);
 
-  // TODO: do something real with the points that we recieve.
-  // Also, the simulation seems to dispatch more messages than we send
-  // of its own free will, so maybe we should do some verification that
-  // the message we got is actually a data point object.
   const handleNewPoint = function (e) {
     // Parse simulation data into the correct arrays
     if (e.data.t) {
-      console.log(e.data.t);
       setT(e.data.t.map((d) => d.toFixed(2)));
       setPx(e.data.px.map((d) => d.toFixed(2)));
       setPy(e.data.py.map((d) => d.toFixed(2)));

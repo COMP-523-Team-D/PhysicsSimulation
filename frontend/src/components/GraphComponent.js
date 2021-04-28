@@ -2,29 +2,34 @@ import { Line } from "react-chartjs-2";
 import { useEffect, useRef, useState } from "react";
 
 const GraphComponent = ({ ind, dep, ...rest }) => {
-  const [p1, setP1] = useState(null);
-  const [p2, setP2] = useState(null);
-
-  const width = 200;
-  const height = 200;
-
   const ref = useRef();
 
-  function handleClick(e, element) {
-    // /console.log(e.chart.config.data.datasets);
-    let dataSet = e.chart.config.data.datasets;
+  const [dataArr, setDataArr] = useState([]);
 
+  const initializeData = () => {
+    let tempArr = [];
+    for (let i = 0; i <= ind?.length; i++) {
+      tempArr.push({ x: ind[i], y: dep[i] });
+    }
+    setDataArr(tempArr);
+  };
+
+  useEffect(() => {
+    ind && dep && initializeData();
+  }, [ind, dep]);
+
+  function handleClick(e, element) {
+    let dataSet = e.chart.config.data.datasets;
     // Add y value
-    dataSet[1].data.push(e.y.toFixed(2).toString());
+    dataSet[1].data.push({ x: e.x.toFixed(2).toString(), y: e.y.toFixed(2) });
     e.chart.update();
   }
 
   const data = {
-    labels: ind,
     datasets: [
       {
         label: "Simulation",
-        data: dep,
+        data: dataArr,
         fill: false,
         borderColor: "rgb(75, 192, 192)",
         tension: 0.1,
@@ -36,17 +41,6 @@ const GraphComponent = ({ ind, dep, ...rest }) => {
         tension: 0.1,
       },
     ],
-  };
-
-  const options = {
-    scales: {
-      y: {
-        suggestedMax: 30,
-      },
-      x: { type: "linear", suggestedMax: 6, suggestedMin: 3 },
-    },
-    maintainAspectRatio: false,
-    onClick: { handleClick },
   };
 
   return (
