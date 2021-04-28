@@ -36,8 +36,8 @@ const dummyAssignment = {
   simulation: {
     simName: "Projectile Motion",
     simSrcPath: "../../phetsims/projectile-motion/projectile-motion_en.html",
-    simVariables: ["Initial Speed", "Cannon Angle", "Cannon Height"]
-  }
+    simVariables: ["Initial Speed", "Cannon Angle", "Cannon Height"],
+  },
 };
 
 const App = () => {
@@ -48,22 +48,35 @@ const App = () => {
         <Route
           exact
           path={ROUTES.LANDING_SCREEN}
-          component={() => <LandingScreen className="LandingScreen"/>}
+          component={() => <LandingScreen className="LandingScreen" />}
         />
         <Route
           exact
           path={ROUTES.REGISTER_SCREEN}
-          component={() => <RegisterScreen className="RegisterScreen"/>}
+          component={() => <RegisterScreen className="RegisterScreen" />}
         />
         <Route
           exact
           path={ROUTES.LOGIN_SCREEN}
-          component={() => <LoginScreen className="LoginScreen"/>}
+          component={() => <LoginScreen className="LoginScreen" />}
         />
+        {/* remove this before pushing*/}
+        <Route
+          exact
+          path={"/simulation"}
+          component={() => (
+            <ProjectileMotionSimulationScreen
+              data={dummyUserInfo}
+              assignment={dummyAssignment}
+              className="ProblemScreen"
+            />
+          )}
+        />
+        {/*end remove*/}
         <Route
           exact
           path={ROUTES.HOME_SCREEN}
-          component={() => <HomeScreen className="HomeScreen"/>}
+          component={() => <HomeScreen className="HomeScreen" />}
         />
         <Route
           exact
@@ -78,27 +91,32 @@ const App = () => {
         <Route
           exact
           path={ROUTES.PROFILE_SCREEN}
-          component={() => <ProfileScreen className="ProfileScreen"/>}
+          component={() => <ProfileScreen className="ProfileScreen" />}
         />
         <Route
           exact
           path={ROUTES.BUILD_SCREEN + "/:courseName"}
-          component={() => (<BuildScreen className="BuildScreen"/>)}
+          component={() => <BuildScreen className="BuildScreen" />}
         />
         <Route
           exact
           path={ROUTES.SANDBOX_SCREEN + "/:simulationName"}
-          component={() => <SandboxScreen className="SandboxScreen"/>}
+          component={() => <SandboxScreen className="SandboxScreen" />}
         />
         <Route
           exact
           path={ROUTES.COURSE_SCREEN + "/:courseName"}
-          component={() => <CourseScreen className="CourseScreen"/>}
+          component={() => <CourseScreen className="CourseScreen" />}
         />
         <Route
           exact
-          path={ROUTES.COURSE_SCREEN + "/:courseName" + ROUTES.ASSIGNMENT_SCREEN + "/:assignmentName"}
-          component={() => <AssignmentScreen className="AssignmentScreen"/>}
+          path={
+            ROUTES.COURSE_SCREEN +
+            "/:courseName" +
+            ROUTES.ASSIGNMENT_SCREEN +
+            "/:assignmentName"
+          }
+          component={() => <AssignmentScreen className="AssignmentScreen" />}
         />
       </Container>
     </Router>

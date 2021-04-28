@@ -16,8 +16,21 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const { simulation } = assignment;
   const { simName, simSrcPath } = simulation;
 
-  const [loading, setLoading] = useState(false);
-  const [count, setCount] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [initialXAxis, setInitialXAxis] = useState();
+  function setUpXAxis() {
+    let arr = [0];
+    let num = 0.2;
+    for (let i = 0; i <= 20; i++) {
+      arr.push(num.toFixed(2));
+      num += 0.2;
+    }
+    setInitialXAxis(arr);
+  }
+
+  useEffect(() => {
+    setUpXAxis();
+  }, []);
 
   const [t, setT] = useState([]);
   const [px, setPx] = useState([]);
@@ -32,42 +45,32 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   // of its own free will, so maybe we should do some verification that
   // the message we got is actually a data point object.
   const handleNewPoint = function (e) {
-    if (e.data.t === 0) {
-      setLoading(true);
-      setT([e.data.t.toFixed(2)]);
-      setPx([e.data.px.toFixed(2)]);
-      setPy([e.data.py.toFixed(2)]);
-      setVx([e.data.vx.toFixed(2)]);
-      setVy([e.data.vy.toFixed(2)]);
-      setAx([e.data.ax.toFixed(2)]);
-      setAy([e.data.ay.toFixed(2)]);
-    } else if (e.data.t) {
-      if (e.data.vx == 0 && e.data.vy == 0) setLoading(false);
-      if (count % 4 == 0) {
-        setT([...t, e.data.t.toFixed(2)]);
-        setPx([...px, e.data.px.toFixed(2)]);
-        setPy([...py, e.data.py.toFixed(2)]);
-        setVx([...vx, e.data.vx.toFixed(2)]);
-        setVy([...vy, e.data.vy.toFixed(2)]);
-        setAx([...ax, e.data.ax.toFixed(2)]);
-        setAy([...ay, e.data.ay.toFixed(2)]);
-      }
+    // Parse simulation data into the correct arrays
+    if (e.data.t) {
+      console.log(e.data.t);
+      setT(e.data.t.map((d) => d.toFixed(2)));
+      setPx(e.data.px.map((d) => d.toFixed(2)));
+      setPy(e.data.py.map((d) => d.toFixed(2)));
+      setVx(e.data.vx.map((d) => d.toFixed(2)));
+      setVy(e.data.vy.map((d) => d.toFixed(2)));
+      setAx(e.data.ax.map((d) => d.toFixed(2)));
+      setAy(e.data.ay.map((d) => d.toFixed(2)));
+      setLoading(false);
     }
-    setCount((prev) => prev + 1);
   };
 
   // Dummy simulation parameters to fix
   const fixedVariables = {
-    height : 5,
-    velocity : 15,
-    angle : 45
-  }
+    height: 5,
+    velocity: 15,
+    angle: 45,
+  };
   // TODO : Replace with a real database query
   const getParameters = () => {
-    return new Promise(resolve => {
-      setTimeout(() => resolve(fixedVariables), 1000)
-    })
-  }
+    return new Promise((resolve) => {
+      setTimeout(() => resolve(fixedVariables), 1000);
+    });
+  };
 
   // Sets up the communication between the frontend and the simulation
   // when the screen is initially rendered.
@@ -78,23 +81,15 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
     // Send fixed parameters to the simulation (if any),
     // and then alert the iframe that it needs to refresh.
     getParameters().then(function (params) {
-      window.sessionStorage.setItem('fixedVariables', JSON.stringify(params));
+      window.sessionStorage.setItem("fixedVariables", JSON.stringify(params));
       setReloadIframe(reloadIframe + 1);
     });
 
     return function cleanup() {
       window.removeEventListener("message", handleNewPoint);
     };
-<<<<<<< HEAD
-  });
-  function handleClick(e) {
-    e.preventDefault();
-    alert(e);
-  }
-=======
   }, []);
 
->>>>>>> a4f67839d3ea9f8213f8d6759aa0e5a61c483480
   return (
     <Container className="simulation-container">
       <Row className="d-md-flex justify-content-center">
@@ -124,9 +119,8 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphComponent
-                        onClick={(e) => handleClick(e)}
                         className="bg-white"
-                        ind={!loading && t}
+                        ind={loading ? initialXAxis : t}
                         dep={!loading && px}
                       />
                     </Container>

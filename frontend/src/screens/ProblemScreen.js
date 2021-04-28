@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
 import GraphCanvasComponent from "../components/GraphCanvasComponent";
+import GraphComponent from "../components/GraphComponent";
 
 const ProblemScreen = ({ data, assignment }) => {
   const { typeEnum, firstName, lastName, courses } = data;
@@ -22,7 +23,7 @@ const ProblemScreen = ({ data, assignment }) => {
   var handleNewPoint = function (e) {
     console.log("Message recieved");
     console.log(e.data);
-  }
+  };
 
   // This sets up the communication between the frontend and the simulation
   // when the screen is rendered.

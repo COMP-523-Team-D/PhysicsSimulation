@@ -10,16 +10,17 @@ const GraphComponent = ({ ind, dep, ...rest }) => {
 
   const ref = useRef();
 
-  // function handleClick(e, element) {
-  //   // If first point is null, save as p1
-  //   if (!p1) setP1([e.x, e.y]);
-  //   // If second point is null, save as p2
-  //   else if (!p2) setP2([e.x, e.y]);
-  //   console.log(e);
-  // }
+  function handleClick(e, element) {
+    // /console.log(e.chart.config.data.datasets);
+    let dataSet = e.chart.config.data.datasets;
+
+    // Add y value
+    dataSet[1].data.push(e.y.toFixed(2).toString());
+    e.chart.update();
+  }
 
   const data = {
-    labels: ind.length > 1 ? ind : [0, 1, 2, 3, 4, 5, 6],
+    labels: ind,
     datasets: [
       {
         label: "Simulation",
@@ -28,7 +29,12 @@ const GraphComponent = ({ ind, dep, ...rest }) => {
         borderColor: "rgb(75, 192, 192)",
         tension: 0.1,
       },
-      // { label: "My guess", data: [], fill: false, tension: 0.1 },
+      {
+        borderColor: "rgb(247, 166, 243)",
+        label: "My best guess",
+        data: [],
+        tension: 0.1,
+      },
     ],
   };
 
