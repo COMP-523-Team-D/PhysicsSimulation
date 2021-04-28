@@ -64,6 +64,10 @@ define( function( require ) {
   var AIR_RESISTANCE_ICON = ProjectileMotionConstants.AIR_RESISTANCE_ICON;
   var MINUS_ROOM_FOR_COMBO_BOX = 3; // px, to move the dropdown up ever so slightly to buy more room
 
+  // COMP 523 addition
+  var gravity = parseInt(JSON.parse(window.sessionStorage.getItem('fixedVariables')).gravity);
+  console.log(gravity);
+
   /**
    * @param {Node} comboBoxListParent - node for containing the combobox
    * @param {KeypadLayer} keypadLayer - for entering values
@@ -330,6 +334,13 @@ define( function( require ) {
             delta: 0.01,
           }, numberControlOptions )
         );
+         // COMP 523 addition:
+        // optionally disable ability to change gravity
+        gravitySpecificProjectileTypeBox.setPickable(isNaN(gravity));
+        if (!isNaN(gravity)) {
+          gravityProperty.set(gravity);
+          gravitySpecificProjectileTypeBox.setOpacity(0.5);
+        }
         altitudeSpecificProjectileTypeBox = new NumberControl(
           altitudeString, altitudeProperty,
           ProjectileMotionConstants.ALTITUDE_RANGE, _.extend( {
@@ -376,6 +387,12 @@ define( function( require ) {
             gravityProperty,
             ProjectileMotionConstants.GRAVITY_RANGE
           );
+          // COMP 523 addition:
+          // optionally disable ability to change gravity
+          gravityCustomBox.setPickable(isNaN(gravity));
+          if (!isNaN(gravity)) {
+            initialSpeedPanel.setOpacity(0.5);
+          }
           altitudeCustomBox = createParameterControlBox(
             altitudeString,
             mString,

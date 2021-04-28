@@ -37,6 +37,9 @@ define( function( require ) {
   var TEXT_BACKGROUND_OPTIONS = ProjectileMotionConstants.TEXT_BACKGROUND_OPTIONS;
   var TEXT_DISPLAY_MARGIN = 2;
 
+  // COMP 523 addition
+  var targetLocation = parseInt(JSON.parse(window.sessionStorage.getItem('fixedVariables')).target);
+
   /**
    * @param {Score} score - model of the target and scoring algorithms
    * @param {Property.<ModelViewTransform2>} transformProperty
@@ -88,6 +91,10 @@ define( function( require ) {
     
     // center on model's targetXProperty
     target.center = transformProperty.get().modelToViewPosition( Vector2.createFromPool( score.targetXProperty.get(), 0 ) );
+
+    if (!isNaN(targetLocation)) {
+      targetXProperty.set(targetLocation);
+    }
     
     // add target to scene graph
     this.addChild( target );
@@ -108,9 +115,11 @@ define( function( require ) {
         // change in x, view units
         var xChange = mousePoint.x - startPoint.x;
 
-        targetXProperty.set( Util.roundSymmetric( transformProperty.get().viewToModelX(
-          Util.clamp( startX + xChange, screenView.layoutBounds.minX, screenView.layoutBounds.maxX )
-        ) * 10 ) / 10 );
+        if (isNaN(targetLocation)) {
+          targetXProperty.set( Util.roundSymmetric( transformProperty.get().viewToModelX(
+            Util.clamp( startX + xChange, screenView.layoutBounds.minX, screenView.layoutBounds.maxX )
+          ) * 10 ) / 10 );
+        }
       },
 
       allowTouchSnag: true
