@@ -40,8 +40,8 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
   const [ax, setAx] = useState([]);
   const [ay, setAy] = useState([]);
 
+  // Parse simulation data into the correct arrays
   const handleNewPoint = function (e) {
-    // Parse simulation data into the correct arrays
     if (e.data.t) {
       setT(e.data.t.map((d) => d.toFixed(2)));
       setPx(e.data.px.map((d) => d.toFixed(2)));
