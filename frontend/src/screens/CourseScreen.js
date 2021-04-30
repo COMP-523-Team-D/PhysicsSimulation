@@ -98,9 +98,9 @@ class CourseBase extends Component {
                     </Row>
                   ))}
                   <Row >
-                    <Card style={{ width: "100%", margin: "1rem" }} className="buildAssignmentCard">
+                    <Card className="buildAssignmentCard full-width text-center">
                       <Card.Header className="bg-secondary">
-                        <Card.Title className="coursePageCardTitle">
+                        <Card.Title className="coursePageCardTitle ">
                           Build A New Assignment
                         </Card.Title>
                       </Card.Header>

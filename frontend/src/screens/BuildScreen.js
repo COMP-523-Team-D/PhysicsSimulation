@@ -260,29 +260,32 @@ class BuildFormBase extends Component{
    * motion simulation.
    */
   computeMaxTime = (angle, speed, height, gravity) => {
-    return Math.ceil( (1/gravity)*( Math.sin(angle)*speed + Math.sqrt( Math.pow(Math.sin(angle)*speed, 2) + 4*gravity*height ) ) );
+    return Math.ceil( (1/gravity)*( Math.sin(Math.PI*(angle/180))*speed + Math.sqrt( Math.pow(Math.sin(Math.PI*(angle/180))*speed, 2) + 4*gravity*height ) ) );
   };
   computeMaxXposition = (angle, speed, height, gravity) => {
-    return Math.ceil( Math.cos(angle)*speed*this.computeMaxTime(angle, speed, height, gravity) );
+    return Math.ceil( Math.cos(Math.PI*(angle/180))*speed*this.computeMaxTime(angle, speed, height, gravity) );
   };
   computeMaxYposition = (angle, speed, height, gravity) => {
-    return ( Math.sin(angle) > 0 ? Math.ceil( height + Math.pow(Math.sin(angle)*speed , 2)/(2*gravity) ) : height );
+    return ( Math.sin(Math.PI*(angle/180)) > 0 ? Math.ceil( height + Math.pow(Math.sin(Math.PI*(angle/180))*speed , 2)/(2*gravity) ) : height );
   };
   computeXvelocity = (angle, speed) => {
-    return Math.ceil( Math.cos(angle)*speed );
+    return Math.ceil( Math.cos(Math.PI*(angle/180))*speed );
   };
   computeMaxYvelocity = (angle, speed) => {
-    return ( Math.sin(angle) > 0 ? Math.ceil( Math.sin(angle)*speed ) : 0 );
+    return ( Math.sin(Math.PI*(angle/180)) > 0 ? Math.ceil( Math.sin(Math.PI*(angle/180))*speed ) : 0 );
   };
   computeMinYvelocity = (angle, speed, height, gravity) => {
-    return -Math.ceil( Math.sqrt( Math.pow(Math.sin(angle)*speed , 2) + 4*gravity*height ) );
+    return -Math.ceil( Math.sqrt( Math.pow(Math.sin(Math.PI*(angle/180))*speed , 2) + 4*gravity*height ) );
   };
 
   /*
    * Helper function to set the scale for each type of graph
    * within Projectile Motion. All values or computations performed
    * here were derived from the structure of the projectile motion
-   * simulation. 
+   * simulation.
+   * Speed is in m/s
+   * Height is in m
+   * Angle is in degrees 
    */
   updateProjectileMotionAxes = (problem) => {
     const MAX_SPEED = 30;
@@ -480,7 +483,7 @@ class BuildFormBase extends Component{
   conditionallyRenderPage(index) {
     if(index === 0) {
       return(
-        <Container className="d-flex align-contents-center build-sim-card-1">
+        <Container className="d-flex align-content-center build-sim-card-1">
           <Col>
             <Row>
               <Form.Group as={Col} controlId="formGridCourseName">
@@ -500,30 +503,40 @@ class BuildFormBase extends Component{
                 />
               </Form.Group>
             </Row>
-            <Row>
+            <Row >
               <Form.Group as={Col} controlId="formGridReleaseDate">
-                <Form.Label>Assignment Release Date</Form.Label>
-                <DatePicker
-                  selected={this.state.assignment.releaseDate}
-                  showTimeSelect
-                  timeFormat="HH:mm"
-                  timeIntervals={30}
-                  timeCaption="Time"
-                  dateFormat="MMMM d, yyyy h:mm aa"
-                  onChange={this.onReleaseDateChange}
-                />
+                <Col className="d-flex justify-content-center">
+                  <Form.Label>Assignment Release Date</Form.Label>
+                </Col>
+                <Col className="d-flex justify-content-center">
+                    <DatePicker 
+                      selected={this.state.assignment.releaseDate}
+                      showTimeSelect
+                      timeFormat="HH:mm"
+                      timeIntervals={30}
+                      timeCaption="Time"
+                      dateFormat="MMMM d, yyyy h:mm aa"
+                      onChange={this.onReleaseDateChange}
+                    />
+                </Col>
               </Form.Group>
+            </Row>
+            <Row>
               <Form.Group as={Col} controlId="formGridCloseDate">
-                <Form.Label>Assignment Close Date</Form.Label>
-                <DatePicker
-                  selected={this.state.assignment.closeDate}
-                  showTimeSelect
-                  timeFormat="HH:mm"
-                  timeIntervals={30}
-                  timeCaption="Time"
-                  dateFormat="MMMM d, yyyy h:mm aa"
-                  onChange={this.onCloseDateChange}
-                />
+                <Col className="d-flex justify-content-center">
+                  <Form.Label>Assignment Close Date</Form.Label>
+                </Col>
+                <Col className="d-flex justify-content-center">
+                    <DatePicker className=""
+                      selected={this.state.assignment.closeDate}
+                      showTimeSelect
+                      timeFormat="HH:mm"
+                      timeIntervals={30}
+                      timeCaption="Time"
+                      dateFormat="MMMM d, yyyy h:mm aa"
+                      onChange={this.onCloseDateChange}
+                    />
+                </Col>
               </Form.Group>
             </Row>
             <Row>

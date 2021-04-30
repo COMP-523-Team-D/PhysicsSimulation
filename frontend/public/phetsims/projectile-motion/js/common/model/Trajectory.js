@@ -273,10 +273,13 @@ define( function( require ) {
 
           // COMP 523 addition:
           // Add the last point and then send the data to our frontend.
+          // Commented out to stop additional zero data from being sent for the velocity and acceleration
+          /*
           collectPoint(newPoint.time,
             newPoint.position.x, newPoint.position.y,
             newPoint.velocity.x, newPoint.velocity.y,
             newPoint.acceleration.x, newPoint.acceleration.y);
+          */
           sendDataToReact();
           
         }

@@ -98,9 +98,14 @@ Body {
     background: rgba(210,180,140, .3);
 }
 
-.questions-card-body, .build-card-body {
+.questions-card-body {
     max-height: 80vh;
     min-height: 55vh;
+    overflow-y: auto;
+}
+
+.build-card-body {
+    height: 80vh;
     overflow-y: auto;
 }
 
@@ -163,4 +168,9 @@ a:link, a:visited {
 }
 .course-button:hover, .register-button:hover, .login-button:hover {
     border: none;
+}
+
+.full-width {
+    width: 100%;
+    margin: 1rem;
 }

@@ -15,18 +15,24 @@ const GraphComponent = ({
   // reference to pass to Line graph
   const ref = useRef();
 
+  // Size of Predicted Answer Array
+  const predictionArraySize = 50;
+
   // Array of values for x axis
   const [label, setLabel] = useState([]);
   // Values that
   const [dataArr, setDataArr] = useState([]);
   // Array to store student response points
-  const [graphAnswers, setGraphAnswers] = useState([]);
+  const [pointsClicked, setPointsClicked] = useState([]);
+  const [predictedAnswer, setPredictedAnswer] = useState([]);
+
+
 
   // Create x,y pairs from independent and dependent data arrays
   // and then add each pair/object to dataArr
   const initializeData = () => {
     let tempArr = [];
-    for (let i = 0; i <= ind?.length; i++) {
+    for (let i = 0; i < ind?.length; i++) {
       tempArr.push({ x: ind[i], y: dep[i] });
     }
     setDataArr(tempArr);
@@ -36,6 +42,11 @@ const GraphComponent = ({
   useEffect(() => {
     ind && dep && initializeData();
   }, [ind, dep]);
+
+  // Perform answer prediction when a new point is added by the user
+  useEffect(() => {
+    predictAnswer();
+  }, [pointsClicked]);
 
   // function to set up initial scale with given params for
   // max x and y values passed as props
@@ -57,6 +68,69 @@ const GraphComponent = ({
   useEffect(() => {
     setUpInitScale(xMin, yMin, xMax, yMax);
   }, []);
+
+  const predictAnswer = () => {
+    switch(pointsClicked.length) {
+      case 1:
+        computeConstant();
+        break;
+
+      case 2:
+        computeLine();
+        break;
+
+      case 3:
+        computeParabola();
+        break;
+
+      default:
+        break;
+    }
+  }
+
+
+  const computeConstant = () => {
+    const newPrediction = [];
+    const scale = (xMax-xMin)/predictionArraySize;
+    for(let i=0; i<predictionArraySize; i++) {
+      newPrediction.push({x: i*scale, y: pointsClicked[0].y });
+    }
+
+    setPredictedAnswer( newPrediction );
+  }
+
+  const computeLine = () => {
+    const slope = (pointsClicked[0].y - pointsClicked[1].y) / (pointsClicked[0].x - pointsClicked[1].x);
+    const newPrediction = [];
+    const scale = (xMax-xMin)/predictionArraySize;
+    for(let i=0; i<predictionArraySize; i++) {
+      newPrediction.push({x: i*scale, y: pointsClicked[0].y + slope*(i*scale - pointsClicked[0].x) });
+    }
+
+    setPredictedAnswer(newPrediction);
+  }
+
+  const computeParabola = () => {
+    const x0 = pointsClicked[0].x;
+    const x1 = pointsClicked[1].x;
+    const x2 = pointsClicked[2].x;
+    const y0 = pointsClicked[0].y;
+    const y1 = pointsClicked[1].y;
+    const y2 = pointsClicked[2].y;
+
+    const a = -( x0*y1 - x1*y0 - x0*y2 + x2*y0 + x1*y2 - x2*y1 ) / ( (x0 - x1)*(x0 - x2)*(x1 - x2) );
+    const b =  ( (x0**2)*y1 - (x1**2)*y0 - (x0**2)*y2 + (x2**2)*y0 + (x1**2)*y2 - (x2**2)*y1 ) / ( (x0 - x1)*(x0 - x2)*(x1 - x2) );
+    const c =  -( -y2*(x0**2)*x1 + y1*(x0**2)*x2 + y2*x0*(x1**2) - y1*x0*(x2**2) - y0*(x1**2)*x2 + y0*x1*(x2**2)) / ( (x0 - x1)*(x0 - x2)*(x1 - x2) );
+    
+    const newPrediction = [];
+    const scale = (xMax-xMin)/predictionArraySize;
+    for(let i=0; i<predictionArraySize; i++) {
+      newPrediction.push({x: i*scale, y: a*((i*scale)**2) + b*(i*scale) + c });
+    }
+
+    setPredictedAnswer(newPrediction);
+  }
+
 
   // Pulls chart from the event and
   // inserts a new x,y pair into the guess line
@@ -81,15 +155,14 @@ const GraphComponent = ({
     const yDataPoint = yChartRatio*yAxisScale;
 
 
-
     // Repeat for the width and height of the graph
     //const w = e.chart.width;
     //const h = e.chart.height;
     const newPoint = {x: xDataPoint, y: yDataPoint};
-    console.log(newPoint);
 
-    setGraphAnswers( oldAnswers => [ ...oldAnswers, newPoint] )
+    setPointsClicked( oldPoints => [ ...oldPoints, newPoint]);
 
+    // Chart updated in setPointsClicked callback function
     e.chart.update();
   }
 
@@ -105,11 +178,18 @@ const GraphComponent = ({
       },
       {
         label: "Prediction",
-        data: graphAnswers,
+        data: predictedAnswer,
         fill: false,
         borderColor: "rgb(247, 166, 243)",
         tension: 0.1,
       },
+      {
+        label: "User Clicks",
+        data: pointsClicked,
+        fill: false,
+        borderColor: "rgb(0, 0, 0)",
+        tension: 0.1
+      }
     ],
   };
 
