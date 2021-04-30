@@ -115,6 +115,10 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                     <Container className="d-flex justify-content-center align-content-center">
                       <GraphComponent
                         className="bg-white"
+                        xMin={0.0}
+                        xMax={7}
+                        yMin={0.0}
+                        yMax={30}
                         ind={loading ? initialXAxis : t}
                         dep={!loading && px}
                       />
