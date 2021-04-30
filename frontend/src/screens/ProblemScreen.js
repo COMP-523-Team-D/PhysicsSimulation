@@ -1,355 +1,323 @@
-import { Card, Col, Container, Row, Button } from "react-bootstrap";
+import { Card, Col, Container, Row, Button, Form } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import QandA from "../components/QandA";
-import SimulationContainerComponent from "../components/SimulationContainerComponent";
-import GraphCanvasComponent from "../components/GraphCanvasComponent";
+import { withFirebase } from "../Firebase";
+import { AuthUserContext, withAuthorization } from "../Session";
 import GraphComponent from "../components/GraphComponent";
 
-const ProblemScreen = ({ data, assignment }) => {
-  const { typeEnum, firstName, lastName, courses } = data;
-  const { name, questions } = assignment;
-  const [qIndex, setqIndex] = useState(1);
+const ProblemScreen = (props) => {
+  const [problemName, setProblemName] = useState("");
+  const [simulation, setSimulation] = useState({});
+  const [parameters, setParameters] = useState({});
+  const [graphs, setGraphs] = useState([]);
+  const [questions, setQuestions] = useState([]);
+  const [answers, setAnswers] = useState([]);
 
-  const { simulation } = assignment;
-  const { simName, simSrcPath, simVariables } = simulation;
+  // Update this state (add 1) whenever we have new parameters for the simulation.
+  // This will alert the iframe that it needs to refresh.
+  const [reloadIframe, setReloadIframe] = useState(0);
 
-  // Temp data for testing graphing
-  const points = [0, 0, 50, 100, 100, 0];
+  const [loading, setLoading] = useState(true);
+  const [initialXAxis, setInitialXAxis] = useState();
+  function setUpXAxis() {
+    let arr = [0];
+    let num = 0.2;
+    for (let i = 0; i <= 20; i++) {
+      arr.push(num.toFixed(2));
+      num += 0.2;
+    }
+    setInitialXAxis(arr);
+  }
 
-  // TODO: do something real with the points that we recieve.
-  // Also, the simulation seems to dispatch more messages than we send
-  // of its own free will, so maybe we should do some verification that
-  // the message we got is actually a data point object.
-  var handleNewPoint = function (e) {
-    console.log("Message recieved");
-    console.log(e.data);
+  useEffect(() => {
+    setUpXAxis();
+  }, []);
+
+  const [t, setT] = useState([]);
+  const [px, setPx] = useState([]);
+  const [py, setPy] = useState([]);
+  const [vx, setVx] = useState([]);
+  const [vy, setVy] = useState([]);
+  const [ax, setAx] = useState([]);
+  const [ay, setAy] = useState([]);
+
+  // function for handling data points from projectile motion simulation
+  const handleNewPoint = function (e) {
+    // Parse simulation data into the correct arrays
+    if (e.data.t) {
+      console.log(e.data.t);
+      setT(e.data.t.map((d) => d.toFixed(2)));
+      setPx(e.data.px.map((d) => d.toFixed(2)));
+      setPy(e.data.py.map((d) => d.toFixed(2)));
+      setVx(e.data.vx.map((d) => d.toFixed(2)));
+      setVy(e.data.vy.map((d) => d.toFixed(2)));
+      setAx(e.data.ax.map((d) => d.toFixed(2)));
+      setAy(e.data.ay.map((d) => d.toFixed(2)));
+      setLoading(false);
+    }
   };
 
-  // This sets up the communication between the frontend and the simulation
-  // when the screen is rendered.
+  // Sets up the communication between the frontend and the simulation
+  // when the screen is initially rendered.
   useEffect(() => {
+    setProblemName(props.location.state.problem["Name"]);
+    setSimulation(props.location.state.problem["Simulation"]);
+    setParameters(props.location.state.problem["Parameters"]);
+    setGraphs(props.location.state.problem["Graphs"]);
+    setQuestions(props.location.state.problem["Questions"]);
+
+    const fixedVariables = {
+      height: props.location.state.problem.Parameters["height"],
+      velocity: props.location.state.problem.Parameters["velocity"],
+      angle: props.location.state.problem.Parameters["angle"]
+    };
+
+    // Listen for information about cannon fires
     window.addEventListener("message", handleNewPoint);
+
+    // Send fixed parameters to the simulation (if any),
+    // and then alert the iframe that it needs to refresh.
+    window.sessionStorage.setItem('fixedVariables', JSON.stringify(fixedVariables));
+    setReloadIframe(reloadIframe + 1);
+
     return function cleanup() {
+      window.sessionStorage.clear();
       window.removeEventListener("message", handleNewPoint);
     };
-  });
+  }, []);
+
+  const onTextAnswerChange = event => {
+    const newAnswers = answers;
+    newAnswers[parseInt(event.target.name)] = event.target.value;
+    setAnswers( newAnswers );
+  }
+
+  const onSubmit = event => {
+    event.preventDefault();
+    console.log(answers);
+  };
 
   return (
     <Container className="simulation-container">
+      <Form onSubmit={onSubmit} >
       <Row className="d-md-flex justify-content-center">
-        <Col
-          sm={12}
-          md={8}
-          className="d-flex d-md-block align-content-center justify-content-center"
-        >
-          <Container>
-            <Row className="mt-4 pt-3">
-              <Col className="d-flex justify-content-center">
-                <SimulationContainerComponent
-                  simVariables={simVariables}
-                  simName={simName}
-                  simSrcPath={simSrcPath}
-                />
-              </Col>
-            </Row>
-            <Row className="my-5 justify-content-center mt-5 graph-container d-md-flex d-none ">
-              <Col className="graph my-5">
-                <Card className="d-flex graph-card">
-                  <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
-                  </Card.Header>
-                  <Card.Body className="graph-card-body">
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
-                        className="bg-white"
-                        points={points}
-                      />
-                    </Container>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col className="graph my-5">
-                <Card className="d-flex graph-card">
-                  <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
-                  </Card.Header>
-                  <Card.Body className="graph-card-body">
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
-                        className="bg-white"
-                        points={points}
-                      />
-                    </Container>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-            <Row className="my-5 justify-content-center mt-5 graph-container d-md-flex d-none ">
-              <Col className="graph my-5">
-                <Card className="d-flex graph-card">
-                  <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
-                  </Card.Header>
-                  <Card.Body className="graph-card-body">
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
-                        className="bg-white"
-                        points={points}
-                      />
-                    </Container>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col className="graph my-5">
-                <Card className="d-flex graph-card">
-                  <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
-                  </Card.Header>
-                  <Card.Body className="graph-card-body">
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
-                        className="bg-white"
-                        points={points}
-                      />
-                    </Container>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-
-            <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
-              <Col className="graph my-5">
-                <Card className="d-flex graph-card">
-                  <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
-                  </Card.Header>
-                  <Card.Body className="graph-card-body">
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
-                        className="bg-white"
-                        points={points}
-                      />
-                    </Container>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-            <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
-              <Col className="graph my-5">
-                <Card className="d-flex graph-card">
-                  <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
-                  </Card.Header>
-                  <Card.Body className="graph-card-body">
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
-                        className="bg-white"
-                        points={points}
-                      />
-                    </Container>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-            <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
-              <Col className="graph my-5">
-                <Card className="d-flex graph-card">
-                  <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
-                  </Card.Header>
-                  <Card.Body className="graph-card-body">
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
-                        className="bg-white"
-                        points={points}
-                      />
-                    </Container>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-            <Row className="my-5 d-md-none d-xs-flex flex-xs-row">
-              <Col className="graph my-5">
-                <Card className="d-flex align-content-center graph-card">
-                  <Card.Header className="graph-card-header d-flex">
-                    <Card.Title className="mr-auto">A Graph Title</Card.Title>
-                    <span className="ml-auto justify-self-end tool-bag">
-                      <i className="fas fa-tools fa-1.5x"></i>
-                    </span>
-                  </Card.Header>
-                  <Card.Body className="graph-card-body">
-                    <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
-                        className="bg-white"
-                        points={points}
-                      />
-                    </Container>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
+        <Col sm={12} md={8} className="d-flex d-md-block align-content-center justify-content-center">
+          <iframe
+            key={reloadIframe}
+            className="phet-sim"
+            src={`../../../../${simulation["Source"]}`}
+            scrolling="no"
+            allowFullScreen
+            title={simulation["Name"]}
+          ></iframe>
         </Col>
-        <Col className="d-none d-md-flex mt-5 align-content-center text-center questions-card-col">
+        <Col className="d-none d-md-block align-content-center text-center questions-card-col">
           <Card className="d-flex align-self-center questions-card">
             <Card.Header>
-              <Container className="d-flex align-content-center">
-                <span className="mr-auto">
-                  <button
-                    type="button"
-                    className={
-                      "btn btn-outline scroll-btn" +
-                      (qIndex == 1 ? " disabled" : " not-disabled")
-                    }
-                    onClick={() => {
-                      qIndex - 1 > 0 && setqIndex((prev) => prev - 1);
-                    }}
-                  >
-                    <i className="fas fa-angle-left"></i>
-                  </button>
-                </span>
-                <span className="align-self-center">
-                  Question {qIndex} of {questions.length}
-                </span>
-                <span className="ml-auto">
-                  <button
-                    type="button"
-                    className={
-                      "btn btn-outline scroll-btn" +
-                      (qIndex == questions.length
-                        ? " disabled"
-                        : " not-disabled")
-                    }
-                    onClick={() => {
-                      qIndex + 1 < questions.length + 1 &&
-                        setqIndex((prev) => prev + 1);
-                    }}
-                  >
-                    <i className="fas fa-angle-right"></i>
-                  </button>
-                </span>
-              </Container>
+              Answer These Questions
             </Card.Header>
             <Card.Body className="questions-card-body">
-              <Card.Title className="card-title my-4">
-                Answer These Questions
-              </Card.Title>
-              <Row className="d-flex justify-content-center p-2 my-4">
-                <QandA />
-              </Row>
-              <Row className="d-flex justify-content-center">
-                <h2 className="question-sub-header">PUT TEXT HERE</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci commodi delectus deleniti dolor dolorem est facilis
-                  hic impedit, in laboriosam magnam nisi nulla possimus, quaerat
-                  quibusdam rem saepe tenetur velit?
-                </p>
-              </Row>
-              <Row className="d-flex justify-content-center">
-                <h2 className="question-sub-header">PUT TEXT HERE</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci commodi delectus deleniti dolor dolorem est facilis
-                  hic impedit, in laboriosam magnam nisi nulla possimus, quaerat
-                  quibusdam rem saepe tenetur velit?
-                </p>
-              </Row>
+              {questions.map((question, localIndex) => (
+                <Form.Group key={localIndex}>
+                  <Form.Label>
+                    Question {localIndex+1} of {questions.length}: {question}
+                  </Form.Label>
+                  <Form.Control
+                    name={localIndex}
+                    as="textarea"
+                    rows={3}
+                    value={answers[localIndex]}
+                    onChange={onTextAnswerChange}
+                  >
+                  </Form.Control>
+                </Form.Group>
+              ))}
+              <Button
+                className="bg-secondary"
+                variant="primary"
+                type="submit"
+              >
+              Submit
+              </Button>
             </Card.Body>
           </Card>
         </Col>
-        <Row className="d-flex d-md-none my-5">
-          <Card className="d-flex align-self-center questions-card">
-            <Card.Header>
-              <Container className="d-flex align-content-center">
-                <span className="mr-auto">
-                  <button
-                    type="button"
-                    className={
-                      "btn btn-outline scroll-btn" +
-                      (qIndex == 1 ? " disabled" : " not-disabled")
-                    }
-                    onClick={() => {
-                      qIndex - 1 > 0 && setqIndex((prev) => prev - 1);
-                    }}
-                  >
-                    <i className="fas fa-angle-left"></i>
-                  </button>
-                </span>
-                <span className="align-self-center">
-                  Question {qIndex} of {questions.length}
-                </span>
-                <span className="ml-auto">
-                  <button
-                    type="button"
-                    className={
-                      "btn btn-outline scroll-btn" +
-                      (qIndex == questions.length
-                        ? " disabled"
-                        : " not-disabled")
-                    }
-                    onClick={() => {
-                      qIndex + 1 < questions.length + 1 &&
-                        setqIndex((prev) => prev + 1);
-                    }}
-                  >
-                    <i className="fas fa-angle-right"></i>
-                  </button>
-                </span>
-              </Container>
-            </Card.Header>
-            <Card.Body className="questions-card-body">
-              <Card.Title className="card-title my-4">
-                Answer These Questions
-              </Card.Title>
-              <Row className="d-flex justify-content-center p-2 my-4">
-                <QandA />
-              </Row>
-              <Row className="d-flex justify-content-center">
-                <h2 className="question-sub-header">PUT TEXT HERE</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci commodi delectus deleniti dolor dolorem est facilis
-                  hic impedit, in laboriosam magnam nisi nulla possimus, quaerat
-                  quibusdam rem saepe tenetur velit?
-                </p>
-              </Row>
-              <Row className="d-flex justify-content-center">
-                <h2 className="question-sub-header">PUT TEXT HERE</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Adipisci commodi delectus deleniti dolor dolorem est facilis
-                  hic impedit, in laboriosam magnam nisi nulla possimus, quaerat
-                  quibusdam rem saepe tenetur velit?
-                </p>
-              </Row>
-            </Card.Body>
-          </Card>
-        </Row>
       </Row>
+      <Row className="my-5 justify-content-center mt-5 graph-container d-md-flex d-none ">
+        <Col>
+          {graphs.filter( graph => graph.yAxis==="x-position").map((graph) => (
+            <Card key={graph.title} className="d-flex graph-card">
+              <Card.Header className="graph-card-header d-flex">
+                <Card.Title className="mr-auto">
+                  {graph.title}
+                </Card.Title>
+                <span className="ml-auto justify-self-end tool-bag">
+                  <i className="fas fa-tools fa-1.5x"></i>
+                </span>
+              </Card.Header>
+              <Card.Body className="graph-card-body">
+                <Container className="d-flex justify-content-center align-content-center">
+                  <GraphComponent
+                    className="bg-white"
+                    ind={loading ? initialXAxis : t}
+                    dep={!loading && px}
+                    xMin={graph.xMin}
+                    xMax={graph.xMax}
+                    yMin={graph.yMin}
+                    yMax={graph.yMax}
+                  />
+                </Container>
+              </Card.Body>
+            </Card>
+          ))}
+        </Col>
+        <Col>
+          {graphs.filter( graph => graph.yAxis==="x-velocity").map((graph) => (
+              <Card key={graph.title} className="d-flex graph-card">
+                <Card.Header className="graph-card-header d-flex">
+                  <Card.Title className="mr-auto">
+                    {graph.title}
+                  </Card.Title>
+                  <span className="ml-auto justify-self-end tool-bag">
+                    <i className="fas fa-tools fa-1.5x"></i>
+                  </span>
+                </Card.Header>
+                <Card.Body className="graph-card-body">
+                  <Container className="d-flex justify-content-center align-content-center">
+                    <GraphComponent
+                      className="bg-white"
+                      ind={loading ? initialXAxis : t}
+                      dep={!loading && vx}
+                      xMin={graph.xMin}
+                      xMax={graph.xMax}
+                      yMin={graph.yMin}
+                      yMax={graph.yMax}
+                    />
+                  </Container>
+                </Card.Body>
+              </Card>
+            ))} 
+        </Col>
+        <Col>
+          {graphs.filter( graph => graph.yAxis==="x-acceleration").map((graph) => (
+              <Card key={graph.title} className="d-flex graph-card">
+                <Card.Header className="graph-card-header d-flex">
+                  <Card.Title className="mr-auto">
+                    {graph.title}
+                  </Card.Title>
+                  <span className="ml-auto justify-self-end tool-bag">
+                    <i className="fas fa-tools fa-1.5x"></i>
+                  </span>
+                </Card.Header>
+                <Card.Body className="graph-card-body">
+                  <Container className="d-flex justify-content-center align-content-center">
+                    <GraphComponent
+                      className="bg-white"
+                      ind={loading ? initialXAxis : t}
+                      dep={!loading && ax}
+                      xMin={graph.xMin}
+                      xMax={graph.xMax}
+                      yMin={graph.yMin}
+                      yMax={graph.yMax}
+                    />
+                  </Container>
+                </Card.Body>
+              </Card>
+            ))}    
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          {graphs.filter( graph => graph.yAxis==="y-position").map((graph) => (
+          <Card key={graph.title} className="d-flex graph-card">
+            <Card.Header className="graph-card-header d-flex">
+              <Card.Title className="mr-auto">
+                {graph.title}
+              </Card.Title>
+              <span className="ml-auto justify-self-end tool-bag">
+                <i className="fas fa-tools fa-1.5x"></i>
+              </span>
+            </Card.Header>
+            <Card.Body className="graph-card-body">
+              <Container className="d-flex justify-content-center align-content-center">
+                <GraphComponent
+                  className="bg-white"
+                  ind={loading ? initialXAxis : t}
+                  dep={!loading && py}
+                  xMin={graph.xMin}
+                  xMax={graph.xMax}
+                  yMin={graph.yMin}
+                  yMax={graph.yMax}
+                />
+              </Container>
+            </Card.Body>
+          </Card>
+          ))}
+        </Col>
+        <Col>
+          {graphs.filter( graph => graph.yAxis==="y-velocity").map((graph) => (
+            <Card key={graph.title} className="d-flex graph-card">
+              <Card.Header className="graph-card-header d-flex">
+                <Card.Title className="mr-auto">
+                  {graph.title}
+                </Card.Title>
+                <span className="ml-auto justify-self-end tool-bag">
+                  <i className="fas fa-tools fa-1.5x"></i>
+                </span>
+              </Card.Header>
+              <Card.Body className="graph-card-body">
+                <Container className="d-flex justify-content-center align-content-center">
+                  <GraphComponent
+                    className="bg-white"
+                    ind={loading ? initialXAxis : t}
+                    dep={!loading && vy}
+                    xMin={graph.xMin}
+                    xMax={graph.xMax}
+                    yMin={graph.yMin}
+                    yMax={graph.yMax}
+                  />
+                </Container>
+              </Card.Body>
+            </Card>
+          ))}
+        </Col>
+        <Col>
+          {graphs.filter( graph => graph.yAxis==="y-acceleration").map((graph) => (
+            <Card key={graph.title} className="d-flex graph-card">
+              <Card.Header className="graph-card-header d-flex">
+                <Card.Title className="mr-auto">
+                  {graph.title}
+                </Card.Title>
+                <span className="ml-auto justify-self-end tool-bag">
+                  <i className="fas fa-tools fa-1.5x"></i>
+                </span>
+              </Card.Header>
+              <Card.Body className="graph-card-body">
+                <Container className="d-flex justify-content-center align-content-center">
+                  <GraphComponent
+                    className="bg-white"
+                    ind={loading ? initialXAxis : t}
+                    dep={!loading && ay}
+                    xMin={graph.xMin}
+                    xMax={graph.xMax}
+                    yMin={graph.yMin}
+                    yMax={graph.yMax}
+                  />
+                </Container>
+              </Card.Body>
+            </Card>
+          ))}
+        </Col>
+      </Row>
+      </Form>
     </Container>
   );
 };
 
-export default ProblemScreen;
+const condition = (authUserData) => !!authUserData;
+
+export default withAuthorization(condition)(ProblemScreen);
+
+
+
+
+

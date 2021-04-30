@@ -62,11 +62,6 @@ const NavigationNonAuth = () => (
 
         <Navbar.Collapse id="basic-navbar-nav" className="">
           <Nav className="ml-auto innerNav">
-
-            <LinkContainer to={ROUTES.PROBLEM_SCREEN}>
-              <Nav.Link>Problem</Nav.Link>
-            </LinkContainer>
-
             <LinkContainer to={ROUTES.LOGIN_SCREEN}>
               <Nav.Link>Login</Nav.Link>
             </LinkContainer>

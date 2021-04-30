@@ -4,9 +4,13 @@ import { withFirebase } from "../Firebase";
 import { AuthUserContext, withAuthorization } from "../Session";
 import { Container } from "react-bootstrap";
 import * as ROUTES from "../constants/routes";
-import { Card, Col, Row, Button } from "react-bootstrap";
+import { Card, Row, Button } from "react-bootstrap";
 
-const CourseScreen = () => <CourseScreenBase/>;
+const CourseScreen = () => (
+  <AuthUserContext.Consumer>
+  {authUserData => <CourseScreenBase authUserData={authUserData}/>}
+  </AuthUserContext.Consumer>
+);
 
 const INITIAL_STATE = {
   courseName: "",
@@ -58,8 +62,6 @@ class CourseBase extends Component {
 
   render() {
     return (
-      <AuthUserContext.Consumer>
-        {(authUserData) => (
           <Container className="profile-container">
             <Card style={{ width: "100%", margin: "auto" }}>
               <Card.Header className="bg-secondary">
@@ -74,16 +76,21 @@ class CourseBase extends Component {
                       <Card style={{ width: "18rem", margin: "1rem" }} className="coursePageCard">
                         <Card.Header className="bg-secondary">
                           <Card.Title className="coursePageCardTitle">
+                            {assignment["Name"]}
                           </Card.Title>
                         </Card.Header>
                         <Card.Body >
-
-                          <Card.Text>{assignment["Name"]}</Card.Text>
                           <Button
                             className="course-button bg-secondary"
                             variant="primary"
                           >
-                            More Details
+                            <Link to={{
+                              pathname: ROUTES.COURSE_SCREEN + `/${this.state.courseName.replace(/\s+/g, '_')}` +
+                                        ROUTES.ASSIGNMENT_SCREEN + `/${assignment["Name"].replace(/\s+/g, '_')}`,
+                              state: {assignment: this.state.assignments[index]}    
+                            }} className="assignment-link">
+                                Visit Assignment
+                            </Link>
                           </Button>
 
                         </Card.Body>
@@ -94,17 +101,18 @@ class CourseBase extends Component {
                     <Card style={{ width: "100%", margin: "1rem" }} className="buildAssignmentCard">
                       <Card.Header className="bg-secondary">
                         <Card.Title className="coursePageCardTitle">
+                          Build A New Assignment
                         </Card.Title>
                       </Card.Header>
                       <Card.Body>
-
-                        <Card.Text>Build A New Assignment</Card.Text>
-
                         <Button
                           className="course-button bg-secondary"
                           variant="primary"
                           >
-                            <Link to={ROUTES.BUILD_SCREEN + `/${this.state.courseName.replace(/\s+/g, '_')}`} className="build-link">
+                            <Link to={{
+                              pathname: ROUTES.BUILD_SCREEN + `/${this.state.courseName.replace(/\s+/g, '_')}`,
+                              state: {assignmentIndex: this.state.assignments.length}
+                            }} className="build-link">
                               Start Building!
                             </Link>
                         </Button>
@@ -116,8 +124,6 @@ class CourseBase extends Component {
               </Card.Body>
             </Card>
           </Container>
-        )}
-      </AuthUserContext.Consumer>
     );
   }
 };

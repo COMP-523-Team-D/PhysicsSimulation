@@ -38,8 +38,10 @@ define( function( require ) {
   var TEXT_DISPLAY_MARGIN = 2;
 
   // COMP 523 addition
-  var targetLocation = parseInt(JSON.parse(window.sessionStorage.getItem('fixedVariables')).target);
-
+  if(window.sessionStorage.getItem('fixedVariables')) {
+    var targetLocation = parseInt(JSON.parse(window.sessionStorage.getItem('fixedVariables')).target);
+  }
+  
   /**
    * @param {Score} score - model of the target and scoring algorithms
    * @param {Property.<ModelViewTransform2>} transformProperty

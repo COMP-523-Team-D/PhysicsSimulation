@@ -1,4 +1,4 @@
-import { Line } from "react-chartjs-2";
+import { Scatter } from "react-chartjs-2";
 import { useEffect, useRef, useState } from "react";
 
 const GraphComponent = ({
@@ -62,14 +62,34 @@ const GraphComponent = ({
   // inserts a new x,y pair into the guess line
   // that corresponds to where the click was on the graph
   function handleClick(e) {
+    const yAxisPixelPos = e.chart.chartArea.left;
+    const xAxisPixelPos = e.chart.chartArea.bottom;
+    const xAxisPixelScale = e.chart.chartArea.right - e.chart.chartArea.left;
+    const yAxisPixelScale = e.chart.chartArea.bottom - e.chart.chartArea.top;
+    const xAxisScale = xMax - xMin;
+    const yAxisScale  = yMax - yMin;
+
     // // Pull in x and y values of click and account for the
     // // graph does not start at 0,0
-    const x = e.x;
-    const y = e.y;
+    const xChartPixelLength = e.x - yAxisPixelPos;
+    const yChartPixelLength = xAxisPixelPos - e.y;
+    
+    const xChartRatio = xChartPixelLength/xAxisPixelScale;
+    const yChartRatio = yChartPixelLength/yAxisPixelScale;
+
+    const xDataPoint = xChartRatio*xAxisScale;
+    const yDataPoint = yChartRatio*yAxisScale;
+
+
 
     // Repeat for the width and height of the graph
-    const w = e.chart.width;
-    const h = e.chart.height;
+    //const w = e.chart.width;
+    //const h = e.chart.height;
+    const newPoint = {x: xDataPoint, y: yDataPoint};
+    console.log(newPoint);
+
+    setGraphAnswers( oldAnswers => [ ...oldAnswers, newPoint] )
+
     e.chart.update();
   }
 
@@ -84,16 +104,17 @@ const GraphComponent = ({
         tension: 0.1,
       },
       {
-        borderColor: "rgb(247, 166, 243)",
         label: "Prediction",
-        data: [],
+        data: graphAnswers,
+        fill: false,
+        borderColor: "rgb(247, 166, 243)",
         tension: 0.1,
       },
     ],
   };
 
   return (
-    <Line
+    <Scatter
       className="graph"
       ref={ref}
       data={data}
@@ -106,10 +127,10 @@ const GraphComponent = ({
           y: {
             min: yMin,
             max: yMax,
-            beginAtZero: true,
           },
           x: {
-            beginAtZero: true,
+            min: xMin,
+            max: xMax,
           },
         },
       }}

@@ -1,3 +1,11 @@
+/**
+ * Repository for the static routes used
+ * by the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ */
+
 export const LANDING_SCREEN = '/';
 export const HOME_SCREEN = '/home';
 export const REGISTER_SCREEN = '/register';

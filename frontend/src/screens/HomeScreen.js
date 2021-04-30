@@ -6,7 +6,11 @@ import { AuthUserContext, withAuthorization } from "../Session";
 import * as ROUTES from "../constants/routes";
 import "../App.css";
 
-const HomeScreen = () => <HomeScreenBase/>;
+const HomeScreen = () => (
+  <AuthUserContext.Consumer>
+    {authUserData => <HomeScreenBase authUserData={authUserData}/>}
+  </AuthUserContext.Consumer>
+);
 
 const INITIAL_STATE = {
   SIMULATIONS: []
@@ -41,8 +45,6 @@ class HomeBase extends Component {
 
   render() {
     return (
-      <AuthUserContext.Consumer>
-        {(authUserData) => (
           <Container>
             <Row className="m-4"> </Row>
             <Row className="my-5 d-block d-md-flex justify-content-center">
@@ -82,10 +84,10 @@ class HomeBase extends Component {
                     </Card.Title>
                   </Card.Header>
                   <Card.Body>
-                    {authUserData["Courses"] != null
+                    {this.props.authUserData["Courses"] != null
                       ?
                         (<Container fluid="md" className="class-container">
-                          {authUserData["Courses"].map((course, index) => (
+                          {this.props.authUserData["Courses"].map((course, index) => (
                             <Link to={ROUTES.COURSE_SCREEN + `/${course.replace(/\s+/g, '_')}`} key={index} className="course-link">   
                               {course}
                               <br/>
@@ -105,7 +107,7 @@ class HomeBase extends Component {
                       <span>
                         <i className="fas fa-user fa-1.5x mr-2"></i>{" "}
                       </span>
-                      <Link to={ROUTES.PROFILE_SCREEN} className="profile-link">
+                      <Link to={ROUTES.PROFILE_SCREEN + `/${this.props.authUserData["First Name"]}_${this.props.authUserData["Last Name"]}`} className="profile-link">
                         My Profile
                       </Link>
                     </Card.Title>
@@ -126,8 +128,6 @@ class HomeBase extends Component {
             </Row>
             <Row className="m-4"></Row>
           </Container>
-        )}
-      </AuthUserContext.Consumer>
     );
   }
 };

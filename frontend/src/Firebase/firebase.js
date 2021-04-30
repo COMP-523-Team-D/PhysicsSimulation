@@ -47,17 +47,19 @@ class Firebase {
   doSignOut = () =>
     this.auth.signOut();
 
-  /*
-   *  Not implemented
-   *
-  doPasswordReset = email =>
-    this.auth.sendPasswordResetEmail(email);
- 
-  doPasswordUpdate = password =>
-    this.auth.currentUser.updatePassword(password);
-  */
-
   /* FIRESTORE API */
+
+  /////////////////////////////////////////////////////////
+  // Extra
+  /////////////////////////////////////////////////////////
+
+  // Returns a timestamp from the firebase server
+  getTimestamp = () =>
+    firebase.firestore.Timestamp.now();
+
+  // Converts a Firebase timestamp object to a date
+  getDate = (timestamp) => timestamp.toDate();
+    
 
   /////////////////////////////////////////////////////////
   // User Collection API
@@ -69,15 +71,8 @@ class Firebase {
   // Returns a reference to all documents associated with instructors
   instructors = () => this.db.collection("Users").where("isInstructor", "==", true);
 
-  doCreateNewUserDocument = (uid, firstName, lastName, instructors, courses) =>
-    this.db.collection("Users").doc(uid).set({
-      "Created": firebase.firestore.Timestamp.now(),
-      "First Name": firstName,
-      "Last Name": lastName,
-      isInstructor: false,
-      Instructors: instructors,
-      Courses: courses
-    });
+  doCreateNewUserDocument = uid =>
+    this.db.collection("Users").doc(uid);
 
   getAuthorizedUserData = uid => 
     this.db.collection("Users").doc(uid).get();
@@ -96,19 +91,22 @@ class Firebase {
     this.db.collection("Courses");
 
   /////////////////////////////////////////////////////////
-  // Course Collection API
+  // Assignment Collection API
   /////////////////////////////////////////////////////////
+
+  // Return a reference to the assignment specified by assignmentName
+  assignment = assignmentName =>
+    this.db.collection("Assignments").where("Name", "==", assignmentName);
   
   // Return a reference to all the assignments associated with a course
-  // specified by course name
+  // specified by course name and ordered by assignment name
   // Implicitly assumes that there will never be two courses with the same name
   assignments = courseName =>
-    this.db.collection("Assignments").where("Course", "==", courseName);
+    this.db.collection("Assignments").where("Course Name", "==", courseName).orderBy("Name");
 
   // Create a new assignment for a course
-  createAssignment() {
-
-  };
+  doCreateNewAssignment = () =>
+    this.db.collection("Assignments").doc();
 
   /////////////////////////////////////////////////////////
   // Simulation Collection API
@@ -124,25 +122,14 @@ class Firebase {
     this.db.collection("Simulations");
 
   /////////////////////////////////////////////////////////
-  // Grades Collection API
+  // Submissions Collection API
   /////////////////////////////////////////////////////////
 
-  /*
-
-  this.db.collection("").where("", "==", ).get()
-        .then((querySnapshot) => {
-          querySnapshot.forEach((doc) => {
-            // doc.data() is never undefined for query doc snapshots
-            // Todo
-          });
-        })
-        .catch((error) => {
-          console.log("Error getting documents: ", error);
-        });
-
-  */
-
-  
+  // Returns a reference to all the submissions associated with a
+  // user specified by user ID and ordered by course name
+  // Implicitly assumes that there will never be two courses with the same name
+  submissions = uid =>
+    this.db.collection("Submissions").where("UID", "==", uid).orderBy("Course Name");
   
 }
  

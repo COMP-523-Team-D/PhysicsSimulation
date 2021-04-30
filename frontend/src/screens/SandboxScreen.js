@@ -1,9 +1,18 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the /sandbox/:simulationName routes within the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ */
+
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import { withFirebase } from '../Firebase';
 import { Container, Col, Row} from "react-bootstrap";
 import "../App.css";
 
+// Top-level JSX component
 const SandboxScreen = () => <FreeSimulation />;
 
 const INITIAL_STATE = {
@@ -11,6 +20,7 @@ const INITIAL_STATE = {
   simSource: ""
 };
 
+// React Component containing logic and rendered content
 class FreeSimulationBase extends Component {
   constructor(props) {
     super(props);
@@ -20,10 +30,14 @@ class FreeSimulationBase extends Component {
   }
 
   componentDidMount() {
+    // Retrieves the name of the simulation from the route's pathname
     const simulationName = this.props.match.params.simulationName.replace(/_+/g, ' ');
     
+    // Saves the callback function returned by the Firestore database access
     this.setState({
       unsubscribeSimulation:
+        // Connects to the Firestore database using locally defined
+        // API calls from Firebase/firebase.js
         this.props.firebase.simulation(simulationName)
             .onSnapshot((querySnapshot) => {
               querySnapshot.forEach((doc) => {
@@ -35,6 +49,7 @@ class FreeSimulationBase extends Component {
   }
 
   componentWillUnmount() {
+    // Calls the stored callback function to close the database connection
     this.state.unsubscribeSimulation();
   }
 
@@ -67,6 +82,7 @@ class FreeSimulationBase extends Component {
   }
 }
 
+// Intermediate JSX component declared with access to Router and Firebase state
 const FreeSimulation = withRouter(withFirebase(FreeSimulationBase));
 
 export default SandboxScreen;

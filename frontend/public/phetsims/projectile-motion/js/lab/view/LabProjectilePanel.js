@@ -65,9 +65,10 @@ define( function( require ) {
   var MINUS_ROOM_FOR_COMBO_BOX = 3; // px, to move the dropdown up ever so slightly to buy more room
 
   // COMP 523 addition
-  var gravity = parseInt(JSON.parse(window.sessionStorage.getItem('fixedVariables')).gravity);
-  console.log(gravity);
-
+  if(window.sessionStorage.getItem('fixedVariables')) {
+    var gravity = parseInt(JSON.parse(window.sessionStorage.getItem('fixedVariables')).gravity);
+  }
+  
   /**
    * @param {Node} comboBoxListParent - node for containing the combobox
    * @param {KeypadLayer} keypadLayer - for entering values

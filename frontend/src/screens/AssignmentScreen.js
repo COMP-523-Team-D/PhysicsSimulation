@@ -1,67 +1,62 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import { withFirebase } from "../Firebase";
 import { AuthUserContext, withAuthorization } from "../Session";
 import { Container } from "react-bootstrap";
-import { Card, Col, Row, Button } from "react-bootstrap";
+import * as ROUTES from "../constants/routes";
+import { Card, Row, Button } from "react-bootstrap";
 
-const AssignmentScreen = () => <AssignmentScreenBase/>;
-
-const INITIAL_STATE = {
-  assignmentName: "",
-  problems: []
-};
+const AssignmentScreen = () => (
+  <AuthUserContext.Consumer>
+    {authUserData => <AssignmentScreenBase authUserData={authUserData}/>}
+  </AuthUserContext.Consumer>
+);
 
 class AssignmentBase extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = { ...INITIAL_STATE };
-    this.state.unsubscribeAssignment = null;
-  }
-
-  componentDidMount() {
-    const assignmentName = this.props.match.params.assignmentName.replace(/_+/g, ' ');
-    this.setState({assignmentName: assignmentName});
-  }
-
-  componentWillUnmount() {
-    //this.state.unsubscribeAssignment();
-  }
-
   render() {
+    const {
+      assignment
+    } = this.props.location.state;
+
     return (
-      <AuthUserContext.Consumer>
-        {(authUserData) => (
           <Container className="profile-container">
             <Card style={{ width: "100%", margin: "auto" }}>
               <Card.Header className="bg-secondary">
                 <Card.Title className="profile-title">
-                  {this.state.assignmentName}: Assignments
+                  {assignment["Name"]} -- Problems
                 </Card.Title>
               </Card.Header>
               <Card.Body>
-                  <Row>
-                    <Container fluid="md" className="class-container">
-                      {this.state.problems.map((problem, index) => (
-                        <Col key={index}>
-                          <Card style={{ width: "18rem", margin: "1rem" }} className="coursePageCard">
-                            <Card.Header className="bg-secondary">
-                              <Card.Title className="coursePageCardTitle">
-                              </Card.Title>
-                            </Card.Header>
-                            <Card.Body >
-                            </Card.Body>
-                          </Card>
-                        </Col>
-                      ))}
-                    </Container>
-                  </Row>
+                {assignment["Problems"].map((problem, index) => (
+                    <Row key={index}>
+                      <Card style={{ width: "18rem", margin: "1rem" }} className="coursePageCard">
+                        <Card.Header className="bg-secondary">
+                          <Card.Title className="coursePageCardTitle">
+                            {problem["Name"]}
+                          </Card.Title>
+                        </Card.Header>
+                        <Card.Body >
+                          <Button
+                            className="course-button bg-secondary"
+                            variant="primary"
+                          >
+                            <Link to={{
+                              pathname: ROUTES.COURSE_SCREEN + `/${assignment["Course Name"].replace(/\s+/g, '_')}` +
+                                        ROUTES.ASSIGNMENT_SCREEN + `/${assignment["Name"].replace(/\s+/g, '_')}` +
+                                        ROUTES.PROBLEM_SCREEN + `/${problem["Name"].replace(/\s+/g, '_')}`,
+                              state: {problem: problem}
+                            }} className="build-link">
+                                Visit Problem
+                            </Link>
+                          </Button>
+
+                        </Card.Body>
+                      </Card>
+                    </Row>
+                ))}
               </Card.Body>
             </Card>
           </Container>
-        )}
-      </AuthUserContext.Consumer>
     );
   }
 };

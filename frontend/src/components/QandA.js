@@ -1,11 +1,10 @@
 import { FormLabel, InputGroup, FormControl } from "react-bootstrap";
 
-const QandA = (props) => {
+const QandA = ({question}) => {
   return (
     <>
       <FormLabel className="question-sub-header">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-        commodi delectus deleniti dolor dolorem est facilis hic impedit?
+        {question}
       </FormLabel>
       <InputGroup>
         <FormControl as="textarea" className="frqTextArea" />

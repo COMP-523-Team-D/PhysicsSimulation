@@ -2,21 +2,35 @@ import React, { Component } from "react";
 import DatePicker from 'react-datepicker';
 import { withRouter } from "react-router-dom";
 import { withFirebase } from "../Firebase";
+import * as ROUTES from "../constants/routes";
 import { AuthUserContext, withAuthorization } from "../Session";
 import { Button, Card, Col, Container, Row, Form } from "react-bootstrap";
 import "react-datepicker/dist/react-datepicker.css";
+import Assignment from "../components/Assignment";
+import Problem from "../components/Problem";
 
-const BuildScreen = () => <BuildForm/>;
+
+const BuildScreen = () => (
+  <AuthUserContext.Consumer>
+    {authUserData => <BuildForm authUserData={authUserData}/>}
+  </AuthUserContext.Consumer>
+);
 
 const INITIAL_STATE = {
   index: 0,
-  courseName: "",
-  assignmentName: "",
-  openDate: new Date(),
-  closeDate: new Date(),
-  problems: [],
-  selectedSimulation: null,
-  SIMULATIONS: []
+  assignment: new Assignment(),
+  PROBLEMS_MAX_NUM: 20,
+  QUESTIONS_MAX_NUM: 5,
+  GRAPHS_MAX_NUM: 6,
+  SIMULATIONS: [],
+  GRAPH_OPTIONS: [
+    "X-Position vs Time",
+    "Y-Position vs Time",
+    "X-Velocity vs Time",
+    "Y-Velocity vs Time",
+    "X-Acceleration vs Time",
+    "Y-Acceleration vs Time"
+  ]
 };
 
 class BuildFormBase extends Component{
@@ -32,7 +46,19 @@ class BuildFormBase extends Component{
 
   componentDidMount() {
     // Course Name
-    this.setState({courseName: this.props.match.params.courseName.replace(/_+/g, ' ') });
+    this.state.assignment.courseName = this.props.match.params.courseName.replace(/_+/g, ' ');
+
+    // Instructor Name
+    this.state.assignment.creator = `${this.props.authUserData["First Name"]} ${this.props.authUserData["Last Name"]}`;
+
+    // Assignment Number
+    this.state.assignment.assignmentNumber = this.props.location.state.assignmentIndex + 1;
+    
+    // Assignment Name
+    this.state.assignment.assignmentName = `Assignment ${this.props.location.state.assignmentIndex + 1}`;
+    
+    // Initialize simulation window listener
+    window.addEventListener("message", this.updateParameters, false);
 
     // Simulation database access
     this.setState({
@@ -41,7 +67,10 @@ class BuildFormBase extends Component{
             .onSnapshot((querySnapshot) => {
               let simulationsList = [];
               querySnapshot.forEach((doc) => {
-                simulationsList.push(doc.data());
+                // Build screen only supports the Projectile Motion simulation
+                if(doc.data()["Name"]==="Projectile Motion") {
+                  simulationsList.push(doc.data());
+                }
               });
 
               this.setState({SIMULATIONS: simulationsList});
@@ -50,70 +79,585 @@ class BuildFormBase extends Component{
   }
 
   componentWillUnmount() {
+    this.state.assignment.problems.length = 0;
+    this.setState({ ...INITIAL_STATE });
+    window.removeEventListener("message", this.updateParameters);
     this.state.unsubscribeSimulations();
   }
 
+  /*
+   * Beginning of onChange & onSubmit Functions
+   */
+
   onForwardClick() {
     this.setState({
-      index: (this.state.index <= 2) ? this.state.index + 1 : this.state.index
+      index: (this.state.index < this.state.assignment.problems.length) ? this.state.index + 1 : this.state.index
     });
   }
 
   onBackwardClick() {
     this.setState({
-      index: (this.state.index >= 1) ? this.state.index - 1 : this.state.index
+      index: (this.state.index > 0) ? this.state.index - 1 : this.state.index
     });
   }
 
-  onAssignmentChange = event => {
-    this.setState({[event.target.name]: event.target.value});
-  }
-
-  onOpenDateChange = date => {
-      this.setState({openDate: date});
+  onReleaseDateChange = date => {
+    if(JSON.stringify(date) <= JSON.stringify(this.state.assignment.closeDate)) {
+      this.state.assignment.releaseDate = date;
+      this.forceUpdate();
+    }
   }
 
   onCloseDateChange = date => {
-    this.setState({closeDate: date});
+    if ( JSON.stringify(this.state.assignment.releaseDate) <= JSON.stringify(date) ) {
+      this.state.assignment.closeDate = date;
+      this.forceUpdate();  
+    }      
   }
 
-  onSubmit = event => {
+  onProblemNumberChange = event => {
+    let newProblemsArray = [];
+    for(let i = 0; i < event.target.value; i++) {
+      if(i < this.state.assignment.problems.length) {
+        newProblemsArray.push(this.state.assignment.problems[i]);
+      }else {
+        newProblemsArray.push(new Problem(i+1));
+      }
+    }
+      
+    this.state.assignment.problems = newProblemsArray;
+    this.forceUpdate();
+  }
 
-    event.preventDefault();
+  onQuestionNumberChange = event => {
+    const currentProblem = this.state.assignment.problems[this.state.index - 1];
+
+    let newQuestionsArray = [];
+    for(let i = 0; i < event.target.value; i++) {
+      if(i < currentProblem.questions.length) {
+        newQuestionsArray.push(currentProblem.questions[i]);
+      }else {
+        newQuestionsArray.push("");
+      }
+    }
+
+    currentProblem.questions = newQuestionsArray;
+    this.forceUpdate();
+  }
+
+  onGraphNumberChange = event => {
+    const currentProblem = this.state.assignment.problems[this.state.index - 1];
+
+    let newGraphsArray = [];
+    for(let i = 0; i < event.target.value; i++) {
+      if(i < currentProblem.graphs.length) {
+        newGraphsArray.push(currentProblem.graphs[i]);
+      }else {
+        newGraphsArray.push({
+          title: "",
+          yAxis: "",
+          xAxis: "time",
+          xMax: NaN,
+          xMin: NaN,
+          yMax: NaN,
+          yMin: NaN
+        });
+      }
+    }
+
+    currentProblem.graphs= newGraphsArray;
+    this.forceUpdate();
+  }
+
+  onQuestionChange = event => {
+    const currentProblem = this.state.assignment.problems[this.state.index - 1];
+    currentProblem.questions[event.target.name] = event.target.value;
+    this.forceUpdate();
+  }
+
+  onGraphChange = event => {
+    const currentGraph = this.state.assignment.problems[this.state.index - 1].graphs[parseInt(event.target.name)];
+    currentGraph["title"] = event.target.value;
+    switch(event.target.value) {
+      case "X-Position vs Time":
+        currentGraph["yAxis"] = "x-position";
+        break;
+
+      case "Y-Position vs Time":
+        currentGraph["yAxis"] = "y-position";
+        break;
+
+      case "X-Velocity vs Time":
+        currentGraph["yAxis"] = "x-velocity";
+        break;
+
+      case "Y-Velocity vs Time":
+        currentGraph["yAxis"] = "y-velocity";
+        break;
+
+      case "X-Acceleration vs Time":
+        currentGraph["yAxis"] = "x-acceleration";
+        break;
+
+      case "Y-Acceleration vs Time":
+        currentGraph["yAxis"] = "y-acceleration";
+        break;
+
+      default:
+        currentGraph["yAxis"] = "";
+    }
+    this.forceUpdate();
   }
 
   onSimulationChange = event => {
-    this.setState({
-      selectedSimulation:
-        this.state.SIMULATIONS.find((simulation) => simulation["Name"] === event.target.value)
+    const currentProblem = this.state.assignment.problems[this.state.index - 1];
+    if(event.target.value !== "") {
+      currentProblem.simulation = this.state.SIMULATIONS.find((simulation) => simulation["Name"] === event.target.value);
+      this.state.SIMULATIONS.find((simulation) => simulation["Name"] === event.target.value)["Parameters"].forEach((parameter) => {
+        currentProblem.parameters[parameter] = NaN;
+        currentProblem.parameters[`${parameter}Fixed`] = false;
+      });
+    }else {
+      currentProblem.simulation = {
+        Name: "",
+        Source: "",
+        Parameters: []
+      };
+      currentProblem.parameters = {};
+    }
+    
+    this.forceUpdate();
+  }
+
+  onParameterFixChange = event => {
+    const currentProblem = this.state.assignment.problems[this.state.index - 1];
+    currentProblem.parameters[`${event.target.name}Fixed`] = !currentProblem.parameters[`${event.target.name}Fixed`];
+    this.forceUpdate();
+  }
+
+  onParameterValueChange = event => {
+    document.getElementById("Simulation Frame").contentWindow.postMessage("Request Parameters", '*');
+  }
+
+  updateParameters = event => {
+      if (event.data['check'] && event.data['check'] === "Parameters Requested") {
+        const currentProblem = this.state.assignment.problems[this.state.index - 1];
+
+        currentProblem.simulation["Parameters"].forEach((parameter) => {
+          if(currentProblem.parameters[`${parameter}Fixed`]) {
+            currentProblem.parameters[parameter] = event.data[parameter];
+          }
+        });
+      }   
+      this.forceUpdate();
+  }
+
+  /*
+   * Helper functions to compute maximum and minimum
+   * values to set the scale for each type of graph
+   * within Projectile Motion. Each equation was
+   * derived from the structure of the projectile
+   * motion simulation.
+   */
+  computeMaxTime = (angle, speed, height, gravity) => {
+    return Math.ceil( (1/gravity)*( Math.sin(angle)*speed + Math.sqrt( Math.pow(Math.sin(angle)*speed, 2) + 4*gravity*height ) ) );
+  };
+  computeMaxXposition = (angle, speed, height, gravity) => {
+    return Math.ceil( Math.cos(angle)*speed*this.computeMaxTime(angle, speed, height, gravity) );
+  };
+  computeMaxYposition = (angle, speed, height, gravity) => {
+    return ( Math.sin(angle) > 0 ? Math.ceil( height + Math.pow(Math.sin(angle)*speed , 2)/(2*gravity) ) : height );
+  };
+  computeXvelocity = (angle, speed) => {
+    return Math.ceil( Math.cos(angle)*speed );
+  };
+  computeMaxYvelocity = (angle, speed) => {
+    return ( Math.sin(angle) > 0 ? Math.ceil( Math.sin(angle)*speed ) : 0 );
+  };
+  computeMinYvelocity = (angle, speed, height, gravity) => {
+    return -Math.ceil( Math.sqrt( Math.pow(Math.sin(angle)*speed , 2) + 4*gravity*height ) );
+  };
+
+  /*
+   * Helper function to set the scale for each type of graph
+   * within Projectile Motion. All values or computations performed
+   * here were derived from the structure of the projectile motion
+   * simulation. 
+   */
+  updateProjectileMotionAxes = (problem) => {
+    const MAX_SPEED = 30;
+    const MAX_HEIGHT = 15;
+    const gravity = 9.807;
+    const angle = problem.parameters.angleFixed ? problem.parameters.angle : 90;
+    const speed = problem.parameters.velocityFixed ? problem.parameters.velocity : MAX_SPEED;
+    const height = problem.parameters.heightFixed ? problem.parameters.height : MAX_HEIGHT;
+
+    problem.graphs.forEach((graph) => {
+      switch(graph.title) {
+        case "X-Position vs Time":
+          // Special angle derived from kinematics equations to maximize the x-position
+          const anglePosition = problem.parameters.angleFixed ? problem.parameters.angle : 45;
+          
+          graph.xMin = 0;
+          graph.xMax = this.computeMaxTime(angle, speed, height, gravity);
+          graph.yMin = 0;
+          graph.yMax = this.computeMaxXposition(anglePosition, speed, height, gravity);
+
+          break;
+    
+        case "Y-Position vs Time":
+          graph.xMin = 0;
+          graph.xMax = this.computeMaxTime(angle, speed, height, gravity);
+          graph.yMin = 0;
+          graph.yMax = this.computeMaxYposition(angle, speed, height, gravity);
+          
+          break;
+    
+        case "X-Velocity vs Time":
+          // Special angle derived from kinematics equations to maximize the x-velocity
+          const angleVelocity = problem.parameters.angleFixed ? problem.parameters.angle : 0;
+          const xVelocity = this.computeXvelocity(angleVelocity, speed, height, gravity);
+
+          graph.xMin = 0;
+          graph.xMax = this.computeMaxTime(angle, speed, height, gravity);
+          graph.yMin = 0;
+          graph.yMax = xVelocity + 5; // 5 added for a buffer on the top of the graph
+
+          break;
+    
+        case "Y-Velocity vs Time":
+          graph.xMin = 0;
+          graph.xMax = this.computeMaxTime(angle, speed, height, gravity);
+          graph.yMin = this.computeMinYvelocity(angle, speed, height, gravity);
+          graph.yMax = this.computeMaxYvelocity(angle, speed);
+
+          break;
+    
+        case "X-Acceleration vs Time":
+          graph.xMin = 0;
+          graph.xMax = this.computeMaxTime(angle, speed, height, gravity);
+          graph.yMin = -15; // - 15 for a buffer around 0
+          graph.yMax = 15; // 15 for a buffer around 0
+
+          break;
+    
+        case "Y-Acceleration vs Time":
+          graph.xMin = 0;
+          graph.xMax = this.computeMaxTime(angle, speed, height, gravity);
+          graph.yMin = -15; // - 15 for a buffer around -9.807
+          graph.yMax = 15; // 15 for a buffer around the incorrect answer of 9.807
+
+          break;
+    
+        default:
+          break;
+      }
     });
+  }
+
+  onSubmit = event => {
+    event.preventDefault();
+
+    /*
+     * Calculate the x-axis and y-axis scale for each graph
+     * in each problem based on the chosen simulation and the
+     * fixed parameters.
+     * Only Projectile Motion is supported at this time.
+     */
+    this.state.assignment.problems.forEach((problem) => {
+      switch(problem.simulation["Name"]) {
+        case "Projectile Motion":
+          this.updateProjectileMotionAxes(problem);
+          break;
+  
+        default:
+          break;
+      }
+    });
+
+    const course = this.state.assignment.courseName;
+    const finishedAssignment = this.state.assignment.convert();
+    finishedAssignment["Created"] = this.props.firebase.getTimestamp();
+
+    this.props.firebase.doCreateNewAssignment()
+        .set(finishedAssignment)
+        .then(() => {
+          this.props.history.push(ROUTES.COURSE_SCREEN + `/${course.replace(/\s+/g, '_')}`);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    
+  }
+
+  /*
+   * Beginning of Conditional Rendering Logic!
+   */
+
+  selectLabel(label) {
+    switch(label) {
+      case "height":
+        return "Cannon Height";
+
+      case "angle":
+        return "Cannon Angle";
+
+      case "velocity":
+        return "Initial Speed";
+      
+      default:
+        return "";
+    }
   }
 
   selectHeader(index) {
     switch(index) {
       case 0:
-        return `${this.state.courseName}: Assignment Details`;
-        break;
-
-      case 1:
-        return "Choose Your Simulation";
-        break;
-
-      case 2:
-        return "Select and Set Initial Variables";
-        break;
+        return "Assignment Details";
 
       default:
-        return "";
+        return `Problem ${index}`;
+    }
+  }
+
+  conditionallyRenderSimulation(index) {
+    if( index > 0 && this.state.assignment.problems[index - 1].simulation["Name"] !== "") {
+      return(
+        <Container className="d-flex justify-content-center">
+          <Col>
+            <Row className="d-flex justify-content-center">
+              <h3>Configure the Simulation to Fix Parameters</h3>
+            </Row>
+            <Row className="my-4">
+              <Container className="d-flex justify-content-center">
+                <iframe
+                  id="Simulation Frame"
+                  src={this.state.assignment.problems[index - 1].simulation["Source"]}
+                  className="phet-sim-preview align-self-center"
+                  scrolling="no"
+                  allowFullScreen
+                  title={this.state.assignment.problems[index - 1].simulation["Name"]}
+                ></iframe>
+                  <Form.Group as={Col}>
+                    <Form.Label>Choose the Parameters to Fix</Form.Label>
+                    {this.state.assignment.problems[index - 1].simulation["Parameters"].map((parameter, localIndex) => (
+                      <div key={localIndex} className="mb-3">
+                        <Form.Check
+                          name={parameter}
+                          checked={this.state.assignment.problems[index - 1].parameters[`${parameter}Fixed`]}
+                          type={"checkbox"}
+                          label={`${this.selectLabel(parameter)}: ${this.state.assignment.problems[index-1].parameters[parameter]}`}
+                          onChange={this.onParameterFixChange}
+                        />
+                      </div>
+                    ))}
+                  </Form.Group>
+              </Container>
+            </Row>
+            <Row className="d-flex justify-content-center">
+                <Button
+                  className="bg-secondary"
+                  variant="primary"
+                  onClick={this.onParameterValueChange}
+                >
+                  Save Parameter Choices
+                </Button>
+            </Row>
+          </Col>
+        </Container>
+      );
+    }else {
+      return(
+        <Container className="d-flex justify-content-center">
+          <h2 className="display-4 text-center phet-sim-preview-alt my-5">
+            Select a Simulation To Preview
+          </h2>
+        </Container>
+      );
+    }
+  }
+
+  conditionallyRenderPage(index) {
+    if(index === 0) {
+      return(
+        <Container className="d-flex align-contents-center build-sim-card-1">
+          <Col>
+            <Row>
+              <Form.Group as={Col} controlId="formGridCourseName">
+                <Form.Label>Course Name</Form.Label>
+                <Form.Control
+                  readOnly
+                  type="text"
+                  placeholder={this.state.assignment.courseName}
+                />
+              </Form.Group>
+              <Form.Group as={Col} controlId="formGridAssignmentName">
+                <Form.Label>Assignment Name</Form.Label>
+                <Form.Control
+                  readOnly
+                  type="text"
+                  placeholder={this.state.assignment.assignmentName}
+                />
+              </Form.Group>
+            </Row>
+            <Row>
+              <Form.Group as={Col} controlId="formGridReleaseDate">
+                <Form.Label>Assignment Release Date</Form.Label>
+                <DatePicker
+                  selected={this.state.assignment.releaseDate}
+                  showTimeSelect
+                  timeFormat="HH:mm"
+                  timeIntervals={30}
+                  timeCaption="Time"
+                  dateFormat="MMMM d, yyyy h:mm aa"
+                  onChange={this.onReleaseDateChange}
+                />
+              </Form.Group>
+              <Form.Group as={Col} controlId="formGridCloseDate">
+                <Form.Label>Assignment Close Date</Form.Label>
+                <DatePicker
+                  selected={this.state.assignment.closeDate}
+                  showTimeSelect
+                  timeFormat="HH:mm"
+                  timeIntervals={30}
+                  timeCaption="Time"
+                  dateFormat="MMMM d, yyyy h:mm aa"
+                  onChange={this.onCloseDateChange}
+                />
+              </Form.Group>
+            </Row>
+            <Row>
+              <Form.Group controlId="formGridProblemNumber">
+                <Form.Label>Number of Problems in Assignment</Form.Label>
+                <Form.Control
+                  name="problemNumber"
+                  as="select"
+                  value={this.state.assignment.problems.length}
+                  onChange={this.onProblemNumberChange}
+                >
+                  <option key={0}>0</option>
+                  {(Array.from({length: this.state.PROBLEMS_MAX_NUM}, (_, localIndex) => localIndex + 1)).map((localIndex) => (
+                    <option key={localIndex}>{localIndex}</option>
+                  ))}
+                </Form.Control>
+              </Form.Group>
+            </Row>
+            <Row>
+              <Button
+                className="bg-secondary"
+                variant="primary"
+                type="submit"
+              >
+              Create Assignment!
+              </Button>
+            </Row>
+            </Col>
+        </Container>
+      );
+    }else {
+      return(
+        <Container className="d-flex align-contents-center build-sim-card-1">
+          <Col>
+            <Row className="my-4">
+              <Col>
+                <Form.Group className="sim-box-select" controlId="simSelect">
+                  <Form.Control
+                    as="select"
+                    value={this.state.assignment.problems[index - 1].simulation["Name"]}
+                    onChange={this.onSimulationChange}
+                  >
+                    <option key="empty" value=""></option>
+                    {this.state.SIMULATIONS.map((sim, localIndex) => (
+                      <option key={localIndex} value={sim.Name}>
+                        {sim.Name}
+                      </option>
+                    ))}
+                  </Form.Control>
+                </Form.Group>
+              </Col>
+            </Row>
+            <Row className="d-flex align-self-end mt-4">
+              {this.conditionallyRenderSimulation(index)}
+            </Row> 
+            <Row className="my-4">
+              <Col>
+                <Form.Group controlId="formGridQuestionNumber">
+                  <Form.Label>Number of Questions in Problem</Form.Label>
+                  <Form.Control
+                    as="select"
+                    value={this.state.assignment.problems[index-1].questions.length}
+                    onChange={this.onQuestionNumberChange}
+                  >
+                    <option key={0}>0</option>
+                    {(Array.from({length: this.state.QUESTIONS_MAX_NUM}, (_, localIndex) => localIndex + 1)).map((localIndex) => (
+                      <option key={localIndex}>{localIndex}</option>
+                    ))}
+                  </Form.Control>
+                </Form.Group>
+              </Col>
+            </Row>
+            <Row className="my-4">
+              <Col>
+                {this.state.assignment.problems[index-1].questions.map((question, localIndex) => (
+                  <Form.Group key={localIndex} controlId="FormGridControlTextArea">
+                    <Form.Label>Question {localIndex + 1}</Form.Label>
+                    <Form.Control
+                      name={localIndex}
+                      as="textarea"
+                      rows={3}
+                      value={question}
+                      onChange={this.onQuestionChange}
+                    />
+                  </Form.Group>
+                ))}
+              </Col>
+            </Row>
+            <Row className="my-4">
+              <Col>
+                <Form.Group controlId="formGridGraphNumber">
+                  <Form.Label>Number of Graphs in Problem</Form.Label>
+                  <Form.Control
+                    as="select"
+                    value={this.state.assignment.problems[index-1].graphs.length}
+                    onChange={this.onGraphNumberChange}
+                  >
+                    <option key={0}>0</option>
+                    {(Array.from({length: this.state.GRAPHS_MAX_NUM}, (_, localIndex) => localIndex + 1)).map((localIndex) => (
+                      <option key={localIndex}>{localIndex}</option>
+                    ))}
+                  </Form.Control>
+                </Form.Group>
+              </Col>
+            </Row>
+            <Row className="my-4">
+              <Col>
+                {this.state.assignment.problems[index-1].graphs.map((graph, localIndex) => (
+                  <Form.Group key={localIndex} controlId="FormGridGraphOptions">
+                    <Form.Label>Graph {localIndex + 1}: Select Content</Form.Label>
+                    <Form.Control
+                      name={localIndex}
+                      as="select"
+                      value={graph["title"]}
+                      onChange={this.onGraphChange}
+                    >
+                      <option key=""></option>
+                      {this.state.GRAPH_OPTIONS.map((option) => (
+                        <option key={option}>{option}</option>
+                      ))}
+                    </Form.Control>
+                  </Form.Group>
+                ))}
+              </Col>
+            </Row>      
+          </Col>
+        </Container>
+      );
     }
   }
 
   render() {
     const {
       index,
-      assignmentName,
-      openDate,
-      closeDate
     } = this.state;
 
     return (
@@ -145,141 +689,9 @@ class BuildFormBase extends Component{
             </Container>
           </Card.Header>
           <Card.Body className="build-card-body">
-            {/* Page 0: Assignment Details */}
-            <Container
-              className={
-                index === 0
-                  ? "d-flex align-contents-center build-sim-card-1"
-                  : "build-sim-card-1 d-none"
-              }
-            >
-              <Form>
-                  <Form.Row>
-                    <Form.Group as={Col} controlId="formGridFirstName">
-                      <Form.Label>Assignment Name</Form.Label>
-                      <Form.Control
-                        name="assignmentName"
-                        value={assignmentName}
-                        type="text"
-                        placeholder="Assignment 1"
-                        onChange={this.onAssignmentChange}
-                      />
-                    </Form.Group>
-                  </Form.Row>
-
-                  <Form.Row>
-                    <Form.Group as={Col} controlId="formGridOpenDate">
-                      <Form.Label>Assignment Open Date</Form.Label>
-                      <DatePicker
-                        selected={openDate}
-                        showTimeSelect
-                        timeFormat="HH:mm"
-                        timeIntervals={30}
-                        timeCaption="Time"
-                        dateFormat="MMMM d, yyyy h:mm aa"
-                        onChange={this.onOpenDateChange}
-                      />
-                    </Form.Group>
-
-                    <Form.Group as={Col} controlId="formGridCloseDate">
-                      <Form.Label>Assignment Close Date</Form.Label>
-                      <DatePicker
-                        selected={closeDate}
-                        showTimeSelect
-                        timeFormat="HH:mm"
-                        timeIntervals={30}
-                        timeCaption="Time"
-                        dateFormat="MMMM d, yyyy h:mm aa"
-                        onChange={this.onCloseDateChange}
-                      />
-                    </Form.Group>
-                  </Form.Row>
-
-                  <Button
-                    className="register-button bg-secondary"
-                    variant="primary"
-                    type="submit"
-                  >
-                   Create Assignment!
-                  </Button>
-
-                </Form>
-            </Container>
-            {/* Page 1: Select Simulation */}
-            <Container
-              className={
-                index === 1
-                  ? "d-flex align-contents-center build-sim-card-1"
-                  : "build-sim-card-1 d-none"
-              }
-            >
-              <Col>
-                <Row className="my-4">
-                  <Col>
-                    <Form.Group className="sim-box-select" controlId="simSelect">
-                      <Form.Control
-                        as="select"
-                        onChange={this.onSimulationChange}
-                      >
-                        <option key="empty" value=""></option>
-                        {this.state.SIMULATIONS.map((sim, localIndex) => (
-                          <option key={localIndex} value={sim.Name}>
-                            {sim.Name}
-                          </option>
-                        ))}
-                      </Form.Control>
-                    </Form.Group>
-                  </Col>
-                </Row>
-                <Row className="d-flex align-self-end mt-4">
-                  <Col className="d-flex justify-content-center">
-                    {(this.state.selectedSimulation && (
-                      <iframe
-                        src={this.state.selectedSimulation["Source"]}
-                        className="phet-sim-preview align-self-center"
-                        scrolling="no"
-                        allowFullScreen
-                        title={this.state.selectedSimulation["Name"]}
-                      ></iframe>
-                    )) || (
-                      <Container className="d-flex justify-content-center">
-                        <h2 className="display-4 text-center phet-sim-preview-alt my-5">
-                          Select a Simulation To Preview
-                        </h2>
-                      </Container>
-                    )}
-                  </Col>
-                </Row>
-              </Col>
-            </Container>
-
-            {/* Page 2: Select and Set Variables **/}
-            <Container
-              className={
-                index === 2
-                  ? "d-flex align-contents-center build-sim-card-1"
-                  : "build-sim-card-1 d-none"
-              }
-            >
-              <Col className="my-2 ">
-                <Row className="my-5">
-                  <Col>
-                    {/*selectedSim[0]?.Variables.map((v) => (
-                      <Form.Group className="d-flex justify-contents-center">
-                        <Col sm={4} className="d-block">
-                          <Form.Label className="d-block var-label">
-                            {v}
-                          </Form.Label>
-                        </Col>
-                        <Col sm={10}>
-                          <Form.Control className="var-input " as="input" />
-                        </Col>
-                      </Form.Group>
-                    ))*/}
-                  </Col>
-                </Row>
-              </Col>
-            </Container>
+            <Form onSubmit={this.onSubmit}>
+              {this.conditionallyRenderPage(index)}
+            </Form>
           </Card.Body>
         </Card>
       </Container>

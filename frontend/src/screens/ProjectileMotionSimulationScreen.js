@@ -2,7 +2,6 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import QandA from "../components/QandA";
 import SimulationContainerComponent from "../components/SimulationContainerComponent";
-import GraphCanvasComponent from "../components/GraphCanvasComponent";
 import GraphComponent from "../components/GraphComponent";
 
 const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
@@ -194,7 +193,7 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
+                      <GraphComponent
                         className="bg-white"
                         ind={!loading && t}
                         dep={!loading && py}
@@ -214,7 +213,7 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
+                      <GraphComponent
                         className="bg-white"
                         ind={!loading && t}
                         dep={!loading && px}
@@ -234,7 +233,7 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
+                      <GraphComponent
                         className="bg-white"
                         ind={!loading && t}
                         dep={!loading && px}
@@ -254,7 +253,7 @@ const ProjectileMotionSimulationScreen = ({ data, assignment }) => {
                   </Card.Header>
                   <Card.Body className="graph-card-body">
                     <Container className="d-flex justify-content-center align-content-center">
-                      <GraphCanvasComponent
+                      <GraphComponent
                         className="bg-white"
                         ind={!loading && t}
                         dep={!loading && px}

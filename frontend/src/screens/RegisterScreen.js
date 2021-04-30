@@ -1,3 +1,11 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the /register route within the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ */
+
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import { withFirebase } from "../Firebase";
@@ -5,6 +13,7 @@ import * as ROUTES from "../constants/routes";
 import { Button, Card, Col, Container, Row, Form } from "react-bootstrap";
 import "../App.css";
 
+// Top-level JSX component
 const RegisterScreen = () => <RegisterForm />;
 
 const INITIAL_STATE = {
@@ -18,6 +27,7 @@ const INITIAL_STATE = {
   error: null,
 };
 
+// React Component containing logic and rendered content
 class RegisterFormBase extends Component {
   constructor(props) {
     super(props);
@@ -31,6 +41,9 @@ class RegisterFormBase extends Component {
   }
 
   onSubmit = (event) => {
+    // Prevent the browser from refreshing
+    event.preventDefault();
+    
     const {
       firstName,
       lastName,
@@ -44,17 +57,19 @@ class RegisterFormBase extends Component {
       .doCreateUserWithEmailAndPassword(email, passwordOne)
       .then((authUser) => {
         // Create a document in the Users collection
-        return this.props.firebase
-          .doCreateNewUserDocument(
-            authUser.user.uid,
-            firstName,
-            lastName,
-            instructors,
-            courses
-          )
-          .catch((error) => {
-            this.setState({ error });
-          });
+        this.props.firebase.doCreateNewUserDocument(authUser.user.uid)
+                  .set({
+                    "Created": this.props.firebase.getTimestamp(),
+                    "UID": authUser.user.uid,
+                    "First Name": firstName,
+                    "Last Name": lastName,
+                    isInstructor: false,
+                    Instructors: instructors,
+                    Courses: courses
+                  })
+                  .catch((error) => {
+                    this.setState({ error });
+                  });
       })
       .then(() => {
         this.setState({ ...INITIAL_STATE });
@@ -63,8 +78,6 @@ class RegisterFormBase extends Component {
       .catch((error) => {
         this.setState({ error });
       });
-
-    event.preventDefault();
   };
 
   onChange = (event) => {
@@ -120,8 +133,6 @@ class RegisterFormBase extends Component {
     const {
       firstName,
       lastName,
-      instructors,
-      courses,
       email,
       passwordOne,
       passwordTwo,
@@ -263,6 +274,8 @@ class RegisterFormBase extends Component {
   }
 }
 
+// JSX component exported to the Login screen directing
+// unregistered users to the Register screen
 const RegisterLink = () => (
   <p>
     Don't have an account?
@@ -277,6 +290,7 @@ const RegisterLink = () => (
   </p>
 );
 
+// Intermediate JSX component declared with access to Router and Firebase state
 const RegisterForm = withRouter(withFirebase(RegisterFormBase));
 
 export default RegisterScreen;

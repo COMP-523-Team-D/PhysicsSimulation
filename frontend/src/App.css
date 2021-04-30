@@ -67,7 +67,7 @@ Body {
 }
 
 .phet-sim {
-    width: 85%;
+    width: 95%;
     height: 60vh;
 }
 
@@ -99,7 +99,8 @@ Body {
 }
 
 .questions-card-body, .build-card-body {
-    height: 80vh;
+    max-height: 80vh;
+    min-height: 55vh;
     overflow-y: auto;
 }
 
