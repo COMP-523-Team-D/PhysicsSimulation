@@ -2,15 +2,15 @@ import { Card, Col, Container, Row, Button, Form } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import { withFirebase } from "../Firebase";
 import { AuthUserContext, withAuthorization } from "../Session";
+import * as ROUTES from "../constants/routes";
 import GraphComponent from "../components/GraphComponent";
 
 const ProblemScreen = (props) => {
-  const [problemName, setProblemName] = useState("");
   const [simulation, setSimulation] = useState({});
-  const [parameters, setParameters] = useState({});
   const [graphs, setGraphs] = useState([]);
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState([]);
+  const [graphAnswers, setGraphAnswers] = useState({});
 
   // Update this state (add 1) whenever we have new parameters for the simulation.
   // This will alert the iframe that it needs to refresh.
@@ -44,7 +44,6 @@ const ProblemScreen = (props) => {
   const handleNewPoint = function (e) {
     // Parse simulation data into the correct arrays
     if (e.data.t) {
-      console.log(e.data.t);
       setT(e.data.t.map((d) => d.toFixed(2)));
       setPx(e.data.px.map((d) => d.toFixed(2)));
       setPy(e.data.py.map((d) => d.toFixed(2)));
@@ -59,9 +58,7 @@ const ProblemScreen = (props) => {
   // Sets up the communication between the frontend and the simulation
   // when the screen is initially rendered.
   useEffect(() => {
-    setProblemName(props.location.state.problem["Name"]);
     setSimulation(props.location.state.problem["Simulation"]);
-    setParameters(props.location.state.problem["Parameters"]);
     setGraphs(props.location.state.problem["Graphs"]);
     setQuestions(props.location.state.problem["Questions"]);
 
@@ -91,9 +88,34 @@ const ProblemScreen = (props) => {
     setAnswers( newAnswers );
   }
 
+  const getGraphAnswers = (pointsClicked, title) => {
+    const newGraphAnswers = graphAnswers;
+    newGraphAnswers[title] = pointsClicked;
+    setGraphAnswers( newGraphAnswers );
+  }
+
   const onSubmit = event => {
     event.preventDefault();
-    console.log(answers);
+
+    const submission = {
+      ...props.location.state.problem,
+      Submitted: props.firebase.getTimestamp(),
+      "Question Answers": answers,
+      "Graph Answers": graphAnswers
+    };
+
+    props.firebase.doCreateNewSubmission()
+        .set(submission)
+        .then(() => {
+          props.history.push(
+            ROUTES.COURSE_SCREEN + `/${props.match.params.courseName}` +
+            ROUTES.ASSIGNMENT_SCREEN + `/${props.match.params.assignmentName}`,
+            {assignment: props.location.state.assignment}
+          );
+        })
+        .catch((error) => {
+          console.log(error);
+        });
   };
 
   return (
@@ -164,6 +186,8 @@ const ProblemScreen = (props) => {
                     xMax={graph.xMax}
                     yMin={graph.yMin}
                     yMax={graph.yMax}
+                    name={graph.title}
+                    returnAnswers={getGraphAnswers}
                   />
                 </Container>
               </Card.Body>
@@ -191,6 +215,8 @@ const ProblemScreen = (props) => {
                       xMax={graph.xMax}
                       yMin={graph.yMin}
                       yMax={graph.yMax}
+                      name={graph.title}
+                      returnAnswers={getGraphAnswers}
                     />
                   </Container>
                 </Card.Body>
@@ -218,6 +244,8 @@ const ProblemScreen = (props) => {
                       xMax={graph.xMax}
                       yMin={graph.yMin}
                       yMax={graph.yMax}
+                      name={graph.title}
+                      returnAnswers={getGraphAnswers}
                     />
                   </Container>
                 </Card.Body>
@@ -247,6 +275,8 @@ const ProblemScreen = (props) => {
                   xMax={graph.xMax}
                   yMin={graph.yMin}
                   yMax={graph.yMax}
+                  name={graph.title}
+                  returnAnswers={getGraphAnswers}
                 />
               </Container>
             </Card.Body>
@@ -274,6 +304,8 @@ const ProblemScreen = (props) => {
                     xMax={graph.xMax}
                     yMin={graph.yMin}
                     yMax={graph.yMax}
+                    name={graph.title}
+                    returnAnswers={getGraphAnswers}
                   />
                 </Container>
               </Card.Body>
@@ -301,6 +333,8 @@ const ProblemScreen = (props) => {
                     xMax={graph.xMax}
                     yMin={graph.yMin}
                     yMax={graph.yMax}
+                    name={graph.title}
+                    returnAnswers={getGraphAnswers}
                   />
                 </Container>
               </Card.Body>

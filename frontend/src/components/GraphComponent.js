@@ -10,6 +10,8 @@ const GraphComponent = ({
   yMin,
   width,
   height,
+  name,
+  returnAnswers,
   ...rest
 }) => {
   // reference to pass to Line graph
@@ -26,8 +28,6 @@ const GraphComponent = ({
   const [pointsClicked, setPointsClicked] = useState([]);
   const [predictedAnswer, setPredictedAnswer] = useState([]);
 
-
-
   // Create x,y pairs from independent and dependent data arrays
   // and then add each pair/object to dataArr
   const initializeData = () => {
@@ -43,9 +43,10 @@ const GraphComponent = ({
     ind && dep && initializeData();
   }, [ind, dep]);
 
-  // Perform answer prediction when a new point is added by the user
+  // Perform answer prediction and return points clicked to parent when a new point is added by the user
   useEffect(() => {
     predictAnswer();
+    returnAnswers(pointsClicked, name);
   }, [pointsClicked]);
 
   // function to set up initial scale with given params for
@@ -88,7 +89,6 @@ const GraphComponent = ({
     }
   }
 
-
   const computeConstant = () => {
     const newPrediction = [];
     const scale = (xMax-xMin)/predictionArraySize;
@@ -101,10 +101,21 @@ const GraphComponent = ({
 
   const computeLine = () => {
     const slope = (pointsClicked[0].y - pointsClicked[1].y) / (pointsClicked[0].x - pointsClicked[1].x);
+
+    const getY = x => {
+      return pointsClicked[0].y + slope*(x - pointsClicked[0].x);
+    }
+
+    const getX = y => {
+      return pointsClicked[0].x + (y - pointsClicked[0].y)/slope;
+    }
+
+    const scale = ( slope <= (yMax-yMin) / (xMax-xMin) ) ? (xMax-xMin)/predictionArraySize : Math.abs(getX(yMax) - getX(yMin))/predictionArraySize;
+    const initialX = ( slope <= (yMax-yMin) / (xMax-xMin) ) ? xMin : Math.min(getX(yMin), getX(yMax));
+
     const newPrediction = [];
-    const scale = (xMax-xMin)/predictionArraySize;
     for(let i=0; i<predictionArraySize; i++) {
-      newPrediction.push({x: i*scale, y: pointsClicked[0].y + slope*(i*scale - pointsClicked[0].x) });
+      newPrediction.push({x: i*scale + initialX, y: getY(i*scale + initialX) });
     }
 
     setPredictedAnswer(newPrediction);
@@ -118,6 +129,7 @@ const GraphComponent = ({
     const y1 = pointsClicked[1].y;
     const y2 = pointsClicked[2].y;
 
+    // Closed form expression for a parabola interpolated from 3 points
     const a = -( x0*y1 - x1*y0 - x0*y2 + x2*y0 + x1*y2 - x2*y1 ) / ( (x0 - x1)*(x0 - x2)*(x1 - x2) );
     const b =  ( (x0**2)*y1 - (x1**2)*y0 - (x0**2)*y2 + (x2**2)*y0 + (x1**2)*y2 - (x2**2)*y1 ) / ( (x0 - x1)*(x0 - x2)*(x1 - x2) );
     const c =  -( -y2*(x0**2)*x1 + y1*(x0**2)*x2 + y2*x0*(x1**2) - y1*x0*(x2**2) - y0*(x1**2)*x2 + y0*x1*(x2**2)) / ( (x0 - x1)*(x0 - x2)*(x1 - x2) );
@@ -151,8 +163,8 @@ const GraphComponent = ({
     const xChartRatio = xChartPixelLength/xAxisPixelScale;
     const yChartRatio = yChartPixelLength/yAxisPixelScale;
 
-    const xDataPoint = xChartRatio*xAxisScale;
-    const yDataPoint = yChartRatio*yAxisScale;
+    const xDataPoint = xMin + xChartRatio*xAxisScale;
+    const yDataPoint = yMin + yChartRatio*yAxisScale;
 
 
     // Repeat for the width and height of the graph
@@ -161,6 +173,8 @@ const GraphComponent = ({
     const newPoint = {x: xDataPoint, y: yDataPoint};
 
     setPointsClicked( oldPoints => [ ...oldPoints, newPoint]);
+
+
 
     // Chart updated in setPointsClicked callback function
     e.chart.update();

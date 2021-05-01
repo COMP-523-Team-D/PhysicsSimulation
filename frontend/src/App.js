@@ -6,7 +6,7 @@ import SandboxScreen from "./screens/SandboxScreen";
 import LoginScreen from "./screens/LoginScreen";
 import RegisterScreen from "./screens/RegisterScreen";
 import HomeScreen from "./screens/HomeScreen";
-import ProfileScreen from "./screens/ProfileScreen";
+import GradeScreen from "./screens/GradeScreen";
 import BuildScreen from "./screens/BuildScreen";
 import CourseScreen from "./screens/CourseScreen";
 import AssignmentScreen from "./screens/AssignmentScreen";
@@ -65,8 +65,8 @@ const App = () => {
         />
         <Route
           exact
-          path={ROUTES.PROFILE_SCREEN + "/:userName"}
-          component={() => <ProfileScreen className="ProfileScreen"/>}
+          path={ROUTES.GRADE_SCREEN + "/:userName"}
+          component={() => <GradeScreen className="GradeScreen"/>}
         />
         <Route
           path={ROUTES.BUILD_SCREEN + "/:courseName?"}
