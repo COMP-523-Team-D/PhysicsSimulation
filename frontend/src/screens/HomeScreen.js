@@ -58,20 +58,19 @@ class HomeBase extends Component {
   }
 
   renderInstructors() {
-    if(this.props.authUserData["Instructors"]) {
-      return(
-        <div>
-          <Card.Text>
-            Instructors:
+    return(
+    !this.props.authUserData.isInstructor &&
+      <div>
+        <Card.Text>
+          Instructors:
+        </Card.Text>
+        {this.props.authUserData["Instructors"].map((instructor, index) => (
+          <Card.Text className="d-flex justify-content-center" key={index}>
+            {instructor}
           </Card.Text>
-          {this.props.authUserData["Instructors"].map((instructor, index) => (
-            <Card.Text className="d-flex justify-content-center" key={index}>
-              {instructor}
-            </Card.Text>
-          ))}
-        </div>
-      );
-    }
+        ))}
+      </div>
+    );
   }
 
   render() {

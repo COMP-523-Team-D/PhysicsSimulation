@@ -65,7 +65,9 @@ const ProblemScreen = (props) => {
     const fixedVariables = {
       height: props.location.state.problem.Parameters["height"],
       velocity: props.location.state.problem.Parameters["velocity"],
-      angle: props.location.state.problem.Parameters["angle"]
+      angle: props.location.state.problem.Parameters["angle"],
+      target: 120,
+      gravity: NaN,
     };
 
     // Listen for information about cannon fires
