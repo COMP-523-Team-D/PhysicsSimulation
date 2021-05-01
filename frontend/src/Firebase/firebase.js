@@ -125,6 +125,10 @@ class Firebase {
   // Submissions Collection API
   /////////////////////////////////////////////////////////
 
+  // Create a new submission for a problem
+  doCreateNewSubmission = () =>
+    this.db.collection("Submissions").doc();
+
   // Returns a reference to all the submissions associated with a
   // user specified by user ID and ordered by course name
   // Implicitly assumes that there will never be two courses with the same name

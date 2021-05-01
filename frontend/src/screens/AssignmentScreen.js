@@ -44,7 +44,7 @@ class AssignmentBase extends Component {
                               pathname: ROUTES.COURSE_SCREEN + `/${assignment["Course Name"].replace(/\s+/g, '_')}` +
                                         ROUTES.ASSIGNMENT_SCREEN + `/${assignment["Name"].replace(/\s+/g, '_')}` +
                                         ROUTES.PROBLEM_SCREEN + `/${problem["Name"].replace(/\s+/g, '_')}`,
-                              state: {problem: problem}
+                              state: {assignment: assignment, problem: problem}
                             }} className="build-link">
                                 Visit Problem
                             </Link>
