@@ -97,29 +97,31 @@ class CourseBase extends Component {
                       </Card>
                     </Row>
                   ))}
-                  <Row >
-                    <Card className="buildAssignmentCard full-width text-center">
-                      <Card.Header className="bg-secondary">
-                        <Card.Title className="coursePageCardTitle ">
-                          Build A New Assignment
-                        </Card.Title>
-                      </Card.Header>
-                      <Card.Body>
-                        <Button
-                          className="course-button bg-secondary"
-                          variant="primary"
-                          >
-                            <Link to={{
-                              pathname: ROUTES.BUILD_SCREEN + `/${this.state.courseName.replace(/\s+/g, '_')}`,
-                              state: {assignmentIndex: this.state.assignments.length}
-                            }} className="build-link">
-                              Start Building!
-                            </Link>
-                        </Button>
+                  {this.props.authUserData["isInstructor"] &&
+                    <Row >
+                      <Card className="buildAssignmentCard full-width text-center">
+                        <Card.Header className="bg-secondary">
+                          <Card.Title className="coursePageCardTitle ">
+                            Build A New Assignment
+                          </Card.Title>
+                        </Card.Header>
+                        <Card.Body>
+                          <Button
+                            className="course-button bg-secondary"
+                            variant="primary"
+                            >
+                              <Link to={{
+                                pathname: ROUTES.BUILD_SCREEN + `/${this.state.courseName.replace(/\s+/g, '_')}`,
+                                state: {assignmentIndex: this.state.assignments.length}
+                              }} className="build-link">
+                                Start Building!
+                              </Link>
+                          </Button>
 
-                      </Card.Body>
-                    </Card>
-                  </Row>
+                        </Card.Body>
+                      </Card>
+                    </Row>
+                  }
                 </Container> 
               </Card.Body>
             </Card>

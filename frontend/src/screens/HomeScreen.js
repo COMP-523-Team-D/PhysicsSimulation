@@ -12,7 +12,13 @@ const HomeScreen = () => (
   </AuthUserContext.Consumer>
 );
 
-const INITIAL_STATE = {
+const INITIAL_STATE ={
+  firstName: "",
+  lastName: "",
+  isInstructor: false,
+  courses: [],
+  instructors: [],
+  created: new Date(),
   SIMULATIONS: []
 };
 
@@ -25,6 +31,14 @@ class HomeBase extends Component {
   }
 
   componentDidMount() {
+    this.setState({ firstName: this.props.authUserData["First Name"] });
+    this.setState({ lastName: this.props.authUserData["Last Name"] });
+    this.setState({ isInstructor: this.props.authUserData["isInstructor"] });
+    this.setState({ courses: this.props.authUserData["Courses"] });
+    this.setState({ created: this.props.firebase.getDate(this.props.authUserData["Created"]) });
+    this.props.authUserData["Instructor"] &&
+      this.setState({ instructors: this.props.authUserData["Instructors"] });
+
     this.setState({
       unsubscribeSimulations:
         this.props.firebase.simulations()
@@ -43,7 +57,31 @@ class HomeBase extends Component {
     this.state.unsubscribeSimulations();
   }
 
+  renderInstructors() {
+    return(
+    !this.props.authUserData.isInstructor &&
+      <div>
+        <Card.Text>
+          Instructors:
+        </Card.Text>
+        {this.props.authUserData["Instructors"].map((instructor, index) => (
+          <Card.Text className="d-flex justify-content-center" key={index}>
+            {instructor}
+          </Card.Text>
+        ))}
+      </div>
+    );
+  }
+
   render() {
+    const{
+      firstName,
+      lastName,
+      courses,
+      created,
+      isInstructor
+    } = this.state;
+
     return (
           <Container>
             <Row className="m-4"> </Row>
@@ -107,21 +145,31 @@ class HomeBase extends Component {
                       <span>
                         <i className="fas fa-user fa-1.5x mr-2"></i>{" "}
                       </span>
-                      <Link to={ROUTES.PROFILE_SCREEN + `/${this.props.authUserData["First Name"]}_${this.props.authUserData["Last Name"]}`} className="profile-link">
                         My Profile
-                      </Link>
                     </Card.Title>
                   </Card.Header>
                   <Card.Body>
-                    {/*authUserData["Courses"] != null
-                      ?
-                        (<Container fluid="md" className="class-container">
-                          {authUserData["Courses"].map((course) => (
-                            <p>{course}</p>
-                          ))}
-                        </Container>)
-                      : (<p>You don't have any courses.</p>)
-                    */}
+                    <Card.Text>
+                      {`Name: ${firstName} ${lastName}`}
+                    </Card.Text>
+
+                    {this.renderInstructors()}                   
+
+                    <Card.Text>
+                        Courses:
+                    </Card.Text>
+                    {courses.map((course, index) => (
+                      <Card.Text className="d-flex justify-content-center" key={index}>
+                        {course}
+                      </Card.Text>
+                    ))}
+
+                    <Card.Text>
+                      {isInstructor ? "User Type: Instructor": "User Type: Student"}
+                    </Card.Text>
+                    <Card.Text>
+                      {`Profile Created: ${created}`}
+                    </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>

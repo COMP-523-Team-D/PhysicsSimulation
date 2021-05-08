@@ -110,10 +110,15 @@ Body {
 }
 
 .build-card{
-    width: 45vw;
+    width: 55vw;
+    min-width: 400px;
     height: 100vh;
+    overflow-x: hidden;
 }
 
+.build-date-picker {
+    display: block
+}
 .card-title {
     font-size: 1.5rem;
 }
