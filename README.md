@@ -1,4 +1,4 @@
-# Physics Simulation with PHeT
+# Physics Simulation with PhET
 
 To start developing this project, clone the repo and navigate to the directory `/PhysicsSimulation/frontend` in your terminal. Run `npm install` to collect all the necessary dependencies.
 
