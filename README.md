@@ -1,9 +1,9 @@
 # UNC Physics Simulation with PhET
 
 ## Overview
-
 UNC Physics Simulation with PhET builds on the physics simulations provided by the University of Colorado Boulder to provide students and instructors with an interface better suited for an instructional environment. This interface is designed to allow instructors to present interactive/instructional content to students alongside a PhET simulation. This repository contains the source code for the UNC Physics Simulation application, and this document provides a guide for developers to initialize the project locally.
 
+## Getting Started
 To start developing this project, clone the repo and navigate to the directory `/PhysicsSimulation/frontend` in your terminal. Run `npm install` to collect all the necessary dependencies.
 
 You'll need to set up a Firebase emulator to simulate the necessary backend communication. Download the Firebase CLI and follow the instructions on their website. Firebase emulators, in turn, require a recent installation of Java. You may need to uninstall and reinstall your version of Java to get this working correctly.
