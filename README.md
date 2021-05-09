@@ -22,12 +22,14 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
   6. Run `firebase login` and follow the steps to login with a Google account that is linked to the UNC Physics Simulation Firebase project.
   7. Run `firebase init`.
   8. When presented with options in the terminal window, select `Firestore` and `Hosting` then press enter.
-  9. Accept the default options presented in the terminal window by pressing enter UNTIL the beginning of "Hosting Setup"
-  10. When prompted with "What do you want to use as your public directory?" type in `./frontend/build` and press enter.
-  11. Next, you'll be prompted with "Configure as a single-page app (rewrite all urls to /index.html)?" type in `y` and press enter.
-  12. Finally, you'll be prompted with "Set up automatic builds and deploys with GitHub?" type in `n` and press enter.
-  13. At this point, Firebase initialization will be complete, and you are ready to deploy the updated version of the application to Firebase.
-  14. Run `firebase deploy` to deploy the application.
+  9. Accept the default options presented in the terminal window by pressing enter or selecting `n` if asked to overwrite any files
+      UNTIL the beginning of "Hosting Setup".
+  11. Once "Hosting Setup" has begun, you will follow the steps outlined below (except if asked to overwrite any files--answer `n` to any file overwrites).
+  12. When prompted with "What do you want to use as your public directory?" type in `./frontend/build` and press enter.
+  13. Next, you'll be prompted with "Configure as a single-page app (rewrite all urls to /index.html)?" type in `y` and press enter.
+  14. Finally, you'll be prompted with "Set up automatic builds and deploys with GitHub?" type in `n` and press enter.
+  15. At this point, Firebase initialization will be complete, and you are ready to deploy the updated version of the application to Firebase.
+  16. Run `firebase deploy` to deploy the application.
 
 \* Any steps denoted with a '\*' in the Getting Started sections likely require administrator privileges on your local machine.
 
