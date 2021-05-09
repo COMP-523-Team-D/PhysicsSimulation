@@ -39,10 +39,6 @@ The PHeT simulation code is inside `/frontend/public/phetsims`. For more informa
 
 We embed PHeT simulations inside iframes, so we communicate information between the frontend via (1) the `postMessage` utility, and (2) the browser tab's `sessionStorage`. Information about this communication can be found inside the projetile motion simulation code, as well as the problem screen and assignment build screen code.
 
-## Deploying Code to Production
-
-TODO: add deploy instructions.
-
 ## Available Scripts
 
 In the project directory, you can run:
