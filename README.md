@@ -5,7 +5,7 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
 
 ## Getting Started -- Installing the Application
   1. Clone the repository into a local directory and navigate to `<local directory>/PhysicsSimulation/frontend` in a terminal window.
-  2. '*' Download and install node+npm and ensure that it is accessible from `<local directory>/PhysicsSimulation/frontend`.
+  2. \* Download and install node+npm and ensure that it is accessible from `<local directory>/PhysicsSimulation/frontend`.
   3. Run `npm update` to collect all of the application's dependencies.
   4. At this point, the frontend of the application has been installed, and from this point forward, you will need the Firebase Configuration settings for the              project from the current system administrator.
   6. Inside of `<local directory>/PhysicsSimulation/frontend/src/Firebase/firebase.js` you will see an empty JS object titled firebaseConfig; copy and paste the            Firebase Configuration settings into this JS object ( e.g., const firebaseConfig = { apiKey: `<key>`, authDomain: `<domain>`, etc.}; ).
@@ -29,7 +29,7 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
   13. At this point, Firebase initialization will be complete, and you are ready to deploy the updated version of the application to Firebase.
   14. Run `firebase deploy` to deploy the application.
 
-'*' Any steps denoted with a '*' in the Getting Started sections likely requires administrator privileges on your local machine.
+\* Any steps denoted with a '\*' in the Getting Started sections likely requires administrator privileges on your local machine.
 
 ## Project Structure
 
