@@ -1,8 +1,11 @@
-const SimulationContainerComponent = ({
-  reloadFlag,
-  simName,
-  simSrcPath,
-}) => {
+/*
+ * Simple wrapper for a simulation iframe provided from PhET
+ *
+ * Date: 5/9/21
+ * @author: Gabe Foster
+ * */
+
+const SimulationContainerComponent = ({ reloadFlag, simName, simSrcPath }) => {
   return (
     <iframe
       key={reloadFlag}
