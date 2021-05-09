@@ -13,7 +13,7 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
   8. At this point, the application should successfully launch in a new browser tab/window with the url `http://localhost:3000`.
   9. The system is installed locally and you are ready to start developing.
 
-## Getting Started -- Installing Firebase CLI
+## Getting Started -- Deploying the Application
   0. This section requires access to a Google account that is linked to the UNC Physics Simulation Firebase project.
   1. To deploy an updated version of the application, first navigate to `<local directory>/PhysicsSimulation/frontend` in a terminal window.
   2. Run `npm run build` to build a production version of the application.
@@ -35,7 +35,7 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
 
 Our React app code is entirely within `/frontend/src`. From here you can see the different screens in our application, and the various reusable components we have defined as well.
 
-The PHeT simulation code is inside `/frontend/public/phetsims`. For more information about building upon the PHeT code specifically, see [their provided documentation](https://github.com/phetsims/phet-info/blob/master/doc/phet-development-overview.md). Note that, if you want to add more simulations to this application, you'll want to read their "Master is Unstable" section in order to locate rigorously tested versions of the simulations.
+The PhET simulation code is inside `/frontend/public/phetsims`. For more information about building upon the PhET code specifically, see [their provided documentation](https://github.com/phetsims/phet-info/blob/master/doc/phet-development-overview.md). Note that, if you want to add more simulations to this application, you'll want to read their "Master is Unstable" section in order to locate rigorously tested versions of the simulations.
 
 We embed PHeT simulations inside iframes, so we communicate information between the frontend via (1) the `postMessage` utility, and (2) the browser tab's `sessionStorage`. Information about this communication can be found inside the projetile motion simulation code, as well as the problem screen and assignment build screen code.
 
