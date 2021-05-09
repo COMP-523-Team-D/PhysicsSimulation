@@ -18,7 +18,7 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
   1. To deploy an updated version of the application, first navigate to `<local directory>/PhysicsSimulation/frontend` in a terminal window.
   2. Run `npm run build` to build a production version of the application.
   3. Next, navigate to `<local directory>/PhysicsSimulation/` in a terminal window.
-  5. '*' Run `npm install -g firebase-tools` to install the Firebase CLI.
+  5. \* Run `npm install -g firebase-tools` to install the Firebase CLI.
   6. Run `firebase login` and follow the steps to login with a Google account that is linked to the UNC Physics Simulation Firebase project.
   7. Run `firebase init`.
   8. When presented with options in the terminal window, select `Firestore` and `Hosting` then press enter.
