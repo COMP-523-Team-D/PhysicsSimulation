@@ -29,7 +29,7 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
   13. At this point, Firebase initialization will be complete, and you are ready to deploy the updated version of the application to Firebase.
   14. Run `firebase deploy` to deploy the application.
 
-\* Any steps denoted with a '\*' in the Getting Started sections likely requires administrator privileges on your local machine.
+\* Any steps denoted with a '\*' in the Getting Started sections likely require administrator privileges on your local machine.
 
 ## Project Structure
 
