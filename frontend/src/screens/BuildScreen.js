@@ -248,26 +248,23 @@ class BuildFormBase extends Component {
 
   onParameterFixChange = (event) => {
     const currentProblem = this.state.assignment.problems[this.state.index - 1];
-    currentProblem.parameters[`${event.target.name}Fixed`] = !currentProblem
-      .parameters[`${event.target.name}Fixed`];
+    currentProblem.parameters[`${event.target.name}Fixed`] = !currentProblem.parameters[`${event.target.name}Fixed`];
     this.forceUpdate();
   };
 
   onParameterValueChange = (event) => {
-    document
-      .getElementById("Simulation Frame")
-      .contentWindow.postMessage("Request Parameters", "*");
+    document.getElementById("Simulation Frame").contentWindow.postMessage("Request Parameters", "*");
   };
 
   updateParameters = (event) => {
     if (event.data["check"] && event.data["check"] === "Parameters Requested") {
-      const currentProblem = this.state.assignment.problems[
-        this.state.index - 1
-      ];
+      const currentProblem = this.state.assignment.problems[this.state.index - 1];
 
       currentProblem.simulation["Parameters"].forEach((parameter) => {
         if (currentProblem.parameters[`${parameter}Fixed`]) {
           currentProblem.parameters[parameter] = event.data[parameter];
+        }else {
+          currentProblem.parameters[parameter] = NaN;
         }
       });
     }
@@ -529,11 +526,9 @@ class BuildFormBase extends Component {
                             `${parameter}Fixed`
                           ]
                         }
-                        type={"checkbox"}
+                        type={"checkbox"} 
                         label={`${this.selectLabel(parameter)}: ${
-                          this.state.assignment.problems[index - 1].parameters[
-                            parameter
-                          ]
+                          ( !!(this.state.assignment.problems[index - 1].parameters[parameter]) ? this.state.assignment.problems[index - 1].parameters[parameter] : "")
                         }`}
                         onChange={this.onParameterFixChange}
                       />
@@ -620,6 +615,14 @@ class BuildFormBase extends Component {
               />
             </Form.Group>
           </Row>
+
+          <br/>
+
+          <Row className="mx-3 d-flex justify-content-center">
+            <h4>
+              Use the arrow buttons in the "Assignment Details" header to customize problems!
+            </h4>
+          </Row>
           <Form.Group controlId="formGridProblemNumber">
             <Form.Label>Number of Problems in Assignment</Form.Label>
             <Form.Control
@@ -637,10 +640,34 @@ class BuildFormBase extends Component {
               ))}
             </Form.Control>
           </Form.Group>
+          
+          <br/>
 
-          <Button className="mt-3 bg-secondary" variant="primary" type="submit">
+          <Row className="mx-3 d-flex justify-content-center">
+            <h6>
+              At least one problem must contain content before the assignment can be submitted.
+            </h6>
+          </Row>
+
+          <Button 
+            disabled={ 
+              this.state.assignment.problems.length === 0
+              || !(
+                this.state.assignment.problems[0].simulation.Name !== ""
+                ||this.state.assignment.problems[0].graphs === []
+                || this.state.assignment.problems[0].questions === []
+              )
+            }
+            className="mt-3 bg-secondary"
+            variant="primary"
+            type="submit"
+            
+          >
             Create Assignment!
           </Button>
+
+          
+
         </Col>
       );
     } else {

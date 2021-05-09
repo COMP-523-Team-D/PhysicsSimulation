@@ -9,7 +9,6 @@ import "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-
 };
 
 class Firebase {
@@ -24,10 +23,8 @@ class Firebase {
      * & Firebase Firestore
      */
     this.auth = firebase.auth();
-    this.auth.useEmulator("http://localhost:9099"); // Initialize to use the emulators
 
     this.db = firebase.firestore();
-    this.db.useEmulator("localhost", 8080); // Initialize to use the emulators
   }
 
   /* AUTHORIZATION API */
@@ -92,10 +89,10 @@ class Firebase {
     this.db.collection("Assignments").where("Name", "==", assignmentName);
   
   // Return a reference to all the assignments associated with a course
-  // specified by course name and ordered by assignment name
+  // specified by course name
   // Implicitly assumes that there will never be two courses with the same name
   assignments = courseName =>
-    this.db.collection("Assignments").where("Course Name", "==", courseName).orderBy("Name");
+    this.db.collection("Assignments").where("Course Name", "==", courseName);
 
   // Create a new assignment for a course
   doCreateNewAssignment = () =>
@@ -122,11 +119,20 @@ class Firebase {
   doCreateNewSubmission = () =>
     this.db.collection("Submissions").doc();
 
-  // Returns a reference to all the submissions associated with a
-  // user specified by user ID and ordered by course name
+  // Returns a reference to all the submissions for an assignment
+  // associated with an assignment name
   // Implicitly assumes that there will never be two courses with the same name
-  submissions = uid =>
-    this.db.collection("Submissions").where("UID", "==", uid).orderBy("Course Name");
+  allSubmissions = (courseName, assignmentName) =>
+    this.db.collection("Submissions").where("Assignment Name", "==", assignmentName)
+      .where("Course Name", "==", courseName);
+
+  // Returns a reference to all the submissions for an assignment
+  // associated with a user specified by user ID and assignment name
+  // Implicitly assumes that there will never be two courses with the same name
+  studentSubmissions = (courseName, assignmentName, studentID) =>
+    this.db.collection("Submissions").where("Student ID", "==", studentID)
+      .where("Assignment Name", "==", assignmentName)
+      .where("Course Name", "==", courseName);
   
 }
  

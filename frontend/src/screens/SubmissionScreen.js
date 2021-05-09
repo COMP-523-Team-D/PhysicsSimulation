@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { Card, Col, Container, Row, Button, Form } from "react-bootstrap";
 import { withFirebase } from "../Firebase";
 import { withAuthorization } from "../Session";
-import * as ROUTES from "../constants/routes";
 import GraphComponent from "../components/GraphComponent";
 
-const ProblemScreen = (props) => {
+const SubmissionScreen = (props) => {
   const [simulation, setSimulation] = useState({});
+  const [simulationSourceOffset, setSimulationSourceOffset] = useState("");
   const [graphs, setGraphs] = useState([]);
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState([]);
@@ -59,8 +59,12 @@ const ProblemScreen = (props) => {
   // when the screen is initially rendered.
   useEffect(() => {
     setSimulation(props.location.state.problem["Simulation"]);
+    setSimulationSourceOffset(props.location.state.simulationSourceOffset);
     setGraphs(props.location.state.problem["Graphs"]);
     setQuestions(props.location.state.problem["Questions"]);
+    setAnswers(props.location.state.submission["Question Answers"]);
+    setGraphAnswers(props.location.state.submission["Graph Answers"]);
+    
 
     const fixedVariables = {
       height: props.location.state.problem.Parameters["height"],
@@ -84,61 +88,20 @@ const ProblemScreen = (props) => {
     };
   }, []);
 
-  const onTextAnswerChange = event => {
-    const newAnswers = answers;
-    newAnswers[parseInt(event.target.name)] = event.target.value;
-    setAnswers( newAnswers );
-  }
-
-  const getGraphAnswers = (pointsClicked, title) => {
-    const newGraphAnswers = graphAnswers;
-    newGraphAnswers[title] = pointsClicked;
-    setGraphAnswers( newGraphAnswers );
-  }
-
-  const onSubmit = event => {
-    event.preventDefault();
-
-    const submission = {
-      Submitted: props.firebase.getTimestamp(),
-      "Course Name": props.location.state.assignment["Course Name"],
-      "Assignment Name": props.location.state.assignment["Name"],
-      "Problem Name": props.location.state.problem["Name"],
-      "Name": `Submission ${props.location.state.submissionNumber}`,
-      "Question Answers": answers,
-      "Graph Answers": graphAnswers,
-      "Student Name": props.location.state.studentName,
-      "Student ID": props.location.state.studentID
-    };
-
-    props.firebase.doCreateNewSubmission()
-        .set(submission)
-        .then(() => {
-          props.history.push(
-            ROUTES.COURSE_SCREEN + `/${props.match.params.courseName}` +
-            ROUTES.ASSIGNMENT_SCREEN + `/${props.match.params.assignmentName}`,
-            {assignment: props.location.state.assignment}
-          );
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-  };
-
   return (
     <Container className="simulation-container">
-      <Form onSubmit={onSubmit} >
       <Row className="d-md-flex justify-content-center">
         <Col sm={12} md={8} className="d-flex d-md-block align-content-center justify-content-center">
           {!!simulation["Name"] &&
             <iframe
               key={reloadIframe}
               className="phet-sim"
-              src={`../../../../${simulation["Source"]}`}
+              src={simulationSourceOffset + simulation["Source"]}
               scrolling="no"
               allowFullScreen
               title={simulation["Name"]}
-            ></iframe>}
+            ></iframe>
+          }
         </Col>
         <Col className="d-none d-md-block align-content-center text-center questions-card-col">
           <Card className="d-flex align-self-center questions-card">
@@ -152,11 +115,10 @@ const ProblemScreen = (props) => {
                     Question {localIndex+1} of {questions.length}: {question}
                   </Form.Label>
                   <Form.Control
-                    name={localIndex}
+                    readOnly
                     as="textarea"
                     rows={3}
                     value={answers[localIndex]}
-                    onChange={onTextAnswerChange}
                   >
                   </Form.Control>
                 </Form.Group>
@@ -195,8 +157,8 @@ const ProblemScreen = (props) => {
                     yMin={graph.yMin}
                     yMax={graph.yMax}
                     name={graph.title}
-                    handleAnswers={getGraphAnswers}
-                    answersToSet={[]}
+                    handleAnswers={() => {}}
+                    answersToSet={graphAnswers[graph.title]}
                   />
                 </Container>
               </Card.Body>
@@ -225,8 +187,8 @@ const ProblemScreen = (props) => {
                       yMin={graph.yMin}
                       yMax={graph.yMax}
                       name={graph.title}
-                      handleAnswers={getGraphAnswers}
-                      answersToSet={[]}
+                      handleAnswers={() => {}}
+                      answersToSet={graphAnswers[graph.title]}
                     />
                   </Container>
                 </Card.Body>
@@ -255,8 +217,8 @@ const ProblemScreen = (props) => {
                       yMin={graph.yMin}
                       yMax={graph.yMax}
                       name={graph.title}
-                      handleAnswers={getGraphAnswers}
-                      answersToSet={[]}
+                      handleAnswers={() => {}}
+                      answersToSet={graphAnswers[graph.title]}
                     />
                   </Container>
                 </Card.Body>
@@ -287,8 +249,8 @@ const ProblemScreen = (props) => {
                   yMin={graph.yMin}
                   yMax={graph.yMax}
                   name={graph.title}
-                  handleAnswers={getGraphAnswers}
-                  answersToSet={[]}
+                  handleAnswers={() => {}}
+                  answersToSet={graphAnswers[graph.title]}
                 />
               </Container>
             </Card.Body>
@@ -317,8 +279,8 @@ const ProblemScreen = (props) => {
                     yMin={graph.yMin}
                     yMax={graph.yMax}
                     name={graph.title}
-                    handleAnswers={getGraphAnswers}
-                    answersToSet={[]}
+                    handleAnswers={() => {}}
+                    answersToSet={graphAnswers[graph.title]}
                   />
                 </Container>
               </Card.Body>
@@ -347,8 +309,8 @@ const ProblemScreen = (props) => {
                     yMin={graph.yMin}
                     yMax={graph.yMax}
                     name={graph.title}
-                    handleAnswers={getGraphAnswers}
-                    answersToSet={[]}
+                    handleAnswers={() => {}}
+                    answersToSet={graphAnswers[graph.title]}
                   />
                 </Container>
               </Card.Body>
@@ -356,14 +318,13 @@ const ProblemScreen = (props) => {
           ))}
         </Col>
       </Row>
-      </Form>
     </Container>
   );
 };
 
 const condition = (authUserData) => !!authUserData;
 
-export default withFirebase(withAuthorization(condition)(ProblemScreen));
+export default withFirebase(withAuthorization(condition)(SubmissionScreen));
 
 
 

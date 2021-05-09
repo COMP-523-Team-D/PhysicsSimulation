@@ -5,20 +5,21 @@ import { AuthUserContext, withAuthorization } from "../Session";
 import * as ROUTES from "../constants/routes";
 import { Container, Card, Row, Col, Button } from "react-bootstrap";
 
-const AssignmentScreen = () => (
+const StudentSubmissionsScreen = () => (
   <AuthUserContext.Consumer>
-    {authUserData => <AssignmentScreenBase authUserData={authUserData}/>}
+    {authUserData => <StudentSubmissionsScreenBase authUserData={authUserData}/>}
   </AuthUserContext.Consumer>
 );
 
 const INITIAL_STATE = {
   courseName: "",
   assignmentName: "",
+  studentName: "",
   problems: [],
   submissions: []
 };
 
-class AssignmentBase extends Component {
+class StudentSubmissionsBase extends Component {
   constructor(props) {
     super(props);
 
@@ -30,12 +31,13 @@ class AssignmentBase extends Component {
     this.setState({courseName: this.props.location.state.assignment["Course Name"]});
     this.setState({assignmentName: this.props.location.state.assignment["Name"]});
     this.setState({problems: this.props.location.state.assignment["Problems"]});
+    this.setState({studentName: this.props.location.state.studentName});
 
     this.setState({
       unsubscribeSubmissions:
         this.props.firebase.studentSubmissions(this.props.location.state.assignment["Course Name"],
                                         this.props.location.state.assignment["Name"],
-                                        this.props.authUserData["UID"])
+                                        this.props.location.state.studentID)
             .onSnapshot((querySnapshot) => {
               const newSubmissions = [];
               querySnapshot.forEach((doc) => {
@@ -57,6 +59,7 @@ class AssignmentBase extends Component {
     const {
       courseName,
       assignmentName,
+      studentName,
       problems,
       submissions,
     } = this.state;
@@ -79,28 +82,6 @@ class AssignmentBase extends Component {
                         {problem["Name"]}
                       </Card.Title>
                     </Card.Header>
-                    <Card.Body >
-                      <Button
-                        className="course-button bg-secondary"
-                        variant="primary"
-                      >
-                        <Link to={{
-                          pathname: ROUTES.COURSE_SCREEN + `/${courseName.replace(/\s+/g, '_')}` +
-                                    ROUTES.ASSIGNMENT_SCREEN + `/${assignmentName.replace(/\s+/g, '_')}` +
-                                    ROUTES.PROBLEM_SCREEN + `/${problem["Name"].replace(/\s+/g, '_')}`,
-                          state: {
-                            assignment: this.props.location.state.assignment,
-                            problem: problem,
-                            submissionNumber: (submissions.filter((submission) => submission["Problem Name"]===problem["Name"]).length + 1),
-                            studentName: `${this.props.authUserData["First Name"]} ${this.props.authUserData["Last Name"]}`,
-                            studentID: this.props.authUserData["UID"]
-                          }
-                        }} className="build-link">
-                            Visit Problem
-                        </Link>
-                      </Button>
-
-                    </Card.Body>
                   </Card>
                 </Col>
                 <Col>
@@ -120,10 +101,12 @@ class AssignmentBase extends Component {
                             <Link to={{
                               pathname: ROUTES.COURSE_SCREEN + `/${courseName.replace(/\s+/g, '_')}` +
                                         ROUTES.ASSIGNMENT_SCREEN + `/${assignmentName.replace(/\s+/g, '_')}` +
+                                        ROUTES.STUDENTS_SCREEN + `/${studentName.replace(/\s+/g, '_')}` +
+                                        ROUTES.STUDENT_SUBMISSIONS_SCREEN +
                                         ROUTES.SUBMISSION_SCREEN + `/${submission["Name"].replace(/\s+/g, '_')}`,
                               state: {
                                 problem: problem,
-                                simulationSourceOffset: "../../../../",
+                                simulationSourceOffset: "../../../../../../../",
                                 submission: submission
                               }
                             }} className="build-link">
@@ -145,10 +128,10 @@ class AssignmentBase extends Component {
   }
 };
 
-const AssignmentScreenBase = withRouter(withFirebase(AssignmentBase));
+const StudentSubmissionsScreenBase = withRouter(withFirebase(StudentSubmissionsBase));
 
 const condition = (authUserData) => !!authUserData;
 
-export default withAuthorization(condition)(AssignmentScreen);
+export default withAuthorization(condition)(StudentSubmissionsScreen);
 
-export { AssignmentScreenBase };
+export { StudentSubmissionsScreenBase };

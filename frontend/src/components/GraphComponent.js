@@ -11,7 +11,8 @@ const GraphComponent = ({
   width,
   height,
   name,
-  returnAnswers,
+  handleAnswers,
+  answersToSet,
   ...rest
 }) => {
   // reference to pass to Line graph
@@ -27,6 +28,7 @@ const GraphComponent = ({
   // Array to store student response points
   const [pointsClicked, setPointsClicked] = useState([]);
   const [predictedAnswer, setPredictedAnswer] = useState([]);
+  const [acceptingAnswers, setAcceptingAnswers] = useState(true);
 
   // Create x,y pairs from independent and dependent data arrays
   // and then add each pair/object to dataArr
@@ -46,7 +48,10 @@ const GraphComponent = ({
   // Perform answer prediction and return points clicked to parent when a new point is added by the user
   useEffect(() => {
     predictAnswer();
-    returnAnswers(pointsClicked, name);
+    if(acceptingAnswers) {
+      handleAnswers(pointsClicked, name);
+    }
+    
   }, [pointsClicked]);
 
   // function to set up initial scale with given params for
@@ -54,7 +59,6 @@ const GraphComponent = ({
   const setUpInitScale = (min1, min2, max1, max2) => {
     let yScale = [];
     let xScale = [];
-    let tXScale = [];
     for (let i = min1; i <= max1; i += 0.2) {
       xScale.push(i.toFixed(2));
     }
@@ -63,11 +67,19 @@ const GraphComponent = ({
       yScale.push(j);
     }
     setLabel([xScale, yScale]);
+
+    
   };
 
   // set up initial scale when page loads
   useEffect(() => {
     setUpInitScale(xMin, yMin, xMax, yMax);
+
+    if(answersToSet.length !== 0) {
+      setAcceptingAnswers(false);
+      setPointsClicked(answersToSet);
+    }
+
   }, []);
 
   const predictAnswer = () => {
@@ -109,9 +121,14 @@ const GraphComponent = ({
     const getX = y => {
       return pointsClicked[0].x + (y - pointsClicked[0].y)/slope;
     }
+    
+    const scale = ( slope <= (yMax-yMin) / (xMax-xMin) && slope >= (yMin-yMax) / (xMax-xMin) )
+      ? (xMax-xMin)/predictionArraySize
+      : Math.abs(getX(yMax) - getX(yMin))/predictionArraySize;
 
-    const scale = ( slope <= (yMax-yMin) / (xMax-xMin) ) ? (xMax-xMin)/predictionArraySize : Math.abs(getX(yMax) - getX(yMin))/predictionArraySize;
-    const initialX = ( slope <= (yMax-yMin) / (xMax-xMin) ) ? xMin : Math.min(getX(yMin), getX(yMax));
+    const initialX = ( slope <= (yMax-yMin) / (xMax-xMin) && slope >= (yMin-yMax) / (xMax-xMin) )
+      ? xMin
+      : Math.min(getX(yMin), getX(yMax));
 
     const newPrediction = [];
     for(let i=0; i<predictionArraySize; i++) {
@@ -148,36 +165,37 @@ const GraphComponent = ({
   // inserts a new x,y pair into the guess line
   // that corresponds to where the click was on the graph
   function handleClick(e) {
-    const yAxisPixelPos = e.chart.chartArea.left;
-    const xAxisPixelPos = e.chart.chartArea.bottom;
-    const xAxisPixelScale = e.chart.chartArea.right - e.chart.chartArea.left;
-    const yAxisPixelScale = e.chart.chartArea.bottom - e.chart.chartArea.top;
-    const xAxisScale = xMax - xMin;
-    const yAxisScale  = yMax - yMin;
+    if(acceptingAnswers && pointsClicked.length < 3) {
+      const yAxisPixelPos = e.chart.chartArea.left;
+      const xAxisPixelPos = e.chart.chartArea.bottom;
+      const xAxisPixelScale = e.chart.chartArea.right - e.chart.chartArea.left;
+      const yAxisPixelScale = e.chart.chartArea.bottom - e.chart.chartArea.top;
+      const xAxisScale = xMax - xMin;
+      const yAxisScale  = yMax - yMin;
 
-    // // Pull in x and y values of click and account for the
-    // // graph does not start at 0,0
-    const xChartPixelLength = e.x - yAxisPixelPos;
-    const yChartPixelLength = xAxisPixelPos - e.y;
-    
-    const xChartRatio = xChartPixelLength/xAxisPixelScale;
-    const yChartRatio = yChartPixelLength/yAxisPixelScale;
+      // // Pull in x and y values of click and account for the
+      // // graph does not start at 0,0
+      const xChartPixelLength = e.x - yAxisPixelPos;
+      const yChartPixelLength = xAxisPixelPos - e.y;
+      
+      const xChartRatio = xChartPixelLength/xAxisPixelScale;
+      const yChartRatio = yChartPixelLength/yAxisPixelScale;
 
-    const xDataPoint = xMin + xChartRatio*xAxisScale;
-    const yDataPoint = yMin + yChartRatio*yAxisScale;
-
-
-    // Repeat for the width and height of the graph
-    //const w = e.chart.width;
-    //const h = e.chart.height;
-    const newPoint = {x: xDataPoint, y: yDataPoint};
-
-    setPointsClicked( oldPoints => [ ...oldPoints, newPoint]);
+      const xDataPoint = xMin + xChartRatio*xAxisScale;
+      const yDataPoint = yMin + yChartRatio*yAxisScale;
 
 
+      // Repeat for the width and height of the graph
+      const newPoint = {x: xDataPoint, y: yDataPoint};
 
-    // Chart updated in setPointsClicked callback function
-    e.chart.update();
+      setPointsClicked( oldPoints => [ ...oldPoints, newPoint]);
+
+      // Chart updated in setPointsClicked callback function
+      e.chart.update();
+    }else if(acceptingAnswers) {
+      setPointsClicked([]);
+      setPredictedAnswer([]);
+    }
   }
 
   const data = {
