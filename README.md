@@ -4,7 +4,13 @@
 UNC Physics Simulation with PhET builds on the physics simulations provided by the University of Colorado Boulder to provide students and instructors with an interface better suited for an instructional environment. This interface is designed to allow instructors to present interactive/instructional content to students alongside a PhET simulation. This repository contains the source code for the UNC Physics Simulation application, and this document provides a guide for developers to initialize the project locally.
 
 ## Getting Started
-To start developing this project, clone the repo and navigate to the directory `/PhysicsSimulation/frontend` in your terminal. Run `npm install` to collect all the necessary dependencies.
+  1. Clone the repository into a local directory and navigate to `<local directory>/PhysicsSimulation/frontend` in a terminal window.
+  2. Download and install node+npm and ensure that it is accessible from `<local directory>/PhysicsSimulation/frontend`.
+  3. Run `npm install` or `npm update` to collect all of the application's dependencies.
+  4. At this point, the frontend of the application has been installed and can be launched with the command `npm start`. The launched application in this form will       have limited functionality because it is not connected to Firebase Authentication Services or Firebase Firestore (the application's database).
+  5. From this point forward, you will need the Firebase Configuration settings for the project from the current system administrator.
+  6. Inside of `<local directory>/PhysicsSimulation/frontend/src/Firebase/firebase.js` you will see an empty JS object titled firebaseConfig; copy and paste the            Firebase Configuration settings into this JS object ( e.g., const firebaseConfig = { apiKey: <key>, authDomain: <domain>, etc.}; ).
+  7. 
 
 You'll need to set up a Firebase emulator to simulate the necessary backend communication. Download the Firebase CLI and follow the instructions on their website. Firebase emulators, in turn, require a recent installation of Java. You may need to uninstall and reinstall your version of Java to get this working correctly.
 
