@@ -3,7 +3,7 @@
 ## Overview
 UNC Physics Simulation with PhET builds on the physics simulations provided by the University of Colorado Boulder to provide students and instructors with an interface better suited for an instructional environment. This interface is designed to allow instructors to present interactive/instructional content to students alongside a PhET simulation. This repository contains the source code for the UNC Physics Simulation application, and this document provides a guide for developers to initialize the project locally.
 
-## Getting Started -- Installing the Application
+## Getting Started 1 -- Installing the Application
   1. Clone the repository into a local directory and navigate to `<local directory>/PhysicsSimulation/frontend` in a terminal window.
   2. \* Download and install node+npm and ensure that it is accessible from `<local directory>/PhysicsSimulation/frontend`.
   3. Run `npm update` to collect all of the application's dependencies.
@@ -13,7 +13,7 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
   8. At this point, the application should successfully launch in a new browser tab/window with the url `http://localhost:3000`.
   9. The system is installed locally and you are ready to start developing.
 
-## Getting Started -- Deploying the Application
+## Getting Started 2 -- Deploying the Application
   0. This section requires access to a Google account that is linked to the UNC Physics Simulation Firebase project.
   1. To deploy an updated version of the application, first navigate to `<local directory>/PhysicsSimulation/frontend` in a terminal window.
   2. Run `npm run build` to build a production version of the application.
