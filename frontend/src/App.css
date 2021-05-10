@@ -10,6 +10,7 @@ Body {
     height: 85%;
     width: 100%;
 }
+
 .navBarContainer {
     font-size: 1.2rem;
 }
@@ -40,11 +41,30 @@ Body {
     font-size: 1.6rem;
 }
 
+.help-screen-col {
+    width: 100%;
+    heigth: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.help-screen-img {
+    height: 350px;
+    width: 500px;
+}
+
+@media(min-width: 1300px) {
+    .help-screen-img {
+        height: 450px;
+        width: 650px;
+    }
+}
+
 .courseList {
     font-size: 1.5rem;
 }
 
-.courseList li, .tool-bag{
+.courseList li{
     transition: all .2s ease-in-out;
 }
 
