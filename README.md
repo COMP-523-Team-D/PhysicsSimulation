@@ -5,10 +5,10 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
 
 ## Getting Started 1 -- Installing the Application
   1. Clone the repository into a local directory and navigate to `<local directory>/PhysicsSimulation/frontend` in a terminal window.
-  2. \* Download and install node+npm and ensure that it is accessible from `<local directory>/PhysicsSimulation/frontend`.
+  2. \* Download and install `node` and `npm`, and ensure that they are accessible from `<local directory>/PhysicsSimulation/frontend`.
   3. Run `npm update` to collect all of the application's dependencies.
-  4. At this point, the frontend of the application has been installed, and from this point forward, you will need the Firebase Configuration settings for the              project from the current system administrator.
-  6. Inside of `<local directory>/PhysicsSimulation/frontend/src/Firebase/firebase.js` you will see an empty JS object titled firebaseConfig; copy and paste the            Firebase Configuration settings into this JS object ( e.g., const firebaseConfig = { apiKey: `<key>`, authDomain: `<domain>`, etc.}; ).
+  4. At this point, the frontend of the application has been installed, and from this point forward, you will need the Firebase Configuration settings for the project from the current system administrator.
+  6. Inside of `<local directory>/PhysicsSimulation/frontend/src/Firebase/firebase.js` you will see an empty JS object titled firebaseConfig; copy and paste the Firebase Configuration settings into this JS object ( e.g., const firebaseConfig = { apiKey: `<key>`, authDomain: `<domain>`, etc.}; ).
   7. Navigate back to `<local directory>/PhysicsSimulation/frontend` and run `npm start` to launch the application locally.
   8. At this point, the application should successfully launch in a new browser tab/window with the url `http://localhost:3000`.
   9. The system is installed locally and you are ready to start developing.
@@ -22,12 +22,13 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
   6. Run `firebase login` and follow the steps to login with a Google account that is linked to the UNC Physics Simulation Firebase project.
   7. Run `firebase init`.
   8. When presented with options in the terminal window, select `Firestore` and `Hosting` then press enter.
-  9. Accept the default options presented in the terminal window by pressing enter UNTIL the beginning of "Hosting Setup"
-  10. When prompted with "What do you want to use as your public directory?" type in `./frontend/build` and press enter.
-  11. Next, you'll be prompted with "Configure as a single-page app (rewrite all urls to /index.html)?" type in `y` and press enter.
-  12. Finally, you'll be prompted with "Set up automatic builds and deploys with GitHub?" type in `n` and press enter.
-  13. At this point, Firebase initialization will be complete, and you are ready to deploy the updated version of the application to Firebase.
-  14. Run `firebase deploy` to deploy the application.
+  9. Accept the default options presented in the terminal window by pressing enter or selecting `n` if asked to overwrite any files UNTIL the beginning of "Hosting Setup".
+  11. Once "Hosting Setup" has begun, you will follow the steps outlined below (except if asked to overwrite any files--answer `n` to any file overwrites).
+  12. When prompted with "What do you want to use as your public directory?" type in `./frontend/build` and press enter.
+  13. Next, you'll be prompted with "Configure as a single-page app (rewrite all urls to /index.html)?" type in `y` and press enter.
+  14. Finally, you'll be prompted with "Set up automatic builds and deploys with GitHub?" type in `n` and press enter.
+  15. At this point, Firebase initialization will be complete, and you are ready to deploy the updated version of the application to Firebase.
+  16. Run `firebase deploy` to deploy the application.
 
 \* Any steps denoted with a '\*' in the Getting Started sections likely require administrator privileges on your local machine.
 
@@ -35,9 +36,13 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
 
 Our React app code is entirely within `/frontend/src`. From here you can see the different screens in our application, and the various reusable components we have defined as well.
 
-The PhET simulation code is inside `/frontend/public/phetsims`. For more information about building upon the PhET code specifically, see [their provided documentation](https://github.com/phetsims/phet-info/blob/master/doc/phet-development-overview.md). Note that, if you want to add more simulations to this application, you'll want to read their "Master is Unstable" section in order to locate rigorously tested versions of the simulations.
+The PhET simulation code is inside `/frontend/public/phetsims`. For more information about building upon the PhET code specifically, see [their provided documentation](https://github.com/phetsims/phet-info/blob/master/doc/phet-development-overview.md).
 
-We embed PHeT simulations inside iframes, so we communicate information between the frontend via (1) the `postMessage` utility, and (2) the browser tab's `sessionStorage`. Information about this communication can be found inside the projetile motion simulation code, as well as the problem screen and assignment build screen code.
+We embed PHeT simulations inside iframes, so we communicate information between the frontend via (1) the `postMessage` utility, and (2) the browser tab's `sessionStorage`. Specifics of this communication structure can be found inside the projetile motion simulation code, as well as the problem screen and assignment build screen code.
+
+### Adding new simulations to the project
+
+Note that, if you want to add more simulations to this application, you'll want to read their "Master is Unstable" section of the link above in order to locate rigorously tested versions of the simulations. Follow these steps alongside the documentation in the simulation's readme file. Make sure you put all PhET code into the `/frontend/public/phetsims` directory.
 
 ## Available Scripts
 
