@@ -34,7 +34,7 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
 
 ## Project Structure
 
-We did our work on this project almost entirely in JavaScript. Look to the breakdown on the right of the GitHub page to see all languages used in this project. This also includes languages used in the PhET simulation code, which we have cloned and modified in this repository. We used JavaScript and CSS for the frontend, while the backend communication is handled via JavaScript and the Firebase console interface.
+We did our work on this project almost entirely in JavaScript. Look to the breakdown on the right of the GitHub page to see all languages used in this project. This also includes languages used in the PhET simulation code, which we have cloned and modified in this repository. We used JavaScript, HTML, and CSS for the frontend, while the backend communication is handled via JavaScript and the Firebase console interface.
 
 Broadly, our application is made of two large code modules: the React frontend and the imported PhET code. Our React app code is entirely within `/frontend/src`. From here you can see the different screens in our application, and the various reusable components we have defined as well. This is also where we perform all communication with our backend, which is handled by Firebase.
 
