@@ -17,6 +17,7 @@ import Navigation from "./components/Navigation";
 import * as ROUTES from "./constants/routes";
 import { withAuthentication } from "./Session";
 import "./App.css";
+import HelpScreen from "./screens/HelpScreen";
 
 const App = () => {
   return (
@@ -26,65 +27,112 @@ const App = () => {
         <Route
           exact
           path={ROUTES.LANDING_SCREEN}
-          component={() => <LandingScreen className="LandingScreen"/>}
+          component={() => <LandingScreen className="LandingScreen" />}
         />
         <Route
           path={ROUTES.REGISTER_SCREEN}
-          component={() => <RegisterScreen className="RegisterScreen"/>}
+          component={() => <RegisterScreen className="RegisterScreen" />}
         />
         <Route
           path={ROUTES.LOGIN_SCREEN}
-          component={() => <LoginScreen className="LoginScreen"/>}
+          component={() => <LoginScreen className="LoginScreen" />}
         />
         <Route
           path={ROUTES.HOME_SCREEN}
-          component={() => <HomeScreen className="HomeScreen"/>}
+          component={() => <HomeScreen className="HomeScreen" />}
         />
         <Route
           path={ROUTES.BUILD_SCREEN + "/:courseName?"}
-          component={() => (<BuildScreen className="BuildScreen"/>)}
+          component={() => <BuildScreen className="BuildScreen" />}
         />
         <Route
           path={ROUTES.SANDBOX_SCREEN + "/:simulationName"}
-          component={() => <SandboxScreen className="SandboxScreen"/>}
+          component={() => <SandboxScreen className="SandboxScreen" />}
         />
         <Route
           exact
           path={ROUTES.COURSE_SCREEN + "/:courseName?"}
-          component={() => <CourseScreen className="CourseScreen"/>}
+          component={() => <CourseScreen className="CourseScreen" />}
         />
         <Route
           exact
-          path={ROUTES.COURSE_SCREEN + "/:courseName" + ROUTES.ASSIGNMENT_SCREEN + "/:assignmentName"}
-          component={() => <AssignmentScreen className="AssignmentScreen"/>}
+          path={
+            ROUTES.COURSE_SCREEN +
+            "/:courseName" +
+            ROUTES.ASSIGNMENT_SCREEN +
+            "/:assignmentName"
+          }
+          component={() => <AssignmentScreen className="AssignmentScreen" />}
         />
         <Route
           exact
-          path={ROUTES.COURSE_SCREEN + "/:courseName" + ROUTES.ASSIGNMENT_SCREEN + "/:assignmentName" + ROUTES.PROBLEM_SCREEN + "/:problemName"}
-          component={() => (<ProblemScreen className="ProblemScreen"/>)}
-        />
-         <Route
-          exact
-          path={ROUTES.COURSE_SCREEN + "/:courseName" + ROUTES.ASSIGNMENT_SCREEN + "/:assignmentName" + ROUTES.SUBMISSION_SCREEN + "/:submissionName"}
-          component={() => (<SubmissionScreen className="SubmissionScreen"/>)}
-        />
-        <Route
-          exact
-          path={ROUTES.COURSE_SCREEN + "/:courseName" + ROUTES.ASSIGNMENT_SCREEN + "/:assignmentName"
-                + ROUTES.STUDENTS_SCREEN + "/:studentName" + ROUTES.STUDENT_SUBMISSIONS_SCREEN 
-                + ROUTES.SUBMISSION_SCREEN + "/:submissionName"}
-          component={() => <SubmissionScreen className="StudentScreen"/>}
+          path={
+            ROUTES.COURSE_SCREEN +
+            "/:courseName" +
+            ROUTES.ASSIGNMENT_SCREEN +
+            "/:assignmentName" +
+            ROUTES.PROBLEM_SCREEN +
+            "/:problemName"
+          }
+          component={() => <ProblemScreen className="ProblemScreen" />}
         />
         <Route
           exact
-          path={ROUTES.COURSE_SCREEN + "/:courseName" + ROUTES.ASSIGNMENT_SCREEN + "/:assignmentName" + ROUTES.STUDENTS_SCREEN}
-          component={() => <StudentsScreen className="StudentsScreen"/>}
+          path={
+            ROUTES.COURSE_SCREEN +
+            "/:courseName" +
+            ROUTES.ASSIGNMENT_SCREEN +
+            "/:assignmentName" +
+            ROUTES.SUBMISSION_SCREEN +
+            "/:submissionName"
+          }
+          component={() => <SubmissionScreen className="SubmissionScreen" />}
         />
         <Route
           exact
-          path={ROUTES.COURSE_SCREEN + "/:courseName" + ROUTES.ASSIGNMENT_SCREEN + "/:assignmentName"
-                + ROUTES.STUDENTS_SCREEN + "/:studentName" + ROUTES.STUDENT_SUBMISSIONS_SCREEN}
-          component={() => <StudentSubmissionsScreen className="StudentSubmissionsScreen"/>}
+          path={
+            ROUTES.COURSE_SCREEN +
+            "/:courseName" +
+            ROUTES.ASSIGNMENT_SCREEN +
+            "/:assignmentName" +
+            ROUTES.STUDENTS_SCREEN +
+            "/:studentName" +
+            ROUTES.STUDENT_SUBMISSIONS_SCREEN +
+            ROUTES.SUBMISSION_SCREEN +
+            "/:submissionName"
+          }
+          component={() => <SubmissionScreen className="StudentScreen" />}
+        />
+        <Route
+          exact
+          path={
+            ROUTES.COURSE_SCREEN +
+            "/:courseName" +
+            ROUTES.ASSIGNMENT_SCREEN +
+            "/:assignmentName" +
+            ROUTES.STUDENTS_SCREEN
+          }
+          component={() => <StudentsScreen className="StudentsScreen" />}
+        />
+        <Route
+          exact
+          path={
+            ROUTES.COURSE_SCREEN +
+            "/:courseName" +
+            ROUTES.ASSIGNMENT_SCREEN +
+            "/:assignmentName" +
+            ROUTES.STUDENTS_SCREEN +
+            "/:studentName" +
+            ROUTES.STUDENT_SUBMISSIONS_SCREEN
+          }
+          component={() => (
+            <StudentSubmissionsScreen className="StudentSubmissionsScreen" />
+          )}
+        />
+        <Route
+          exact
+          path={ROUTES.HELP_SCREEN}
+          component={() => <HelpScreen />}
         />
       </Container>
     </Router>
