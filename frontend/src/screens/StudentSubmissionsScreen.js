@@ -1,3 +1,12 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the /course/:courseName/assignment/:assignmentName/students/:studentName
+ * /student_submissions route within the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ */
+
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import { withFirebase } from "../Firebase";
@@ -33,8 +42,11 @@ class StudentSubmissionsBase extends Component {
     this.setState({problems: this.props.location.state.assignment["Problems"]});
     this.setState({studentName: this.props.location.state.studentName});
 
+    // Saves the callback function returned by the Firestore database access
     this.setState({
       unsubscribeSubmissions:
+        // Connects to the Firestore database using locally defined
+        // API calls from Firebase/firebase.js
         this.props.firebase.studentSubmissions(this.props.location.state.assignment["Course Name"],
                                         this.props.location.state.assignment["Name"],
                                         this.props.location.state.studentID)
@@ -51,6 +63,7 @@ class StudentSubmissionsBase extends Component {
   }
 
   componentWillUnmount() {
+    // Calls the stored callback functions to close the database connection
     this.state.unsubscribeSubmissions();
   }
 
@@ -130,6 +143,8 @@ class StudentSubmissionsBase extends Component {
 
 const StudentSubmissionsScreenBase = withRouter(withFirebase(StudentSubmissionsBase));
 
+// Defines a condition for ensuring that only authenticated users can
+// navigate to this screen
 const condition = (authUserData) => !!authUserData;
 
 export default withAuthorization(condition)(StudentSubmissionsScreen);

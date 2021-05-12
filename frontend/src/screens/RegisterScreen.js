@@ -4,6 +4,7 @@
  * 
  * Date: 05/12/2021
  * @author Ross Rucho
+ * @author Molly Crown
  */
 
 import React, { Component } from "react";
@@ -53,6 +54,8 @@ export class RegisterFormBase extends Component {
       passwordOne,
     } = this.state;
 
+    // Connects to the Firestore database using locally defined
+    // API calls from Firebase/firebase.js
     this.props.firebase
       .doCreateUserWithEmailAndPassword(email, passwordOne)
       .then((authUser) => {
@@ -80,10 +83,12 @@ export class RegisterFormBase extends Component {
       });
   };
 
+  // Isolates the logic for updating the user provided input fields
   onChange = (event) => {
     this.setState({ [event.target.name]: event.target.value });
   };
 
+  // Isolates the logic for updating the user provided check box inputs
   onChangeArray = (event) => {
     const array = this.state[event.target.name];
     const eltIndex = array.indexOf(event.target.value);
@@ -91,8 +96,11 @@ export class RegisterFormBase extends Component {
   };
 
   componentDidMount() {
+    // Saves the callback function returned by the Firestore database access
     this.setState({
       unsubscribeInstructors:
+        // Connects to the Firestore database using locally defined
+        // API calls from Firebase/firebase.js
         this.props.firebase?.instructors()
             .onSnapshot((querySnapshot) => {
               let instructorsList = [];
@@ -108,8 +116,11 @@ export class RegisterFormBase extends Component {
         })
     });
     
+    // Saves the callback function returned by the Firestore database access
     this.setState({
       unsubscribeCourses:
+        // Connects to the Firestore database using locally defined
+        // API calls from Firebase/firebase.js
         this.props.firebase?.courses()
             .onSnapshot((querySnapshot) => {
               let coursesList = [];
@@ -125,6 +136,7 @@ export class RegisterFormBase extends Component {
   }
 
   componentWillUnmount() {
+    // Calls the stored callback functions to close the database connection
     this.state.unsubscribeInstructors();
     this.state.unsubscribeCourses();
   }

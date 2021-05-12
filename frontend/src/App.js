@@ -1,3 +1,12 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for all of the routes contained within the application
+ * 
+ * Date: 05/12/2021
+ * @author Gabe Foster
+ * @author Ross Rucho
+ */
+
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";

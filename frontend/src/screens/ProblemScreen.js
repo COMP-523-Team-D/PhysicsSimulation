@@ -1,11 +1,15 @@
-/*
+/**
  * View component for rendering a single problem to the screen.
  * Contains logic to deal with receiving student input and
- * store that to the database.
+ * store that to the database. Associated with the
+ * /course/:courseName/assignment/:assignmentName/problem/:problemName
+ * routes within the application
  *
  * Date: 5/9/21
- * @authors Ross Rucho, Mathew Gregoire, and Gabe Foster
- * */
+ * @author Gabe Foster
+ * @author Matthew Gregoire
+ * @author Ross Rucho
+ */
 
 import { useState, useEffect } from "react";
 import { Card, Col, Container, Row, Button, Form } from "react-bootstrap";
@@ -96,12 +100,14 @@ const ProblemScreen = (props) => {
     };
   }, []);
 
+  // Isolates the logic for updating the user provided answer fields
   const onTextAnswerChange = (event) => {
     const newAnswers = answers;
     newAnswers[parseInt(event.target.name)] = event.target.value;
     setAnswers(newAnswers);
   };
 
+  // Isolates the logic for updating the user provided graph answers
   const getGraphAnswers = (pointsClicked, title) => {
     const newGraphAnswers = graphAnswers;
     newGraphAnswers[title] = pointsClicked;
@@ -123,6 +129,8 @@ const ProblemScreen = (props) => {
       "Student ID": props.location.state.studentID,
     };
 
+    // Connects to the Firestore database using locally defined
+    // API calls from Firebase/firebase.js
     props.firebase
       .doCreateNewSubmission()
       .set(submission)
@@ -379,6 +387,8 @@ const ProblemScreen = (props) => {
   );
 };
 
+// Defines a condition for ensuring that only authenticated users can
+// navigate to this screen
 const condition = (authUserData) => !!authUserData;
 
 export default withFirebase(withAuthorization(condition)(ProblemScreen));

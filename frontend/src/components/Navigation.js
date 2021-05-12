@@ -1,3 +1,13 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the dynamic website header.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ * @author Gabe Foster
+ * @author Molly Crown
+ */
+
 import React from "react";
 import { AuthUserContext } from "../Session";
 import LogoutButton from "./LogoutComponent";
@@ -5,7 +15,6 @@ import * as ROUTES from "../constants/routes";
 import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import "../App.css";
-import { Link } from "react-router-dom";
 
 const Navigation = () => (
   <AuthUserContext.Consumer>

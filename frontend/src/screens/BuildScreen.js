@@ -1,3 +1,13 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the /build/:courseName route within the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ * @author Gabe Foster
+ * @author Molly Crown
+ */
+
 import React, { Component } from "react";
 import DatePicker from "react-datepicker";
 import { withRouter } from "react-router-dom";
@@ -45,10 +55,7 @@ class BuildFormBase extends Component {
 
   componentDidMount() {
     // Course Name
-    this.state.assignment.courseName = this.props.match.params.courseName.replace(
-      /_+/g,
-      " "
-    );
+    this.state.assignment.courseName = this.props.match.params.courseName.replace(/_+/g, " ");
 
     // Instructor Name
     this.state.assignment.creator = `${this.props.authUserData["First Name"]} ${this.props.authUserData["Last Name"]}`;
@@ -65,11 +72,13 @@ class BuildFormBase extends Component {
     // Initialize simulation window listener
     window.addEventListener("message", this.updateParameters, false);
 
-    // Simulation database access
+    // Saves the callback function returned by the Firestore database access
     this.setState({
-      unsubscribeSimulations: this.props.firebase
-        .simulations()
-        .onSnapshot((querySnapshot) => {
+      unsubscribeSimulations:
+        // Connects to the Firestore database using locally defined
+        // API calls from Firebase/firebase.js
+        this.props.firebase.simulations()
+          .onSnapshot((querySnapshot) => {
           let simulationsList = [];
           querySnapshot.forEach((doc) => {
             // Build screen only supports the Projectile Motion simulation
@@ -84,9 +93,12 @@ class BuildFormBase extends Component {
   }
 
   componentWillUnmount() {
+    // Removes any recorded state to ensure that the page is blank on refresh
     this.state.assignment.problems.length = 0;
     this.setState({ ...INITIAL_STATE });
     window.removeEventListener("message", this.updateParameters);
+
+    // Calls the stored callback functions to close the database connection
     this.state.unsubscribeSimulations();
   }
 
@@ -94,6 +106,7 @@ class BuildFormBase extends Component {
    * Beginning of onChange & onSubmit Functions
    */
 
+  // Isolates the logic for the forward click arrow
   onForwardClick() {
     this.setState({
       index:
@@ -103,12 +116,15 @@ class BuildFormBase extends Component {
     });
   }
 
+  // Isolates the logic for the backward click arrow
   onBackwardClick() {
     this.setState({
       index: this.state.index > 0 ? this.state.index - 1 : this.state.index,
     });
   }
 
+  // Isolates the logic for the release date input structure
+  // Ensures that the release date must be earlier than the close date
   onReleaseDateChange = (date) => {
     if (
       JSON.stringify(date) <= JSON.stringify(this.state.assignment.closeDate)
@@ -118,6 +134,8 @@ class BuildFormBase extends Component {
     }
   };
 
+  // Isolates the logic for the close date input structure
+  // Ensures that the close date must be later than the release date
   onCloseDateChange = (date) => {
     if (
       JSON.stringify(this.state.assignment.releaseDate) <= JSON.stringify(date)
@@ -127,6 +145,7 @@ class BuildFormBase extends Component {
     }
   };
 
+  // Isolates the logic for user provided problem number input field
   onProblemNumberChange = (event) => {
     let newProblemsArray = [];
     for (let i = 0; i < event.target.value; i++) {
@@ -141,6 +160,7 @@ class BuildFormBase extends Component {
     this.forceUpdate();
   };
 
+  // Isolates the logic for the user provided question number input field
   onQuestionNumberChange = (event) => {
     const currentProblem = this.state.assignment.problems[this.state.index - 1];
 
@@ -157,6 +177,7 @@ class BuildFormBase extends Component {
     this.forceUpdate();
   };
 
+  // Isolates the logic for the user provided graph number input field
   onGraphNumberChange = (event) => {
     const currentProblem = this.state.assignment.problems[this.state.index - 1];
 
@@ -181,12 +202,14 @@ class BuildFormBase extends Component {
     this.forceUpdate();
   };
 
+  // Isolates the logic for updating the user provided question content input fields
   onQuestionChange = (event) => {
     const currentProblem = this.state.assignment.problems[this.state.index - 1];
     currentProblem.questions[event.target.name] = event.target.value;
     this.forceUpdate();
   };
 
+  // Isolates the logic for updating the user provided graph content input fields
   onGraphChange = (event) => {
     const currentGraph = this.state.assignment.problems[this.state.index - 1]
       .graphs[parseInt(event.target.name)];
@@ -222,6 +245,7 @@ class BuildFormBase extends Component {
     this.forceUpdate();
   };
 
+  // Isolates the logic for the user provided simulation input field
   onSimulationChange = (event) => {
     const currentProblem = this.state.assignment.problems[this.state.index - 1];
     if (event.target.value !== "") {
@@ -246,16 +270,20 @@ class BuildFormBase extends Component {
     this.forceUpdate();
   };
 
+  // Isolates the logic for the user provided fixed parameters check boxes
   onParameterFixChange = (event) => {
     const currentProblem = this.state.assignment.problems[this.state.index - 1];
     currentProblem.parameters[`${event.target.name}Fixed`] = !currentProblem.parameters[`${event.target.name}Fixed`];
     this.forceUpdate();
   };
 
+  // Communicates with the PhET simulation to acquire the simulation's current parameters
   onParameterValueChange = (event) => {
     document.getElementById("Simulation Frame").contentWindow.postMessage("Request Parameters", "*");
   };
 
+  // Isolates the logic for updating the simulation parameter configuration data
+  // after receiving the simulation's current parameters from the PhET simulation
   updateParameters = (event) => {
     if (event.data["check"] && event.data["check"] === "Parameters Requested") {
       const currentProblem = this.state.assignment.problems[this.state.index - 1];
@@ -443,6 +471,8 @@ class BuildFormBase extends Component {
     const finishedAssignment = this.state.assignment.convert();
     finishedAssignment["Created"] = this.props.firebase.getTimestamp();
 
+    // Connects to the Firestore database using locally defined
+    // API calls from Firebase/firebase.js
     this.props.firebase
       .doCreateNewAssignment()
       .set(finishedAssignment)
@@ -460,6 +490,7 @@ class BuildFormBase extends Component {
    * Beginning of Conditional Rendering Logic!
    */
 
+  // Conditionally renders the correct parameter label
   selectLabel(label) {
     switch (label) {
       case "height":
@@ -476,6 +507,7 @@ class BuildFormBase extends Component {
     }
   }
 
+  // Conditionally renders the correct header
   selectHeader(index) {
     switch (index) {
       case 0:
@@ -486,6 +518,8 @@ class BuildFormBase extends Component {
     }
   }
 
+  // Conditionally renders the correct simulation and parameters associated
+  // with the given problem index.
   conditionallyRenderSimulation(index) {
     if (
       index > 0 &&
@@ -560,6 +594,8 @@ class BuildFormBase extends Component {
     }
   }
 
+  // Conditionally renders the assignment details view of the build screen
+  // or the correct problem content as specified by the given index
   conditionallyRenderPage(index) {
     if (index === 0) {
       return (
@@ -842,6 +878,8 @@ class BuildFormBase extends Component {
 
 const BuildForm = withRouter(withFirebase(BuildFormBase));
 
+// Defines a condition for ensuring that only authenticated users can
+// navigate to this screen
 const condition = (authUserData) => !!authUserData;
 
 export default withAuthorization(condition)(BuildScreen);

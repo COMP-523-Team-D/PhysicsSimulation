@@ -69,6 +69,8 @@ define( function( require ) {
   var MUZZLE_FLASH_DURATION_OF_FRAMES = 16;
   var MUZZLE_FLASH_START = 1 - MUZZLE_FLASH_DURATION_OF_FRAMES * MUZZLE_FLASH_OPACITY_DELTA;
   
+  // COMP 523 addition: locate the fixed variables in the sessionStorage in case we need to
+  // disable modifications to parameters in the view.
   var fixedParams = JSON.parse(window.sessionStorage.getItem("fixedVariables"));
 
   /**
@@ -426,6 +428,8 @@ define( function( require ) {
 
         var angleRange = heightProperty.get() < 4 ? new Range( ANGLE_RANGE_MINS[ heightProperty.get() ], 90 ) : ANGLE_RANGE;
 
+        // COMP 523 addition: don't allow the angle to change if we've fixed it.
+
         if (!fixedParams || isNaN(parseInt(fixedParams.angle))) {
           // mouse dragged angle is within angle range
           if ( angleRange.contains( unboundedNewAngle ) ) {
@@ -459,6 +463,8 @@ define( function( require ) {
         var heightChange = mousePoint.y - startPoint.y;
 
         var unboundedNewHeight = transformProperty.get().viewToModelY( startHeight + heightChange );
+
+        // COMP 523 addition: don't allow the cannon height to change if we've fixed it.
 
         if (!fixedParams || isNaN(parseInt(fixedParams.height))) {
           // mouse dragged height is within height range
