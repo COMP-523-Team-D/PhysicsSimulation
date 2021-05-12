@@ -1,3 +1,11 @@
+/*
+ * Screen with extra info on processes for registering,
+ * graphing, and creating an assignment.
+ *
+ * @author Gabe Foster
+ * Date: 5/12/21
+ * */
+
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import GraphComponent from "../components/GraphComponent";
