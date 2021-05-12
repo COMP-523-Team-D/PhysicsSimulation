@@ -10,7 +10,9 @@
  * @author Andrea Lin (PhET Interactive Simulations)
  */
 
-// COMP 523 addition
+// COMP 523 addition: keeps track of every
+// data point in the trajectory. Each array index
+// corresponds to a unique point in time.
 
 var trajectoryInfo = {
   t : [],
@@ -22,12 +24,14 @@ var trajectoryInfo = {
   ay : []
 }
 
+// Reset the local trajectoryInfo object once this trajectory is finished.
 function clearInfo() {
   for (var field in trajectoryInfo) {
     trajectoryInfo[field] = [];
   }
 }
 
+// Add a specific data point to our trajectoryInfo object
 function collectPoint(t_in, px_in, py_in, vx_in, vy_in, ax_in, ay_in) {
   trajectoryInfo.t.push(t_in);
   trajectoryInfo.px.push(px_in);
@@ -38,6 +42,7 @@ function collectPoint(t_in, px_in, py_in, vx_in, vy_in, ax_in, ay_in) {
   trajectoryInfo.ay.push(ay_in);
 }
 
+// Once the trajectory is complete, ship the output object to our frontend.
 function sendDataToReact() {
   // TODO: Replace '*' with an actual URI before production.
   window.parent.postMessage(trajectoryInfo, '*');

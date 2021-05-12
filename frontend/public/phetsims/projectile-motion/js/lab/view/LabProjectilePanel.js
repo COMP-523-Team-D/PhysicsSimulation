@@ -64,7 +64,9 @@ define( function( require ) {
   var AIR_RESISTANCE_ICON = ProjectileMotionConstants.AIR_RESISTANCE_ICON;
   var MINUS_ROOM_FOR_COMBO_BOX = 3; // px, to move the dropdown up ever so slightly to buy more room
 
-  // COMP 523 addition
+  // COMP 523 addition: if we've fixed the gravity, we want to disable changes.
+  // Note: currently we don't support fixing the gravity parameter from the frontend. For future work,
+  // we're only looking for a 'gravity' field of the fixedVariables object to be passed from the frontend.
   if(window.sessionStorage.getItem('fixedVariables')) {
     var gravity = parseInt(JSON.parse(window.sessionStorage.getItem('fixedVariables')).gravity);
   }

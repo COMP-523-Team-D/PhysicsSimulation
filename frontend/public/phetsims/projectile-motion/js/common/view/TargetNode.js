@@ -37,7 +37,9 @@ define( function( require ) {
   var TEXT_BACKGROUND_OPTIONS = ProjectileMotionConstants.TEXT_BACKGROUND_OPTIONS;
   var TEXT_DISPLAY_MARGIN = 2;
 
-  // COMP 523 addition
+  // COMP 523 addition: see if we need to fix the target position.
+  // Note: currently we don't support fixing the target parameter from the frontend. For future work,
+  // we're only looking for a 'target' field of the fixedVariables object to be passed from the frontend.
   if(window.sessionStorage.getItem('fixedVariables')) {
     var targetLocation = parseInt(JSON.parse(window.sessionStorage.getItem('fixedVariables')).target);
   }
