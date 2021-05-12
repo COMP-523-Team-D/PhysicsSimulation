@@ -1,9 +1,14 @@
-Body {
+body {
     height: 100%;
     width: 100vw;
     background: rgba(75, 156, 211,.2);
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
+}
+
+#root {
+    padding: 0;
+    margin: 0;
 }
 
 .routes {
@@ -44,16 +49,30 @@ Body {
 .help-screen-col {
     width: 100%;
     heigth: 100%;
+    margin: 0;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .help-screen-img {
-    height: 350px;
-    width: 500px;
+    margin: 12px;
 }
 
-@media(min-width: 1300px) {
+@media(max-width: 600px) {
+    .help-screen-img {
+        height: 275px;
+        width: 425px;
+    }
+}
+
+@media(min-width: 601px ) {
+    .help-screen-img {
+        height: 300px;
+        width: 450px;
+    }
+}
+
+@media(min-width: 768px) {
     .help-screen-img {
         height: 450px;
         width: 650px;
