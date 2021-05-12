@@ -1,3 +1,13 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the / route within the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ * @author Gabe Foster
+ * @author Molly Crown
+ */
+
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { withFirebase } from "../Firebase";
@@ -20,8 +30,11 @@ class LandingBase extends Component {
   }
 
   componentDidMount() {
+    // Saves the callback function returned by the Firestore database access
     this.setState({
       unsubscribeSimulations:
+        // Connects to the Firestore database using locally defined
+        // API calls from Firebase/firebase.js
         this.props.firebase.simulations()
             .onSnapshot((querySnapshot) => {
               let simulationsList = [];
@@ -35,6 +48,7 @@ class LandingBase extends Component {
   }
 
   componentWillUnmount() {
+    // Calls the stored callback functions to close the database connection
     this.state.unsubscribeSimulations();
   }
 

@@ -1,3 +1,12 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the /login route within the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ * @author Molly Crown
+ */
+
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import { RegisterLink } from './RegisterScreen';
@@ -10,7 +19,6 @@ const LoginScreen = () => (
     <LoginForm />
 );
 
-// const loggedin = false;
 const INITIAL_STATE = {
   email: '',
   password: '',
@@ -27,6 +35,8 @@ export class LoginFormBase extends Component {
   onSubmit = event => {
     const { email, password } = this.state;
  
+    // Connects to the Firestore database using locally defined
+    // API calls from Firebase/firebase.js
     this.props.firebase
       .doSignInWithEmailAndPassword(email, password)
       .then(() => {
@@ -40,6 +50,7 @@ export class LoginFormBase extends Component {
     event.preventDefault();
   };
  
+  // Isolates the logic for updating user provided input fields
   onChange = event => {
     this.setState({ [event.target.name]: event.target.value });
   };

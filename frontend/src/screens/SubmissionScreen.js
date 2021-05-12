@@ -1,3 +1,13 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the /course/:courseName/assignment/:assignmentName/submission/:submissionName
+ * route or the /course/:courseName/assignment/:assignmentName/students/:studentName
+ * /student_submissions/submission/:submissionName route within the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ */
+
 import { useState, useEffect } from "react";
 import { Card, Col, Container, Row, Button, Form } from "react-bootstrap";
 import { withFirebase } from "../Firebase";
@@ -322,6 +332,8 @@ const SubmissionScreen = (props) => {
   );
 };
 
+// Defines a condition for ensuring that only authenticated users can
+// navigate to this screen
 const condition = (authUserData) => !!authUserData;
 
 export default withFirebase(withAuthorization(condition)(SubmissionScreen));

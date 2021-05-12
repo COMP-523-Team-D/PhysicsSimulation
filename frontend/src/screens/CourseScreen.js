@@ -1,3 +1,13 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the /course/:courseName routes within the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ * @author Gabe Foster
+ * @author Molly Crown
+ */
+
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import { withFirebase } from "../Firebase";
@@ -31,8 +41,11 @@ class CourseBase extends Component {
     const courseName = this.props.match.params.courseName.replace(/_+/g, ' ');
     this.setState({courseName: courseName});
 
+    // Saves the callback function returned by the Firestore database access
     this.setState({
       unsubscribeCourse:
+        // Connects to the Firestore database using locally defined
+        // API calls from Firebase/firebase.js
         this.props.firebase.course(courseName)
             .onSnapshot((querySnapshot) => {
               querySnapshot.forEach((doc) => {
@@ -41,8 +54,11 @@ class CourseBase extends Component {
             })
     });
 
+    // Saves the callback function returned by the Firestore database access
     this.setState({
       unsubscribeAssignments:
+        // Connects to the Firestore database using locally defined
+        // API calls from Firebase/firebase.js
         this.props.firebase.assignments(courseName)
             .onSnapshot((querySnapshot) => {
               let assignmentList = [];
@@ -56,6 +72,7 @@ class CourseBase extends Component {
   }
 
   componentWillUnmount() {
+    // Calls the stored callback functions to close the database connection
     this.state.unsubscribeCourse();
     this.state.unsubscribeAssignments();
   }
@@ -161,6 +178,8 @@ class CourseBase extends Component {
 
 const CourseScreenBase = withRouter(withFirebase(CourseBase));
 
+// Defines a condition for ensuring that only authenticated users can
+// navigate to this screen
 const condition = (authUserData) => !!authUserData;
 
 export default withAuthorization(condition)(CourseScreen);
