@@ -1,7 +1,7 @@
 {
   "name": "physics_sim",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Overview UNC Physics Simulation with PhET builds on the physics simulations provided by the University of Colorado Boulder to provide students and instructors with an interface better suited for an instructional environment. This interface is designed to allow instructors to present interactive/instructional content to students alongside a PhET simulation. This repository contains the source code for the UNC Physics Simulation application, and this document provides a guide for developers to initialize the project locally.",
   "main": "index.js",
   "jest": {
     "setupTestFrameworkScriptFile": "/Users/Molly/PhysicsSimulation/test-setup.js"
@@ -35,5 +35,13 @@
     "test": "jest"
   },
   "author": "523 Group D",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COMP-523-Team-D/PhysicsSimulation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/COMP-523-Team-D/PhysicsSimulation/issues"
+  },
+  "homepage": "https://github.com/COMP-523-Team-D/PhysicsSimulation#readme"
 }

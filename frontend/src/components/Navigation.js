@@ -3,8 +3,9 @@ import { AuthUserContext } from "../Session";
 import LogoutButton from "./LogoutComponent";
 import * as ROUTES from "../constants/routes";
 import { LinkContainer } from "react-router-bootstrap";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 const Navigation = () => (
   <AuthUserContext.Consumer>
@@ -38,6 +39,9 @@ const NavigationAuth = ({ authUserData }) => (
 
         <Navbar.Collapse id="basic-navbar-nav" className="">
           <Nav className="ml-auto innerNav">
+            <LinkContainer to={ROUTES.HELP_SCREEN}>
+              <Nav.Link>Help</Nav.Link>
+            </LinkContainer>
             <LogoutButton />
           </Nav>
         </Navbar.Collapse>
