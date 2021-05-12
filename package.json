@@ -4,7 +4,10 @@
   "description": "## Overview UNC Physics Simulation with PhET builds on the physics simulations provided by the University of Colorado Boulder to provide students and instructors with an interface better suited for an instructional environment. This interface is designed to allow instructors to present interactive/instructional content to students alongside a PhET simulation. This repository contains the source code for the UNC Physics Simulation application, and this document provides a guide for developers to initialize the project locally.",
   "main": "index.js",
   "jest": {
-    "setupTestFrameworkScriptFile": "/Users/Molly/PhysicsSimulation/test-setup.js"
+    "setupTestFrameworkScriptFile": "/Users/Molly/PhysicsSimulation/test-setup.js",
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
   },
   "dependencies": {
     "@babel/preset-react": "^7.13.13",
@@ -25,10 +28,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",
-    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-env": "^7.14.2",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
     "babel-jest": "^26.6.3",
     "babel-plugin-transform-runtime": "^6.23.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3"
   },
   "scripts": {

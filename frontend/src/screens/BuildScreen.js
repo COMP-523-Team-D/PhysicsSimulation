@@ -732,6 +732,7 @@ class BuildFormBase extends Component {
                       <Form.Label>Question {localIndex + 1}</Form.Label>
                       <Form.Control
                         name={localIndex}
+                        id="question"
                         as="textarea"
                         rows={3}
                         value={question}

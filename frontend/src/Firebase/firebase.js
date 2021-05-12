@@ -5,10 +5,20 @@ import firebase from "firebase/app";
 // Add the Firebase services that you want to use
 import "firebase/auth";
 import "firebase/firestore";
-import { firebaseConfig } from "../firebaseConfig";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyA1gu3Z0AhuGUQXFMOl9C69-V-eCcwD3hI",
+  //authDomain: "unc-physics-simulation.firebaseapp.com",
+  //databaseURL: "https://unc-physics-simulation-default-rtdb.firebaseio.com",
+  projectId: "unc-physics-simulation",
+  //storageBucket: "unc-physics-simulation.appspot.com",
+  //messagingSenderId: "188932414514",
+  //appId: "1:188932414514:web:c7df0cb566929883fc302b",
+  //measurementId: "G-Z97JLPVR8C"
+ };
+ 
 
 class Firebase {
   constructor() {
