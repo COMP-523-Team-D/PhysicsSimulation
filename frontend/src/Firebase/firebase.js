@@ -1,3 +1,12 @@
+/**
+ * This module contains the logic for connecting the application
+ * to Firebase services. All other application components communicate
+ * with Firebase through this module.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ */
+
 // Firebase App (the core Firebase SDK) is always required and
 // must be listed before other Firebase SDKs
 import firebase from "firebase/app";
@@ -5,7 +14,6 @@ import firebase from "firebase/app";
 // Add the Firebase services that you want to use
 import "firebase/auth";
 import "firebase/firestore";
-import { firebaseConfig } from "../firebaseConfig";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -14,7 +22,6 @@ class Firebase {
   constructor() {
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-    //firebase.analytics();
 
     /*
      * Firebase Authentication
@@ -26,12 +33,18 @@ class Firebase {
   }
 
   /* AUTHORIZATION API */
+
+  // Communicates with Firebase to create a new user
+  // with the given email and password.
   doCreateUserWithEmailAndPassword = (email, password) =>
     this.auth.createUserWithEmailAndPassword(email, password);
 
+  // Communicates with Firebase to sign-in as the user
+  // associated with the given email and password.
   doSignInWithEmailAndPassword = (email, password) =>
     this.auth.signInWithEmailAndPassword(email, password);
 
+  // Communicates with Firebase to sign-out the current user.
   doSignOut = () => this.auth.signOut();
 
   /* FIRESTORE API */
@@ -57,8 +70,11 @@ class Firebase {
   instructors = () =>
     this.db.collection("Users").where("isInstructor", "==", true);
 
+  // Communicates with Firebase to create a new document in the users collection
   doCreateNewUserDocument = (uid) => this.db.collection("Users").doc(uid);
 
+  // Communicates with Firebase to retrieve the user document specified by the
+  // given user ID
   getAuthorizedUserData = (uid) => this.db.collection("Users").doc(uid).get();
 
   /////////////////////////////////////////////////////////

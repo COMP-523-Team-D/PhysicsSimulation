@@ -1,3 +1,13 @@
+/**
+ * This React Component contains the logic and rendered content
+ * for the /course/:courseName/assignment/:assignmentName
+ * routes within the application.
+ * 
+ * Date: 05/12/2021
+ * @author Ross Rucho
+ * @author Molly Crown
+ */
+
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import { withFirebase } from "../Firebase";
@@ -31,8 +41,11 @@ class AssignmentBase extends Component {
     this.setState({assignmentName: this.props.location.state.assignment["Name"]});
     this.setState({problems: this.props.location.state.assignment["Problems"]});
 
+    // Saves the callback function returned by the Firestore database access
     this.setState({
       unsubscribeSubmissions:
+        // Connects to the Firestore database using locally defined
+        // API calls from Firebase/firebase.js
         this.props.firebase.studentSubmissions(this.props.location.state.assignment["Course Name"],
                                         this.props.location.state.assignment["Name"],
                                         this.props.authUserData["UID"])
@@ -49,6 +62,7 @@ class AssignmentBase extends Component {
   }
 
   componentWillUnmount() {
+    // Calls the stored callback function to close the database connection
     this.state.unsubscribeSubmissions();
   }
 
@@ -147,6 +161,8 @@ class AssignmentBase extends Component {
 
 const AssignmentScreenBase = withRouter(withFirebase(AssignmentBase));
 
+// Defines a condition for ensuring that only authenticated users can
+// navigate to this screen
 const condition = (authUserData) => !!authUserData;
 
 export default withAuthorization(condition)(AssignmentScreen);
