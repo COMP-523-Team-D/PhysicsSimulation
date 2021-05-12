@@ -28,7 +28,7 @@ const INITIAL_STATE = {
 };
 
 // React Component containing logic and rendered content
-class RegisterFormBase extends Component {
+export class RegisterFormBase extends Component {
   constructor(props) {
     super(props);
 
@@ -93,7 +93,7 @@ class RegisterFormBase extends Component {
   componentDidMount() {
     this.setState({
       unsubscribeInstructors:
-        this.props.firebase.instructors()
+        this.props.firebase?.instructors()
             .onSnapshot((querySnapshot) => {
               let instructorsList = [];
               querySnapshot.forEach((doc) => {
@@ -110,7 +110,7 @@ class RegisterFormBase extends Component {
     
     this.setState({
       unsubscribeCourses:
-        this.props.firebase.courses()
+        this.props.firebase?.courses()
             .onSnapshot((querySnapshot) => {
               let coursesList = [];
               querySnapshot.forEach((doc) => {
@@ -167,6 +167,7 @@ class RegisterFormBase extends Component {
                       <Form.Label>First Name</Form.Label>
                       <Form.Control
                         name="firstName"
+                        id='firstName'
                         value={firstName}
                         type="text"
                         placeholder="Enter first name"
@@ -178,6 +179,7 @@ class RegisterFormBase extends Component {
                       <Form.Label>Last Name</Form.Label>
                       <Form.Control
                         name="lastName"
+                        id="lastName"
                         value={lastName}
                         type="text"
                         placeholder="Enter last name"
@@ -191,6 +193,7 @@ class RegisterFormBase extends Component {
                       <Form.Label>Email Address</Form.Label>
                       <Form.Control
                         name="email"
+                        id="email"
                         value={email}
                         type="email"
                         placeholder="Enter email address"
@@ -202,6 +205,7 @@ class RegisterFormBase extends Component {
                       <Form.Label>Password</Form.Label>
                       <Form.Control
                         name="passwordOne"
+                        id="passwordOne"
                         value={passwordOne}
                         type="password"
                         placeholder="Enter password"
@@ -213,6 +217,7 @@ class RegisterFormBase extends Component {
                       <Form.Label>Confirm Password</Form.Label>
                       <Form.Control
                         name="passwordTwo"
+                        id="passwordTwo"
                         value={passwordTwo}
                         type="password"
                         placeholder="Confirm password"
@@ -255,6 +260,7 @@ class RegisterFormBase extends Component {
 
                   <Button
                     disabled={isInvalid}
+                    id="submit"
                     className="register-button bg-secondary"
                     variant="primary"
                     type="submit"

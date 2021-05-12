@@ -9,14 +9,15 @@ import "../App.css";
 const LoginScreen = () => (
     <LoginForm />
 );
- 
+
+// const loggedin = false;
 const INITIAL_STATE = {
   email: '',
   password: '',
   error: null,
 };
  
-class LoginFormBase extends Component {
+export class LoginFormBase extends Component {
   constructor(props) {
     super(props);
  
@@ -71,6 +72,7 @@ class LoginFormBase extends Component {
                       name="email"
                       value={email}
                       type="email"
+                      id="email"
                       placeholder="Enter email address"
                       onChange={this.onChange}
                     />
@@ -82,12 +84,13 @@ class LoginFormBase extends Component {
                       name="password"
                       value={password}
                       type="password"
+                      id="password"
                       placeholder="Enter password"
                       onChange={this.onChange}
                     />
                   </Form.Group>
 
-                  <Button disabled={isInvalid} className="login-button bg-secondary" variant="primary" type="submit">
+                  <Button disabled={isInvalid} id="submit" className="login-button bg-secondary" variant="primary" type="submit">
                     Login!
                   </Button>
 

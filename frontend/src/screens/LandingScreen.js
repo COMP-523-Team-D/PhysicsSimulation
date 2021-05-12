@@ -38,6 +38,7 @@ class LandingBase extends Component {
     this.state.unsubscribeSimulations();
   }
 
+  // renders the landing cards
   render() {
     return (
       <Container>
