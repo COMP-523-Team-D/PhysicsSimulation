@@ -162,7 +162,7 @@ const ProblemScreen = (props) => {
             md={8}
             className="d-flex d-md-block align-content-center justify-content-center"
           >
-            {!!simulation["Name"] && (
+            {/* {!!simulation["Name"] && (
               <iframe
                 key={reloadIframe}
                 className="phet-sim"
@@ -171,7 +171,7 @@ const ProblemScreen = (props) => {
                 allowFullScreen
                 title={simulation["Name"]}
               ></iframe>
-            )}
+            )} */}
           </Col>
           <Col className="d-none d-md-block align-content-center text-center questions-card-col">
             <Card className="d-flex align-self-center questions-card">
