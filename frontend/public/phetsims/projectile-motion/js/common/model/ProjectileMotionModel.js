@@ -277,19 +277,22 @@ define( function( require ) {
      * @public
      */
     cannonFired: function() {
-      var lastTrajectory = this.trajectories.get( this.trajectories.length - 1 );
-      var newTrajectory = new Trajectory( this );
-      if ( lastTrajectory && newTrajectory.equals( lastTrajectory ) ) {
-        lastTrajectory.addProjectileObject();
-        newTrajectory.dispose();
+      // Only allow the cannon to fire if students have submitted.
+      if (window.sessionStorage.getItem("submitted") === "true") {
+        var lastTrajectory = this.trajectories.get( this.trajectories.length - 1 );
+        var newTrajectory = new Trajectory( this );
+        if ( lastTrajectory && newTrajectory.equals( lastTrajectory ) ) {
+          lastTrajectory.addProjectileObject();
+          newTrajectory.dispose();
+        }
+        else {
+          this.updateTrajectoryRanksEmitter.emit(); // increment rank of all trajectories
+          newTrajectory.rankProperty.reset(); // make the new Trajectory's rank go back to zero
+          this.trajectories.push( newTrajectory );
+        }
+        this.numberOfMovingProjectilesProperty.value++;
+        this.limitTrajectories();
       }
-      else {
-        this.updateTrajectoryRanksEmitter.emit(); // increment rank of all trajectories
-        newTrajectory.rankProperty.reset(); // make the new Trajectory's rank go back to zero
-        this.trajectories.push( newTrajectory );
-      }
-      this.numberOfMovingProjectilesProperty.value++;
-      this.limitTrajectories();
     },
 
     /**

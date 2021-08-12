@@ -27,7 +27,7 @@ const GraphComponent = ({
   const ref = useRef();
 
   // Size of Predicted Answer Array
-  const predictionArraySize = 50;
+  const predictionArraySize = 100;
 
   // Array of values for x axis
   const [label, setLabel] = useState([]);
@@ -110,7 +110,8 @@ const GraphComponent = ({
   // Function to handle the case where the user needs to graph a constant
   const computeConstant = () => {
     const newPrediction = [];
-    const scale = (xMax - xMin) / predictionArraySize;
+    // Draw the segment up to the point that the student clicked.
+    const scale = (pointsClicked[0].x - xMin) / predictionArraySize;
     for (let i = 0; i < predictionArraySize; i++) {
       newPrediction.push({ x: i * scale, y: pointsClicked[0].y });
     }
@@ -125,31 +126,37 @@ const GraphComponent = ({
       (pointsClicked[0].y - pointsClicked[1].y) /
       (pointsClicked[0].x - pointsClicked[1].x);
 
+    // Given an x value, find the corresponding y value on the interpolation line.
     const getY = (x) => {
       return pointsClicked[0].y + slope * (x - pointsClicked[0].x);
     };
 
+    // Similar for a given y value.
     const getX = (y) => {
       return pointsClicked[0].x + (y - pointsClicked[0].y) / slope;
     };
 
-    const scale =
-      slope <= (yMax - yMin) / (xMax - xMin) &&
-      slope >= (yMin - yMax) / (xMax - xMin)
-        ? (xMax - xMin) / predictionArraySize
-        : Math.abs(getX(yMax) - getX(yMin)) / predictionArraySize;
 
-    const initialX =
-      slope <= (yMax - yMin) / (xMax - xMin) &&
-      slope >= (yMin - yMax) / (xMax - xMin)
-        ? xMin
-        : Math.min(getX(yMin), getX(yMax));
+    const scale = (pointsClicked[1].x - pointsClicked[0].x) / predictionArraySize;
+      
+    // Calculation for scale when we graph the entire line
+    
+    // slope <= (yMax - yMin) / (xMax - xMin) &&
+    // slope >= (yMin - yMax) / (xMax - xMin)
+    //   ? (xMax - xMin) / predictionArraySize
+    //   : Math.abs(getX(yMax) - getX(yMin)) / predictionArraySize;
+
+    // const initialX =
+    //   slope <= (yMax - yMin) / (xMax - xMin) &&
+    //   slope >= (yMin - yMax) / (xMax - xMin)
+    //     ? xMin
+    //     : Math.min(getX(yMin), getX(yMax));
 
     const newPrediction = [];
     for (let i = 0; i < predictionArraySize; i++) {
       newPrediction.push({
-        x: i * scale + initialX,
-        y: getY(i * scale + initialX),
+        x: i * scale + pointsClicked,
+        y: getY(i * scale + pointsClicked[0].x),
       });
     }
 

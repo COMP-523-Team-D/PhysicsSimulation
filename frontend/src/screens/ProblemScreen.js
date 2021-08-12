@@ -94,6 +94,9 @@ const ProblemScreen = (props) => {
     );
     setReloadIframe(reloadIframe + 1);
 
+    // Make sure that students can't fire the cannon until they press the submit button.
+    window.sessionStorage.setItem("submitted", "false");
+
     return function cleanup() {
       window.sessionStorage.clear();
       window.removeEventListener("message", handleNewPoint);
@@ -116,6 +119,8 @@ const ProblemScreen = (props) => {
 
   const onSubmit = (event) => {
     event.preventDefault();
+
+    window.sessionStorage.setItem("submitted", "true");
 
     const submission = {
       Submitted: props.firebase.getTimestamp(),
