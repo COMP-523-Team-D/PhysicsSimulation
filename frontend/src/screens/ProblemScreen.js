@@ -138,19 +138,19 @@ const ProblemScreen = (props) => {
     // API calls from Firebase/firebase.js
     props.firebase
       .doCreateNewSubmission()
-      .set(submission)
-      .then(() => {
-        props.history.push(
-          ROUTES.COURSE_SCREEN +
-            `/${props.match.params.courseName}` +
-            ROUTES.ASSIGNMENT_SCREEN +
-            `/${props.match.params.assignmentName}`,
-          { assignment: props.location.state.assignment }
-        );
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+      .set(submission);
+      // .then(() => {
+      //   props.history.push(
+      //     ROUTES.COURSE_SCREEN +
+      //       `/${props.match.params.courseName}` +
+      //       ROUTES.ASSIGNMENT_SCREEN +
+      //       `/${props.match.params.assignmentName}`,
+      //     { assignment: props.location.state.assignment }
+      //   );
+      // })
+      // .catch((error) => {
+      //   console.log(error);
+      // });
   };
 
   return (
