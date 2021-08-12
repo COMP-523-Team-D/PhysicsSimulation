@@ -155,9 +155,10 @@ const GraphComponent = ({
     const newPrediction = [];
     for (let i = 0; i < predictionArraySize; i++) {
       newPrediction.push({
-        x: i * scale + pointsClicked,
+        x: i * scale + pointsClicked[0].x,
         y: getY(i * scale + pointsClicked[0].x),
       });
+      console.log("x:", i * scale + pointsClicked[0].x, "y:", getY(i * scale + pointsClicked[0].x));
     }
 
     setPredictedAnswer(newPrediction);
