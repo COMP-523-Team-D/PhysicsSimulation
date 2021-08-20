@@ -60,6 +60,9 @@ class StudentSubmissionsBase extends Component {
             })
     });
 
+    // Allow the cannon to fire
+    window.sessionStorage.setItem("submitted", "true");
+
   }
 
   componentWillUnmount() {

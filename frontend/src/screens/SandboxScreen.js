@@ -46,6 +46,10 @@ class FreeSimulationBase extends Component {
               });
             })
     });
+
+    // Allow the cannon to fire
+    window.sessionStorage.setItem("submitted", "true");
+
   }
 
   componentWillUnmount() {

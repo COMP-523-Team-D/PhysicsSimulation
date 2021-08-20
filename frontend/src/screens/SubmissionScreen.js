@@ -92,6 +92,10 @@ const SubmissionScreen = (props) => {
     window.sessionStorage.setItem('fixedVariables', JSON.stringify(fixedVariables));
     setReloadIframe(reloadIframe + 1);
 
+    // Allow the cannon to fire
+    window.sessionStorage.setItem("submitted", "true");
+
+
     return function cleanup() {
       window.sessionStorage.clear();
       window.removeEventListener("message", handleNewPoint);

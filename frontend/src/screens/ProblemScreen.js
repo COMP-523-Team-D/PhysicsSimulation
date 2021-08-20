@@ -199,6 +199,8 @@ const ProblemScreen = (props) => {
                 >
                   Submit
                 </Button>
+                {window.sessionStorage.getItem("submitted") === "false" ?
+                  "" : "Submission recorded. Fire the cannon to test your prediction."}
               </Card.Body>
             </Card>
           </Col>
