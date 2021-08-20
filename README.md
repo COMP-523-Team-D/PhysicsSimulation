@@ -11,7 +11,7 @@ UNC Physics Simulation with PhET builds on the physics simulations provided by t
   6. Inside of `<local directory>/PhysicsSimulation/frontend/src/Firebase/firebase.js` you will see an empty JS object titled firebaseConfig; copy and paste the Firebase Configuration settings into this JS object ( e.g., const firebaseConfig = { apiKey: `<key>`, authDomain: `<domain>`, etc.}; ).
   7. Navigate back to `<local directory>/PhysicsSimulation/frontend` and run `npm start` to launch the application locally.
   8. At this point, the application should successfully launch in a new browser tab/window with the url `http://localhost:3000`.
-  9. The system is installed locally and you are ready to start developing.
+  9. The system is installed locally and you are ready to start developing. When you run `npm start`, your dev version will interface directly with the production database. If you want to avoid this, you'll need to re-route every database access in the application to interface with the [Firebase emulators](https://firebase.google.com/docs/emulator-suite), and install the requisite software.
 
 ## Getting Started 2 -- Deploying the Application
   0. This section requires access to a Google account that is linked to the UNC Physics Simulation Firebase project.
