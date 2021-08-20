@@ -158,7 +158,6 @@ const GraphComponent = ({
         x: i * scale + pointsClicked[0].x,
         y: getY(i * scale + pointsClicked[0].x),
       });
-      console.log("x:", i * scale + pointsClicked[0].x, "y:", getY(i * scale + pointsClicked[0].x));
     }
 
     setPredictedAnswer(newPrediction);

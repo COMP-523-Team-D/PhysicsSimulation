@@ -24,6 +24,7 @@ const ProblemScreen = (props) => {
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState([]);
   const [graphAnswers, setGraphAnswers] = useState({});
+  const [submitted, setSubmitted] = useState(false);
 
   // Update this state (add 1) whenever we have new parameters for the simulation.
   // This will alert the iframe that it needs to refresh.
@@ -121,6 +122,7 @@ const ProblemScreen = (props) => {
     event.preventDefault();
 
     window.sessionStorage.setItem("submitted", "true");
+    setSubmitted(true);
 
     const submission = {
       Submitted: props.firebase.getTimestamp(),
@@ -133,6 +135,8 @@ const ProblemScreen = (props) => {
       "Student Name": props.location.state.studentName,
       "Student ID": props.location.state.studentID,
     };
+
+
 
     // Connects to the Firestore database using locally defined
     // API calls from Firebase/firebase.js
@@ -199,8 +203,9 @@ const ProblemScreen = (props) => {
                 >
                   Submit
                 </Button>
-                {window.sessionStorage.getItem("submitted") === "false" ?
-                  "" : "Submission recorded. Fire the cannon to test your prediction."}
+                <div>
+                  {submitted ? "Submission recorded. Fire the cannon to test your prediction." : ""}
+                </div>
               </Card.Body>
             </Card>
           </Col>
